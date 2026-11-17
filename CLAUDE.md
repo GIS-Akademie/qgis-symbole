@@ -122,6 +122,12 @@ Durchgezogen = Bestand, gestrichelt = geplant oder Maßnahme. Ausnahmen, die so 
    `README.md` und hier.
 4. Nach der Veröffentlichung bei inhaltlichen Änderungen `VERSION` in `mkrepo.py` erhöhen (gilt für alle Sammlungen).
 
+## Pflichtfelder der metadata.ini
+
+Resource Sharing liest je Sammlung `author`, `email`, `name`, `tags` und `description` ohne Rückfallwert; fehlt
+eines, scheitert schon das Hinzufügen des Repositorys („No option … in section“). `email` kommt aus `EMAIL` in
+`mkrepo.py`. Prüfen lässt sich das mit `configparser.ConfigParser().read_file(…)` und `get()` auf diese Felder.
+
 ## Prüfen in QGIS
 
 QGIS liegt unter `C:\OSGeo4W`. Ob QGIS alle SVGs darstellen kann, lässt sich ohne Oberfläche prüfen:

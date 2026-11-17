@@ -28,6 +28,7 @@ if _same_dir(ROOT, HERE):
     sys.exit("Zielordner ist tools/ selbst. Gemeint ist vermutlich der Repository-Ordner, z. B.: python tools/mkrepo.py .")
 
 VERSION = "1.0"
+EMAIL = "wieschmann@gis-akademie.de"  # Pflichtfeld von Resource Sharing (wie author, name, tags, description)
 LIC = """Creative Commons Namensnennung 4.0 International (CC BY 4.0)
 
 Copyright (c) 2026 GIS-Akademie
@@ -98,7 +99,7 @@ for mod in MODS:
     nl, nf = len(getattr(mod, "LINIEN", [])), len(getattr(mod, "FLAECHEN", []))
     desc = mod.DESC + (f". Dazu {nl} Linien- und {nf} Flächensymbole als QGIS-Stil" if stil else "")
     counts[mod.KEY] = len(syms)
-    ini += [f"[{cid}]", f"name=GIS-Akademie Symbole: {mod.NAME}", "author=GIS-Akademie", f"tags={mod.TAGS}",
+    ini += [f"[{cid}]", f"name=GIS-Akademie Symbole: {mod.NAME}", "author=GIS-Akademie", f"email={EMAIL}", f"tags={mod.TAGS}",
             f"description={desc}", f"version={VERSION}", "qgis_minimum_version=3.0", "qgis_maximum_version=4.99",
             "license=CC BY 4.0", "license_file=LICENSE", "preview=" + ",".join(previews), ""]
 write(os.path.join(ROOT, "metadata.ini"), "\n".join(ini))
