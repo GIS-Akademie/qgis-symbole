@@ -3,4 +3,8 @@
 *.ini text eol=lf
 *.md text eol=lf
 *.py text eol=lf
+*.xml text eol=lf
+LICENSE text eol=lf
 *.png binary
+.gitattributes text eol=lf
+.gitignore text eol=lf

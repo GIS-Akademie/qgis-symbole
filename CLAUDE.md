@@ -100,6 +100,12 @@ Durchgezogen = Bestand, gestrichelt = geplant oder Maßnahme. Ausnahmen, die so 
 - Markierungen stehen so, wie sie auf einer Linie von links nach rechts erscheinen. `dy > 0` und `versatz > 0`
   liegen rechts in Laufrichtung, bei Flächen innen (Symbole mit `marken` setzen dafür `force_rhr`).
   Dreht man eine Markierung mit `winkel`, dreht sich ihr `dy` mit.
+- Randzeichen an Flächen immer mit `marken(…, ecken=<mm>)`: Das schreibt einen Geometriegenerator (Einheit mm),
+  der den Umriss an Knicken über 25° auftrennt und die Zeichen je Kante mittig setzt (`qstil.ecken_ausdruck`).
+  Der Generator rechnet in Zeichenkoordinaten (y nach unten), deshalb `force_polygon_ccw`, damit rechts innen ist.
+  Im Ausdruck nur wenige `with_variable` schachteln: ab etwa 14 Ebenen hängt die Auswertung in QGIS.
+  Beim Test ohne Oberfläche braucht der Render-Kontext einen Ausdruckskontext mit dem Feature, sonst zeichnet
+  der Generator nichts.
 - Randbänder innen mit `band()`; Versätze bei Flächenumrissen vermeiden, sie hängen von der Umlaufrichtung ab.
 - Striche (`strich=[…]`) sind Längen in Millimetern mit flachen Enden; ein Punkt ist ein kurzer Strich.
 - Die Vorschau (`qstil.vorschau_svg`) bildet QGIS nach. Neue Ebenenarten oder Markerformen immer in beiden
@@ -141,7 +147,7 @@ selbst läuft nur bis QGIS 3.99. Nicht geprüft: Installation über die Oberflä
   mit `librsvg` von conda-forge, deren `Library\bin` vor dem Lauf in den `PATH` nehmen. Ein Lauf dauert etwa
   40 Sekunden; bleibt er stehen, hängt ein `rsvg-convert`-Prozess (abbrechen und neu starten).
 - In der Git Bash Windows-Pfade für Umgebungsvariablen mit `cygpath -w` umwandeln; im `PATH` die Form `/c/...` nutzen.
-- Zeilenenden: `.gitattributes` erzwingt LF für SVG, INI, MD, PY. Dateien immer mit `newline="\n"` schreiben.
+- Zeilenenden: `.gitattributes` erzwingt LF für SVG, XML, INI, MD, PY und LICENSE. Dateien immer mit `newline="\n"` schreiben.
 
 ## Git
 

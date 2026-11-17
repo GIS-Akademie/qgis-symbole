@@ -1,12 +1,12 @@
 # GIS-Akademie Symbolbibliothek für QGIS
 
-576 Punktsymbole (SVG) sowie 250 Linien- und Flächensymbole in zehn Sammlungen, aufgebaut als Repository
+577 Punktsymbole (SVG) sowie 252 Linien- und Flächensymbole in zehn Sammlungen, aufgebaut als Repository
 für das QGIS-Plugin **Resource Sharing**. Alle Symbole sind Eigenentwicklungen der GIS-Akademie und stehen
 unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de).
 
 | Sammlung | ID | Punkte | Linien | Flächen | Inhalt |
 |---|---|---|---|---|---|
-| PlanZV | `gisak_planzv` | 105 | 18 | 29 | Planzeichen für Bauleitpläne in Anlehnung an die Anlage zur PlanZV |
+| PlanZV | `gisak_planzv` | 106 | 18 | 31 | Planzeichen für Bauleitpläne in Anlehnung an die Anlage zur PlanZV |
 | Strom | `gisak_strom` | 51 | 14 | 7 | Stationen, Masten, Kabelgarnituren, Schaltzeichen, Leitungen nach Spannungsebene |
 | Erneuerbare Energien | `gisak_eeg` | 43 | 10 | 14 | Wind- und Solarparkplanung, Bioenergie, Wasserkraft, Wärme, Netzanschluss |
 | Naturschutz | `gisak_naturschutz` | 58 | 9 | 19 | Schutzgebiete, Arten und Fundpunkte, Kompensation, Erfassung |
@@ -74,6 +74,13 @@ angelegt, die Symbole sind also für den Druckmaßstab gedacht.
 der Innenseite, unabhängig von der Digitalisierrichtung. Bei Linien mit einseitigen Zeichen oder Farbbändern
 (z. B. Baugrenze farbig, Böschung, Deich) liegen diese in Digitalisierrichtung rechts; zum Wechseln der Seite
 die Linie umdrehen.
+
+**Ecken bleiben frei:** Bei den Umgrenzungen mit Randzeichen prüft das Symbol die Geometrie beim Zeichnen: Der
+Umriss wird an jedem Knick über 25° aufgetrennt, und die Zeichen werden auf jeder Kante mittig verteilt, mit
+Abstand zu den Ecken. Kanten, die für ein Zeichen zu kurz sind, bleiben leer; an Bögen aus vielen kurzen
+Stücken laufen die Zeichen durch. Dafür nutzt das Symbol einen Geometriegenerator in Millimetern (ab QGIS 3.24),
+das Ergebnis hängt also vom Kartenmaßstab ab und passt sich beim Zoomen an. Schwellenwinkel und Eckenabstand
+stehen im Ausdruck des Geometriegenerators und lassen sich dort ändern.
 
 ## Stil und Vorbilder je Sammlung
 
@@ -161,7 +168,11 @@ Für die Beschriftung der Vorschaubilder genügt notfalls Arial.
   Lage- und Flächenzeichen, Elemente für Umgrenzungslinien sowie Linienarten, Flächenfarben und Umgrenzungen
   als Linien- und Flächensymbole. Die Anlage nennt die Farben nur mit Namen („Rot mittel“, „Goldocker“); die
   Farbwerte sind danach gewählt und nicht verbindlich. Nicht enthalten sind unter anderem die Flächen für
-  Aufschüttungen und Abgrabungen und der Einfahrtbereich. `TGa` ist eine gebräuchliche Ergänzung und steht
+  Aufschüttungen und Abgrabungen und der Einfahrtbereich. Die Umgrenzung von Schutzgebieten (Nr. 13.3) zeigt die
+  Anlage mit innen geschlossenen Strichgruppen und lässt „Differenzierungen in der Umgrenzungssignatur“ zur
+  Unterscheidung der Schutzgebiete zu, ohne sie festzulegen. Deshalb gibt es zusätzlich eine offene Variante
+  (`um_schutzgebiet_offen`); welche Schutzgebietsart welche Variante erhält, legt die Zeichenerklärung des Plans
+  fest. `TGa` ist eine gebräuchliche Ergänzung und steht
   nicht in der Anlage.
 - **Übrige Sammlungen:** Für Strom, Erneuerbare Energien, Naturschutz, Landschaftsplanung, Verkehr, Wasser,
   Vermessung und Allgemein gibt es kein bundeseinheitliches Regelwerk für Punktsymbole. Die Zeichen orientieren

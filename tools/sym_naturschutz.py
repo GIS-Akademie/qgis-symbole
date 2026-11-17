@@ -176,7 +176,7 @@ FLAECHEN = [
     ("Gesetzlich geschütztes Biotop", [voll(GL), schraffur(G0, 0.2, 45, 1.2), linie(G0, 0.4)]),
     ("FFH-Lebensraumtyp", [voll(GL + "80"), muster(mk("circle", 0.6, G0), 2.2, versatz=1.1), linie(G0, 0.3)]),
     ("Naturdenkmal, flächenhaft", [voll(GL), linie(G0, 0.8)]),
-    ("Geschützter Landschaftsbestandteil", [linie(G0, 0.3), marken(mk("semi_circle", 1.6, G0, winkel=180), 3.5)]),
+    ("Geschützter Landschaftsbestandteil", [linie(G0, 0.3), marken(mk("semi_circle", 1.6, G0, winkel=180), 3.5, ecken=1.0)]),
     ("Kernzone", [voll(G0 + "99"), linie(G0, 0.3)]),
     ("Pflegezone", [voll(G0 + "59"), linie(G0, 0.3)]),
     ("Entwicklungszone", [voll(G0 + "26"), linie(G0, 0.3)]),

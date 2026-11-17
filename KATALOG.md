@@ -2,7 +2,7 @@
 
 Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Flächensymbole in der Stildatei `collections/<Sammlung>/symbol/Linien_und_Flaechen.xml`.
 
-## PlanZV (`gisak_planzv`, 105 Symbole)
+## PlanZV (`gisak_planzv`, 106 Symbole)
 
 | Datei | Bedeutung |
 |---|---|
@@ -104,7 +104,8 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | `gisak_planzv_um_anpflanzung.svg` | Linienelement: Umgrenzung von Flächen zum Anpflanzen |
 | `gisak_planzv_um_erhaltung.svg` | Linienelement: Umgrenzung von Flächen mit Bindungen für die Erhaltung |
 | `gisak_planzv_um_massnahmen_natur.svg` | Linienelement: Umgrenzung von Flächen für Maßnahmen zum Schutz, zur Pflege und zur Entwicklung von Natur und Landschaft |
-| `gisak_planzv_um_schutzgebiet.svg` | Linienelement: Umgrenzung von Schutzgebieten im Sinne des Naturschutzrechts |
+| `gisak_planzv_um_schutzgebiet.svg` | Linienelement: Umgrenzung von Schutzgebieten im Sinne des Naturschutzrechts (geschlossen, wie in der Anlage) |
+| `gisak_planzv_um_schutzgebiet_offen.svg` | Linienelement: Umgrenzung von Schutzgebieten, offene Variante zur Unterscheidung |
 | `gisak_planzv_um_immissionsschutz.svg` | Linienelement: Umgrenzung von Flächen für Vorkehrungen zum Schutz gegen schädliche Umwelteinwirkungen |
 | `gisak_planzv_um_luftreinhaltung.svg` | Linienelement: Umgrenzung von Gebieten mit Verwendungsbeschränkung luftverunreinigender Stoffe |
 | `gisak_planzv_um_freihaltung.svg` | Linienelement: Umgrenzung von Flächen, die von der Bebauung freizuhalten sind |
@@ -112,7 +113,7 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | `gisak_planzv_um_altlast.svg` | Linienelement: Umgrenzung von Flächen mit erheblich belasteten Böden |
 | `gisak_planzv_um_ohne_ein_ausfahrt.svg` | Linienelement: Bereich ohne Ein- und Ausfahrt |
 
-### PlanZV: Linien und Flächen (47 Symbole)
+### PlanZV: Linien und Flächen (49 Symbole)
 
 | Symbol in QGIS | Art |
 |---|---|
@@ -153,6 +154,8 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | PlanZV: Fläche zum Anpflanzen von Bäumen und Sträuchern | Fläche |
 | PlanZV: Fläche mit Bindungen für die Erhaltung von Bäumen und Sträuchern | Fläche |
 | PlanZV: Schutzgebiet im Sinne des Naturschutzrechts | Fläche |
+| PlanZV: Schutzgebiet im Sinne des Naturschutzrechts, offene Signatur | Fläche |
+| PlanZV: Schutzgebiet im Sinne des Naturschutzrechts, farbig | Fläche |
 | PlanZV: Erhaltungsbereich oder Denkmalschutz, farbig | Fläche |
 | PlanZV: Fläche für Nebenanlagen, Stellplätze und Garagen | Fläche |
 | PlanZV: Mit Geh-, Fahr- und Leitungsrechten zu belastende Fläche | Fläche |

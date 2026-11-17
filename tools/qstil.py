@@ -6,7 +6,10 @@ Masse in Millimetern, Farben als "#RRGGBB" oder "#RRGGBBAA" (mit Deckkraft).
 Ebenen fuer Linien und fuer den Umriss von Flaechen:
   linie(farbe, breite, strich=None, ende="flat", versatz=0)   einfache Linie; strich = [Strich, Luecke, ...],
                                                               versatz > 0 = nach rechts in Laufrichtung
-  marken(marker, abstand, start=None, versatz=0)              Markierungen entlang der Linie, mitgedreht
+  marken(marker, abstand, start=None, versatz=0, ecken=None)  Markierungen entlang der Linie, mitgedreht;
+                                                              ecken = Mindestabstand zu Ecken in mm: Die Linie
+                                                              wird an Knicken aufgetrennt und die Markierungen
+                                                              werden je Abschnitt mittig verteilt
 Ebenen nur fuer Flaechen:
   voll(farbe)                                                 Vollfarbe
   schraffur(farbe, breite, winkel, abstand)                   Schraffur; winkel gegen den Uhrzeigersinn, 45 = "/"
@@ -33,6 +36,9 @@ LW, LH = 40, 8   # Vorschau: Probe eines Linien- bzw. Flaechensymbols in Millime
 FW, FH = 40, 17
 STIL_DATEI = "Linien_und_Flaechen.xml"
 NUR_STRICH = ("line", "cross", "cross2", "arrowhead")
+# Umlaufrichtung im Geometriegenerator, damit rechts der Linie innen ist. Der Generator rechnet in
+# Zeichenkoordinaten (y nach unten), deshalb gegen den Uhrzeigersinn.
+UMLAUF = "force_polygon_ccw"
 FORMEN = ("circle", "square", "diamond", "triangle", "semi_circle", "filled_arrowhead") + NUR_STRICH
 
 
@@ -46,9 +52,47 @@ def band(farbe, breite):
     return linie(farbe, 2 * breite, innen=True)
 
 
-def marken(marker, abstand, start=None, versatz=0):
+def marken(marker, abstand, start=None, versatz=0, ecken=None):
+    if ecken is not None and (start is not None or versatz):
+        raise ValueError("marken: ecken laesst sich nicht mit start oder versatz kombinieren")
     return ("marken", dict(marker=marker, abstand=abstand, start=abstand / 2 if start is None else start,
-                           versatz=versatz))
+                           versatz=versatz, ecken=ecken))
+
+
+def _var(name, value, body):
+    return f"with_variable('{name}', {value}, {body})"
+
+
+def ecken_ausdruck(abstand, ecke, winkel=25):
+    """QGIS-Ausdruck fuer den Geometriegenerator (Einheit Millimeter): trennt Umriss oder Linie an Knicken ueber
+    `winkel` Grad auf und kuerzt jeden Abschnitt beidseitig so, dass ein ganzzahliges Vielfaches von `abstand`
+    bleibt und mindestens `ecke` frei ist. Abschnitte, die fuer eine Markierung zu kurz sind, entfallen.
+    Bewusst wenige geschachtelte Variablen: QGIS wertet tief geschachtelte with_variable sehr langsam aus."""
+    i, d = repr(float(abstand)), repr(float(ecke))
+    n, ln, zu = "num_points(@r)", "length(@r)", "is_closed(@r)"
+    w = (f"abs(azimuth(point_n(@r, if(@element = 1, {n} - 1, @element - 1)), point_n(@r, @element))"
+         " - azimuth(point_n(@r, @element), point_n(@r, @element + 1)))")
+    cd = (f"array_filter(array_foreach(generate_series(if({zu}, 1, 2), {n} - 1), "
+          f"if(if({w} > pi(), 2 * pi() - {w}, {w}) > radians({winkel}), distance_to_vertex(@r, @element - 1), NULL)"
+          "), @element IS NOT NULL)")
+    k = "array_length(@cd)"
+    st = f"if({zu}, if({k} = 0, array(0), @cd), array_cat(array(0), @cd))"
+    en = (f"if({zu}, if({k} = 0, array({ln}), array_cat(array_slice(@cd, 1, {k} - 1), array({ln} + @cd[0]))), "
+          f"array_cat(@cd, array({ln})))")
+    t = f"(@e - @a - floor((@e - @a - 2 * {d}) / {i}) * {i}) / 2"
+    stueck = (f"if(@e - @a - 2 * {d} < {i}, NULL, if(@e - @t <= {ln}, line_substring(@r, @a + @t, @e - @t), "
+              f"if(@a + @t >= {ln}, line_substring(@r, @a + @t - {ln}, @e - @t - {ln}), "
+              f"line_merge(collect_geometries(array(line_substring(@r, @a + @t, {ln}), "
+              f"line_substring(@r, 0, @e - @t - {ln})))))))")
+    teile = ("array_filter(array_foreach(generate_series(0, array_length(@st) - 1), "
+             + _var("a", "@st[@element]", _var("e", "@en[@element]", _var("t", t, stueck)))
+             + "), @element IS NOT NULL)")
+    ring = _var("p", teile, "if(array_length(@p) = 0, NULL, collect_geometries(@p))")  # leerer Ring (z. B. kleines Loch)
+    for name, val in reversed([("r", "coalesce(geometry_n(@b, @element), @b)"), ("cd", cd), ("st", st), ("en", en)]):
+        ring = _var(name, val, ring)
+    body = ("collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries(@b), 1)), "
+            f"{ring}), @element IS NOT NULL))")
+    return _var("b", f"if(geometry_type($geometry) = 'Polygon', boundary({UMLAUF}($geometry)), $geometry)", body)
 
 
 def voll(farbe):
@@ -150,6 +194,17 @@ def symbol_xml(typ, name, ebenen, cid, ind="    "):
         sub = f"@{name}@{i}"
         if art == "linie":
             out += _layer("SimpleLine", _linie_props(p), i2)
+        elif art == "marken" and p["ecken"] is not None:
+            i4 = i2 + "    "
+            ml = _layer("MarkerLine", {
+                "placement": "interval", "placements": "Interval", "interval": p["abstand"], "interval_unit": "MM",
+                "offset_along_line": p["abstand"] / 2, "offset_along_line_unit": "MM", "offset": 0,
+                "offset_unit": "MM", "rotate": 1, "average_angle_length": 0, "average_angle_unit": "MM",
+                "place_on_every_part": 1, "ring_filter": 0}, i4,
+                _symbol("marker", f"@{sub}@0", _marker_xml(p["marker"], i4 + "    ", cid), i4 + "  "))
+            out += _layer("GeometryGenerator", {
+                "SymbolType": "Line", "geometryModifier": ecken_ausdruck(p["abstand"], p["ecken"]), "units": "MM"},
+                i2, _symbol("line", sub, ml, i2 + "  "))
         elif art == "marken":
             out += _layer("MarkerLine", {
                 "placement": "interval", "placements": "Interval", "interval": p["abstand"], "interval_unit": "MM",
@@ -262,6 +317,16 @@ def _ebene_svg(art, p, pts, zu, lookup, clip):
         segs = [(q[i], q[(i + 1) % len(q)]) for i in range(len(q) if zu else len(q) - 1)]
         total = sum(math.hypot(b[0] - a[0], b[1] - a[1]) for a, b in segs)
         m, out, s = _marker_svg(p["marker"], lookup), [], p["start"]
+        if p["ecken"] is not None:  # je Abschnitt mittig, Ecken frei (wie ecken_ausdruck)
+            for a, b in segs:
+                ln = math.hypot(b[0] - a[0], b[1] - a[1])
+                k = math.floor((ln - 2 * p["ecken"]) / p["abstand"] + 1e-9)
+                ang = math.degrees(math.atan2(b[1] - a[1], b[0] - a[0]))
+                for j in range(max(k, 0)):
+                    t = ((ln - k * p["abstand"]) / 2 + (j + 0.5) * p["abstand"]) / ln
+                    out.append(f'<g transform="translate({_n(a[0] + t * (b[0] - a[0]))},{_n(a[1] + t * (b[1] - a[1]))}) '
+                               f'rotate({_n(ang)})">{m}</g>')
+            return "".join(out)
         while s < total - 1e-6 if zu else s <= total + 1e-6:
             rest = s
             for a, b in segs:

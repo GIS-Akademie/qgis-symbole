@@ -214,8 +214,11 @@ S += [
      [C(50, 50, 15, "S", "N", 0)]),
     ("um_massnahmen_natur", "Linienelement: Umgrenzung von Flächen für Maßnahmen zum Schutz, zur Pflege und zur "
      "Entwicklung von Natur und Landschaft", *BW, [L(50, 50, 50, 84, SW, cap="butt"), L(30, 84, 70, 84, SW)]),
-    ("um_schutzgebiet", "Linienelement: Umgrenzung von Schutzgebieten im Sinne des Naturschutzrechts", *BW,
-     [L(x, 50, x, 78, 4, cap="butt") for x in (32, 44, 56, 68)]),
+    ("um_schutzgebiet", "Linienelement: Umgrenzung von Schutzgebieten im Sinne des Naturschutzrechts "
+     "(geschlossen, wie in der Anlage)", *BW,
+     [L(x, 50, x, 78, 4, cap="butt") for x in (32, 44, 56, 68)] + [L(30, 78, 70, 78, 4, cap="butt")]),
+    ("um_schutzgebiet_offen", "Linienelement: Umgrenzung von Schutzgebieten, offene Variante zur Unterscheidung",
+     *BW, [L(x, 50, x, 78, 4, cap="butt") for x in (32, 44, 56, 68)]),
     ("um_immissionsschutz", "Linienelement: Umgrenzung von Flächen für Vorkehrungen zum Schutz gegen schädliche "
      "Umwelteinwirkungen", *BW, [PG([(26, 50), (74, 50), (50, 84)], "S")]),
     ("um_luftreinhaltung", "Linienelement: Umgrenzung von Gebieten mit Verwendungsbeschränkung "
@@ -237,8 +240,8 @@ ROT, BLAU_L, GRUEN_L = "#E8452C", "#1E96C8", "#4FE05A"      # Baulinie, Baugrenz
 OCKER, VIOLETT, VIOLETT_D, GRAU_D = "#FFD92E", "#D790DA", "#B040B8", "#6E6E6E"
 
 
-def um(name, abstand, groesse=5.0, dy=0):  # Umgrenzung: Linie mit um_-Zeichen auf der Innenseite
-    return [linie(K0, 0.3), marken(sv(name, groesse, dy=dy), abstand)]
+def um(name, abstand, groesse=5.0, dy=0):  # Umgrenzung: Linie mit um_-Zeichen auf der Innenseite, Ecken frei
+    return [linie(K0, 0.3), marken(sv(name, groesse, dy=dy), abstand, ecken=0.4 * groesse)]
 
 
 def fa(farbe):  # farbige Flaeche mit duenner Umrandung
@@ -291,16 +294,19 @@ FLAECHEN = [
     ("Fläche zum Anpflanzen von Bäumen und Sträuchern", um("um_anpflanzung", 3.5, 4.0, dy=1.2)),
     ("Fläche mit Bindungen für die Erhaltung von Bäumen und Sträuchern", um("um_erhaltung", 3.5, 4.0, dy=1.2)),
     ("Schutzgebiet im Sinne des Naturschutzrechts", um("um_schutzgebiet", 7)),
+    ("Schutzgebiet im Sinne des Naturschutzrechts, offene Signatur", um("um_schutzgebiet_offen", 7)),
+    ("Schutzgebiet im Sinne des Naturschutzrechts, farbig",
+     [band("#3CCB4A", 1.6), linie(K0, 0.3), marken(sv("um_schutzgebiet", 5.0), 7, ecken=2.0)]),
     ("Erhaltungsbereich oder Denkmalschutz, farbig",
-     [band(K0, 1.55), band("#E0705C", 1.4), marken(mk("line", 1.4, K0, rw=0.2, dy=0.7), 3.5), linie(K0, 0.3)]),
+     [band(K0, 1.55), band("#E0705C", 1.4), marken(mk("line", 1.4, K0, rw=0.2, dy=0.7), 3.5, ecken=1.5), linie(K0, 0.3)]),
     ("Fläche für Nebenanlagen, Stellplätze und Garagen", [linie(ROT, 0.35, [3, 1.5])]),
     ("Mit Geh-, Fahr- und Leitungsrechten zu belastende Fläche",
-     [linie(K0, 0.3), marken(mk("square", 2.2, None, K0, 0.25, dy=1.1), 3.4)]),
+     [linie(K0, 0.3), marken(mk("square", 2.2, None, K0, 0.25, dy=1.1), 3.4, ecken=2.4)]),
     ("Vorkehrungen zum Schutz gegen schädliche Umwelteinwirkungen", um("um_immissionsschutz", 5)),
     ("Gebiet mit Verwendungsbeschränkung luftverunreinigender Stoffe", um("um_luftreinhaltung", 4)),
     ("Von der Bebauung freizuhaltende Fläche", um("um_freihaltung", 5)),
     ("Fläche, unter der der Bergbau umgeht", um("um_bergbau", 5)),
-    ("Fläche mit erheblich belasteten Böden", [linie(K0, 0.3), marken(sv("um_altlast", 5, dy=1.6), 5)]),
+    ("Fläche mit erheblich belasteten Böden", [linie(K0, 0.3), marken(sv("um_altlast", 5, dy=1.6), 5, ecken=2.6)]),
     ("Räumlicher Geltungsbereich", [linie(K0, 2.4, [7, 1.5], innen=True)]),
     ("Räumlicher Geltungsbereich, farbig", [band(GRAU_D, 1.3)]),
 ]
