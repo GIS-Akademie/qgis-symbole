@@ -154,8 +154,8 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | PlanZV: Fläche zum Anpflanzen von Bäumen und Sträuchern | Fläche |
 | PlanZV: Fläche mit Bindungen für die Erhaltung von Bäumen und Sträuchern | Fläche |
 | PlanZV: Schutzgebiet im Sinne des Naturschutzrechts | Fläche |
-| PlanZV: Schutzgebiet im Sinne des Naturschutzrechts, offene Signatur | Fläche |
-| PlanZV: Schutzgebiet im Sinne des Naturschutzrechts, wechselseitige Signatur | Fläche |
+| PlanZV: Naturschutzgebiet, geschlossene Signatur | Fläche |
+| PlanZV: Landschaftsschutzgebiet, offene Signatur (versetzt) | Fläche |
 | PlanZV: Schutzgebiet im Sinne des Naturschutzrechts, farbig | Fläche |
 | PlanZV: Erhaltungsbereich oder Denkmalschutz, farbig | Fläche |
 | PlanZV: Fläche für Nebenanlagen, Stellplätze und Garagen | Fläche |

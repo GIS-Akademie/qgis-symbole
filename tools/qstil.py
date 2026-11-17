@@ -329,7 +329,7 @@ def _ebene_svg(art, p, pts, zu, lookup, clip):
                 k = math.floor((ln - 2 * p["ecken"]) / p["raster"] + 1e-9)
                 ang = math.degrees(math.atan2(b[1] - a[1], b[0] - a[0]))
                 rand, pos = (ln - k * p["raster"]) / 2, p["start"]
-                while k > 0 and pos <= k * p["raster"] + 1e-9:
+                while k > 0 and pos < k * p["raster"] - 1e-6:  # QGIS setzt am Abschnittsende keine Markierung
                     t, pos = (rand + pos) / ln, pos + p["abstand"]
                     out.append(f'<g transform="translate({_n(a[0] + t * (b[0] - a[0]))},{_n(a[1] + t * (b[1] - a[1]))}) '
                                f'rotate({_n(ang)})">{m}</g>')

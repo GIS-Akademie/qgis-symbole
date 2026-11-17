@@ -206,10 +206,12 @@ Für die Beschriftung der Vorschaubilder genügt notfalls Arial.
   Farbwerte sind danach gewählt und nicht verbindlich. Nicht enthalten sind unter anderem die Flächen für
   Aufschüttungen und Abgrabungen und der Einfahrtbereich. Die Umgrenzung von Schutzgebieten (Nr. 13.3) zeigt die
   Anlage mit innen geschlossenen Strichgruppen und lässt „Differenzierungen in der Umgrenzungssignatur“ zur
-  Unterscheidung der Schutzgebiete zu, ohne sie festzulegen. Deshalb gibt es zusätzlich eine offene Variante
-  (`um_schutzgebiet_offen`) und eine wechselseitige Signatur, wie sie in Plänen verbreitet ist (innen geschlossene,
-  außen offene Strichgruppen im Wechsel); welche Schutzgebietsart welche Variante erhält, legt die
-  Zeichenerklärung des Plans fest. `TGa` ist eine gebräuchliche Ergänzung und steht
+  Unterscheidung der Schutzgebiete zu, ohne sie festzulegen. Deshalb gibt es zusätzlich ein Paar für
+  aneinandergrenzende Schutzgebiete, wie es in Plänen verbreitet ist: „Naturschutzgebiet“ mit geschlossenen und
+  „Landschaftsschutzgebiet“ mit offenen Strichgruppen (`um_schutzgebiet_offen`), jeweils auf der Innenseite. Beide
+  nutzen dasselbe Raster, das zweite ist um ein halbes Raster versetzt; an einer gemeinsamen Grenze stehen die
+  Zeichen der beiden Flächen dadurch beiderseits der Linie auf Lücke. Welche Schutzgebietsart welche Variante
+  erhält, legt die Zeichenerklärung des Plans fest. `TGa` ist eine gebräuchliche Ergänzung und steht
   nicht in der Anlage.
 - **Übrige Sammlungen:** Für Strom, Erneuerbare Energien, Naturschutz, Landschaftsplanung, Verkehr, Wasser,
   Vermessung und Allgemein gibt es kein bundeseinheitliches Regelwerk für Punktsymbole. Die Zeichen orientieren
