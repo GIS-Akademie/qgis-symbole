@@ -52,11 +52,16 @@ def band(farbe, breite):
     return linie(farbe, 2 * breite, innen=True)
 
 
-def marken(marker, abstand, start=None, versatz=0, ecken=None):
-    if ecken is not None and (start is not None or versatz):
-        raise ValueError("marken: ecken laesst sich nicht mit start oder versatz kombinieren")
-    return ("marken", dict(marker=marker, abstand=abstand, start=abstand / 2 if start is None else start,
-                           versatz=versatz, ecken=ecken))
+def marken(marker, abstand, start=None, versatz=0, ecken=None, raster=None):
+    """raster (nur mit ecken): Laenge, auf deren Vielfaches jede Kante gekuerzt wird; Vorgabe = abstand.
+    Fuer wechselnde Zeichen zwei Ebenen mit gleichem raster, abstand = 2 * raster und start = raster / 2 bzw.
+    1,5 * raster anlegen."""
+    if ecken is not None and versatz:
+        raise ValueError("marken: ecken laesst sich nicht mit versatz kombinieren")
+    raster = abstand if raster is None else raster
+    if start is None:
+        start = (raster if ecken is not None else abstand) / 2
+    return ("marken", dict(marker=marker, abstand=abstand, start=start, versatz=versatz, ecken=ecken, raster=raster))
 
 
 def _var(name, value, body):
@@ -112,8 +117,8 @@ def mk(form, groesse, farbe, rand=None, rw=0.25, winkel=0, dy=0):
     return ("mk", dict(form=form, groesse=groesse, farbe=farbe, rand=rand, rw=rw, winkel=winkel, dy=dy))
 
 
-def sv(name, groesse, fuell="#FFFFFF", strich="#000000", dy=0):
-    return ("sv", dict(name=name, groesse=groesse, fuell=fuell, strich=strich, dy=dy))
+def sv(name, groesse, fuell="#FFFFFF", strich="#000000", dy=0, winkel=0):
+    return ("sv", dict(name=name, groesse=groesse, fuell=fuell, strich=strich, dy=dy, winkel=winkel))
 
 
 # ---- Hilfen ----
@@ -163,7 +168,7 @@ def _marker_xml(m, ind, cid):
         return _layer("SvgMarker", {
             "name": f"{cid}_{p['name']}.svg", "size": p["groesse"], "size_unit": "MM", "scale_method": "diameter",
             "fixedAspectRatio": 0, "color": _rgba(p["fuell"]), "outline_color": _rgba(p["strich"]),
-            "outline_width": 0, "outline_width_unit": "MM", "angle": 0, "offset": f"0,{_n(p['dy'])}",
+            "outline_width": 0, "outline_width_unit": "MM", "angle": p["winkel"], "offset": f"0,{_n(p['dy'])}",
             "offset_unit": "MM", "horizontal_anchor_point": 1, "vertical_anchor_point": 1}, ind)
     strich = p["form"] in NUR_STRICH
     rand = p["farbe"] if strich else p["rand"]
@@ -197,11 +202,11 @@ def symbol_xml(typ, name, ebenen, cid, ind="    "):
             i4, i6 = i2 + "    ", i2 + "        "
             ml = _layer("MarkerLine", {
                 "placement": "interval", "placements": "Interval", "interval": p["abstand"], "interval_unit": "MM",
-                "offset_along_line": p["abstand"] / 2, "offset_along_line_unit": "MM", "offset": 0,
+                "offset_along_line": p["start"], "offset_along_line_unit": "MM", "offset": 0,
                 "offset_unit": "MM", "rotate": 1, "average_angle_length": 0, "average_angle_unit": "MM",
                 "place_on_every_part": 1, "ring_filter": 0}, i6,
                 _symbol("marker", f"@@{sub}@0@0", _marker_xml(p["marker"], i6 + "    ", cid), i6 + "  "))
-            trennen, kuerzen = ecken_ausdruecke(p["abstand"], p["ecken"])
+            trennen, kuerzen = ecken_ausdruecke(p["raster"], p["ecken"])
             innen = _layer("GeometryGenerator", {"SymbolType": "Line", "geometryModifier": kuerzen, "units": "MM"},
                            i4, _symbol("line", f"@{sub}@0", ml, i4 + "  "))
             out += _layer("GeometryGenerator", {"SymbolType": "Line", "geometryModifier": trennen, "units": "MM"},
@@ -257,8 +262,8 @@ def _marker_svg(m, lookup):
     art, p = m
     if art == "sv":
         s = p["groesse"]
-        return (f'<g transform="translate({_n(-s / 2)},{_n(p["dy"] - s / 2)}) scale({_n(s / 100)})">'
-                f'{lookup(p["name"], p["fuell"], p["strich"])}</g>')
+        return (f'<g transform="rotate({_n(p["winkel"])}) translate({_n(-s / 2)},{_n(p["dy"] - s / 2)}) '
+                f'scale({_n(s / 100)})">{lookup(p["name"], p["fuell"], p["strich"])}</g>')
     h, form = p["groesse"] / 2, p["form"]
     if form in NUR_STRICH:
         cap = "butt" if form == "line" else "round"
@@ -321,10 +326,11 @@ def _ebene_svg(art, p, pts, zu, lookup, clip):
         if p["ecken"] is not None:  # je Abschnitt mittig, Ecken frei (wie ecken_ausdruecke)
             for a, b in segs:
                 ln = math.hypot(b[0] - a[0], b[1] - a[1])
-                k = math.floor((ln - 2 * p["ecken"]) / p["abstand"] + 1e-9)
+                k = math.floor((ln - 2 * p["ecken"]) / p["raster"] + 1e-9)
                 ang = math.degrees(math.atan2(b[1] - a[1], b[0] - a[0]))
-                for j in range(max(k, 0)):
-                    t = ((ln - k * p["abstand"]) / 2 + (j + 0.5) * p["abstand"]) / ln
+                rand, pos = (ln - k * p["raster"]) / 2, p["start"]
+                while k > 0 and pos <= k * p["raster"] + 1e-9:
+                    t, pos = (rand + pos) / ln, pos + p["abstand"]
                     out.append(f'<g transform="translate({_n(a[0] + t * (b[0] - a[0]))},{_n(a[1] + t * (b[1] - a[1]))}) '
                                f'rotate({_n(ang)})">{m}</g>')
             return "".join(out)

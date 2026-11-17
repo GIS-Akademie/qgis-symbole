@@ -1377,15 +1377,15 @@
         <symbol type="line" name="@PlanZV: Schutzgebiet im Sinne des Naturschutzrechts@1" alpha="1" clip_to_extent="1" force_rhr="0">
           <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
             <prop k="SymbolType" v="Line"/>
-            <prop k="geometryModifier" v="collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries($geometry), 1)), with_variable('g', coalesce(geometry_n($geometry, @element), $geometry), if(length(@g) - 2 * 2.0 &lt; 7.0, NULL, line_substring(@g, (length(@g) - floor((length(@g) - 2 * 2.0) / 7.0) * 7.0) / 2, length(@g) - (length(@g) - floor((length(@g) - 2 * 2.0) / 7.0) * 7.0) / 2)))), @element IS NOT NULL))"/>
+            <prop k="geometryModifier" v="collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries($geometry), 1)), with_variable('g', coalesce(geometry_n($geometry, @element), $geometry), if(length(@g) - 2 * 3.2 &lt; 10.0, NULL, line_substring(@g, (length(@g) - floor((length(@g) - 2 * 3.2) / 10.0) * 10.0) / 2, length(@g) - (length(@g) - floor((length(@g) - 2 * 3.2) / 10.0) * 10.0) / 2)))), @element IS NOT NULL))"/>
             <prop k="units" v="MM"/>
             <symbol type="line" name="@@PlanZV: Schutzgebiet im Sinne des Naturschutzrechts@1@0" alpha="1" clip_to_extent="1" force_rhr="0">
               <layer class="MarkerLine" enabled="1" locked="0" pass="0">
                 <prop k="placement" v="interval"/>
                 <prop k="placements" v="Interval"/>
-                <prop k="interval" v="7"/>
+                <prop k="interval" v="10"/>
                 <prop k="interval_unit" v="MM"/>
-                <prop k="offset_along_line" v="3.5"/>
+                <prop k="offset_along_line" v="5"/>
                 <prop k="offset_along_line_unit" v="MM"/>
                 <prop k="offset" v="0"/>
                 <prop k="offset_unit" v="MM"/>
@@ -1397,7 +1397,7 @@
                 <symbol type="marker" name="@@@PlanZV: Schutzgebiet im Sinne des Naturschutzrechts@1@0@0" alpha="1" clip_to_extent="1" force_rhr="0">
                   <layer class="SvgMarker" enabled="1" locked="0" pass="0">
                     <prop k="name" v="gisak_planzv_um_schutzgebiet.svg"/>
-                    <prop k="size" v="5"/>
+                    <prop k="size" v="8"/>
                     <prop k="size_unit" v="MM"/>
                     <prop k="scale_method" v="diameter"/>
                     <prop k="fixedAspectRatio" v="0"/>
@@ -1441,15 +1441,15 @@
         <symbol type="line" name="@PlanZV: Schutzgebiet im Sinne des Naturschutzrechts, offene Signatur@1" alpha="1" clip_to_extent="1" force_rhr="0">
           <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
             <prop k="SymbolType" v="Line"/>
-            <prop k="geometryModifier" v="collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries($geometry), 1)), with_variable('g', coalesce(geometry_n($geometry, @element), $geometry), if(length(@g) - 2 * 2.0 &lt; 7.0, NULL, line_substring(@g, (length(@g) - floor((length(@g) - 2 * 2.0) / 7.0) * 7.0) / 2, length(@g) - (length(@g) - floor((length(@g) - 2 * 2.0) / 7.0) * 7.0) / 2)))), @element IS NOT NULL))"/>
+            <prop k="geometryModifier" v="collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries($geometry), 1)), with_variable('g', coalesce(geometry_n($geometry, @element), $geometry), if(length(@g) - 2 * 3.2 &lt; 10.0, NULL, line_substring(@g, (length(@g) - floor((length(@g) - 2 * 3.2) / 10.0) * 10.0) / 2, length(@g) - (length(@g) - floor((length(@g) - 2 * 3.2) / 10.0) * 10.0) / 2)))), @element IS NOT NULL))"/>
             <prop k="units" v="MM"/>
             <symbol type="line" name="@@PlanZV: Schutzgebiet im Sinne des Naturschutzrechts, offene Signatur@1@0" alpha="1" clip_to_extent="1" force_rhr="0">
               <layer class="MarkerLine" enabled="1" locked="0" pass="0">
                 <prop k="placement" v="interval"/>
                 <prop k="placements" v="Interval"/>
-                <prop k="interval" v="7"/>
+                <prop k="interval" v="10"/>
                 <prop k="interval_unit" v="MM"/>
-                <prop k="offset_along_line" v="3.5"/>
+                <prop k="offset_along_line" v="5"/>
                 <prop k="offset_along_line_unit" v="MM"/>
                 <prop k="offset" v="0"/>
                 <prop k="offset_unit" v="MM"/>
@@ -1461,7 +1461,7 @@
                 <symbol type="marker" name="@@@PlanZV: Schutzgebiet im Sinne des Naturschutzrechts, offene Signatur@1@0@0" alpha="1" clip_to_extent="1" force_rhr="0">
                   <layer class="SvgMarker" enabled="1" locked="0" pass="0">
                     <prop k="name" v="gisak_planzv_um_schutzgebiet_offen.svg"/>
-                    <prop k="size" v="5"/>
+                    <prop k="size" v="8"/>
                     <prop k="size_unit" v="MM"/>
                     <prop k="scale_method" v="diameter"/>
                     <prop k="fixedAspectRatio" v="0"/>
@@ -1482,11 +1482,122 @@
         </symbol>
       </layer>
     </symbol>
+    <symbol type="fill" name="PlanZV: Schutzgebiet im Sinne des Naturschutzrechts, wechselseitige Signatur" alpha="1" clip_to_extent="1" force_rhr="1">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="0,0,0,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.7"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+      <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
+        <prop k="SymbolType" v="Line"/>
+        <prop k="geometryModifier" v="collect_geometries(array_foreach(generate_series(1, coalesce(num_geometries(if(geometry_type($geometry) = 'Polygon', boundary(force_polygon_ccw($geometry)), $geometry)), 1)), with_variable('r', coalesce(geometry_n(if(geometry_type($geometry) = 'Polygon', boundary(force_polygon_ccw($geometry)), $geometry), @element), if(geometry_type($geometry) = 'Polygon', boundary(force_polygon_ccw($geometry)), $geometry)), with_variable('cd', array_filter(array_foreach(generate_series(2, num_points(@r) - 1), if(if(abs(azimuth(point_n(@r, @element - 1), point_n(@r, @element)) - azimuth(point_n(@r, @element), point_n(@r, @element + 1))) &gt; pi(), 2 * pi() - abs(azimuth(point_n(@r, @element - 1), point_n(@r, @element)) - azimuth(point_n(@r, @element), point_n(@r, @element + 1))), abs(azimuth(point_n(@r, @element - 1), point_n(@r, @element)) - azimuth(point_n(@r, @element), point_n(@r, @element + 1)))) &gt; radians(25), distance_to_vertex(@r, @element - 1), NULL)), @element IS NOT NULL), collect_geometries(array_foreach(generate_series(0, array_length(@cd)), line_substring(@r, if(@element = 0, 0, @cd[@element - 1]), if(@element = array_length(@cd), length(@r), @cd[@element]))))))))"/>
+        <prop k="units" v="MM"/>
+        <symbol type="line" name="@PlanZV: Schutzgebiet im Sinne des Naturschutzrechts, wechselseitige Signatur@1" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
+            <prop k="SymbolType" v="Line"/>
+            <prop k="geometryModifier" v="collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries($geometry), 1)), with_variable('g', coalesce(geometry_n($geometry, @element), $geometry), if(length(@g) - 2 * 3.0 &lt; 7.5, NULL, line_substring(@g, (length(@g) - floor((length(@g) - 2 * 3.0) / 7.5) * 7.5) / 2, length(@g) - (length(@g) - floor((length(@g) - 2 * 3.0) / 7.5) * 7.5) / 2)))), @element IS NOT NULL))"/>
+            <prop k="units" v="MM"/>
+            <symbol type="line" name="@@PlanZV: Schutzgebiet im Sinne des Naturschutzrechts, wechselseitige Signatur@1@0" alpha="1" clip_to_extent="1" force_rhr="0">
+              <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+                <prop k="placement" v="interval"/>
+                <prop k="placements" v="Interval"/>
+                <prop k="interval" v="15"/>
+                <prop k="interval_unit" v="MM"/>
+                <prop k="offset_along_line" v="3.75"/>
+                <prop k="offset_along_line_unit" v="MM"/>
+                <prop k="offset" v="0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="rotate" v="1"/>
+                <prop k="average_angle_length" v="0"/>
+                <prop k="average_angle_unit" v="MM"/>
+                <prop k="place_on_every_part" v="1"/>
+                <prop k="ring_filter" v="0"/>
+                <symbol type="marker" name="@@@PlanZV: Schutzgebiet im Sinne des Naturschutzrechts, wechselseitige Signatur@1@0@0" alpha="1" clip_to_extent="1" force_rhr="0">
+                  <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+                    <prop k="name" v="gisak_planzv_um_schutzgebiet.svg"/>
+                    <prop k="size" v="10"/>
+                    <prop k="size_unit" v="MM"/>
+                    <prop k="scale_method" v="diameter"/>
+                    <prop k="fixedAspectRatio" v="0"/>
+                    <prop k="color" v="255,255,255,255"/>
+                    <prop k="outline_color" v="0,0,0,255"/>
+                    <prop k="outline_width" v="0"/>
+                    <prop k="outline_width_unit" v="MM"/>
+                    <prop k="angle" v="0"/>
+                    <prop k="offset" v="0,0"/>
+                    <prop k="offset_unit" v="MM"/>
+                    <prop k="horizontal_anchor_point" v="1"/>
+                    <prop k="vertical_anchor_point" v="1"/>
+                  </layer>
+                </symbol>
+              </layer>
+            </symbol>
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
+        <prop k="SymbolType" v="Line"/>
+        <prop k="geometryModifier" v="collect_geometries(array_foreach(generate_series(1, coalesce(num_geometries(if(geometry_type($geometry) = 'Polygon', boundary(force_polygon_ccw($geometry)), $geometry)), 1)), with_variable('r', coalesce(geometry_n(if(geometry_type($geometry) = 'Polygon', boundary(force_polygon_ccw($geometry)), $geometry), @element), if(geometry_type($geometry) = 'Polygon', boundary(force_polygon_ccw($geometry)), $geometry)), with_variable('cd', array_filter(array_foreach(generate_series(2, num_points(@r) - 1), if(if(abs(azimuth(point_n(@r, @element - 1), point_n(@r, @element)) - azimuth(point_n(@r, @element), point_n(@r, @element + 1))) &gt; pi(), 2 * pi() - abs(azimuth(point_n(@r, @element - 1), point_n(@r, @element)) - azimuth(point_n(@r, @element), point_n(@r, @element + 1))), abs(azimuth(point_n(@r, @element - 1), point_n(@r, @element)) - azimuth(point_n(@r, @element), point_n(@r, @element + 1)))) &gt; radians(25), distance_to_vertex(@r, @element - 1), NULL)), @element IS NOT NULL), collect_geometries(array_foreach(generate_series(0, array_length(@cd)), line_substring(@r, if(@element = 0, 0, @cd[@element - 1]), if(@element = array_length(@cd), length(@r), @cd[@element]))))))))"/>
+        <prop k="units" v="MM"/>
+        <symbol type="line" name="@PlanZV: Schutzgebiet im Sinne des Naturschutzrechts, wechselseitige Signatur@2" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
+            <prop k="SymbolType" v="Line"/>
+            <prop k="geometryModifier" v="collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries($geometry), 1)), with_variable('g', coalesce(geometry_n($geometry, @element), $geometry), if(length(@g) - 2 * 3.0 &lt; 7.5, NULL, line_substring(@g, (length(@g) - floor((length(@g) - 2 * 3.0) / 7.5) * 7.5) / 2, length(@g) - (length(@g) - floor((length(@g) - 2 * 3.0) / 7.5) * 7.5) / 2)))), @element IS NOT NULL))"/>
+            <prop k="units" v="MM"/>
+            <symbol type="line" name="@@PlanZV: Schutzgebiet im Sinne des Naturschutzrechts, wechselseitige Signatur@2@0" alpha="1" clip_to_extent="1" force_rhr="0">
+              <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+                <prop k="placement" v="interval"/>
+                <prop k="placements" v="Interval"/>
+                <prop k="interval" v="15"/>
+                <prop k="interval_unit" v="MM"/>
+                <prop k="offset_along_line" v="11.25"/>
+                <prop k="offset_along_line_unit" v="MM"/>
+                <prop k="offset" v="0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="rotate" v="1"/>
+                <prop k="average_angle_length" v="0"/>
+                <prop k="average_angle_unit" v="MM"/>
+                <prop k="place_on_every_part" v="1"/>
+                <prop k="ring_filter" v="0"/>
+                <symbol type="marker" name="@@@PlanZV: Schutzgebiet im Sinne des Naturschutzrechts, wechselseitige Signatur@2@0@0" alpha="1" clip_to_extent="1" force_rhr="0">
+                  <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+                    <prop k="name" v="gisak_planzv_um_schutzgebiet_offen.svg"/>
+                    <prop k="size" v="10"/>
+                    <prop k="size_unit" v="MM"/>
+                    <prop k="scale_method" v="diameter"/>
+                    <prop k="fixedAspectRatio" v="0"/>
+                    <prop k="color" v="255,255,255,255"/>
+                    <prop k="outline_color" v="0,0,0,255"/>
+                    <prop k="outline_width" v="0"/>
+                    <prop k="outline_width_unit" v="MM"/>
+                    <prop k="angle" v="180"/>
+                    <prop k="offset" v="0,0"/>
+                    <prop k="offset_unit" v="MM"/>
+                    <prop k="horizontal_anchor_point" v="1"/>
+                    <prop k="vertical_anchor_point" v="1"/>
+                  </layer>
+                </symbol>
+              </layer>
+            </symbol>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
     <symbol type="fill" name="PlanZV: Schutzgebiet im Sinne des Naturschutzrechts, farbig" alpha="1" clip_to_extent="1" force_rhr="1">
       <layer class="SimpleLine" enabled="1" locked="0" pass="0">
         <prop k="line_color" v="60,203,74,255"/>
         <prop k="line_style" v="solid"/>
-        <prop k="line_width" v="3.2"/>
+        <prop k="line_width" v="4.8"/>
         <prop k="line_width_unit" v="MM"/>
         <prop k="capstyle" v="flat"/>
         <prop k="joinstyle" v="round"/>
@@ -1520,15 +1631,15 @@
         <symbol type="line" name="@PlanZV: Schutzgebiet im Sinne des Naturschutzrechts, farbig@2" alpha="1" clip_to_extent="1" force_rhr="0">
           <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
             <prop k="SymbolType" v="Line"/>
-            <prop k="geometryModifier" v="collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries($geometry), 1)), with_variable('g', coalesce(geometry_n($geometry, @element), $geometry), if(length(@g) - 2 * 2.0 &lt; 7.0, NULL, line_substring(@g, (length(@g) - floor((length(@g) - 2 * 2.0) / 7.0) * 7.0) / 2, length(@g) - (length(@g) - floor((length(@g) - 2 * 2.0) / 7.0) * 7.0) / 2)))), @element IS NOT NULL))"/>
+            <prop k="geometryModifier" v="collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries($geometry), 1)), with_variable('g', coalesce(geometry_n($geometry, @element), $geometry), if(length(@g) - 2 * 3.2 &lt; 10.0, NULL, line_substring(@g, (length(@g) - floor((length(@g) - 2 * 3.2) / 10.0) * 10.0) / 2, length(@g) - (length(@g) - floor((length(@g) - 2 * 3.2) / 10.0) * 10.0) / 2)))), @element IS NOT NULL))"/>
             <prop k="units" v="MM"/>
             <symbol type="line" name="@@PlanZV: Schutzgebiet im Sinne des Naturschutzrechts, farbig@2@0" alpha="1" clip_to_extent="1" force_rhr="0">
               <layer class="MarkerLine" enabled="1" locked="0" pass="0">
                 <prop k="placement" v="interval"/>
                 <prop k="placements" v="Interval"/>
-                <prop k="interval" v="7"/>
+                <prop k="interval" v="10"/>
                 <prop k="interval_unit" v="MM"/>
-                <prop k="offset_along_line" v="3.5"/>
+                <prop k="offset_along_line" v="5"/>
                 <prop k="offset_along_line_unit" v="MM"/>
                 <prop k="offset" v="0"/>
                 <prop k="offset_unit" v="MM"/>
@@ -1540,7 +1651,7 @@
                 <symbol type="marker" name="@@@PlanZV: Schutzgebiet im Sinne des Naturschutzrechts, farbig@2@0@0" alpha="1" clip_to_extent="1" force_rhr="0">
                   <layer class="SvgMarker" enabled="1" locked="0" pass="0">
                     <prop k="name" v="gisak_planzv_um_schutzgebiet.svg"/>
-                    <prop k="size" v="5"/>
+                    <prop k="size" v="8"/>
                     <prop k="size_unit" v="MM"/>
                     <prop k="scale_method" v="diameter"/>
                     <prop k="fixedAspectRatio" v="0"/>

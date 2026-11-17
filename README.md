@@ -1,12 +1,12 @@
 # GIS-Akademie Symbolbibliothek für QGIS
 
-1025 Punktsymbole (SVG) sowie 499 Linien- und Flächensymbole in zwanzig Sammlungen, aufgebaut als Repository
+1025 Punktsymbole (SVG) sowie 500 Linien- und Flächensymbole in zwanzig Sammlungen, aufgebaut als Repository
 für das QGIS-Plugin **Resource Sharing**. Alle Symbole sind Eigenentwicklungen der GIS-Akademie und stehen
 unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de).
 
 | Sammlung | ID | Punkte | Linien | Flächen | Inhalt |
 |---|---|---|---|---|---|
-| PlanZV | `gisak_planzv` | 106 | 18 | 31 | Planzeichen für Bauleitpläne in Anlehnung an die Anlage zur PlanZV |
+| PlanZV | `gisak_planzv` | 106 | 18 | 32 | Planzeichen für Bauleitpläne in Anlehnung an die Anlage zur PlanZV |
 | Strom | `gisak_strom` | 51 | 14 | 7 | Stationen, Masten, Kabelgarnituren, Schaltzeichen, Leitungen nach Spannungsebene |
 | Erneuerbare Energien | `gisak_eeg` | 43 | 10 | 14 | Wind- und Solarparkplanung, Bioenergie, Wasserkraft, Wärme, Netzanschluss |
 | Naturschutz | `gisak_naturschutz` | 58 | 9 | 19 | Schutzgebiete, Arten und Fundpunkte, Kompensation, Erfassung |
@@ -207,8 +207,9 @@ Für die Beschriftung der Vorschaubilder genügt notfalls Arial.
   Aufschüttungen und Abgrabungen und der Einfahrtbereich. Die Umgrenzung von Schutzgebieten (Nr. 13.3) zeigt die
   Anlage mit innen geschlossenen Strichgruppen und lässt „Differenzierungen in der Umgrenzungssignatur“ zur
   Unterscheidung der Schutzgebiete zu, ohne sie festzulegen. Deshalb gibt es zusätzlich eine offene Variante
-  (`um_schutzgebiet_offen`); welche Schutzgebietsart welche Variante erhält, legt die Zeichenerklärung des Plans
-  fest. `TGa` ist eine gebräuchliche Ergänzung und steht
+  (`um_schutzgebiet_offen`) und eine wechselseitige Signatur, wie sie in Plänen verbreitet ist (innen geschlossene,
+  außen offene Strichgruppen im Wechsel); welche Schutzgebietsart welche Variante erhält, legt die
+  Zeichenerklärung des Plans fest. `TGa` ist eine gebräuchliche Ergänzung und steht
   nicht in der Anlage.
 - **Übrige Sammlungen:** Für Strom, Erneuerbare Energien, Naturschutz, Landschaftsplanung, Verkehr, Wasser,
   Vermessung und Allgemein gibt es kein bundeseinheitliches Regelwerk für Punktsymbole. Die Zeichen orientieren

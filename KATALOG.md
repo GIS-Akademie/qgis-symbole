@@ -113,7 +113,7 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | `gisak_planzv_um_altlast.svg` | Linienelement: Umgrenzung von Fl채chen mit erheblich belasteten B철den |
 | `gisak_planzv_um_ohne_ein_ausfahrt.svg` | Linienelement: Bereich ohne Ein- und Ausfahrt |
 
-### PlanZV: Linien und Fl채chen (49 Symbole)
+### PlanZV: Linien und Fl채chen (50 Symbole)
 
 | Symbol in QGIS | Art |
 |---|---|
@@ -155,6 +155,7 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | PlanZV: Fl채che mit Bindungen f체r die Erhaltung von B채umen und Str채uchern | Fl채che |
 | PlanZV: Schutzgebiet im Sinne des Naturschutzrechts | Fl채che |
 | PlanZV: Schutzgebiet im Sinne des Naturschutzrechts, offene Signatur | Fl채che |
+| PlanZV: Schutzgebiet im Sinne des Naturschutzrechts, wechselseitige Signatur | Fl채che |
 | PlanZV: Schutzgebiet im Sinne des Naturschutzrechts, farbig | Fl채che |
 | PlanZV: Erhaltungsbereich oder Denkmalschutz, farbig | Fl채che |
 | PlanZV: Fl채che f체r Nebenanlagen, Stellpl채tze und Garagen | Fl채che |
