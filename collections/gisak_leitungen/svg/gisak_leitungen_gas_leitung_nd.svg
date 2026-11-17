@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Kennzeichen Niederdruckleitung (ND)</title>
+  <path d="M4,50 L20,50" fill="none" stroke="param(outline) #9A6B00" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="butt" stroke-linejoin="round"/>
+  <path d="M80,50 L96,50" fill="none" stroke="param(outline) #9A6B00" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="butt" stroke-linejoin="round"/>
+  <path d="M40.6 63 29.27 42.98Q29.6 45.89 29.6 47.67V63H24.77V37H30.98L42.48 57.19Q42.15 54.4 42.15 52.11V37H46.98V63ZM75.23 49.81Q75.23 53.83 73.66 56.83Q72.08 59.83 69.19 61.41Q66.3 63 62.58 63H52.06V37H61.47Q68.04 37 71.64 40.31Q75.23 43.62 75.23 49.81ZM69.75 49.81Q69.75 45.62 67.58 43.41Q65.4 41.21 61.36 41.21H57.5V58.79H62.11Q65.62 58.79 67.69 56.38Q69.75 53.96 69.75 49.81Z" fill="param(outline) #9A6B00" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

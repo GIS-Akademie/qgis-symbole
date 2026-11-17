@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Kurgebiet</title>
+  <polygon points="96,50 73,89.84 27,89.84 4,50 27,10.16 73,10.16" fill="param(fill) #EFE3F5" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #5E2B7E" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M34.28 59.46 27.39 50.65 25.02 52.46V59.46H21V40.27H25.02V48.97L33.67 40.27H38.35L30.15 48.39L39.02 59.46ZM49.13 59.73Q45.16 59.73 43.06 57.8Q40.96 55.86 40.96 52.27V40.27H44.97V51.95Q44.97 54.23 46.06 55.41Q47.14 56.59 49.24 56.59Q51.39 56.59 52.55 55.35Q53.71 54.12 53.71 51.82V40.27H57.72V52.06Q57.72 55.71 55.47 57.72Q53.21 59.73 49.13 59.73ZM74.48 59.46 70.02 52.17H65.31V59.46H61.29V40.27H70.88Q74.31 40.27 76.18 41.75Q78.05 43.22 78.05 45.99Q78.05 48 76.9 49.47Q75.76 50.93 73.81 51.4L79 59.46ZM74 46.15Q74 43.39 70.46 43.39H65.31V49.05H70.57Q72.26 49.05 73.13 48.29Q74 47.53 74 46.15Z" fill="param(outline) #5E2B7E" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

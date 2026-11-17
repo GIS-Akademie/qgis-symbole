@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Archäologische Verdachtsfläche</title>
+  <circle cx="50" cy="50" r="44" fill="param(fill) #F3E3D8" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #8C2F1B" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M66.22 40.29Q66.22 43.32 64.86 45.72Q63.51 48.13 59.79 50.78L57.42 52.5Q55.29 54.03 54.25 55.59Q53.2 57.15 53.11 59.02H44.77Q44.96 55.84 46.56 53.34Q48.17 50.84 51.3 48.66Q54.64 46.35 56.01 44.58Q57.39 42.82 57.39 40.66Q57.39 37.91 55.59 36.32Q53.79 34.73 50.48 34.73Q47.33 34.73 45.19 36.57Q43.05 38.41 42.68 41.44L33.78 41.07Q34.62 34.73 38.99 31.2Q43.36 27.67 50.36 27.67Q57.76 27.67 61.99 31.03Q66.22 34.39 66.22 40.29ZM44.52 72.33V63.9H53.54V72.33Z" fill="param(outline) #8C2F1B" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

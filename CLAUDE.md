@@ -60,6 +60,16 @@ Der Stil steht im Kopfkommentar jeder `sym_*.py` und in der README-Tabelle „St
 | vermessung | schwarz-weiß, geometrische Grundformen ohne Rahmen; `topo_` = Topografie im Lageplan |
 | nordpfeile | schwarz-weiß, ohne Rahmen, Spitze oben, Achse x = 50, N (Versalhöhe 18) über der Spitze; Präfix = Bauart (`pfeil_`, `nadel_`, `kreis_`, `rose_`), Endung `_ohne_n` = ohne Buchstabe; keine Linien und Flächen |
 | allgemein | immer weißes Quadrat mit dunklem Sinnbild; grau, rot (Rettung), blau (Dienste) |
+| raumordnung | Punktsymbole schwarz-weiß: konzentrische Kreise = Zentraler Ort, Quadrat mit scharfen Ecken = Standort, Kreis = Infrastruktur, Raute = Freiraum, kleines Quadrat = Kategorie (Z, G, N, V); Flächen farbig: Vorranggebiet durchgezogen und dicht, Vorbehaltsgebiet gestrichelt und weit |
+| leitungen | Farbe = Sparte (Gas gelb `#FFF3B0`/`#9A6B00`, Fernwärme `#FBE0D2`/`#C2410C`, Telekommunikation `#DDF0E0`/`#1B7F3B`); Quadrat = Station, Kreis = Messstelle, ohne Rahmen = Armatur auf der Leitung; Präfixe `gas_`, `fw_`, `tk_` |
+| boden | braun `#EAD9C3`/`#6B4423`; Kreis = Aufschluss/Messstelle, Quadrat = Altlast/Standort, Raute = Bodenschutz, Sechseck = Geologie und Rohstoffe |
+| laerm | violett `#EFE3F5`/`#5E2B7E`; Kreis = Immissionsort/Messung, Quadrat = Quelle, Raute = Schutzmaßnahme, Sechseck = schutzbedürftige Nutzung, ohne Rahmen = Hilfszeichen; einzige Ausnahme: Pegelklassen in den Farben der DIN 45682 |
+| forst | dunkelgrün `#DCE8C8`/`#3B5B1F`; Baumkrone ohne Rahmen = Baumart/Bestand (Bogenrand Laub-, Zackenrand Nadelholz), Quadrat = Einrichtung, Kreis = Jagd und Wild, Raute = Waldfunktion |
+| landwirtschaft | ocker `#F3EBC2`/`#6B5E12`; Quadrat = Betrieb/Gebäude, Kreis = Kultur, Sechseck = Technik und Wasser, Raute = Schutz/Förderung |
+| tourismus | immer Quadrat mit weißem Sinnbild; grau = Unterkunft/Service, grün = Wandern/Rad/Natur, blau = Wasser/Winter, braun = Sehenswertes |
+| denkmal | ziegelrot `#F3E3D8`/`#8C2F1B`; Quadrat = Baudenkmal, Kreis = Bodendenkmal/Fundstelle, Raute = Status, Sechseck = Erinnerung; gestrichelt = vermutet oder abgegangen (nicht „geplant“) |
+| brandschutz | immer Quadrat mit weißem Sinnbild; rot = Feuerwehr, grün = Rettung/Flucht, blau = Katastrophenschutz; Gefahren als gelbes Dreieck mit schwarzem Sinnbild |
+| layout | schwarz-weiß; Kreis = Nummer (`nr_`, gefüllt `nrv_`), Quadrat = Buchstabe (`bu_`), Raute = Hinweis (`hw_`), ohne Rahmen = Pfeil oder Marke; rot `#C8102E` nur für Hervorhebungen bei Linien und Flächen |
 
 Neue Symbole in die passende Gruppe einordnen und deren Rahmen-Helfer der Datei verwenden (z. B. `vq()`, `kr()`).
 Keinen neuen Rahmentyp oder eine neue Farbe einführen, ohne die Tabellen hier und in der README zu ergänzen.
@@ -133,13 +143,13 @@ eines, scheitert schon das Hinzufügen des Repositorys („No option … in sect
 QGIS liegt unter `C:\OSGeo4W`. Ob QGIS alle SVGs darstellen kann, lässt sich ohne Oberfläche prüfen:
 mit `C:\OSGeo4W\bin\python-qgis.bat` ein Skript starten, das jede Datei über
 `QgsApplication.svgCache().svgAsImage(pfad, 96, füllfarbe, strichfarbe, 1.0, 1.0, 0, True)` rendert, und das
-Ergebnis mit der `rsvg-convert`-Darstellung vergleichen. Stand 17.11.2026: alle 576 Symbole in QGIS 4.2.3
+Ergebnis mit der `rsvg-convert`-Darstellung vergleichen. Stand 17.11.2026: alle 1025 Symbole in QGIS 4.2.3
 pixelgleich zur Referenz (auch `<g transform>`, Strichmuster und Bögen).
 
 Stildateien: mit `QgsStyle().importXml(pfad)` in eine Speicher-Stildatenbank laden (`createMemoryDatabase()`),
 jedes Symbol mit `renderFeature()` auf eine Testlinie und ein Testrechteck zeichnen (auch gegen den
 Uhrzeigersinn digitalisiert) und mit dem Bild aus `vorschau_stil.py` vergleichen. Stand 17.11.2026: alle
-250 Symbole laden in QGIS 4.2.3 und 3.44.15 und sehen aus wie die Vorschau; die Pfadersetzung des Plugins
+499 Symbole laden in QGIS 4.2.3 und 3.44.15 und sehen aus wie die Vorschau; die Pfadersetzung des Plugins
 (Version 1.2.0, `fix_xml_node` und `SymbolXMLExtractor`) löst alle SVG-Markierungen auf. Das Plugin 1.2.0
 selbst läuft nur bis QGIS 3.99. Nicht geprüft: Installation über die Oberfläche des Plugins.
 

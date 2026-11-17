@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Bootsverleih / Kanueinstieg</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #1976A8" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #0D4A6B" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M10,54 H90 Q78,72 50,72 Q22,72 10,54 Z" fill="#FFFFFF" stroke="none"/>
+  <path d="M34,20 L62,50" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(30,21) rotate(-43)"><ellipse cx="0" cy="0" rx="6.5" ry="11" fill="#FFFFFF" stroke="none"/></g>
+  <path d="M16,84 q5.67,-4 11.33,0 t11.33,0 t11.33,0 t11.33,0 t11.33,0 t11.33,0" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

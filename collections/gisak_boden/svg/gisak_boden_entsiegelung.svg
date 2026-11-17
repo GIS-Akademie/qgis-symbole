@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Entsiegelung</title>
+  <polygon points="50,5 95,50 50,95 5,50" fill="param(fill) #EAD9C3" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #6B4423" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="24" y="53" width="17" height="12" rx="2" fill="param(outline) #6B4423" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <rect x="59" y="53" width="17" height="12" rx="2" fill="param(outline) #6B4423" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <path d="M50,70 L50,40" fill="none" stroke="param(outline) #6B4423" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M50,46 Q38,46 36,30 Q50,32 50,46 Z" fill="param(outline) #6B4423" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <path d="M50,46 Q62,46 64,30 Q50,32 50,46 Z" fill="param(outline) #6B4423" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

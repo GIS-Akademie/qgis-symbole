@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Kiesgrube</title>
+  <polygon points="96,50 73,89.84 27,89.84 4,50 27,10.16 73,10.16" fill="param(fill) #EAD9C3" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #6B4423" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M24,24 L33,76 L67,76 L76,24" fill="none" stroke="param(outline) #6B4423" stroke-opacity="param(outline-opacity) 1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="42" cy="36" r="6.5" fill="param(fill) #EAD9C3" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #6B4423" stroke-opacity="param(outline-opacity) 1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="58" cy="40" r="6.5" fill="param(fill) #EAD9C3" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #6B4423" stroke-opacity="param(outline-opacity) 1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="44" cy="57" r="6.5" fill="param(fill) #EAD9C3" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #6B4423" stroke-opacity="param(outline-opacity) 1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="58" cy="60" r="6.5" fill="param(fill) #EAD9C3" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #6B4423" stroke-opacity="param(outline-opacity) 1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

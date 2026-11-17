@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Biergarten / Einkehr / Jausenstation</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #455A64" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #263238" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="26" y="36" width="34" height="46" rx="4" fill="#FFFFFF" stroke="none"/>
+  <path d="M60,46 H67 Q76,46 76,55 V61 Q76,70 67,70 H60" fill="none" stroke="#FFFFFF" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="31" cy="33" r="7" fill="#FFFFFF" stroke="none"/>
+  <circle cx="43" cy="29" r="8" fill="#FFFFFF" stroke="none"/>
+  <circle cx="55" cy="33" r="7" fill="#FFFFFF" stroke="none"/>
+  <path d="M37,50 L37,72" fill="none" stroke="param(fill) #455A64" stroke-opacity="param(fill-opacity) 1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M49,50 L49,72" fill="none" stroke="param(fill) #455A64" stroke-opacity="param(fill-opacity) 1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

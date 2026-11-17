@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Reiten / Reiterhof</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #7B4A1E" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #4A2A0E" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M37.28,66.35 A24,24 0 1 1 62.72,66.35" fill="none" stroke="#FFFFFF" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="28.25" cy="56.14" r="2.6" fill="param(fill) #7B4A1E" fill-opacity="param(fill-opacity) 1" stroke="none"/>
+  <circle cx="28.25" cy="35.86" r="2.6" fill="param(fill) #7B4A1E" fill-opacity="param(fill-opacity) 1" stroke="none"/>
+  <circle cx="43.79" cy="22.82" r="2.6" fill="param(fill) #7B4A1E" fill-opacity="param(fill-opacity) 1" stroke="none"/>
+  <circle cx="56.21" cy="22.82" r="2.6" fill="param(fill) #7B4A1E" fill-opacity="param(fill-opacity) 1" stroke="none"/>
+  <circle cx="71.75" cy="35.86" r="2.6" fill="param(fill) #7B4A1E" fill-opacity="param(fill-opacity) 1" stroke="none"/>
+  <circle cx="71.75" cy="56.14" r="2.6" fill="param(fill) #7B4A1E" fill-opacity="param(fill-opacity) 1" stroke="none"/>
+</svg>

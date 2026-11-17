@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Wasserwerk</title>
+  <circle cx="50" cy="50" r="44" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #000000" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M44.5 60.58H39.25L36.38 48.34Q35.85 46.18 35.49 43.82Q35.13 45.79 34.91 46.82Q34.68 47.84 31.71 60.58H26.45L21 39.42H25.49L28.55 53.09L29.24 56.39Q29.67 54.3 30.06 52.4Q30.46 50.5 33.06 39.42H38.02L40.69 50.68Q41 51.94 41.76 56.39L42.13 54.65L42.93 51.19L45.48 39.42H49.97ZM73.53 60.58H68.28L65.41 48.34Q64.88 46.18 64.52 43.82Q64.16 45.79 63.94 46.82Q63.71 47.84 60.74 60.58H55.48L50.03 39.42H54.52L57.58 53.09L58.27 56.39Q58.7 54.3 59.09 52.4Q59.49 50.5 62.09 39.42H67.05L69.72 50.68Q70.03 51.94 70.79 56.39L71.16 54.65L71.96 51.19L74.51 39.42H79Z" fill="param(outline) #000000" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

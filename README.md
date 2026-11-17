@@ -1,6 +1,6 @@
 # GIS-Akademie Symbolbibliothek für QGIS
 
-577 Punktsymbole (SVG) sowie 252 Linien- und Flächensymbole in zehn Sammlungen, aufgebaut als Repository
+1025 Punktsymbole (SVG) sowie 499 Linien- und Flächensymbole in zwanzig Sammlungen, aufgebaut als Repository
 für das QGIS-Plugin **Resource Sharing**. Alle Symbole sind Eigenentwicklungen der GIS-Akademie und stehen
 unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de).
 
@@ -14,7 +14,17 @@ unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de).
 | Verkehr | `gisak_verkehr` | 58 | 16 | 10 | Parken, ÖPNV, Bahn, Rad- und Fußverkehr, Bauwerke, Störungen, Straßen nach Klasse |
 | Wasserwirtschaft | `gisak_wasser` | 59 | 14 | 13 | Messstellen, Anlagen, Armaturen, Kanalnetz, Gewässerbauwerke, Gebiete |
 | Vermessung | `gisak_vermessung` | 49 | 16 | 11 | Grenz- und Festpunkte, Aufschlüsse, Grenzen, Gebäude, Topografie im Lageplan |
+| Raumordnung und Regionalplanung | `gisak_raumordnung` | 40 | 14 | 27 | Zentrale Orte, Standorte, Infrastruktur, Vorrang- und Vorbehaltsgebiete |
+| Gas, Fernwärme, Telekommunikation | `gisak_leitungen` | 43 | 14 | 11 | Stationen, Armaturen und Netzelemente der drei Sparten, Leitungen nach Druckstufe und Art |
+| Boden, Altlasten und Geologie | `gisak_boden` | 44 | 11 | 14 | Aufschlüsse, Altlasten, Bodenschutz, Rohstoffe, Bodenarten als Signatur |
+| Lärm und Immissionen | `gisak_laerm` | 38 | 11 | 13 | Immissionsorte, Quellen, Schutzmaßnahmen, Pegelklassen der Lärmkartierung |
+| Forst | `gisak_forst` | 45 | 11 | 14 | Baumarten und Bestand, Betrieb, Jagd, Waldfunktionen, Altersklassen |
+| Landwirtschaft | `gisak_landwirtschaft` | 45 | 11 | 14 | Betrieb und Ställe, Kulturen, Technik und Wasser, Schutz- und Förderkulissen |
+| Tourismus und Freizeit | `gisak_tourismus` | 45 | 14 | 10 | Unterkunft und Service, Wandern und Rad, Wasser und Winter, Sehenswertes, Wegearten |
+| Denkmalpflege und Archäologie | `gisak_denkmal` | 45 | 9 | 10 | Baudenkmale, Bodendenkmale und Fundstellen, Status, Erinnerung |
+| Brand- und Katastrophenschutz | `gisak_brandschutz` | 42 | 10 | 10 | Feuerwehr und Löschwasser, Rettung, Katastrophenschutz, Gefahrenstellen |
 | Nordpfeile | `gisak_nordpfeile` | 34 | – | – | Schlichte Nordpfeile für Karten und Drucklayouts |
+| Kartengestaltung | `gisak_layout` | 61 | 9 | 10 | Nummern 1–20 und Buchstaben A–L als Marker, Hinweiszeichen, Pfeile, Rahmen und Ausschnitte |
 | Allgemein | `gisak_allgemein` | 57 | 10 | 9 | Öffentliche Einrichtungen, Rettung, Kultur, topografische Einzelobjekte, Grenzen |
 
 Die vollständige Liste aller Symbole mit Bedeutung steht in [KATALOG.md](KATALOG.md).
@@ -68,6 +78,16 @@ angelegt, die Symbole sind also für den Druckmaßstab gedacht.
 | Verkehr | Straßen nach Klasse, Rad- und Fußweg, Bahn, Bus, Fähre, Baustelle, Umleitung, Sperrung | Park- und Verkehrsflächen, Zonen, Baustellen- und Sperrbereich |
 | Wasserwirtschaft | Trinkwasserleitungen, Schmutz-, Regen- und Mischwasserkanal mit Fließrichtung, Gewässer, Deich | Schutzgebietszonen, Überschwemmungs- und Risikogebiet, Einzugs- und Entwässerungsgebiete |
 | Vermessung | Flurstücks-, Flur-, Gemarkungs- und Gemeindegrenze, Höhenlinien, Böschung, Zaun, Mauer, Hecke | Flurstück, Gebäude nach Art, geplant, abgebrochen, befestigte Fläche |
+| Raumordnung | Verwaltungs- und Regionsgrenzen, Entwicklungsachsen, Straße und Schiene (Bestand, Planung), Trassenkorridor, Grünzäsur | Vorrang- und Vorbehaltsgebiete je Thema, Grünzug, Verdichtungsraum, Eignungs- und Ausschlussgebiet |
+| Gas, Fernwärme, Telekommunikation | Gas nach Druckstufe, Fernwärme Vor- und Rücklauf, Glasfaser, Kupfer, Leerrohr, Richtfunk | Schutzstreifen, Versorgungs- und Ausbaugebiete, Betriebsgelände |
+| Boden | Störung, Schichtgrenze, Abbau- und Rutschungskante, Altlastengrenze | Altlasten nach Status, Abbau, Schutzflächen, Bodenarten |
+| Lärm | Lärmschutzwand und -wall, Isophonen, Emissionsbänder | Pegelklassen in den Farben der DIN 45682, Schutzzonen, ruhiges Gebiet |
+| Forst | Wege nach Ausbau, Abteilungs- und Reviergrenzen, Zaun, Waldrand | Baumartengruppen, Altersklassen, Waldfunktionen, Kalamität |
+| Landwirtschaft | Schlag- und Feldblockgrenze, Wege, Dränage, Beregnung, Weidezaun | Nutzungen und Kulturen, Förder- und Gebietskulissen |
+| Tourismus | Wander-, Rad- und Reitwege nach Art, Loipe, Piste, Lift, Kanuroute | Erholungs-, Kur- und Skigebiet, Badezone, Wildruhezone |
+| Denkmalpflege | Grenzen von Denkmalbereich und Grabungsschutzgebiet, Wall- und Mauerverlauf, Altstraße | Baudenkmal, Ensemble, Bodendenkmal, Grabungs- und Verdachtsfläche, Pufferzone |
+| Brand- und Katastrophenschutz | Feuerwehrzufahrt, Rettungsweg, Evakuierungsroute, Löschwasser- und Schlauchleitung, Absperrung | Aufstell- und Bewegungsfläche, Brandabschnitt, Gefahren- und Absperrbereich, Evakuierungszone |
+| Kartengestaltung | Schnittlinie, Blattschnitt, Hinweis-, Pfeil- und Maßlinie, Hervorhebung | Kartenrahmen, Detail- und Übersichtsausschnitt, Legendenkasten, Abdeckung |
 | Allgemein | Verwaltungsgrenzen, Projektgrenze, Route, Rettungsweg | Gebäude, Untersuchungs- und Projektgebiet, Gefahren- und Hinweisfläche |
 
 **Innen und außen:** Bei Flächen mit Randzeichen (z. B. Umgrenzungen der PlanZV) stehen die Zeichen immer auf
@@ -98,6 +118,16 @@ zu welcher Gruppe ein Symbol gehört.
 | Wasserwirtschaft | blau | Kreis = Messstelle, Quadrat = Anlage oder Bauwerk, Raute = Gebiet, ohne Rahmen = Armatur auf der Leitung | Leitungs- und Kanalnetzpläne (DIN 2425), übliche Kurzzeichen |
 | Vermessung | schwarz-weiß | geometrische Grundformen ohne Rahmen | Liegenschaftskarte, Vermessungsriss (DIN 18702), Aufschlüsse nach DIN 4023 |
 | Nordpfeile | schwarz-weiß, ohne Rahmen | Präfix = Bauart: `pfeil_` mit Schaft, `nadel_` ohne Schaft, `kreis_` im Kreis, `rose_` Windrose; das N steht über der Spitze, `_ohne_n` = ohne Buchstabe | Nordpfeile amtlicher Karten, Lagepläne und Bauleitpläne |
+| Raumordnung | schwarz-weiß, Flächen farbig | konzentrische Kreise = Zentraler Ort (Rang über Ringe und Füllung), Quadrat = Standort, Kreis = Infrastruktur, Raute = Freiraum, kleines Quadrat mit Buchstabe = Kategorie (Z, G, N, V); Vorranggebiet durchgezogen und dicht, Vorbehaltsgebiet gestrichelt und weit schraffiert | § 7 ROG, Zentrale-Orte-System, NLT-Arbeitshilfe Planzeichen in der Regionalplanung (Niedersachsen 2024), Anlage 3 LPlG-DVO NRW |
+| Gas, Fernwärme, Telekommunikation | Farbe je Sparte | gelb = Gas, orangerot = Fernwärme, grün = Telekommunikation; Quadrat = Station, Kreis = Messstelle oder Einrichtung, ohne Rahmen = Armatur auf der Leitung | Rohrnetzpläne nach DIN 2425, übliche Spartenfarben der Leitungsauskunft |
+| Boden | braun | Kreis = Aufschluss oder Messstelle, Quadrat = Altlast oder Standort, Raute = Bodenschutz, Sechseck = Geologie und Rohstoffe | DIN 4023, Bodenkundliche Kartieranleitung, Altlastenkataster der Länder |
+| Lärm | violett | Kreis = Immissionsort oder Messung, Quadrat = Quelle, Raute = Schutzmaßnahme, Sechseck = schutzbedürftige Nutzung, ohne Rahmen = Hilfszeichen der Schallausbreitung | 34. BImSchV, DIN 45682, DIN 18005, TA Lärm |
+| Forst | dunkelgrün | Baumkrone ohne Rahmen = Baumart oder Bestand, Quadrat = betriebliche Einrichtung, Kreis = Jagd und Wild, Raute = Waldfunktion oder Schutz | Forstbetriebskarten der Länder, Waldfunktionenkartierung |
+| Landwirtschaft | ocker | Quadrat = Betrieb und Gebäude, Kreis = Kultur oder Nutzung, Sechseck = Technik und Wasser, Raute = Schutz, Förderung, Gebietskulisse | Kulturartengruppen des Agrarantrags (InVeKoS), Feldblockkataster |
+| Tourismus | weißes Sinnbild auf farbigem Quadrat | grau = Unterkunft und Service, grün = Wandern, Rad und Natur, blau = Wasser und Winter, braun = Sehenswertes und Erlebnis | touristische Hinweiszeichen der StVO, amtliche Wander- und Freizeitkarten |
+| Denkmalpflege | ziegelrot | Quadrat = Baudenkmal, Kreis = Bodendenkmal oder Fundstelle, Raute = Status oder Schutz, Sechseck = Erinnerung und Vermittlung; gestrichelt = vermutet oder abgegangen | Denkmalkartierungen der Landesämter, archäologische Fundstellenkarten |
+| Brand- und Katastrophenschutz | weißes Sinnbild auf farbigem Quadrat | rot = Feuerwehr und Brandschutz, grün = Rettung und Flucht, blau = Katastrophenschutz, gelbes Dreieck = Gefahrenstelle | DIN 14095, DIN 14034, ISO 7010, taktische Zeichen |
+| Kartengestaltung | schwarz-weiß | Kreis = Nummer, Quadrat = Buchstabe, Raute = Hinweiszeichen, ohne Rahmen = Pfeil oder Marke; rot = Hervorhebung | übliche Verweiszeichen in Plänen |
 | Allgemein | dunkles Sinnbild auf weißem Quadrat | grau = allgemein, rot = Gesundheit und Rettung, blau = Sicherheit und Dienste | Objektarten amtlicher topografischer Karten und Stadtpläne |
 
 **Farben der Leitungen in der Wasserwirtschaft:** Trinkwasser und Gebiete dunkelblau, Gewässer und Regenwasser
@@ -178,6 +208,14 @@ Für die Beschriftung der Vorschaubilder genügt notfalls Arial.
   Vermessung und Allgemein gibt es kein bundeseinheitliches Regelwerk für Punktsymbole. Die Zeichen orientieren
   sich an den oben genannten Normen, Karten und Konventionen, sind aber eigene Entwürfe und keine normgerechten
   Wiedergaben.
+- **Brand- und Katastrophenschutz:** Die Zeichen sind eigene Sinnbilder und keine Normzeichen. Für Feuerwehrpläne
+  nach DIN 14095 und für die Sicherheitskennzeichnung gelten die genormten Zeichen. Löschwasser ist hier rot
+  (Gruppe Feuerwehr), in Feuerwehrplänen üblicherweise blau.
+- **Lärm:** Die Farben der Pegelklassen sind der Farbtabelle der DIN 45682 in den LAI-Hinweisen zur Lärmkartierung
+  (Fassung 08.08.2025) entnommen; die Norm selbst lag nicht vor.
+- **Raumordnung:** Die Planzeichen für Regionalpläne unterscheiden sich je Land. Die Flächenfarben folgen
+  überwiegend der niedersächsischen Arbeitshilfe, die Farbwerte sind aus deren Richtwerten abgeleitet.
+- **Boden:** Die Signaturen der Bodenarten folgen der gängigen Praxis nach DIN 4023, nicht dem Normtext.
 - **Linien- und Flächensymbole** sind in Millimetern bemessen und in QGIS 3.44 und 4.2 geprüft. Die Vorschaubilder
   zeigen eine Nachbildung; Punktmuster und Schraffuren können in QGIS leicht versetzt beginnen.
 - Marken- und Unternehmenslogos wurden bewusst nicht nachgebildet.

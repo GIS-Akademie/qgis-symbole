@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Fahrradverleih / Radservice</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #455A64" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #263238" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(50,42) scale(0.72) translate(-50,-50)"><circle cx="27" cy="62" r="15" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="73" cy="62" r="15" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M27,62 L42,36 L64,36 L73,62" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M42,36 L50,62 L64,36" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M50,62 L27,62" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M64,36 L62,26 L70,24" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M34,31 L46,31" fill="none" stroke="#FFFFFF" stroke-width="5.0" stroke-linecap="round" stroke-linejoin="round"/><path d="M40,31 L42,36" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <path d="M50,78 L71.2,78" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="80,78 70.35,83.27 70.35,72.73" fill="#FFFFFF" stroke="none"/>
+  <path d="M50,78 L28.8,78" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="20,78 29.65,72.73 29.65,83.27" fill="#FFFFFF" stroke="none"/>
+</svg>

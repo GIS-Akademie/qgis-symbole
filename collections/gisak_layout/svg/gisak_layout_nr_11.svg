@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Nummer 11 im Kreis</title>
+  <circle cx="50" cy="50" r="42" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #000000" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M23 68.18V62.79H32.01V37.98L23.28 43.43V37.73L32.4 31.82H39.26V62.79H47.6V68.18ZM52.4 68.18V62.79H61.41V37.98L52.68 43.43V37.73L61.8 31.82H68.66V62.79H77V68.18Z" fill="param(outline) #000000" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

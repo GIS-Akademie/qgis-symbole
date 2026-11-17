@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Logistikstandort / Güterverkehrszentrum</title>
+  <rect x="4.5" y="4.5" width="91" height="91" rx="0" fill="param(outline) #000000" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <rect x="9.5" y="9.5" width="81" height="81" rx="0" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="none"/>
+  <path d="M29.36 57.77Q31.17 57.77 32.87 57.25Q34.57 56.72 35.5 55.9V52.83H30.09V49.4H39.75V57.55Q37.99 59.36 35.16 60.39Q32.34 61.41 29.24 61.41Q23.82 61.41 20.91 58.41Q18 55.41 18 49.91Q18 44.43 20.93 41.51Q23.85 38.59 29.35 38.59Q37.15 38.59 39.28 44.37L35 45.66Q34.3 43.97 32.82 43.11Q31.34 42.24 29.35 42.24Q26.07 42.24 24.37 44.22Q22.67 46.21 22.67 49.91Q22.67 53.67 24.43 55.72Q26.18 57.77 29.36 57.77ZM54.87 61.09H50.17L41.97 38.92H46.81L51.38 53.16Q51.8 54.55 52.54 57.35L52.87 56L53.67 53.16L58.22 38.92H63.02ZM82 61.09H64.2V57.81L76.19 42.56H65.4V38.92H81.35V42.15L69.36 57.46H82Z" fill="param(outline) #000000" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

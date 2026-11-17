@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Standortmarke, gefüllt</title>
+  <path d="M50,94 C30,62 20,50 20,36 C20,18 34,6 50,6 C66,6 80,18 80,36 C80,50 70,62 50,94 Z" fill="param(outline) #000000" fill-opacity="param(outline-opacity) 1" stroke="param(outline) #000000" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="50" cy="36" r="11" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="none"/>
+</svg>

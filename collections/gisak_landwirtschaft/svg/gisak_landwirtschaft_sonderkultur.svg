@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Sonderkultur (Beeren, Spargel, Kräuter)</title>
+  <circle cx="50" cy="50" r="44" fill="param(fill) #F3EBC2" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #6B5E12" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M28,42 Q50,32 72,42 Q74,64 50,86 Q26,64 28,42 Z" fill="param(outline) #6B5E12" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <circle cx="40" cy="50" r="2.8" fill="param(fill) #F3EBC2" fill-opacity="param(fill-opacity) 1" stroke="none"/>
+  <circle cx="52" cy="48" r="2.8" fill="param(fill) #F3EBC2" fill-opacity="param(fill-opacity) 1" stroke="none"/>
+  <circle cx="62" cy="54" r="2.8" fill="param(fill) #F3EBC2" fill-opacity="param(fill-opacity) 1" stroke="none"/>
+  <circle cx="44" cy="62" r="2.8" fill="param(fill) #F3EBC2" fill-opacity="param(fill-opacity) 1" stroke="none"/>
+  <circle cx="56" cy="64" r="2.8" fill="param(fill) #F3EBC2" fill-opacity="param(fill-opacity) 1" stroke="none"/>
+  <circle cx="50" cy="75" r="2.8" fill="param(fill) #F3EBC2" fill-opacity="param(fill-opacity) 1" stroke="none"/>
+  <polygon points="50,18 53.53,29.15 65.22,29.06 55.71,35.85 59.4,46.94 50,40 40.6,46.94 44.29,35.85 34.78,29.06 46.47,29.15" fill="param(fill) #F3EBC2" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #6B5E12" stroke-opacity="param(outline-opacity) 1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Kampfmittelverdacht</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #EAD9C3" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #6B4423" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="45" cy="59" r="21" fill="param(outline) #6B4423" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <polygon points="53,38 62,31 70,40 61,47" fill="param(outline) #6B4423" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <path d="M65,34 Q70,22 80,26" fill="none" stroke="param(outline) #6B4423" stroke-opacity="param(outline-opacity) 1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="82,14 83.75,18.97 88.93,18 85.5,22 88.93,26 83.75,25.03 82,30 80.25,25.03 75.07,26 78.5,22 75.07,18 80.25,18.97" fill="param(outline) #6B4423" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

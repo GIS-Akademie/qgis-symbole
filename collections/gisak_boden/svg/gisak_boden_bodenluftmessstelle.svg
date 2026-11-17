@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Bodenluftmessstelle</title>
+  <circle cx="50" cy="50" r="44" fill="param(fill) #EAD9C3" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #6B4423" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M49.68 55.98Q49.68 59.77 46.84 61.85Q43.99 63.92 38.93 63.92H25V36.08H37.75Q42.85 36.08 45.46 37.85Q48.08 39.61 48.08 43.07Q48.08 45.44 46.77 47.08Q45.45 48.71 42.77 49.28Q46.15 49.67 47.92 51.4Q49.68 53.13 49.68 55.98ZM42.21 43.86Q42.21 41.99 41.02 41.2Q39.82 40.41 37.47 40.41H30.83V47.3H37.51Q39.98 47.3 41.1 46.44Q42.21 45.58 42.21 43.86ZM43.83 55.52Q43.83 51.61 38.22 51.61H30.83V59.59H38.44Q41.25 59.59 42.54 58.58Q43.83 57.56 43.83 55.52ZM54.23 63.92V36.08H60.06V59.42H75V63.92Z" fill="param(outline) #6B4423" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

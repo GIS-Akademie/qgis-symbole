@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Lärmbrennpunkt / Hotspot</title>
+  <polygon points="50,5 95,50 50,95 5,50" fill="param(fill) #EFE3F5" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #5E2B7E" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="50,23 57.27,32.45 69.09,30.91 67.55,42.73 77,50 67.55,57.27 69.09,69.09 57.27,67.55 50,77 42.73,67.55 30.91,69.09 32.45,57.27 23,50 32.45,42.73 30.91,30.91 42.73,32.45" fill="param(outline) #5E2B7E" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <path d="M51.71 54.15H48.29L47.81 39.5H52.19ZM47.81 60.5V56.48H52.1V60.5Z" fill="param(fill) #EFE3F5" fill-opacity="param(fill-opacity) 1" stroke="none"/>
+</svg>

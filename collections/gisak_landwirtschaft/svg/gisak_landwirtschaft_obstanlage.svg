@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Obstanlage</title>
+  <circle cx="50" cy="50" r="44" fill="param(fill) #F3EBC2" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #6B5E12" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="50" cy="58" r="23" fill="param(outline) #6B5E12" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <path d="M50,38 L54,22" fill="none" stroke="param(outline) #6B5E12" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M54,30 Q68,18 76,28 Q66,38 54,30 Z" fill="param(outline) #6B5E12" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <circle cx="41" cy="50" r="4.5" fill="param(fill) #F3EBC2" fill-opacity="param(fill-opacity) 1" stroke="none"/>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Brache / Stilllegung</title>
+  <circle cx="50" cy="50" r="44" fill="param(fill) #F3EBC2" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #6B5E12" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M22,62 L78,62" fill="none" stroke="param(outline) #6B5E12" stroke-opacity="param(outline-opacity) 1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="9 8"/>
+  <path d="M28,76 L72,76" fill="none" stroke="param(outline) #6B5E12" stroke-opacity="param(outline-opacity) 1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="9 8"/>
+  <path d="M36,50 L36,32" fill="none" stroke="param(outline) #6B5E12" stroke-opacity="param(outline-opacity) 1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M36,50 L26,37" fill="none" stroke="param(outline) #6B5E12" stroke-opacity="param(outline-opacity) 1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M36,50 L46,37" fill="none" stroke="param(outline) #6B5E12" stroke-opacity="param(outline-opacity) 1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M64,46 L64,26.2" fill="none" stroke="param(outline) #6B5E12" stroke-opacity="param(outline-opacity) 1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M64,46 L53,31.7" fill="none" stroke="param(outline) #6B5E12" stroke-opacity="param(outline-opacity) 1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M64,46 L75,31.7" fill="none" stroke="param(outline) #6B5E12" stroke-opacity="param(outline-opacity) 1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

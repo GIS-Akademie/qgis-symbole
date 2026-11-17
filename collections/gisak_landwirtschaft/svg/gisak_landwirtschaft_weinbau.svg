@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Weinbau / Rebfläche</title>
+  <circle cx="50" cy="50" r="44" fill="param(fill) #F3EBC2" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #6B5E12" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M50,34 L50,18" fill="none" stroke="param(outline) #6B5E12" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M50,20 L64,16" fill="none" stroke="param(outline) #6B5E12" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="33" cy="40" r="8" fill="param(outline) #6B5E12" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <circle cx="50" cy="40" r="8" fill="param(outline) #6B5E12" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <circle cx="67" cy="40" r="8" fill="param(outline) #6B5E12" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <circle cx="41.5" cy="55" r="8" fill="param(outline) #6B5E12" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <circle cx="58.5" cy="55" r="8" fill="param(outline) #6B5E12" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <circle cx="50" cy="70" r="8" fill="param(outline) #6B5E12" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

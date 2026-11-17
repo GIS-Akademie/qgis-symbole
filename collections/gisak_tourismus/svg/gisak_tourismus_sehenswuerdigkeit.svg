@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Sehenswürdigkeit</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #7B4A1E" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #4A2A0E" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="50,14 59.11,39.46 86.14,40.26 64.74,56.79 72.34,82.74 50,67.5 27.66,82.74 35.26,56.79 13.86,40.26 40.89,39.46" fill="#FFFFFF" stroke="none"/>
+</svg>

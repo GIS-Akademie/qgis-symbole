@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Kennzeichen Rücklauf (RL)</title>
+  <path d="M4,50 L20,50" fill="none" stroke="param(outline) #C2410C" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="butt" stroke-linejoin="round"/>
+  <path d="M80,50 L96,50" fill="none" stroke="param(outline) #C2410C" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="butt" stroke-linejoin="round"/>
+  <path d="M44.52 63 38.49 53.13H32.1V63H26.66V37H39.65Q44.3 37 46.83 39Q49.35 41 49.35 44.75Q49.35 47.48 47.8 49.46Q46.25 51.45 43.62 52.08L50.65 63ZM43.87 44.97Q43.87 41.23 39.08 41.23H32.1V48.9H39.22Q41.51 48.9 42.69 47.87Q43.87 46.84 43.87 44.97ZM53.95 63V37H59.39V58.79H73.34V63Z" fill="param(outline) #C2410C" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

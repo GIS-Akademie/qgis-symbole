@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Kennzeichen Mitteldruckleitung (MD)</title>
+  <path d="M4,50 L20,50" fill="none" stroke="param(outline) #9A6B00" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="butt" stroke-linejoin="round"/>
+  <path d="M80,50 L96,50" fill="none" stroke="param(outline) #9A6B00" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="butt" stroke-linejoin="round"/>
+  <path d="M44.54 62.37V47.38Q44.54 46.87 44.55 46.36Q44.56 45.85 44.72 41.99Q43.47 46.71 42.87 48.57L38.41 62.37H34.73L30.27 48.57L28.39 41.99Q28.6 46.06 28.6 47.38V62.37H24V37.63H30.93L35.36 51.47L35.74 52.8L36.59 56.12L37.69 52.15L42.24 37.63H49.14V62.37ZM76 49.82Q76 53.64 74.5 56.5Q73 59.35 70.25 60.86Q67.5 62.37 63.96 62.37H53.95V37.63H62.9Q69.15 37.63 72.58 40.78Q76 43.93 76 49.82ZM70.79 49.82Q70.79 45.83 68.71 43.73Q66.64 41.63 62.8 41.63H59.13V58.37H63.52Q66.85 58.37 68.82 56.07Q70.79 53.77 70.79 49.82Z" fill="param(outline) #9A6B00" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

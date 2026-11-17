@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Multifunktionsgehäuse (MFG)</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #DDF0E0" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #1B7F3B" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M35.02 60.86V47.71Q35.02 47.26 35.02 46.81Q35.03 46.37 35.17 42.98Q34.08 47.12 33.55 48.75L29.64 60.86H26.41L22.5 48.75L20.85 42.98Q21.03 46.55 21.03 47.71V60.86H17V39.16H23.08L26.96 51.29L27.3 52.46L28.04 55.37L29.01 51.89L33 39.16H39.05V60.86ZM47.81 42.67V49.38H58.92V52.9H47.81V60.86H43.27V39.16H59.27V42.67ZM72.84 57.61Q74.61 57.61 76.27 57.09Q77.93 56.58 78.84 55.77V52.77H73.55V49.41H83V57.39Q81.28 59.16 78.51 60.16Q75.75 61.16 72.71 61.16Q67.42 61.16 64.57 58.23Q61.72 55.3 61.72 49.91Q61.72 44.55 64.58 41.69Q67.45 38.84 72.82 38.84Q80.46 38.84 82.54 44.49L78.35 45.75Q77.67 44.1 76.22 43.26Q74.78 42.41 72.82 42.41Q69.62 42.41 67.96 44.35Q66.29 46.29 66.29 49.91Q66.29 53.59 68.01 55.6Q69.73 57.61 72.84 57.61Z" fill="param(outline) #1B7F3B" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

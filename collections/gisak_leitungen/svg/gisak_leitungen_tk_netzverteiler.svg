@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Glasfaser-Netzverteiler (NVt)</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #DDF0E0" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #1B7F3B" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M34.79 62.83 23.46 42.81Q23.79 45.73 23.79 47.5V62.83H18.95V36.83H25.17L36.67 57.02Q36.34 54.23 36.34 51.95V36.83H41.17V62.83ZM59.11 62.83H53.59L43.98 36.83H49.66L55.01 53.53Q55.51 55.16 56.38 58.44L56.76 56.86L57.7 53.53L63.04 36.83H68.67ZM76.67 63.17Q74.39 63.17 73.15 61.92Q71.91 60.67 71.91 58.15V46.37H69.38V42.87H72.17L73.79 38.18H77.04V42.87H80.83V46.37H77.04V56.74Q77.04 58.2 77.6 58.89Q78.15 59.59 79.31 59.59Q79.92 59.59 81.05 59.33V62.54Q79.13 63.17 76.67 63.17Z" fill="param(outline) #1B7F3B" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

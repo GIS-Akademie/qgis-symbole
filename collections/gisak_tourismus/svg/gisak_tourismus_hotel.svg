@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Hotel / Pension / Gasthof</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #455A64" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #263238" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M18,28 L18,78" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M82,60 L82,78" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="18" y="56" width="64" height="11" rx="2" fill="#FFFFFF" stroke="none"/>
+  <circle cx="31" cy="46" r="7" fill="#FFFFFF" stroke="none"/>
+  <rect x="42" y="42" width="40" height="14" rx="6" fill="#FFFFFF" stroke="none"/>
+</svg>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Brandmeldezentrale (BMZ)</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #D0021B" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #8B0000" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M36.44 54.71Q36.44 57.7 34.2 59.33Q31.96 60.97 27.97 60.97H17V39.03H27.04Q31.06 39.03 33.12 40.43Q35.18 41.82 35.18 44.54Q35.18 46.41 34.15 47.7Q33.11 48.98 30.99 49.43Q33.66 49.74 35.05 51.11Q36.44 52.47 36.44 54.71ZM30.56 45.17Q30.56 43.69 29.62 43.07Q28.67 42.44 26.82 42.44H21.59V47.88H26.85Q28.8 47.88 29.68 47.2Q30.56 46.52 30.56 45.17ZM31.83 54.35Q31.83 51.27 27.41 51.27H21.59V57.56H27.58Q29.8 57.56 30.81 56.76Q31.83 55.95 31.83 54.35ZM58.23 60.97V47.67Q58.23 47.22 58.24 46.77Q58.25 46.32 58.39 42.89Q57.28 47.08 56.76 48.73L52.8 60.97H49.53L45.58 48.73L43.91 42.89Q44.1 46.51 44.1 47.67V60.97H40.02V39.03H46.17L50.09 51.3L50.44 52.48L51.18 55.42L52.16 51.91L56.2 39.03H62.31V60.97ZM83 60.97H65.39V57.71L77.26 42.63H66.58V39.03H82.36V42.22L70.5 57.37H83Z" fill="#FFFFFF" stroke="none"/>
+</svg>

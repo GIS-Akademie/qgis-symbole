@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Nummer 13 im Kreis</title>
+  <circle cx="50" cy="50" r="42" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #000000" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M23 68.31V62.87H32.08V37.86L23.29 43.35V37.6L32.47 31.64H39.4V62.87H47.8V68.31ZM77 58.13Q77 63.29 73.62 66.1Q70.23 68.91 63.99 68.91Q58.08 68.91 54.59 66.19Q51.11 63.47 50.51 58.34L57.95 57.69Q58.65 62.97 63.96 62.97Q66.59 62.97 68.05 61.67Q69.51 60.37 69.51 57.69Q69.51 55.24 67.74 53.94Q65.97 52.64 62.48 52.64H59.93V46.73H62.32Q65.47 46.73 67.06 45.45Q68.65 44.16 68.65 41.76Q68.65 39.5 67.38 38.21Q66.12 36.92 63.7 36.92Q61.44 36.92 60.05 38.17Q58.65 39.42 58.44 41.71L51.13 41.19Q51.7 36.45 55.06 33.77Q58.42 31.09 63.83 31.09Q69.58 31.09 72.82 33.68Q76.06 36.27 76.06 40.85Q76.06 44.29 74.05 46.5Q72.03 48.71 68.23 49.44V49.54Q72.45 50.04 74.72 52.32Q77 54.59 77 58.13Z" fill="param(outline) #000000" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

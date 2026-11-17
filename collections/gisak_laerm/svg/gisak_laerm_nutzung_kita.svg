@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Schutzbedürftige Nutzung Kindertagesstätte</title>
+  <polygon points="96,50 73,89.84 27,89.84 4,50 27,10.16 73,10.16" fill="param(fill) #EFE3F5" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #5E2B7E" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M33.33 58.91 26.93 50.73 24.73 52.41V58.91H21V41.09H24.73V49.17L32.76 41.09H37.11L29.5 48.63L37.73 58.91ZM39.7 58.91V41.09H43.43V58.91ZM54.94 43.97V58.91H51.21V43.97H45.45V41.09H60.7V43.97ZM75.31 58.91 73.73 54.36H66.94L65.36 58.91H61.63L68.13 41.09H72.53L79 58.91ZM70.33 43.84 70.25 44.11Q70.12 44.57 69.95 45.15Q69.77 45.73 67.77 51.55H72.89L71.14 46.43L70.59 44.71Z" fill="param(outline) #5E2B7E" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

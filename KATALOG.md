@@ -167,6 +167,97 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | PlanZV: Räumlicher Geltungsbereich | Fläche |
 | PlanZV: Räumlicher Geltungsbereich, farbig | Fläche |
 
+## Raumordnung und Regionalplanung (`gisak_raumordnung`, 40 Symbole)
+
+| Datei | Bedeutung |
+|---|---|
+| `gisak_raumordnung_oberzentrum.svg` | Oberzentrum |
+| `gisak_raumordnung_mittelzentrum.svg` | Mittelzentrum |
+| `gisak_raumordnung_mittelzentrum_teilfunktion.svg` | Mittelzentrum mit Teilfunktionen eines Oberzentrums |
+| `gisak_raumordnung_grundzentrum.svg` | Grundzentrum / Unterzentrum |
+| `gisak_raumordnung_grundzentrum_teilfunktion.svg` | Grundzentrum mit Teilfunktionen eines Mittelzentrums |
+| `gisak_raumordnung_kleinzentrum.svg` | Kleinzentrum |
+| `gisak_raumordnung_doppelzentrum.svg` | Doppelzentrum / Zentren im Verbund |
+| `gisak_raumordnung_siedlungsschwerpunkt.svg` | Siedlungsschwerpunkt |
+| `gisak_raumordnung_entwicklungsschwerpunkt.svg` | Entwicklungsschwerpunkt |
+| `gisak_raumordnung_gewerbestandort.svg` | Gewerbe- und Industriestandort, regional bedeutsam |
+| `gisak_raumordnung_logistikstandort.svg` | Logistikstandort / Güterverkehrszentrum |
+| `gisak_raumordnung_einzelhandel.svg` | Standort für großflächigen Einzelhandel |
+| `gisak_raumordnung_hochschule.svg` | Hochschul- und Forschungsstandort |
+| `gisak_raumordnung_krankenhaus.svg` | Krankenhaus / Gesundheitsstandort |
+| `gisak_raumordnung_tourismusschwerpunkt.svg` | Tourismusschwerpunkt |
+| `gisak_raumordnung_kurort.svg` | Kurort / Heilbad |
+| `gisak_raumordnung_messe.svg` | Messe- und Kongressstandort |
+| `gisak_raumordnung_militaer.svg` | Militärischer Standort / Konversionsfläche |
+| `gisak_raumordnung_flughafen.svg` | Flughafen |
+| `gisak_raumordnung_verkehrslandeplatz.svg` | Verkehrslandeplatz |
+| `gisak_raumordnung_hafen.svg` | Hafen |
+| `gisak_raumordnung_bahnhof_fernverkehr.svg` | Bahnhof des Fernverkehrs |
+| `gisak_raumordnung_bahnhof_regionalverkehr.svg` | Bahnhof des Regionalverkehrs |
+| `gisak_raumordnung_anschlussstelle.svg` | Anschlussstelle |
+| `gisak_raumordnung_umspannwerk.svg` | Umspannwerk |
+| `gisak_raumordnung_kraftwerk.svg` | Kraftwerk |
+| `gisak_raumordnung_windenergie.svg` | Standort Windenergie |
+| `gisak_raumordnung_solarenergie.svg` | Standort Solarenergie |
+| `gisak_raumordnung_wasserwerk.svg` | Wasserwerk |
+| `gisak_raumordnung_klaeranlage.svg` | Kläranlage |
+| `gisak_raumordnung_deponie.svg` | Deponie / Abfallbehandlung |
+| `gisak_raumordnung_rohstoffabbau.svg` | Rohstoffabbau |
+| `gisak_raumordnung_naturpark.svg` | Naturpark / Großschutzgebiet |
+| `gisak_raumordnung_gruenzug.svg` | Regionaler Grünzug (Hinweis) |
+| `gisak_raumordnung_hochwasserrueckhaltung.svg` | Hochwasserrückhaltung |
+| `gisak_raumordnung_trinkwassergewinnung.svg` | Trinkwassergewinnung |
+| `gisak_raumordnung_kennzeichen_ziel.svg` | Kennzeichen Z: Ziel der Raumordnung |
+| `gisak_raumordnung_kennzeichen_grundsatz.svg` | Kennzeichen G: Grundsatz der Raumordnung |
+| `gisak_raumordnung_kennzeichen_nachrichtlich.svg` | Kennzeichen N: nachrichtliche Übernahme |
+| `gisak_raumordnung_kennzeichen_vorschlag.svg` | Kennzeichen V: Vorschlag |
+
+### Raumordnung und Regionalplanung: Linien und Flächen (41 Symbole)
+
+| Symbol in QGIS | Art |
+|---|---|
+| Raumordnung und Regionalplanung: Landesgrenze | Linie |
+| Raumordnung und Regionalplanung: Regionsgrenze, Grenze des Planungsraums | Linie |
+| Raumordnung und Regionalplanung: Kreisgrenze | Linie |
+| Raumordnung und Regionalplanung: Grenze des Verdichtungsraums | Linie |
+| Raumordnung und Regionalplanung: Entwicklungsachse überregional | Linie |
+| Raumordnung und Regionalplanung: Entwicklungsachse regional | Linie |
+| Raumordnung und Regionalplanung: Straße regional bedeutsam, Bestand | Linie |
+| Raumordnung und Regionalplanung: Straße regional bedeutsam, Planung | Linie |
+| Raumordnung und Regionalplanung: Schienenstrecke, Bestand | Linie |
+| Raumordnung und Regionalplanung: Schienenstrecke, Planung | Linie |
+| Raumordnung und Regionalplanung: Trassenkorridor Leitung | Linie |
+| Raumordnung und Regionalplanung: Hochspannungsleitung | Linie |
+| Raumordnung und Regionalplanung: Grünzäsur | Linie |
+| Raumordnung und Regionalplanung: Siedlungsbegrenzung | Linie |
+| Raumordnung und Regionalplanung: Vorranggebiet Natur und Landschaft | Fläche |
+| Raumordnung und Regionalplanung: Vorbehaltsgebiet Natur und Landschaft | Fläche |
+| Raumordnung und Regionalplanung: Vorranggebiet Landwirtschaft | Fläche |
+| Raumordnung und Regionalplanung: Vorbehaltsgebiet Landwirtschaft | Fläche |
+| Raumordnung und Regionalplanung: Vorranggebiet Forstwirtschaft, Wald | Fläche |
+| Raumordnung und Regionalplanung: Vorbehaltsgebiet Forstwirtschaft, Wald | Fläche |
+| Raumordnung und Regionalplanung: Vorranggebiet Rohstoffsicherung | Fläche |
+| Raumordnung und Regionalplanung: Vorbehaltsgebiet Rohstoffsicherung | Fläche |
+| Raumordnung und Regionalplanung: Vorranggebiet Wasserwirtschaft, Trinkwasser | Fläche |
+| Raumordnung und Regionalplanung: Vorbehaltsgebiet Wasserwirtschaft, Trinkwasser | Fläche |
+| Raumordnung und Regionalplanung: Vorranggebiet Hochwasserschutz | Fläche |
+| Raumordnung und Regionalplanung: Vorbehaltsgebiet Hochwasserschutz | Fläche |
+| Raumordnung und Regionalplanung: Vorranggebiet Windenergie | Fläche |
+| Raumordnung und Regionalplanung: Vorbehaltsgebiet Windenergie | Fläche |
+| Raumordnung und Regionalplanung: Vorranggebiet Solarenergie | Fläche |
+| Raumordnung und Regionalplanung: Vorbehaltsgebiet Solarenergie | Fläche |
+| Raumordnung und Regionalplanung: Vorranggebiet Erholung, Tourismus | Fläche |
+| Raumordnung und Regionalplanung: Vorbehaltsgebiet Erholung, Tourismus | Fläche |
+| Raumordnung und Regionalplanung: Vorranggebiet Siedlung (Allgemeiner Siedlungsbereich) | Fläche |
+| Raumordnung und Regionalplanung: Vorbehaltsgebiet Siedlung | Fläche |
+| Raumordnung und Regionalplanung: Vorranggebiet Gewerbe und Industrie | Fläche |
+| Raumordnung und Regionalplanung: Vorbehaltsgebiet Gewerbe und Industrie | Fläche |
+| Raumordnung und Regionalplanung: Regionaler Grünzug | Fläche |
+| Raumordnung und Regionalplanung: Verdichtungsraum | Fläche |
+| Raumordnung und Regionalplanung: Ländlicher Raum | Fläche |
+| Raumordnung und Regionalplanung: Eignungsgebiet | Fläche |
+| Raumordnung und Regionalplanung: Ausschlussgebiet | Fläche |
+
 ## Strom (`gisak_strom`, 51 Symbole)
 
 | Datei | Bedeutung |
@@ -249,6 +340,84 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | Strom: Kabelgraben, Baufeld | Fläche |
 | Strom: Störungsgebiet | Fläche |
 
+## Gas, Fernwärme, Telekommunikation (`gisak_leitungen`, 43 Symbole)
+
+| Datei | Bedeutung |
+|---|---|
+| `gisak_leitungen_gas_druckregelanlage.svg` | Gasdruckregelanlage (GDRA) |
+| `gisak_leitungen_gas_uebergabestation.svg` | Gas-Übergabestation / Übernahmestation |
+| `gisak_leitungen_gas_verdichter.svg` | Verdichterstation |
+| `gisak_leitungen_gas_speicher.svg` | Gasspeicher |
+| `gisak_leitungen_gas_odorieranlage.svg` | Odorieranlage |
+| `gisak_leitungen_gas_biogaseinspeisung.svg` | Biogaseinspeisung |
+| `gisak_leitungen_gas_wasserstoff.svg` | Wasserstoff-Einspeisung / Wasserstoffanlage |
+| `gisak_leitungen_gas_messstelle.svg` | Gasmessstelle / Gaszähler |
+| `gisak_leitungen_gas_kathodenschutz.svg` | Kathodischer Korrosionsschutz (Messstelle, Schutzanlage) |
+| `gisak_leitungen_gas_ausblaeser.svg` | Ausbläser |
+| `gisak_leitungen_gas_absperrarmatur.svg` | Gas-Absperrarmatur / Schieber |
+| `gisak_leitungen_gas_kugelhahn.svg` | Gas-Kugelhahn |
+| `gisak_leitungen_gas_isolierstueck.svg` | Isolierstück / Isolierflansch |
+| `gisak_leitungen_gas_molchschleuse.svg` | Molchschleuse |
+| `gisak_leitungen_gas_hausanschluss.svg` | Gas-Hausanschluss |
+| `gisak_leitungen_gas_leitung_nd.svg` | Kennzeichen Niederdruckleitung (ND) |
+| `gisak_leitungen_gas_leitung_md.svg` | Kennzeichen Mitteldruckleitung (MD) |
+| `gisak_leitungen_gas_leitung_hd.svg` | Kennzeichen Hochdruckleitung (HD) |
+| `gisak_leitungen_fw_heizwerk.svg` | Heizwerk / Heizkraftwerk |
+| `gisak_leitungen_fw_uebergabestation.svg` | Fernwärme-Übergabestation (Wärmetauscher) |
+| `gisak_leitungen_fw_pumpstation.svg` | Pumpstation / Druckerhöhung |
+| `gisak_leitungen_fw_speicher.svg` | Wärmespeicher |
+| `gisak_leitungen_fw_hausstation.svg` | Hausstation / Hausübergabestation |
+| `gisak_leitungen_fw_messstelle.svg` | Messstelle (Temperatur, Druck, Leckwarnung) |
+| `gisak_leitungen_fw_absperrarmatur.svg` | Fernwärme-Absperrarmatur |
+| `gisak_leitungen_fw_schacht.svg` | Fernwärmeschacht |
+| `gisak_leitungen_fw_kompensator.svg` | Kompensator (Axialkompensator) |
+| `gisak_leitungen_fw_dehnungsbogen.svg` | Dehnungsbogen (U-Bogen) |
+| `gisak_leitungen_fw_festpunkt.svg` | Festpunkt |
+| `gisak_leitungen_fw_vorlauf.svg` | Kennzeichen Vorlauf (VL) |
+| `gisak_leitungen_fw_ruecklauf.svg` | Kennzeichen Rücklauf (RL) |
+| `gisak_leitungen_tk_vermittlungsstelle.svg` | Vermittlungsstelle / Hauptverteiler (HVt) |
+| `gisak_leitungen_tk_kabelverzweiger.svg` | Kabelverzweiger (KVz) |
+| `gisak_leitungen_tk_multifunktionsgehaeuse.svg` | Multifunktionsgehäuse (MFG) |
+| `gisak_leitungen_tk_glasfaser_pop.svg` | Glasfaser-PoP (Point of Presence) |
+| `gisak_leitungen_tk_netzverteiler.svg` | Glasfaser-Netzverteiler (NVt) |
+| `gisak_leitungen_tk_funkmast.svg` | Funkmast / Mobilfunkstandort |
+| `gisak_leitungen_tk_richtfunk.svg` | Richtfunkstation |
+| `gisak_leitungen_tk_wlan.svg` | WLAN-Zugangspunkt |
+| `gisak_leitungen_tk_muffe.svg` | Muffe |
+| `gisak_leitungen_tk_schacht.svg` | Kabelschacht |
+| `gisak_leitungen_tk_hausanschluss.svg` | Hausanschluss / Abschlusspunkt Linientechnik (APL) |
+| `gisak_leitungen_tk_leerrohr.svg` | Leerrohr / Rohrverband (Rohrende) |
+
+### Gas, Fernwärme, Telekommunikation: Linien und Flächen (25 Symbole)
+
+| Symbol in QGIS | Art |
+|---|---|
+| Gas, Fernwärme, Telekommunikation: Gasleitung Hochdruck (HD) | Linie |
+| Gas, Fernwärme, Telekommunikation: Gasleitung Mitteldruck (MD) | Linie |
+| Gas, Fernwärme, Telekommunikation: Gasleitung Niederdruck (ND) | Linie |
+| Gas, Fernwärme, Telekommunikation: Gasleitung geplant | Linie |
+| Gas, Fernwärme, Telekommunikation: Gasleitung stillgelegt | Linie |
+| Gas, Fernwärme, Telekommunikation: Fernwärme Vorlauf | Linie |
+| Gas, Fernwärme, Telekommunikation: Fernwärme Rücklauf | Linie |
+| Gas, Fernwärme, Telekommunikation: Fernwärme Doppelrohr | Linie |
+| Gas, Fernwärme, Telekommunikation: Fernwärmeleitung geplant | Linie |
+| Gas, Fernwärme, Telekommunikation: Glasfaserkabel | Linie |
+| Gas, Fernwärme, Telekommunikation: Glasfaserkabel geplant | Linie |
+| Gas, Fernwärme, Telekommunikation: Kupferkabel | Linie |
+| Gas, Fernwärme, Telekommunikation: Leerrohr | Linie |
+| Gas, Fernwärme, Telekommunikation: Richtfunkstrecke | Linie |
+| Gas, Fernwärme, Telekommunikation: Schutzstreifen Gasleitung | Fläche |
+| Gas, Fernwärme, Telekommunikation: Schutzstreifen Fernwärmeleitung | Fläche |
+| Gas, Fernwärme, Telekommunikation: Schutzstreifen Telekommunikation | Fläche |
+| Gas, Fernwärme, Telekommunikation: Versorgungsgebiet Gas | Fläche |
+| Gas, Fernwärme, Telekommunikation: Versorgungsgebiet Fernwärme | Fläche |
+| Gas, Fernwärme, Telekommunikation: Versorgungsgebiet Fernwärme geplant | Fläche |
+| Gas, Fernwärme, Telekommunikation: Ausbaugebiet Glasfaser (Bestand) | Fläche |
+| Gas, Fernwärme, Telekommunikation: Ausbaugebiet Glasfaser (geplant) | Fläche |
+| Gas, Fernwärme, Telekommunikation: Betriebsgelände Gas | Fläche |
+| Gas, Fernwärme, Telekommunikation: Betriebsgelände Fernwärme | Fläche |
+| Gas, Fernwärme, Telekommunikation: Betriebsgelände Telekommunikation | Fläche |
+
 ## Erneuerbare Energien (`gisak_eeg`, 43 Symbole)
 
 | Datei | Bedeutung |
@@ -325,6 +494,253 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | Erneuerbare Energien: Abstandszone | Fläche |
 | Erneuerbare Energien: Schattenwurfbereich | Fläche |
 | Erneuerbare Energien: Ausgleichsfläche | Fläche |
+
+## Wasserwirtschaft (`gisak_wasser`, 59 Symbole)
+
+| Datei | Bedeutung |
+|---|---|
+| `gisak_wasser_pegel.svg` | Pegel / Wasserstandsmessstelle |
+| `gisak_wasser_abflussmessstelle.svg` | Abflussmessstelle |
+| `gisak_wasser_grundwassermessstelle.svg` | Grundwassermessstelle |
+| `gisak_wasser_guetemessstelle.svg` | Gütemessstelle / Probenahmestelle |
+| `gisak_wasser_niederschlagsmessstelle.svg` | Niederschlagsmessstelle |
+| `gisak_wasser_brunnen.svg` | Brunnen |
+| `gisak_wasser_trinkwasserentnahme.svg` | Trinkwasserentnahme / Wasserfassung |
+| `gisak_wasser_wasserwerk.svg` | Wasserwerk |
+| `gisak_wasser_hochbehaelter.svg` | Hochbehälter |
+| `gisak_wasser_wasserturm.svg` | Wasserturm |
+| `gisak_wasser_pumpwerk.svg` | Pumpwerk |
+| `gisak_wasser_druckerhoehungsanlage.svg` | Druckerhöhungsanlage |
+| `gisak_wasser_klaeranlage.svg` | Kläranlage |
+| `gisak_wasser_kleinklaeranlage.svg` | Kleinkläranlage |
+| `gisak_wasser_regenueberlauf.svg` | Regenüberlauf |
+| `gisak_wasser_regenueberlaufbecken.svg` | Regenüberlaufbecken |
+| `gisak_wasser_regenrueckhaltebecken.svg` | Regenrückhaltebecken |
+| `gisak_wasser_regenklaerbecken.svg` | Regenklärbecken |
+| `gisak_wasser_hochwasserrueckhaltebecken.svg` | Hochwasserrückhaltebecken |
+| `gisak_wasser_versickerungsanlage.svg` | Versickerungsanlage / Mulde |
+| `gisak_wasser_abscheider.svg` | Abscheider (Leichtflüssigkeit, Fett) |
+| `gisak_wasser_loeschwasserentnahme.svg` | Löschwasserentnahmestelle |
+| `gisak_wasser_trinkbrunnen.svg` | Trinkbrunnen / Zapfstelle |
+| `gisak_wasser_schieber.svg` | Schieber / Absperrarmatur |
+| `gisak_wasser_absperrklappe.svg` | Absperrklappe |
+| `gisak_wasser_rueckflussverhinderer.svg` | Rückflussverhinderer |
+| `gisak_wasser_druckminderer.svg` | Druckminderer |
+| `gisak_wasser_hydrant_unterflur.svg` | Unterflurhydrant |
+| `gisak_wasser_hydrant_ueberflur.svg` | Überflurhydrant |
+| `gisak_wasser_entlueftung.svg` | Be- und Entlüftungsventil |
+| `gisak_wasser_entleerung.svg` | Entleerung / Spülauslass |
+| `gisak_wasser_wasserzaehler.svg` | Wasserzähler |
+| `gisak_wasser_hausanschluss.svg` | Hausanschluss |
+| `gisak_wasser_reduzierung.svg` | Reduzierung / Übergangsstück |
+| `gisak_wasser_endkappe.svg` | Leitungsende / Endkappe |
+| `gisak_wasser_rohrbruch.svg` | Rohrbruch / Schadstelle |
+| `gisak_wasser_schacht.svg` | Schacht |
+| `gisak_wasser_strassenablauf.svg` | Straßenablauf |
+| `gisak_wasser_einleitstelle.svg` | Einleitstelle / Auslauf |
+| `gisak_wasser_dueker.svg` | Düker |
+| `gisak_wasser_drosselbauwerk.svg` | Drosselbauwerk |
+| `gisak_wasser_wehr.svg` | Wehr / Querbauwerk |
+| `gisak_wasser_schleuse.svg` | Schleuse |
+| `gisak_wasser_sohlgleite.svg` | Sohlgleite / Sohlrampe |
+| `gisak_wasser_durchlass.svg` | Durchlass |
+| `gisak_wasser_fischaufstieg.svg` | Fischaufstiegsanlage |
+| `gisak_wasser_schoepfwerk.svg` | Schöpfwerk |
+| `gisak_wasser_talsperre.svg` | Talsperre / Staudamm |
+| `gisak_wasser_hochwassermarke.svg` | Hochwassermarke / Wasserstand |
+| `gisak_wasser_furt.svg` | Furt |
+| `gisak_wasser_quelle.svg` | Quelle |
+| `gisak_wasser_badestelle.svg` | Badestelle / Badegewässer |
+| `gisak_wasser_wasserschutzgebiet.svg` | Wasserschutzgebiet |
+| `gisak_wasser_wasserschutzgebiet_zone_1.svg` | Wasserschutzgebiet Zone I (Fassungsbereich) |
+| `gisak_wasser_wasserschutzgebiet_zone_2.svg` | Wasserschutzgebiet Zone II (engere Schutzzone) |
+| `gisak_wasser_wasserschutzgebiet_zone_3.svg` | Wasserschutzgebiet Zone III (weitere Schutzzone) |
+| `gisak_wasser_heilquellenschutzgebiet.svg` | Heilquellenschutzgebiet |
+| `gisak_wasser_ueberschwemmungsgebiet.svg` | Überschwemmungsgebiet |
+| `gisak_wasser_hochwasserrisikogebiet.svg` | Hochwasserrisikogebiet (HQ100) |
+
+### Wasserwirtschaft: Linien und Flächen (27 Symbole)
+
+| Symbol in QGIS | Art |
+|---|---|
+| Wasserwirtschaft: Trinkwasser-Hauptleitung | Linie |
+| Wasserwirtschaft: Trinkwasser-Versorgungsleitung | Linie |
+| Wasserwirtschaft: Trinkwasser-Hausanschluss | Linie |
+| Wasserwirtschaft: Rohwasserleitung | Linie |
+| Wasserwirtschaft: Leitung geplant | Linie |
+| Wasserwirtschaft: Leitung stillgelegt | Linie |
+| Wasserwirtschaft: Schmutzwasserkanal | Linie |
+| Wasserwirtschaft: Regenwasserkanal | Linie |
+| Wasserwirtschaft: Mischwasserkanal | Linie |
+| Wasserwirtschaft: Abwasserdruckleitung | Linie |
+| Wasserwirtschaft: Fließgewässer | Linie |
+| Wasserwirtschaft: Graben | Linie |
+| Wasserwirtschaft: Verrohrtes Gewässer | Linie |
+| Wasserwirtschaft: Deich | Linie |
+| Wasserwirtschaft: Gewässerfläche | Fläche |
+| Wasserwirtschaft: Wasserschutzgebiet Zone I | Fläche |
+| Wasserwirtschaft: Wasserschutzgebiet Zone II | Fläche |
+| Wasserwirtschaft: Wasserschutzgebiet Zone III | Fläche |
+| Wasserwirtschaft: Heilquellenschutzgebiet | Fläche |
+| Wasserwirtschaft: Überschwemmungsgebiet | Fläche |
+| Wasserwirtschaft: Hochwasserrisikogebiet | Fläche |
+| Wasserwirtschaft: Einzugsgebiet | Fläche |
+| Wasserwirtschaft: Versorgungsgebiet, Druckzone | Fläche |
+| Wasserwirtschaft: Entwässerungsgebiet Mischsystem | Fläche |
+| Wasserwirtschaft: Entwässerungsgebiet Trennsystem | Fläche |
+| Wasserwirtschaft: Rückhaltebecken, Anlagenfläche | Fläche |
+| Wasserwirtschaft: Versickerungsfläche | Fläche |
+
+## Boden, Altlasten und Geologie (`gisak_boden`, 44 Symbole)
+
+| Datei | Bedeutung |
+|---|---|
+| `gisak_boden_bohrung.svg` | Bohrung |
+| `gisak_boden_kernbohrung.svg` | Kernbohrung |
+| `gisak_boden_rammkernsondierung.svg` | Rammkernsondierung |
+| `gisak_boden_schurf.svg` | Schurf |
+| `gisak_boden_bodenprofil.svg` | Bodenprofil / Profilgrube |
+| `gisak_boden_bodendauerbeobachtung.svg` | Boden-Dauerbeobachtungsfläche |
+| `gisak_boden_bodenluftmessstelle.svg` | Bodenluftmessstelle |
+| `gisak_boden_sickerwassermessstelle.svg` | Sickerwassermessstelle |
+| `gisak_boden_probenahmepunkt.svg` | Probenahmepunkt |
+| `gisak_boden_grundwasseraufschluss.svg` | Grundwasseraufschluss |
+| `gisak_boden_altablagerung.svg` | Altablagerung |
+| `gisak_boden_altstandort.svg` | Altstandort |
+| `gisak_boden_verdachtsflaeche.svg` | Altlastverdächtige Fläche / Verdachtsfläche |
+| `gisak_boden_sanierte_flaeche.svg` | Sanierte Fläche |
+| `gisak_boden_sanierung_laufend.svg` | Sanierung laufend |
+| `gisak_boden_kampfmittelverdacht.svg` | Kampfmittelverdacht |
+| `gisak_boden_grundwasserschaden.svg` | Grundwasserverunreinigung |
+| `gisak_boden_deponie.svg` | Deponie |
+| `gisak_boden_bodenaushub.svg` | Bodenaushub / Zwischenlager |
+| `gisak_boden_bodenschutzgebiet.svg` | Bodenschutzgebiet / Bodenplanungsgebiet |
+| `gisak_boden_schutzwuerdiger_boden.svg` | Schutzwürdiger Boden |
+| `gisak_boden_archivboden.svg` | Archivboden (Natur- und Kulturgeschichte) |
+| `gisak_boden_erosion_wasser.svg` | Erosionsgefährdung durch Wasser |
+| `gisak_boden_erosion_wind.svg` | Erosionsgefährdung durch Wind |
+| `gisak_boden_verdichtung.svg` | Bodenverdichtung |
+| `gisak_boden_versiegelung.svg` | Versiegelung |
+| `gisak_boden_entsiegelung.svg` | Entsiegelung |
+| `gisak_boden_moorboden.svg` | Moorboden |
+| `gisak_boden_geotop.svg` | Geotop |
+| `gisak_boden_steinbruch.svg` | Steinbruch / Aufschluss |
+| `gisak_boden_kiesgrube.svg` | Kiesgrube |
+| `gisak_boden_sandgrube.svg` | Sandgrube |
+| `gisak_boden_tongrube.svg` | Tongrube |
+| `gisak_boden_torfabbau.svg` | Torfabbau |
+| `gisak_boden_bergwerk.svg` | Bergwerk in Betrieb |
+| `gisak_boden_bergwerk_stillgelegt.svg` | Bergwerk stillgelegt |
+| `gisak_boden_stollenmundloch.svg` | Stollenmundloch |
+| `gisak_boden_schacht.svg` | Schacht (Bergbau) |
+| `gisak_boden_halde.svg` | Halde |
+| `gisak_boden_erdfall.svg` | Erdfall / Doline |
+| `gisak_boden_rutschung.svg` | Rutschung / Massenbewegung |
+| `gisak_boden_stoerung.svg` | Geologische Störung |
+| `gisak_boden_erdbebenmessstation.svg` | Erdbebenmessstation / Seismometer |
+| `gisak_boden_erdwaermesonde.svg` | Erdwärmesonde |
+
+### Boden, Altlasten und Geologie: Linien und Flächen (25 Symbole)
+
+| Symbol in QGIS | Art |
+|---|---|
+| Boden, Altlasten und Geologie: Geologische Störung, nachgewiesen | Linie |
+| Boden, Altlasten und Geologie: Geologische Störung, vermutet | Linie |
+| Boden, Altlasten und Geologie: Schichtgrenze | Linie |
+| Boden, Altlasten und Geologie: Schichtgrenze, vermutet | Linie |
+| Boden, Altlasten und Geologie: Abbaukante | Linie |
+| Boden, Altlasten und Geologie: Rutschungskante, Abrisskante | Linie |
+| Boden, Altlasten und Geologie: Erosionsrinne | Linie |
+| Boden, Altlasten und Geologie: Grenze Altlastenfläche | Linie |
+| Boden, Altlasten und Geologie: Grenze Verdachtsfläche | Linie |
+| Boden, Altlasten und Geologie: Grenze Bodenschutzgebiet | Linie |
+| Boden, Altlasten und Geologie: Profilschnitt | Linie |
+| Boden, Altlasten und Geologie: Altablagerung | Fläche |
+| Boden, Altlasten und Geologie: Altstandort | Fläche |
+| Boden, Altlasten und Geologie: Altlastverdächtige Fläche | Fläche |
+| Boden, Altlasten und Geologie: Sanierte Fläche | Fläche |
+| Boden, Altlasten und Geologie: Abbaufläche | Fläche |
+| Boden, Altlasten und Geologie: Rohstoffsicherungsfläche | Fläche |
+| Boden, Altlasten und Geologie: Schutzwürdiger Boden | Fläche |
+| Boden, Altlasten und Geologie: Erosionsgefährdete Fläche | Fläche |
+| Boden, Altlasten und Geologie: Auffüllung | Fläche |
+| Boden, Altlasten und Geologie: Moorboden, Torf | Fläche |
+| Boden, Altlasten und Geologie: Bodenart Sand | Fläche |
+| Boden, Altlasten und Geologie: Bodenart Kies | Fläche |
+| Boden, Altlasten und Geologie: Bodenart Ton | Fläche |
+| Boden, Altlasten und Geologie: Bodenart Schluff | Fläche |
+
+## Lärm und Immissionen (`gisak_laerm`, 38 Symbole)
+
+| Datei | Bedeutung |
+|---|---|
+| `gisak_laerm_immissionsort.svg` | Immissionsort |
+| `gisak_laerm_immissionsort_massgeblich.svg` | Maßgeblicher Immissionsort |
+| `gisak_laerm_messpunkt_schall.svg` | Messpunkt Schall |
+| `gisak_laerm_dauermessstation.svg` | Dauermessstation Schall |
+| `gisak_laerm_luftmessstation.svg` | Luftmessstation |
+| `gisak_laerm_erschuetterungsmesspunkt.svg` | Erschütterungsmesspunkt |
+| `gisak_laerm_geruchsmesspunkt.svg` | Geruchsmesspunkt |
+| `gisak_laerm_staubmesspunkt.svg` | Staubmesspunkt |
+| `gisak_laerm_lichtimmission.svg` | Messpunkt Lichtimmission |
+| `gisak_laerm_wetterstation.svg` | Wetterstation |
+| `gisak_laerm_punktquelle.svg` | Punktquelle / Schallquelle allgemein |
+| `gisak_laerm_quelle_strasse.svg` | Lärmquelle Straße |
+| `gisak_laerm_quelle_schiene.svg` | Lärmquelle Schiene |
+| `gisak_laerm_quelle_flug.svg` | Lärmquelle Flugverkehr |
+| `gisak_laerm_quelle_gewerbe.svg` | Lärmquelle Industrie und Gewerbe |
+| `gisak_laerm_quelle_sport.svg` | Sportanlage |
+| `gisak_laerm_quelle_freizeit.svg` | Freizeitanlage / Veranstaltung |
+| `gisak_laerm_quelle_baustelle.svg` | Baustelle |
+| `gisak_laerm_quelle_wea.svg` | Windenergieanlage |
+| `gisak_laerm_quelle_schornstein.svg` | Schornstein / Emissionsquelle |
+| `gisak_laerm_quelle_tierhaltung.svg` | Tierhaltung / Geruchsquelle |
+| `gisak_laerm_quelle_lueftung.svg` | Lüftungsanlage / haustechnische Anlage |
+| `gisak_laerm_laermschutzwand.svg` | Lärmschutzwand |
+| `gisak_laerm_laermschutzwall.svg` | Lärmschutzwall |
+| `gisak_laerm_passiver_schallschutz.svg` | Passiver Schallschutz / Schallschutzfenster |
+| `gisak_laerm_fahrbahnbelag.svg` | Lärmmindernder Fahrbahnbelag |
+| `gisak_laerm_tempolimit.svg` | Geschwindigkeitsbeschränkung aus Lärmschutzgründen |
+| `gisak_laerm_laermminderung.svg` | Lärmminderungsmaßnahme / Lärmsanierung |
+| `gisak_laerm_laermbrennpunkt.svg` | Lärmbrennpunkt / Hotspot |
+| `gisak_laerm_nutzung_wohnen.svg` | Schutzbedürftige Nutzung Wohnen |
+| `gisak_laerm_nutzung_schule.svg` | Schutzbedürftige Nutzung Schule |
+| `gisak_laerm_nutzung_kita.svg` | Schutzbedürftige Nutzung Kindertagesstätte |
+| `gisak_laerm_nutzung_krankenhaus.svg` | Schutzbedürftige Nutzung Krankenhaus |
+| `gisak_laerm_nutzung_kurgebiet.svg` | Kurgebiet |
+| `gisak_laerm_ruhiges_gebiet.svg` | Ruhiges Gebiet |
+| `gisak_laerm_schallausbreitung.svg` | Schallausbreitungsrichtung |
+| `gisak_laerm_reflexion.svg` | Reflexion |
+| `gisak_laerm_abschirmkante.svg` | Abschirmkante / Beugungskante |
+
+### Lärm und Immissionen: Linien und Flächen (24 Symbole)
+
+| Symbol in QGIS | Art |
+|---|---|
+| Lärm und Immissionen: Lärmschutzwand | Linie |
+| Lärm und Immissionen: Lärmschutzwand, geplant | Linie |
+| Lärm und Immissionen: Lärmschutzwall | Linie |
+| Lärm und Immissionen: Lärmschutzwall, geplant | Linie |
+| Lärm und Immissionen: Isophone, Hauptlinie | Linie |
+| Lärm und Immissionen: Isophone, Zwischenlinie | Linie |
+| Lärm und Immissionen: Emissionsband Straße | Linie |
+| Lärm und Immissionen: Emissionsband Schiene | Linie |
+| Lärm und Immissionen: Grenze Lärmschutzbereich | Linie |
+| Lärm und Immissionen: Baugrenze aus Lärmschutzgründen | Linie |
+| Lärm und Immissionen: Schallausbreitungsweg | Linie |
+| Lärm und Immissionen: Pegelklasse ab 45 bis 49 dB(A), nur LNight | Fläche |
+| Lärm und Immissionen: Pegelklasse ab 50 bis 54 dB(A), nur LNight | Fläche |
+| Lärm und Immissionen: Pegelklasse ab 55 bis 59 dB(A) | Fläche |
+| Lärm und Immissionen: Pegelklasse ab 60 bis 64 dB(A) | Fläche |
+| Lärm und Immissionen: Pegelklasse ab 65 bis 69 dB(A) | Fläche |
+| Lärm und Immissionen: Pegelklasse ab 70 bis 74 dB(A), LNight ab 70 dB(A) | Fläche |
+| Lärm und Immissionen: Pegelklasse ab 75 dB(A), nur LDEN | Fläche |
+| Lärm und Immissionen: Ruhiges Gebiet | Fläche |
+| Lärm und Immissionen: Lärmschutzbereich Tag-Schutzzone 1 | Fläche |
+| Lärm und Immissionen: Lärmschutzbereich Tag-Schutzzone 2 | Fläche |
+| Lärm und Immissionen: Lärmschutzbereich Nacht-Schutzzone | Fläche |
+| Lärm und Immissionen: Geruchsimmissionsbereich | Fläche |
+| Lärm und Immissionen: Richtwertüberschreitung | Fläche |
 
 ## Naturschutz (`gisak_naturschutz`, 58 Symbole)
 
@@ -525,6 +941,166 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | Landschaftsplanung: Sukzessionsfläche | Fläche |
 | Landschaftsplanung: Entsiegelungsfläche | Fläche |
 
+## Forst (`gisak_forst`, 45 Symbole)
+
+| Datei | Bedeutung |
+|---|---|
+| `gisak_forst_laubholz.svg` | Laubholz |
+| `gisak_forst_nadelholz.svg` | Nadelholz |
+| `gisak_forst_mischbestand.svg` | Mischbestand |
+| `gisak_forst_fichte.svg` | Fichte (Fi) |
+| `gisak_forst_kiefer.svg` | Kiefer (Ki) |
+| `gisak_forst_tanne.svg` | Tanne (Ta) |
+| `gisak_forst_douglasie.svg` | Douglasie (Dgl) |
+| `gisak_forst_laerche.svg` | Lärche (Lä) |
+| `gisak_forst_buche.svg` | Buche (Bu) |
+| `gisak_forst_eiche.svg` | Eiche (Ei) |
+| `gisak_forst_edellaubholz.svg` | Edellaubholz (ELh) |
+| `gisak_forst_weichlaubholz.svg` | Weichlaubholz (WLh) |
+| `gisak_forst_verjuengung.svg` | Verjüngung / Naturverjüngung |
+| `gisak_forst_kultur.svg` | Kultur / Pflanzung |
+| `gisak_forst_dickung.svg` | Dickung |
+| `gisak_forst_stangenholz.svg` | Stangenholz |
+| `gisak_forst_altholz.svg` | Altholz / Altbestand |
+| `gisak_forst_bloesse.svg` | Blöße |
+| `gisak_forst_windwurf.svg` | Windwurf / Sturmschaden |
+| `gisak_forst_kaeferholz.svg` | Käferholz / Kalamität |
+| `gisak_forst_forsthaus.svg` | Forsthaus / Forstbetriebshof |
+| `gisak_forst_holzpolter.svg` | Holzlagerplatz / Polter |
+| `gisak_forst_nasslager.svg` | Nasslager |
+| `gisak_forst_wendeplatz.svg` | Wendeplatz / Wendehammer |
+| `gisak_forst_schranke.svg` | Schranke |
+| `gisak_forst_pflanzgarten.svg` | Pflanzgarten / Forstbaumschule |
+| `gisak_forst_saatgutbestand.svg` | Saatgutbestand / Erntebestand |
+| `gisak_forst_versuchsflaeche.svg` | Versuchsfläche |
+| `gisak_forst_hochsitz.svg` | Hochsitz / Kanzel |
+| `gisak_forst_fuetterung.svg` | Wildfütterung |
+| `gisak_forst_salzlecke.svg` | Salzlecke |
+| `gisak_forst_wildacker.svg` | Wildacker / Wildwiese |
+| `gisak_forst_gatter.svg` | Wildschutzzaun / Gatter |
+| `gisak_forst_erholungswald.svg` | Erholungswald |
+| `gisak_forst_schutzwald.svg` | Schutzwald |
+| `gisak_forst_bodenschutzwald.svg` | Bodenschutzwald |
+| `gisak_forst_wasserschutzwald.svg` | Wasserschutzwald |
+| `gisak_forst_klimaschutzwald.svg` | Klimaschutzwald |
+| `gisak_forst_naturwaldreservat.svg` | Naturwaldreservat / Naturwaldzelle |
+| `gisak_forst_habitatbaum.svg` | Habitatbaum / Biotopbaum |
+| `gisak_forst_totholz.svg` | Totholz |
+| `gisak_forst_biotopbaumgruppe.svg` | Biotopbaumgruppe / Altholzinsel |
+| `gisak_forst_waldbrandueberwachung.svg` | Waldbrandüberwachung / Feuerwachturm |
+| `gisak_forst_loeschwasserentnahme.svg` | Löschwasserentnahme |
+| `gisak_forst_rettungspunkt.svg` | Rettungspunkt Forst |
+
+### Forst: Linien und Flächen (25 Symbole)
+
+| Symbol in QGIS | Art |
+|---|---|
+| Forst: Forstweg, befestigt | Linie |
+| Forst: Forstweg, geplant | Linie |
+| Forst: Maschinenweg | Linie |
+| Forst: Rückegasse | Linie |
+| Forst: Seiltrasse | Linie |
+| Forst: Wanderweg im Wald | Linie |
+| Forst: Abteilungsgrenze | Linie |
+| Forst: Unterabteilungsgrenze | Linie |
+| Forst: Reviergrenze | Linie |
+| Forst: Wildschutzzaun | Linie |
+| Forst: Waldrand, Waldmantel | Linie |
+| Forst: Laubholz | Fläche |
+| Forst: Nadelholz | Fläche |
+| Forst: Mischbestand | Fläche |
+| Forst: Altersklasse Kultur, Verjüngungsfläche | Fläche |
+| Forst: Altersklasse Jungbestand | Fläche |
+| Forst: Altersklasse mittleres Baumholz | Fläche |
+| Forst: Altersklasse Altbestand | Fläche |
+| Forst: Blöße | Fläche |
+| Forst: Kalamitätsfläche | Fläche |
+| Forst: Naturwaldreservat | Fläche |
+| Forst: Schutzwald | Fläche |
+| Forst: Erholungswald | Fläche |
+| Forst: Wildacker | Fläche |
+| Forst: Holzlagerfläche | Fläche |
+
+## Landwirtschaft (`gisak_landwirtschaft`, 45 Symbole)
+
+| Datei | Bedeutung |
+|---|---|
+| `gisak_landwirtschaft_hofstelle.svg` | Hofstelle |
+| `gisak_landwirtschaft_aussiedlerhof.svg` | Aussiedlerhof |
+| `gisak_landwirtschaft_stall_rinder.svg` | Stall Rinder |
+| `gisak_landwirtschaft_stall_schweine.svg` | Stall Schweine |
+| `gisak_landwirtschaft_stall_gefluegel.svg` | Stall Geflügel |
+| `gisak_landwirtschaft_stall_pferde.svg` | Stall Pferde / Reiterhof |
+| `gisak_landwirtschaft_stall_schafe.svg` | Stall Schafe / Ziegen |
+| `gisak_landwirtschaft_scheune.svg` | Scheune / Feldscheune |
+| `gisak_landwirtschaft_maschinenhalle.svg` | Maschinenhalle |
+| `gisak_landwirtschaft_silo.svg` | Silo (Hochsilo, Fahrsilo) |
+| `gisak_landwirtschaft_guellebehaelter.svg` | Güllebehälter |
+| `gisak_landwirtschaft_festmistlager.svg` | Festmistlager |
+| `gisak_landwirtschaft_biogasanlage.svg` | Biogasanlage |
+| `gisak_landwirtschaft_gewaechshaus.svg` | Gewächshaus |
+| `gisak_landwirtschaft_hofladen.svg` | Hofladen / Direktvermarktung |
+| `gisak_landwirtschaft_imkerei.svg` | Imkerei / Bienenstand |
+| `gisak_landwirtschaft_getreide.svg` | Getreide |
+| `gisak_landwirtschaft_mais.svg` | Mais |
+| `gisak_landwirtschaft_raps.svg` | Raps / Ölsaaten |
+| `gisak_landwirtschaft_kartoffeln.svg` | Kartoffeln |
+| `gisak_landwirtschaft_zuckerrueben.svg` | Zuckerrüben / Hackfrüchte |
+| `gisak_landwirtschaft_gemuese.svg` | Gemüse |
+| `gisak_landwirtschaft_obstanlage.svg` | Obstanlage |
+| `gisak_landwirtschaft_weinbau.svg` | Weinbau / Rebfläche |
+| `gisak_landwirtschaft_hopfen.svg` | Hopfen |
+| `gisak_landwirtschaft_sonderkultur.svg` | Sonderkultur (Beeren, Spargel, Kräuter) |
+| `gisak_landwirtschaft_gruenland.svg` | Grünland / Mähwiese |
+| `gisak_landwirtschaft_weide.svg` | Weide |
+| `gisak_landwirtschaft_bluehstreifen.svg` | Blühstreifen / Blühfläche |
+| `gisak_landwirtschaft_zwischenfrucht.svg` | Zwischenfrucht / Begrünung |
+| `gisak_landwirtschaft_brache.svg` | Brache / Stilllegung |
+| `gisak_landwirtschaft_beregnung.svg` | Beregnung / Regner |
+| `gisak_landwirtschaft_brunnen.svg` | Brunnen |
+| `gisak_landwirtschaft_draenage.svg` | Dränage |
+| `gisak_landwirtschaft_traenke.svg` | Tränke |
+| `gisak_landwirtschaft_viehtrieb.svg` | Viehtrieb / Viehdurchlass |
+| `gisak_landwirtschaft_waage.svg` | Fahrzeugwaage |
+| `gisak_landwirtschaft_feldrandcontainer.svg` | Feldrandcontainer |
+| `gisak_landwirtschaft_gewaesserrandstreifen.svg` | Gewässerrandstreifen |
+| `gisak_landwirtschaft_erosionsschutzstreifen.svg` | Erosionsschutzstreifen |
+| `gisak_landwirtschaft_oekoregelung.svg` | Öko-Regelung / Agrarumweltmaßnahme |
+| `gisak_landwirtschaft_oeko_landbau.svg` | Ökologischer Landbau |
+| `gisak_landwirtschaft_nitratbelastetes_gebiet.svg` | Nitratbelastetes Gebiet |
+| `gisak_landwirtschaft_benachteiligtes_gebiet.svg` | Benachteiligtes Gebiet |
+| `gisak_landwirtschaft_geruchsabstand.svg` | Tierhaltung mit Geruchsabstand |
+
+### Landwirtschaft: Linien und Flächen (25 Symbole)
+
+| Symbol in QGIS | Art |
+|---|---|
+| Landwirtschaft: Feldblockgrenze | Linie |
+| Landwirtschaft: Schlaggrenze | Linie |
+| Landwirtschaft: Bewirtschaftungsgrenze | Linie |
+| Landwirtschaft: Wirtschaftsweg, befestigt | Linie |
+| Landwirtschaft: Wirtschaftsweg, unbefestigt | Linie |
+| Landwirtschaft: Dränage, Sammler | Linie |
+| Landwirtschaft: Dränage, Sauger | Linie |
+| Landwirtschaft: Beregnungsleitung | Linie |
+| Landwirtschaft: Weidezaun | Linie |
+| Landwirtschaft: Hecke, Feldgehölz | Linie |
+| Landwirtschaft: Viehtrieb | Linie |
+| Landwirtschaft: Ackerland | Fläche |
+| Landwirtschaft: Dauergrünland | Fläche |
+| Landwirtschaft: Mähweide | Fläche |
+| Landwirtschaft: Dauerkultur Obst | Fläche |
+| Landwirtschaft: Weinbau | Fläche |
+| Landwirtschaft: Gemüse, Sonderkultur | Fläche |
+| Landwirtschaft: Brache | Fläche |
+| Landwirtschaft: Blühfläche | Fläche |
+| Landwirtschaft: Ökologische Vorrangfläche | Fläche |
+| Landwirtschaft: Gewässerrandstreifen | Fläche |
+| Landwirtschaft: Geruchs-Abstandsbereich Tierhaltung | Fläche |
+| Landwirtschaft: Nitratbelastetes Gebiet | Fläche |
+| Landwirtschaft: Dränfläche | Fläche |
+| Landwirtschaft: Beregnungsfläche | Fläche |
+
 ## Verkehr (`gisak_verkehr`, 58 Symbole)
 
 | Datei | Bedeutung |
@@ -619,101 +1195,230 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | Verkehr: Sperrbereich | Fläche |
 | Verkehr: Halteverbotszone | Fläche |
 
-## Wasserwirtschaft (`gisak_wasser`, 59 Symbole)
+## Tourismus und Freizeit (`gisak_tourismus`, 45 Symbole)
 
 | Datei | Bedeutung |
 |---|---|
-| `gisak_wasser_pegel.svg` | Pegel / Wasserstandsmessstelle |
-| `gisak_wasser_abflussmessstelle.svg` | Abflussmessstelle |
-| `gisak_wasser_grundwassermessstelle.svg` | Grundwassermessstelle |
-| `gisak_wasser_guetemessstelle.svg` | Gütemessstelle / Probenahmestelle |
-| `gisak_wasser_niederschlagsmessstelle.svg` | Niederschlagsmessstelle |
-| `gisak_wasser_brunnen.svg` | Brunnen |
-| `gisak_wasser_trinkwasserentnahme.svg` | Trinkwasserentnahme / Wasserfassung |
-| `gisak_wasser_wasserwerk.svg` | Wasserwerk |
-| `gisak_wasser_hochbehaelter.svg` | Hochbehälter |
-| `gisak_wasser_wasserturm.svg` | Wasserturm |
-| `gisak_wasser_pumpwerk.svg` | Pumpwerk |
-| `gisak_wasser_druckerhoehungsanlage.svg` | Druckerhöhungsanlage |
-| `gisak_wasser_klaeranlage.svg` | Kläranlage |
-| `gisak_wasser_kleinklaeranlage.svg` | Kleinkläranlage |
-| `gisak_wasser_regenueberlauf.svg` | Regenüberlauf |
-| `gisak_wasser_regenueberlaufbecken.svg` | Regenüberlaufbecken |
-| `gisak_wasser_regenrueckhaltebecken.svg` | Regenrückhaltebecken |
-| `gisak_wasser_regenklaerbecken.svg` | Regenklärbecken |
-| `gisak_wasser_hochwasserrueckhaltebecken.svg` | Hochwasserrückhaltebecken |
-| `gisak_wasser_versickerungsanlage.svg` | Versickerungsanlage / Mulde |
-| `gisak_wasser_abscheider.svg` | Abscheider (Leichtflüssigkeit, Fett) |
-| `gisak_wasser_loeschwasserentnahme.svg` | Löschwasserentnahmestelle |
-| `gisak_wasser_trinkbrunnen.svg` | Trinkbrunnen / Zapfstelle |
-| `gisak_wasser_schieber.svg` | Schieber / Absperrarmatur |
-| `gisak_wasser_absperrklappe.svg` | Absperrklappe |
-| `gisak_wasser_rueckflussverhinderer.svg` | Rückflussverhinderer |
-| `gisak_wasser_druckminderer.svg` | Druckminderer |
-| `gisak_wasser_hydrant_unterflur.svg` | Unterflurhydrant |
-| `gisak_wasser_hydrant_ueberflur.svg` | Überflurhydrant |
-| `gisak_wasser_entlueftung.svg` | Be- und Entlüftungsventil |
-| `gisak_wasser_entleerung.svg` | Entleerung / Spülauslass |
-| `gisak_wasser_wasserzaehler.svg` | Wasserzähler |
-| `gisak_wasser_hausanschluss.svg` | Hausanschluss |
-| `gisak_wasser_reduzierung.svg` | Reduzierung / Übergangsstück |
-| `gisak_wasser_endkappe.svg` | Leitungsende / Endkappe |
-| `gisak_wasser_rohrbruch.svg` | Rohrbruch / Schadstelle |
-| `gisak_wasser_schacht.svg` | Schacht |
-| `gisak_wasser_strassenablauf.svg` | Straßenablauf |
-| `gisak_wasser_einleitstelle.svg` | Einleitstelle / Auslauf |
-| `gisak_wasser_dueker.svg` | Düker |
-| `gisak_wasser_drosselbauwerk.svg` | Drosselbauwerk |
-| `gisak_wasser_wehr.svg` | Wehr / Querbauwerk |
-| `gisak_wasser_schleuse.svg` | Schleuse |
-| `gisak_wasser_sohlgleite.svg` | Sohlgleite / Sohlrampe |
-| `gisak_wasser_durchlass.svg` | Durchlass |
-| `gisak_wasser_fischaufstieg.svg` | Fischaufstiegsanlage |
-| `gisak_wasser_schoepfwerk.svg` | Schöpfwerk |
-| `gisak_wasser_talsperre.svg` | Talsperre / Staudamm |
-| `gisak_wasser_hochwassermarke.svg` | Hochwassermarke / Wasserstand |
-| `gisak_wasser_furt.svg` | Furt |
-| `gisak_wasser_quelle.svg` | Quelle |
-| `gisak_wasser_badestelle.svg` | Badestelle / Badegewässer |
-| `gisak_wasser_wasserschutzgebiet.svg` | Wasserschutzgebiet |
-| `gisak_wasser_wasserschutzgebiet_zone_1.svg` | Wasserschutzgebiet Zone I (Fassungsbereich) |
-| `gisak_wasser_wasserschutzgebiet_zone_2.svg` | Wasserschutzgebiet Zone II (engere Schutzzone) |
-| `gisak_wasser_wasserschutzgebiet_zone_3.svg` | Wasserschutzgebiet Zone III (weitere Schutzzone) |
-| `gisak_wasser_heilquellenschutzgebiet.svg` | Heilquellenschutzgebiet |
-| `gisak_wasser_ueberschwemmungsgebiet.svg` | Überschwemmungsgebiet |
-| `gisak_wasser_hochwasserrisikogebiet.svg` | Hochwasserrisikogebiet (HQ100) |
+| `gisak_tourismus_touristinfo.svg` | Tourist-Information |
+| `gisak_tourismus_hotel.svg` | Hotel / Pension / Gasthof |
+| `gisak_tourismus_ferienwohnung.svg` | Ferienwohnung / Ferienhaus |
+| `gisak_tourismus_campingplatz.svg` | Campingplatz / Zeltplatz |
+| `gisak_tourismus_wohnmobilstellplatz.svg` | Wohnmobilstellplatz |
+| `gisak_tourismus_berghuette.svg` | Berghütte (bewirtschaftet) |
+| `gisak_tourismus_schutzhuette.svg` | Schutzhütte / Biwak |
+| `gisak_tourismus_gastronomie.svg` | Gastronomie / Restaurant |
+| `gisak_tourismus_biergarten.svg` | Biergarten / Einkehr / Jausenstation |
+| `gisak_tourismus_picknickplatz.svg` | Picknickplatz / Rastplatz |
+| `gisak_tourismus_grillplatz.svg` | Grillplatz / Feuerstelle |
+| `gisak_tourismus_trinkwasser.svg` | Trinkwasser / Brunnen |
+| `gisak_tourismus_toilette.svg` | Toilette |
+| `gisak_tourismus_e_bike_ladestation.svg` | E-Bike-Ladestation |
+| `gisak_tourismus_fahrradverleih.svg` | Fahrradverleih / Radservice |
+| `gisak_tourismus_wanderparkplatz.svg` | Wanderparkplatz / Startpunkt |
+| `gisak_tourismus_wegweiser.svg` | Wegweiser |
+| `gisak_tourismus_gipfel.svg` | Gipfel |
+| `gisak_tourismus_aussichtspunkt.svg` | Aussichtspunkt |
+| `gisak_tourismus_aussichtsturm.svg` | Aussichtsturm |
+| `gisak_tourismus_klettersteig.svg` | Klettersteig |
+| `gisak_tourismus_klettergarten.svg` | Klettergarten / Kletterfels |
+| `gisak_tourismus_mountainbike.svg` | Mountainbike-Strecke / Pumptrack |
+| `gisak_tourismus_themenweg.svg` | Themenweg / Lehrpfad |
+| `gisak_tourismus_barrierefrei.svg` | Barrierefreier Weg |
+| `gisak_tourismus_stempelstelle.svg` | Stempelstelle |
+| `gisak_tourismus_badestelle.svg` | Badestelle |
+| `gisak_tourismus_schwimmbad.svg` | Freibad / Hallenbad / Therme |
+| `gisak_tourismus_bootsverleih.svg` | Bootsverleih / Kanueinstieg |
+| `gisak_tourismus_segeln.svg` | Segeln / Surfen |
+| `gisak_tourismus_angeln.svg` | Angeln |
+| `gisak_tourismus_loipe.svg` | Loipe / Skilanglauf |
+| `gisak_tourismus_skilift.svg` | Skilift / Sessellift |
+| `gisak_tourismus_skipiste.svg` | Skipiste / Abfahrt |
+| `gisak_tourismus_rodelbahn.svg` | Rodelbahn |
+| `gisak_tourismus_eislaufen.svg` | Eislaufen |
+| `gisak_tourismus_sehenswuerdigkeit.svg` | Sehenswürdigkeit |
+| `gisak_tourismus_burg_schloss.svg` | Burg / Schloss |
+| `gisak_tourismus_museum.svg` | Museum |
+| `gisak_tourismus_wildgehege.svg` | Wildgehege / Tierpark / Naturerlebnis |
+| `gisak_tourismus_hoehle.svg` | Höhle |
+| `gisak_tourismus_wasserfall.svg` | Wasserfall |
+| `gisak_tourismus_golfplatz.svg` | Golfplatz / Minigolf |
+| `gisak_tourismus_reiten.svg` | Reiten / Reiterhof |
+| `gisak_tourismus_spielplatz.svg` | Spielplatz / Freizeitpark |
 
-### Wasserwirtschaft: Linien und Flächen (27 Symbole)
+### Tourismus und Freizeit: Linien und Flächen (24 Symbole)
 
 | Symbol in QGIS | Art |
 |---|---|
-| Wasserwirtschaft: Trinkwasser-Hauptleitung | Linie |
-| Wasserwirtschaft: Trinkwasser-Versorgungsleitung | Linie |
-| Wasserwirtschaft: Trinkwasser-Hausanschluss | Linie |
-| Wasserwirtschaft: Rohwasserleitung | Linie |
-| Wasserwirtschaft: Leitung geplant | Linie |
-| Wasserwirtschaft: Leitung stillgelegt | Linie |
-| Wasserwirtschaft: Schmutzwasserkanal | Linie |
-| Wasserwirtschaft: Regenwasserkanal | Linie |
-| Wasserwirtschaft: Mischwasserkanal | Linie |
-| Wasserwirtschaft: Abwasserdruckleitung | Linie |
-| Wasserwirtschaft: Fließgewässer | Linie |
-| Wasserwirtschaft: Graben | Linie |
-| Wasserwirtschaft: Verrohrtes Gewässer | Linie |
-| Wasserwirtschaft: Deich | Linie |
-| Wasserwirtschaft: Gewässerfläche | Fläche |
-| Wasserwirtschaft: Wasserschutzgebiet Zone I | Fläche |
-| Wasserwirtschaft: Wasserschutzgebiet Zone II | Fläche |
-| Wasserwirtschaft: Wasserschutzgebiet Zone III | Fläche |
-| Wasserwirtschaft: Heilquellenschutzgebiet | Fläche |
-| Wasserwirtschaft: Überschwemmungsgebiet | Fläche |
-| Wasserwirtschaft: Hochwasserrisikogebiet | Fläche |
-| Wasserwirtschaft: Einzugsgebiet | Fläche |
-| Wasserwirtschaft: Versorgungsgebiet, Druckzone | Fläche |
-| Wasserwirtschaft: Entwässerungsgebiet Mischsystem | Fläche |
-| Wasserwirtschaft: Entwässerungsgebiet Trennsystem | Fläche |
-| Wasserwirtschaft: Rückhaltebecken, Anlagenfläche | Fläche |
-| Wasserwirtschaft: Versickerungsfläche | Fläche |
+| Tourismus und Freizeit: Wanderweg | Linie |
+| Tourismus und Freizeit: Fernwanderweg | Linie |
+| Tourismus und Freizeit: Themenweg, Lehrpfad | Linie |
+| Tourismus und Freizeit: Alpiner Steig | Linie |
+| Tourismus und Freizeit: Klettersteig | Linie |
+| Tourismus und Freizeit: Radweg | Linie |
+| Tourismus und Freizeit: Radfernweg | Linie |
+| Tourismus und Freizeit: Mountainbike-Route | Linie |
+| Tourismus und Freizeit: Reitweg | Linie |
+| Tourismus und Freizeit: Loipe | Linie |
+| Tourismus und Freizeit: Skipiste | Linie |
+| Tourismus und Freizeit: Lift, Seilbahn | Linie |
+| Tourismus und Freizeit: Kanuroute | Linie |
+| Tourismus und Freizeit: Rundweg mit Richtungspfeil | Linie |
+| Tourismus und Freizeit: Erholungsgebiet | Fläche |
+| Tourismus und Freizeit: Kurgebiet | Fläche |
+| Tourismus und Freizeit: Skigebiet | Fläche |
+| Tourismus und Freizeit: Badezone | Fläche |
+| Tourismus und Freizeit: Campingfläche | Fläche |
+| Tourismus und Freizeit: Golfplatzfläche | Fläche |
+| Tourismus und Freizeit: Wildruhezone (Betretungsverbot) | Fläche |
+| Tourismus und Freizeit: Parkanlage | Fläche |
+| Tourismus und Freizeit: Veranstaltungsfläche | Fläche |
+| Tourismus und Freizeit: Naturpark-Zone | Fläche |
+
+## Denkmalpflege und Archäologie (`gisak_denkmal`, 45 Symbole)
+
+| Datei | Bedeutung |
+|---|---|
+| `gisak_denkmal_baudenkmal.svg` | Baudenkmal allgemein |
+| `gisak_denkmal_kirche.svg` | Kirche / Sakralbau |
+| `gisak_denkmal_kapelle.svg` | Kapelle |
+| `gisak_denkmal_kloster.svg` | Kloster |
+| `gisak_denkmal_burg.svg` | Burg |
+| `gisak_denkmal_schloss.svg` | Schloss |
+| `gisak_denkmal_stadtmauer.svg` | Stadtmauer / Befestigung |
+| `gisak_denkmal_turm.svg` | Turm |
+| `gisak_denkmal_wohnhaus.svg` | Wohnhaus / Bürgerhaus / Bauernhaus |
+| `gisak_denkmal_fachwerkhaus.svg` | Fachwerkhaus |
+| `gisak_denkmal_muehle.svg` | Mühle |
+| `gisak_denkmal_technisches_denkmal.svg` | Technisches Denkmal / Industrie- und Verkehrsdenkmal |
+| `gisak_denkmal_bruecke.svg` | Brücke |
+| `gisak_denkmal_brunnen.svg` | Brunnen |
+| `gisak_denkmal_standbild.svg` | Denkmal / Standbild |
+| `gisak_denkmal_grabmal.svg` | Grabmal / Friedhof |
+| `gisak_denkmal_bildstock.svg` | Bildstock / Wegkreuz |
+| `gisak_denkmal_grenzstein.svg` | Grenzstein |
+| `gisak_denkmal_gartendenkmal.svg` | Gartendenkmal / Park |
+| `gisak_denkmal_bodendenkmal.svg` | Bodendenkmal allgemein |
+| `gisak_denkmal_fundstelle.svg` | Fundstelle / Einzelfund |
+| `gisak_denkmal_grabhuegel.svg` | Grabhügel |
+| `gisak_denkmal_graeberfeld.svg` | Gräberfeld |
+| `gisak_denkmal_siedlung.svg` | Siedlung |
+| `gisak_denkmal_wallanlage.svg` | Wallanlage / Ringwall |
+| `gisak_denkmal_burgstall.svg` | Burgstall / Motte |
+| `gisak_denkmal_wuestung.svg` | Wüstung |
+| `gisak_denkmal_roemische_fundstelle.svg` | Römische Fundstelle |
+| `gisak_denkmal_kastell.svg` | Limes / Kastell |
+| `gisak_denkmal_altstrasse.svg` | Altstraße / Hohlweg |
+| `gisak_denkmal_bergbaurelikt.svg` | Bergbaurelikt |
+| `gisak_denkmal_schlachtfeld.svg` | Schlachtfeld |
+| `gisak_denkmal_grabung_laufend.svg` | Grabung laufend |
+| `gisak_denkmal_grabung_abgeschlossen.svg` | Grabung abgeschlossen |
+| `gisak_denkmal_verdachtsflaeche.svg` | Archäologische Verdachtsfläche |
+| `gisak_denkmal_unterwasserfund.svg` | Unterwasserfund |
+| `gisak_denkmal_ensemble.svg` | Ensemble / Denkmalbereich |
+| `gisak_denkmal_welterbe.svg` | Welterbe |
+| `gisak_denkmal_national_wertvoll.svg` | National wertvolles Kulturdenkmal |
+| `gisak_denkmal_gefaehrdet.svg` | Gefährdetes Denkmal |
+| `gisak_denkmal_saniert.svg` | Saniert / instand gesetzt |
+| `gisak_denkmal_abbruch.svg` | Abbruch / Verlust |
+| `gisak_denkmal_erinnerungsort.svg` | Erinnerungsort / Gedenkstätte |
+| `gisak_denkmal_gedenktafel.svg` | Stolperstein / Gedenktafel |
+| `gisak_denkmal_infotafel.svg` | Infotafel |
+
+### Denkmalpflege und Archäologie: Linien und Flächen (19 Symbole)
+
+| Symbol in QGIS | Art |
+|---|---|
+| Denkmalpflege und Archäologie: Grenze Denkmalbereich, Ensemble | Linie |
+| Denkmalpflege und Archäologie: Grenze Grabungsschutzgebiet | Linie |
+| Denkmalpflege und Archäologie: Limes, Wallverlauf nachgewiesen | Linie |
+| Denkmalpflege und Archäologie: Limes, Wallverlauf vermutet | Linie |
+| Denkmalpflege und Archäologie: Altstraße | Linie |
+| Denkmalpflege und Archäologie: Stadtmauerverlauf erhalten | Linie |
+| Denkmalpflege und Archäologie: Stadtmauerverlauf abgegangen | Linie |
+| Denkmalpflege und Archäologie: Grabungsschnitt | Linie |
+| Denkmalpflege und Archäologie: Sichtbeziehung | Linie |
+| Denkmalpflege und Archäologie: Baudenkmal (Gebäude) | Fläche |
+| Denkmalpflege und Archäologie: Ensemble, Denkmalbereich | Fläche |
+| Denkmalpflege und Archäologie: Bodendenkmal | Fläche |
+| Denkmalpflege und Archäologie: Archäologische Verdachtsfläche | Fläche |
+| Denkmalpflege und Archäologie: Grabungsschutzgebiet | Fläche |
+| Denkmalpflege und Archäologie: Grabungsfläche | Fläche |
+| Denkmalpflege und Archäologie: Gartendenkmal | Fläche |
+| Denkmalpflege und Archäologie: Pufferzone Welterbe | Fläche |
+| Denkmalpflege und Archäologie: Umgebungsschutz | Fläche |
+| Denkmalpflege und Archäologie: Abgegangenes Bauwerk | Fläche |
+
+## Brand- und Katastrophenschutz (`gisak_brandschutz`, 42 Symbole)
+
+| Datei | Bedeutung |
+|---|---|
+| `gisak_brandschutz_feuerwache.svg` | Feuerwache |
+| `gisak_brandschutz_feuerwehrgeraetehaus.svg` | Feuerwehrgerätehaus |
+| `gisak_brandschutz_hydrant_unterflur.svg` | Unterflurhydrant |
+| `gisak_brandschutz_hydrant_ueberflur.svg` | Überflurhydrant |
+| `gisak_brandschutz_loeschwasserteich.svg` | Löschwasserteich |
+| `gisak_brandschutz_loeschwasserzisterne.svg` | Löschwasserzisterne / Löschwasserbehälter |
+| `gisak_brandschutz_saugstelle.svg` | Saugstelle / Löschwasserentnahme aus Gewässer |
+| `gisak_brandschutz_steigleitung_trocken.svg` | Steigleitung trocken |
+| `gisak_brandschutz_steigleitung_nass.svg` | Steigleitung nass |
+| `gisak_brandschutz_feuerwehrzufahrt.svg` | Feuerwehrzufahrt |
+| `gisak_brandschutz_aufstellflaeche.svg` | Aufstellfläche für Hubrettungsfahrzeuge |
+| `gisak_brandschutz_bewegungsflaeche.svg` | Bewegungsfläche der Feuerwehr |
+| `gisak_brandschutz_feuerwehrschluesseldepot.svg` | Feuerwehrschlüsseldepot (FSD) |
+| `gisak_brandschutz_brandmeldezentrale.svg` | Brandmeldezentrale (BMZ) |
+| `gisak_brandschutz_feuerwehr_bedienfeld.svg` | Feuerwehr-Bedienfeld (FBF) |
+| `gisak_brandschutz_feuerloescher.svg` | Feuerlöscher |
+| `gisak_brandschutz_wandhydrant.svg` | Wandhydrant |
+| `gisak_brandschutz_rauchabzug.svg` | Rauchabzug (RWA) |
+| `gisak_brandschutz_sprinklerzentrale.svg` | Sprinklerzentrale |
+| `gisak_brandschutz_sammelstelle.svg` | Sammelstelle |
+| `gisak_brandschutz_notausgang.svg` | Notausgang |
+| `gisak_brandschutz_erste_hilfe.svg` | Erste Hilfe |
+| `gisak_brandschutz_rettungswache.svg` | Rettungswache |
+| `gisak_brandschutz_notarzt.svg` | Notarzt / Notarztstandort |
+| `gisak_brandschutz_hubschrauberlandeplatz.svg` | Hubschrauberlandeplatz |
+| `gisak_brandschutz_defibrillator.svg` | Defibrillator (AED) |
+| `gisak_brandschutz_bereitstellungsraum.svg` | Bereitstellungsraum |
+| `gisak_brandschutz_einsatzleitung.svg` | Einsatzleitung |
+| `gisak_brandschutz_sirene.svg` | Sirene |
+| `gisak_brandschutz_notunterkunft.svg` | Notunterkunft |
+| `gisak_brandschutz_evakuierungsroute.svg` | Evakuierungsroute |
+| `gisak_brandschutz_sandsacklager.svg` | Sandsacklager |
+| `gisak_brandschutz_notstromversorgung.svg` | Notstromversorgung |
+| `gisak_brandschutz_trinkwassernotbrunnen.svg` | Trinkwassernotbrunnen |
+| `gisak_brandschutz_leuchtturm.svg` | Katastrophenschutz-Leuchtturm / Anlaufstelle |
+| `gisak_brandschutz_gefahrstoff.svg` | Gefahrstoff / Gefahrenstelle allgemein |
+| `gisak_brandschutz_explosionsgefahr.svg` | Explosionsgefahr |
+| `gisak_brandschutz_hochspannung.svg` | Hochspannung / elektrische Gefahr |
+| `gisak_brandschutz_gasflaschen.svg` | Gasflaschen / Druckgasbehälter |
+| `gisak_brandschutz_radioaktiv.svg` | Radioaktive Stoffe (Gefahrenstelle) |
+| `gisak_brandschutz_hochwassergefahr.svg` | Hochwassergefahr |
+| `gisak_brandschutz_einsturzgefahr.svg` | Einsturzgefahr |
+
+### Brand- und Katastrophenschutz: Linien und Flächen (20 Symbole)
+
+| Symbol in QGIS | Art |
+|---|---|
+| Brand- und Katastrophenschutz: Feuerwehrzufahrt | Linie |
+| Brand- und Katastrophenschutz: Rettungsweg, Fluchtweg | Linie |
+| Brand- und Katastrophenschutz: Rettungsweg geplant | Linie |
+| Brand- und Katastrophenschutz: Evakuierungsroute | Linie |
+| Brand- und Katastrophenschutz: Löschwasserleitung | Linie |
+| Brand- und Katastrophenschutz: Schlauchleitung | Linie |
+| Brand- und Katastrophenschutz: Absperrung | Linie |
+| Brand- und Katastrophenschutz: Brandwand, Brandabschnittsgrenze | Linie |
+| Brand- und Katastrophenschutz: Deichverteidigungslinie | Linie |
+| Brand- und Katastrophenschutz: Einsatzabschnittsgrenze | Linie |
+| Brand- und Katastrophenschutz: Aufstellfläche Feuerwehr | Fläche |
+| Brand- und Katastrophenschutz: Bewegungsfläche Feuerwehr | Fläche |
+| Brand- und Katastrophenschutz: Brandabschnitt | Fläche |
+| Brand- und Katastrophenschutz: Absperrbereich | Fläche |
+| Brand- und Katastrophenschutz: Gefahrenbereich | Fläche |
+| Brand- und Katastrophenschutz: Sammelstelle (Fläche) | Fläche |
+| Brand- und Katastrophenschutz: Flucht- und Rettungsweg (Fläche) | Fläche |
+| Brand- und Katastrophenschutz: Evakuierungszone | Fläche |
+| Brand- und Katastrophenschutz: Überflutungsbereich | Fläche |
+| Brand- und Katastrophenschutz: Einsatzabschnitt | Fläche |
 
 ## Vermessung (`gisak_vermessung`, 49 Symbole)
 
@@ -839,6 +1544,96 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | `gisak_nordpfeile_nadel_geteilt_ohne_n.svg` | Nordpfeil ohne Buchstabe, Nadel geteilt |
 | `gisak_nordpfeile_nadel_raute_ohne_n.svg` | Nordpfeil ohne Buchstabe, Kompassnadel |
 | `gisak_nordpfeile_rose_4_ohne_n.svg` | Windrose ohne Buchstabe, vier Strahlen geteilt |
+
+## Kartengestaltung (`gisak_layout`, 61 Symbole)
+
+| Datei | Bedeutung |
+|---|---|
+| `gisak_layout_nr_01.svg` | Nummer 1 im Kreis |
+| `gisak_layout_nr_02.svg` | Nummer 2 im Kreis |
+| `gisak_layout_nr_03.svg` | Nummer 3 im Kreis |
+| `gisak_layout_nr_04.svg` | Nummer 4 im Kreis |
+| `gisak_layout_nr_05.svg` | Nummer 5 im Kreis |
+| `gisak_layout_nr_06.svg` | Nummer 6 im Kreis |
+| `gisak_layout_nr_07.svg` | Nummer 7 im Kreis |
+| `gisak_layout_nr_08.svg` | Nummer 8 im Kreis |
+| `gisak_layout_nr_09.svg` | Nummer 9 im Kreis |
+| `gisak_layout_nr_10.svg` | Nummer 10 im Kreis |
+| `gisak_layout_nr_11.svg` | Nummer 11 im Kreis |
+| `gisak_layout_nr_12.svg` | Nummer 12 im Kreis |
+| `gisak_layout_nr_13.svg` | Nummer 13 im Kreis |
+| `gisak_layout_nr_14.svg` | Nummer 14 im Kreis |
+| `gisak_layout_nr_15.svg` | Nummer 15 im Kreis |
+| `gisak_layout_nr_16.svg` | Nummer 16 im Kreis |
+| `gisak_layout_nr_17.svg` | Nummer 17 im Kreis |
+| `gisak_layout_nr_18.svg` | Nummer 18 im Kreis |
+| `gisak_layout_nr_19.svg` | Nummer 19 im Kreis |
+| `gisak_layout_nr_20.svg` | Nummer 20 im Kreis |
+| `gisak_layout_nrv_01.svg` | Nummer 1 im gefüllten Kreis |
+| `gisak_layout_nrv_02.svg` | Nummer 2 im gefüllten Kreis |
+| `gisak_layout_nrv_03.svg` | Nummer 3 im gefüllten Kreis |
+| `gisak_layout_nrv_04.svg` | Nummer 4 im gefüllten Kreis |
+| `gisak_layout_nrv_05.svg` | Nummer 5 im gefüllten Kreis |
+| `gisak_layout_nrv_06.svg` | Nummer 6 im gefüllten Kreis |
+| `gisak_layout_nrv_07.svg` | Nummer 7 im gefüllten Kreis |
+| `gisak_layout_nrv_08.svg` | Nummer 8 im gefüllten Kreis |
+| `gisak_layout_nrv_09.svg` | Nummer 9 im gefüllten Kreis |
+| `gisak_layout_nrv_10.svg` | Nummer 10 im gefüllten Kreis |
+| `gisak_layout_bu_a.svg` | Buchstabe A im Quadrat |
+| `gisak_layout_bu_b.svg` | Buchstabe B im Quadrat |
+| `gisak_layout_bu_c.svg` | Buchstabe C im Quadrat |
+| `gisak_layout_bu_d.svg` | Buchstabe D im Quadrat |
+| `gisak_layout_bu_e.svg` | Buchstabe E im Quadrat |
+| `gisak_layout_bu_f.svg` | Buchstabe F im Quadrat |
+| `gisak_layout_bu_g.svg` | Buchstabe G im Quadrat |
+| `gisak_layout_bu_h.svg` | Buchstabe H im Quadrat |
+| `gisak_layout_bu_i.svg` | Buchstabe I im Quadrat |
+| `gisak_layout_bu_j.svg` | Buchstabe J im Quadrat |
+| `gisak_layout_bu_k.svg` | Buchstabe K im Quadrat |
+| `gisak_layout_bu_l.svg` | Buchstabe L im Quadrat |
+| `gisak_layout_hw_achtung.svg` | Hinweis: Achtung |
+| `gisak_layout_hw_frage.svg` | Hinweis: Klärungsbedarf |
+| `gisak_layout_hw_info.svg` | Hinweis: Information |
+| `gisak_layout_hw_erledigt.svg` | Hinweis: erledigt / in Ordnung |
+| `gisak_layout_hw_mangel.svg` | Hinweis: Mangel / nicht in Ordnung |
+| `gisak_layout_hw_stern.svg` | Hinweis: besonders wichtig |
+| `gisak_layout_pfeil.svg` | Pfeil (drehbar) |
+| `gisak_layout_pfeil_schlank.svg` | Pfeil, schlank (drehbar) |
+| `gisak_layout_pfeil_doppelt.svg` | Doppelpfeil (drehbar) |
+| `gisak_layout_pfeil_umriss.svg` | Pfeil im Umriss (drehbar) |
+| `gisak_layout_pfeil_spitze.svg` | Pfeilspitze (drehbar) |
+| `gisak_layout_standort.svg` | Standortmarke |
+| `gisak_layout_standort_voll.svg` | Standortmarke, gefüllt |
+| `gisak_layout_fadenkreuz.svg` | Fadenkreuz / Bezugspunkt |
+| `gisak_layout_detail.svg` | Detailverweis (Lupe) |
+| `gisak_layout_schnittmarke.svg` | Schnittmarke (drehbar, Blickrichtung nach oben) |
+| `gisak_layout_blickrichtung.svg` | Blickrichtung / Fotostandpunkt (drehbar) |
+| `gisak_layout_punkt.svg` | Punktmarke |
+| `gisak_layout_punkt_ring.svg` | Punktmarke mit Ring |
+
+### Kartengestaltung: Linien und Flächen (19 Symbole)
+
+| Symbol in QGIS | Art |
+|---|---|
+| Kartengestaltung: Schnittlinie | Linie |
+| Kartengestaltung: Blattschnitt | Linie |
+| Kartengestaltung: Hinweislinie | Linie |
+| Kartengestaltung: Verbindungslinie | Linie |
+| Kartengestaltung: Pfeillinie | Linie |
+| Kartengestaltung: Maßlinie | Linie |
+| Kartengestaltung: Hervorhebung | Linie |
+| Kartengestaltung: Hervorhebung, gestrichelt | Linie |
+| Kartengestaltung: Markierband | Linie |
+| Kartengestaltung: Kartenrahmen | Fläche |
+| Kartengestaltung: Kartenrahmen, doppelt | Fläche |
+| Kartengestaltung: Detailausschnitt | Fläche |
+| Kartengestaltung: Detailausschnitt, gestrichelt | Fläche |
+| Kartengestaltung: Übersichtsausschnitt | Fläche |
+| Kartengestaltung: Hervorhebung, Fläche | Fläche |
+| Kartengestaltung: Legendenkasten | Fläche |
+| Kartengestaltung: Abdeckung, halbtransparent | Fläche |
+| Kartengestaltung: Plangebiet | Fläche |
+| Kartengestaltung: Schraffur, neutral | Fläche |
 
 ## Allgemein (`gisak_allgemein`, 57 Symbole)
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Feuerwehrzufahrt</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #D0021B" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #8B0000" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M27.35 24.21V32.25H40.65V36.46H27.35V46H21.91V20H41.08V24.21ZM71.38 46H64.92L61.39 30.96Q60.75 28.3 60.31 25.41Q59.86 27.82 59.59 29.09Q59.31 30.35 55.66 46H49.2L42.5 20H48.02L51.78 36.79L52.63 40.85Q53.15 38.29 53.64 35.95Q54.12 33.62 57.32 20H63.41L66.69 33.84Q67.08 35.39 68 40.85L68.46 38.71L69.44 34.47L72.58 20H78.09Z" fill="#FFFFFF" stroke="none"/>
+  <path d="M16,70 L67.4,70" fill="none" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="85,70 65.69,80.55 65.69,59.45" fill="#FFFFFF" stroke="none"/>
+</svg>

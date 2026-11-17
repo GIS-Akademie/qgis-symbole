@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Windenergieanlage</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #EFE3F5" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #5E2B7E" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M50,42 L50,86" fill="none" stroke="param(outline) #5E2B7E" stroke-opacity="param(outline-opacity) 1" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="50,42 46.23,33.3 49.13,13 51.16,13 52.9,33.3" fill="param(outline) #5E2B7E" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <polygon points="50,42 59.42,43.09 75.55,55.75 74.53,57.5 56.08,48.86" fill="param(outline) #5E2B7E" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <polygon points="50,42 44.35,49.61 25.32,57.25 24.31,55.5 41.02,43.84" fill="param(outline) #5E2B7E" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <circle cx="50" cy="42" r="3.77" fill="param(outline) #5E2B7E" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

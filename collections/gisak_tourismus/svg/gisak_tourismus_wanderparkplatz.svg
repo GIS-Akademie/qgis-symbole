@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Wanderparkplatz / Startpunkt</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #2E7D32" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #1B4D1E" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M40.69 29.23Q40.69 31.74 39.55 33.71Q38.41 35.69 36.27 36.77Q34.14 37.85 31.21 37.85H24.75V47H19.31V21H30.99Q35.66 21 38.17 23.15Q40.69 25.3 40.69 29.23ZM35.21 29.32Q35.21 25.23 30.38 25.23H24.75V33.66H30.53Q32.78 33.66 34 32.54Q35.21 31.43 35.21 29.32Z" fill="#FFFFFF" stroke="none"/>
+  <g transform="translate(62,56) scale(0.66) translate(-50,-50)"><circle cx="52" cy="17" r="9" fill="#FFFFFF" stroke="none"/><path d="M52,30 L48,56" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M48,56 L60,72 L62,90" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M48,56 L40,72 L30,88" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M52,33 L66,44 L72,54" fill="none" stroke="#FFFFFF" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M52,33 L38,42 L32,54" fill="none" stroke="#FFFFFF" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>

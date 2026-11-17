@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Maschinenhalle</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #F3EBC2" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #6B5E12" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="16,80 16,46 50,26 84,46 84,80" fill="param(fill) #F3EBC2" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #6B5E12" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="46.6,49.8 47.65,46.18 52.35,46.18 53.4,49.8 55.52,50.68 58.82,48.86 62.14,52.18 60.32,55.48 61.2,57.6 64.82,58.65 64.82,63.35 61.2,64.4 60.32,66.52 62.14,69.82 58.82,73.14 55.52,71.32 53.4,72.2 52.35,75.82 47.65,75.82 46.6,72.2 44.48,71.32 41.18,73.14 37.86,69.82 39.68,66.52 38.8,64.4 35.18,63.35 35.18,58.65 38.8,57.6 39.68,55.48 37.86,52.18 41.18,48.86 44.48,50.68" fill="param(outline) #6B5E12" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <circle cx="50" cy="61" r="5.5" fill="param(fill) #F3EBC2" fill-opacity="param(fill-opacity) 1" stroke="none"/>
+</svg>

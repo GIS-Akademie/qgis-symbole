@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Hofladen / Direktvermarktung</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #F3EBC2" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #6B5E12" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M30,52 A20,24 0 0 1 70,52" fill="none" stroke="param(outline) #6B5E12" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="20,52 80,52 72,82 28,82" fill="param(fill) #F3EBC2" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #6B5E12" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M38,54 L40,80" fill="none" stroke="param(outline) #6B5E12" stroke-opacity="param(outline-opacity) 1" stroke-width="3.5" stroke-linecap="butt" stroke-linejoin="round"/>
+  <path d="M50,54 L50,80" fill="none" stroke="param(outline) #6B5E12" stroke-opacity="param(outline-opacity) 1" stroke-width="3.5" stroke-linecap="butt" stroke-linejoin="round"/>
+  <path d="M62,54 L60,80" fill="none" stroke="param(outline) #6B5E12" stroke-opacity="param(outline-opacity) 1" stroke-width="3.5" stroke-linecap="butt" stroke-linejoin="round"/>
+  <path d="M24,66 L76,66" fill="none" stroke="param(outline) #6B5E12" stroke-opacity="param(outline-opacity) 1" stroke-width="3.5" stroke-linecap="butt" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Grundwasserverunreinigung</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #EAD9C3" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #6B4423" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(50,50) scale(0.84) translate(-50,-50)"><path d="M50,10 C64,30 78,46 78,62 A28,28 0 0 1 22,62 C22,46 36,30 50,10 Z" fill="param(outline) #6B4423" fill-opacity="param(outline-opacity) 1" stroke="none"/></g>
+  <path d="M40,48 L60,68" fill="none" stroke="param(fill) #EAD9C3" stroke-opacity="param(fill-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M40,68 L60,48" fill="none" stroke="param(fill) #EAD9C3" stroke-opacity="param(fill-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

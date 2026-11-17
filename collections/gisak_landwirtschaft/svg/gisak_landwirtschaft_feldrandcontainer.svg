@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Feldrandcontainer</title>
+  <polygon points="96,50 73,89.84 27,89.84 4,50 27,10.16 73,10.16" fill="param(fill) #F3EBC2" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #6B5E12" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="20,36 80,36 72,70 28,70" fill="param(fill) #F3EBC2" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #6B5E12" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M37,36 L40,70" fill="none" stroke="param(outline) #6B5E12" stroke-opacity="param(outline-opacity) 1" stroke-width="4" stroke-linecap="butt" stroke-linejoin="round"/>
+  <path d="M50,36 L50,70" fill="none" stroke="param(outline) #6B5E12" stroke-opacity="param(outline-opacity) 1" stroke-width="4" stroke-linecap="butt" stroke-linejoin="round"/>
+  <path d="M63,36 L60,70" fill="none" stroke="param(outline) #6B5E12" stroke-opacity="param(outline-opacity) 1" stroke-width="4" stroke-linecap="butt" stroke-linejoin="round"/>
+  <path d="M26,80 L74,80" fill="none" stroke="param(outline) #6B5E12" stroke-opacity="param(outline-opacity) 1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

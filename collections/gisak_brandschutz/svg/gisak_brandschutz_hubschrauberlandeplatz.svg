@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Hubschrauberlandeplatz</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #1E8E3E" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #0F5A26" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="50" cy="50" r="32" fill="none" stroke="#FFFFFF" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M56.54 65V52.14H43.46V65H37.18V35H43.46V46.94H56.54V35H62.82V65Z" fill="#FFFFFF" stroke="none"/>
+</svg>

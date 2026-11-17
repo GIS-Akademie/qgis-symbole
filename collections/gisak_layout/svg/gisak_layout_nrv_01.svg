@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Nummer 1 im gefüllten Kreis</title>
+  <circle cx="50" cy="50" r="44" fill="param(outline) #000000" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <path d="M36.47 70V64.07H46.38V36.78L36.78 42.78V36.5L46.81 30H54.36V64.07H63.53V70Z" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="none"/>
+</svg>

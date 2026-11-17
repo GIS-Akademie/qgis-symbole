@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Kennzeichen N: nachrichtliche Übernahme</title>
+  <rect x="22" y="22" width="56" height="56" rx="0" fill="param(outline) #000000" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <rect x="27" y="27" width="46" height="46" rx="0" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="none"/>
+  <path d="M55.45 65 42.38 41.9Q42.76 45.26 42.76 47.31V65H37.18V35H44.36L57.62 58.29Q57.24 55.08 57.24 52.44V35H62.82V65Z" fill="param(outline) #000000" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

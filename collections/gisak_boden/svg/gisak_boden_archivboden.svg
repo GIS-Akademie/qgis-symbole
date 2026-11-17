@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Archivboden (Natur- und Kulturgeschichte)</title>
+  <polygon points="50,5 95,50 50,95 5,50" fill="param(fill) #EAD9C3" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #6B4423" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M44.92 61.02 42.96 55.39H34.57L32.61 61.02H28L36.04 38.98H41.48L49.48 61.02ZM38.76 42.38 38.66 42.72Q38.51 43.28 38.29 44Q38.07 44.72 35.6 51.92H41.93L39.76 45.58L39.09 43.46ZM72 54.73Q72 57.73 69.75 59.37Q67.5 61.02 63.49 61.02H52.47V38.98H62.56Q66.59 38.98 68.66 40.38Q70.73 41.78 70.73 44.52Q70.73 46.4 69.69 47.69Q68.65 48.98 66.53 49.43Q69.2 49.74 70.6 51.11Q72 52.48 72 54.73ZM66.09 45.14Q66.09 43.66 65.14 43.03Q64.2 42.41 62.34 42.41H57.08V47.87H62.37Q64.32 47.87 65.21 47.19Q66.09 46.51 66.09 45.14ZM67.37 54.37Q67.37 51.27 62.93 51.27H57.08V57.59H63.1Q65.32 57.59 66.35 56.79Q67.37 55.98 67.37 54.37Z" fill="param(outline) #6B4423" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

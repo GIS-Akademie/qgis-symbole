@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Bodendenkmal allgemein</title>
+  <circle cx="50" cy="50" r="44" fill="param(fill) #F3E3D8" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #8C2F1B" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M67.73 58.59Q67.73 64.04 63.64 67.02Q59.55 70 52.29 70H32.27V30H50.58Q57.91 30 61.67 32.54Q65.43 35.08 65.43 40.05Q65.43 43.46 63.54 45.8Q61.65 48.14 57.79 48.96Q62.65 49.53 65.19 52.02Q67.73 54.5 67.73 58.59ZM57 41.19Q57 38.49 55.28 37.35Q53.56 36.22 50.18 36.22H40.65V46.12H50.24Q53.79 46.12 55.39 44.89Q57 43.66 57 41.19ZM59.33 57.93Q59.33 52.31 51.26 52.31H40.65V63.78H51.58Q55.61 63.78 57.47 62.32Q59.33 60.86 59.33 57.93Z" fill="param(outline) #8C2F1B" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

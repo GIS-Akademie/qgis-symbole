@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Buchstabe C im Quadrat</title>
+  <rect x="9" y="9" width="82" height="82" rx="6" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #000000" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M51.3 65.4Q59.63 65.4 62.88 57.03L70.91 60.06Q68.32 66.43 63.3 69.53Q58.29 72.64 51.3 72.64Q40.68 72.64 34.89 66.63Q29.09 60.62 29.09 49.81Q29.09 38.98 34.68 33.17Q40.27 27.36 50.89 27.36Q58.63 27.36 63.51 30.47Q68.38 33.57 70.34 39.6L62.23 41.82Q61.2 38.51 58.18 36.56Q55.17 34.6 51.08 34.6Q44.83 34.6 41.6 38.48Q38.37 42.35 38.37 49.81Q38.37 57.4 41.69 61.4Q45.02 65.4 51.3 65.4Z" fill="param(outline) #000000" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

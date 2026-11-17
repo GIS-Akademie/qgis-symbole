@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Buchstabe B im Quadrat</title>
+  <rect x="9" y="9" width="82" height="82" rx="6" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #000000" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M69.5 59.45Q69.5 65.44 65 68.72Q60.51 72 52.51 72H30.5V28H50.64Q58.7 28 62.83 30.79Q66.97 33.59 66.97 39.05Q66.97 42.8 64.9 45.38Q62.82 47.95 58.57 48.86Q63.91 49.48 66.71 52.22Q69.5 54.95 69.5 59.45ZM57.7 40.3Q57.7 37.34 55.81 36.09Q53.92 34.84 50.2 34.84H39.71V45.74H50.27Q54.17 45.74 55.93 44.38Q57.7 43.02 57.7 40.3ZM60.26 58.73Q60.26 52.55 51.39 52.55H39.71V65.16H51.73Q56.17 65.16 58.21 63.55Q60.26 61.94 60.26 58.73Z" fill="param(outline) #000000" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

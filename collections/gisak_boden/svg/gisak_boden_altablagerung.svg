@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Altablagerung</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #EAD9C3" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #6B4423" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M42.51 65.31 39.8 57.49H28.13L25.41 65.31H19L30.17 34.69H37.73L48.86 65.31ZM33.95 39.41 33.82 39.88Q33.6 40.67 33.3 41.67Q33 42.67 29.56 52.66H38.36L35.34 43.86L34.41 40.91ZM74.65 65.31 71.94 57.49H60.27L57.55 65.31H51.14L62.31 34.69H69.87L81 65.31ZM66.09 39.41 65.96 39.88Q65.74 40.67 65.44 41.67Q65.14 42.67 61.7 52.66H70.5L67.48 43.86L66.55 40.91Z" fill="param(outline) #6B4423" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

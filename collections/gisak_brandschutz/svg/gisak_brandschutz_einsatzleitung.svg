@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Einsatzleitung</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #1F5FA8" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #0D3C73" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M17.41 69V31H47.29V37.15H25.36V46.7H45.64V52.85H25.36V62.85H48.4V69ZM54.25 69V31H62.2V62.85H82.59V69Z" fill="#FFFFFF" stroke="none"/>
+</svg>

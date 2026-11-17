@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Boden-Dauerbeobachtungsfläche</title>
+  <circle cx="50" cy="50" r="44" fill="param(fill) #EAD9C3" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #6B4423" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M38.37 54.69Q38.37 57.67 36.14 59.3Q33.91 60.93 29.94 60.93H19V39.07H29.01Q33.01 39.07 35.06 40.46Q37.12 41.85 37.12 44.56Q37.12 46.42 36.09 47.7Q35.05 48.98 32.94 49.43Q35.6 49.74 36.99 51.1Q38.37 52.46 38.37 54.69ZM32.51 45.18Q32.51 43.71 31.57 43.09Q30.63 42.47 28.79 42.47H23.58V47.88H28.82Q30.76 47.88 31.63 47.21Q32.51 46.53 32.51 45.18ZM33.78 54.34Q33.78 51.26 29.38 51.26H23.58V57.53H29.55Q31.75 57.53 32.77 56.73Q33.78 55.93 33.78 54.34ZM61.42 49.84Q61.42 53.22 60.1 55.74Q58.77 58.26 56.34 59.59Q53.92 60.93 50.78 60.93H41.94V39.07H49.85Q55.37 39.07 58.4 41.86Q61.42 44.64 61.42 49.84ZM56.82 49.84Q56.82 46.32 54.99 44.46Q53.16 42.61 49.76 42.61H46.52V57.39H50.4Q53.34 57.39 55.08 55.36Q56.82 53.33 56.82 49.84ZM69.46 42.61V49.37H80.64V52.91H69.46V60.93H64.88V39.07H81V42.61Z" fill="param(outline) #6B4423" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Tierhaltung mit Geruchsabstand</title>
+  <polygon points="50,5 95,50 50,95 5,50" fill="param(fill) #F3EBC2" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #6B5E12" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="37" y="56" width="26" height="16" rx="0" fill="param(outline) #6B5E12" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <polygon points="32,57 50,44 68,57" fill="param(outline) #6B5E12" fill-opacity="param(outline-opacity) 1" stroke="param(outline) #6B5E12" stroke-opacity="param(outline-opacity) 1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M41,38 q-4,-4 0,-8 t0,-8" fill="none" stroke="param(outline) #6B5E12" stroke-opacity="param(outline-opacity) 1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M50,38 q-4,-4 0,-8 t0,-8" fill="none" stroke="param(outline) #6B5E12" stroke-opacity="param(outline-opacity) 1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M59,38 q-4,-4 0,-8 t0,-8" fill="none" stroke="param(outline) #6B5E12" stroke-opacity="param(outline-opacity) 1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

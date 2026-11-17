@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Feuerwehr-Bedienfeld (FBF)</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #D0021B" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #8B0000" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M22.17 41.66V49.29H34.79V53.28H22.17V62.34H17V37.66H35.19V41.66ZM60.78 55.3Q60.78 58.66 58.26 60.5Q55.73 62.34 51.25 62.34H38.91V37.66H50.2Q54.72 37.66 57.04 39.23Q59.36 40.8 59.36 43.86Q59.36 45.96 58.2 47.41Q57.03 48.85 54.65 49.36Q57.64 49.71 59.21 51.24Q60.78 52.78 60.78 55.3ZM54.16 44.56Q54.16 42.9 53.1 42.2Q52.04 41.5 49.96 41.5H44.07V47.61H49.99Q52.18 47.61 53.17 46.85Q54.16 46.09 54.16 44.56ZM55.59 54.89Q55.59 51.43 50.62 51.43H44.07V58.5H50.81Q53.3 58.5 54.45 57.6Q55.59 56.7 55.59 54.89ZM69.97 41.66V49.29H82.6V53.28H69.97V62.34H64.81V37.66H83V41.66Z" fill="#FFFFFF" stroke="none"/>
+</svg>

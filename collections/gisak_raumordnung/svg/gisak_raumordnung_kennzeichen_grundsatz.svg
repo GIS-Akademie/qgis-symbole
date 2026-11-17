@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Kennzeichen G: Grundsatz der Raumordnung</title>
+  <rect x="22" y="22" width="56" height="56" rx="0" fill="param(outline) #000000" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <rect x="27" y="27" width="46" height="46" rx="0" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="none"/>
+  <path d="M50.66 60.52Q53.11 60.52 55.41 59.8Q57.71 59.09 58.96 57.98V53.83H51.64V49.19H64.71V60.22Q62.33 62.67 58.51 64.05Q54.68 65.44 50.49 65.44Q43.17 65.44 39.23 61.38Q35.29 57.32 35.29 49.87Q35.29 42.46 39.25 38.51Q43.21 34.56 50.64 34.56Q61.2 34.56 64.07 42.38L58.28 44.12Q57.35 41.85 55.34 40.67Q53.34 39.5 50.64 39.5Q46.21 39.5 43.91 42.19Q41.61 44.87 41.61 49.87Q41.61 54.96 43.99 57.74Q46.36 60.52 50.66 60.52Z" fill="param(outline) #000000" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

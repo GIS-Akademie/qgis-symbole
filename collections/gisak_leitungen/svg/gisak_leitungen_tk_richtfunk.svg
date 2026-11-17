@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Richtfunkstation</title>
+  <circle cx="50" cy="50" r="44" fill="param(fill) #DDF0E0" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #1B7F3B" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(51,49) scale(0.76) translate(-50,-50)"><path d="M69.8,63.8 A28,28 0 0 1 30.2,24.2 Z" fill="param(outline) #1B7F3B" fill-opacity="param(outline-opacity) 1" stroke="none"/><path d="M50,44 L70,24" fill="none" stroke="param(outline) #1B7F3B" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="72" cy="22" r="6" fill="param(outline) #1B7F3B" fill-opacity="param(outline-opacity) 1" stroke="none"/><path d="M38,66 L30,88" fill="none" stroke="param(outline) #1B7F3B" stroke-opacity="param(outline-opacity) 1" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M18,88 L52,88" fill="none" stroke="param(outline) #1B7F3B" stroke-opacity="param(outline-opacity) 1" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>
