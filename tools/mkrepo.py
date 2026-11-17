@@ -1,4 +1,4 @@
-"""Erzeugt SVGs, Vorschaubilder, metadata.ini, KATALOG.md und LICENSE.
+"""Erzeugt SVGs, Stildateien fuer Linien und Flaechen, Vorschaubilder, metadata.ini, KATALOG.md und LICENSE.
 
 Aufruf:  python tools/mkrepo.py <Zielordner>
   - Zielordner = dieses Repository (z. B. "."): nur collections/ und die Dateien im
@@ -10,6 +10,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 from lib import Ctx, render, find_font
 from sammlungen import PRE, load, raster
+import qstil
 from PIL import Image, ImageDraw, ImageFont
 from lxml import etree
 
@@ -46,6 +47,7 @@ for sub in ("collections",) if IN_PLACE else ("collections", "tools"):
 os.makedirs(ROOT, exist_ok=True)
 # Nur fuer die Vorschaubilder; Arial ist metrisch gleich und dient unter Windows als Ersatz.
 fontb = ImageFont.truetype(find_font(["LiberationSans-Bold.ttf", "arialbd.ttf", "Arial Bold.ttf"]), 22)
+fontr = ImageFont.truetype(find_font(["LiberationSans-Regular.ttf", "arial.ttf", "Arial.ttf"]), 12)
 
 
 def write(path, text):
@@ -54,8 +56,9 @@ def write(path, text):
 
 
 ini = ["[general]", "collections=" + ",".join(f"{PRE}_{m.KEY}" for m in MODS), ""]
-kat = ["# Symbolkatalog", "", "Alle Dateien liegen unter `collections/<Sammlung>/svg/`.", ""]
-counts = {}
+kat = ["# Symbolkatalog", "", "Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und "
+       f"Flächensymbole in der Stildatei `collections/<Sammlung>/symbol/{qstil.STIL_DATEI}`.", ""]
+counts, stile = {}, {}
 for mod in MODS:
     cid = f"{PRE}_{mod.KEY}"
     syms = mod.SYMBOLS
@@ -79,10 +82,25 @@ for mod in MODS:
         kat.append(f"| `{fn}` | {title} |")
     sheet.save(os.path.join(base, "preview", "preview.png"))
     kat.append("")
+    previews = ["preview/preview.png"]
+    stil = qstil.eintraege(mod)
+    if stil:
+        os.makedirs(os.path.join(base, "symbol"))
+        xml = qstil.stil_xml([(typ, qstil.qgis_name(mod, t), eb) for typ, t, eb in stil], cid)
+        etree.fromstring(xml.encode())  # Wohlgeformtheit
+        write(os.path.join(base, "symbol", qstil.STIL_DATEI), xml)
+        qstil.blatt(mod, raster, fontb, fontr).save(os.path.join(base, "preview", "linien_flaechen.png"))
+        previews.append("preview/linien_flaechen.png")
+        kat += [f"### {mod.NAME}: Linien und Flächen ({len(stil)} Symbole)", "", "| Symbol in QGIS | Art |", "|---|---|"]
+        kat += [f"| {qstil.qgis_name(mod, t)} | {'Linie' if typ == 'line' else 'Fläche'} |" for typ, t, eb in stil]
+        kat.append("")
+        stile[mod.KEY] = len(stil)
+    nl, nf = len(getattr(mod, "LINIEN", [])), len(getattr(mod, "FLAECHEN", []))
+    desc = mod.DESC + (f". Dazu {nl} Linien- und {nf} Flächensymbole als QGIS-Stil" if stil else "")
     counts[mod.KEY] = len(syms)
     ini += [f"[{cid}]", f"name=GIS-Akademie Symbole: {mod.NAME}", "author=GIS-Akademie", f"tags={mod.TAGS}",
-            f"description={mod.DESC}", f"version={VERSION}", "qgis_minimum_version=3.0", "qgis_maximum_version=4.99",
-            "license=CC BY 4.0", "license_file=LICENSE", "preview=preview/preview.png", ""]
+            f"description={desc}", f"version={VERSION}", "qgis_minimum_version=3.0", "qgis_maximum_version=4.99",
+            "license=CC BY 4.0", "license_file=LICENSE", "preview=" + ",".join(previews), ""]
 write(os.path.join(ROOT, "metadata.ini"), "\n".join(ini))
 write(os.path.join(ROOT, "KATALOG.md"), "\n".join(kat))
 write(os.path.join(ROOT, "LICENSE"), LIC)
@@ -91,4 +109,5 @@ if not IN_PLACE:
     for f in sorted(glob.glob(os.path.join(HERE, "*.py"))):
         shutil.copy(f, os.path.join(ROOT, "tools", os.path.basename(f)))
 print("total", sum(counts.values()), counts)
+print("Linien und Flaechen", sum(stile.values()), stile)
 print("Modus:", "im Repository (tools/ unveraendert)" if IN_PLACE else "neues Repository inkl. tools/")

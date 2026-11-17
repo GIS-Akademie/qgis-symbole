@@ -4,8 +4,11 @@ nach DIN 2425. Ein bundeseinheitliches Regelwerk fuer Punktsymbole gibt es nicht
 Stil: rot auf weiss, Strich 5. Die Form zeigt die Gruppe:
   Quadrat = Station oder Anlage, Mastzeichen in Draufsicht, ohne Rahmen = Garnitur oder Schaltzeichen
   auf der Leitung (Leitung waagerecht durch die Symbolmitte).
+Linien und Flaechen: rot; die Strichstaerke zeigt die Spannungsebene, durchgezogen = Freileitung,
+gestrichelt = Kabel, Flaechen hellrot oder rot schraffiert.
 """
 from lib import *
+from qstil import linie, band, marken, voll, schraffur, muster, mk, sv
 
 KEY = "strom"
 NAME = "Strom"
@@ -114,3 +117,33 @@ S = [
 ]
 
 SYMBOLS = S
+
+# ---- Linien und Flaechen (QGIS-Stildatei) ----
+R0 = "#C8102E"
+
+LINIEN = [
+    ("Höchstspannungsfreileitung 380 kV", [linie(R0, 1.2)]),
+    ("Höchstspannungsfreileitung 220 kV", [linie(R0, 0.9)]),
+    ("Hochspannungsfreileitung 110 kV", [linie(R0, 0.65)]),
+    ("Mittelspannungsfreileitung", [linie(R0, 0.4)]),
+    ("Niederspannungsfreileitung", [linie(R0, 0.25)]),
+    ("Freileitung mit Maststandorten", [linie(R0, 0.5), marken(mk("circle", 1.5, "#FFFFFF", R0, 0.3), 10)]),
+    ("Hochspannungskabel 110 kV", [linie(R0, 0.65, [4, 1.5])]),
+    ("Mittelspannungskabel", [linie(R0, 0.4, [4, 1.5])]),
+    ("Niederspannungskabel", [linie(R0, 0.25, [4, 1.5])]),
+    ("Hausanschlusskabel", [linie(R0, 0.25, [1.5, 1])]),
+    ("Straßenbeleuchtungskabel", [linie(R0, 0.25, [4, 1, 0.4, 1])]),
+    ("Kabel im Schutzrohr", [linie(R0, 1.5), linie("#FFFFFF", 1.0), linie(R0, 0.3, [4, 1.5])]),
+    ("Leitung geplant", [linie(R0, 0.5, [0.5, 1])]),
+    ("Leitung außer Betrieb", [linie(R0, 0.4), marken(mk("cross2", 1.6, R0, rw=0.3), 6)]),
+]
+
+FLAECHEN = [
+    ("Schutzstreifen", [voll(R0 + "1F"), schraffur(R0, 0.2, 45, 2.5), linie(R0, 0.3, [3, 1.5])]),
+    ("Trassenkorridor", [voll(R0 + "1A"), linie(R0, 0.4, [6, 2])]),
+    ("Umspannwerk, Betriebsgelände", [voll("#F6D5DA"), linie(R0, 0.5)]),
+    ("Stationsgebäude", [voll(R0)]),
+    ("Netzgebiet", [band(R0 + "59", 1.5), linie(R0, 0.4)]),
+    ("Kabelgraben, Baufeld", [schraffur(R0, 0.2, 135, 2), linie(R0, 0.3)]),
+    ("Störungsgebiet", [voll(R0 + "40"), linie(R0, 0.6)]),
+]

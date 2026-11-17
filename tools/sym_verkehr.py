@@ -4,8 +4,11 @@ Orientierung: Hinweiszeichen der StVO (weisses Sinnbild auf blauem Quadrat) und 
 Stadt- und Verkehrskarten. Keine Marken- oder Unternehmenslogos. Eigene Entwuerfe.
 Stil: immer abgerundetes Quadrat mit weissem Sinnbild. Die Farbe zeigt die Gruppe:
   blau = Anlage oder Angebot, orange = Baustelle und Stoerung, rot = Sperrung, Gefahr, Beschraenkung.
+Linien und Flaechen: blau wie die Punktsymbole (Strassen nach Klasse abgestuft), orange = Baustelle und
+Umleitung, rot = Sperrung und Stau.
 """
 from lib import *
+from qstil import linie, band, marken, voll, schraffur, muster, mk, sv
 
 KEY = "verkehr"
 NAME = "Verkehr"
@@ -155,3 +158,38 @@ S = [
 ]
 
 SYMBOLS = S
+
+# ---- Linien und Flaechen (QGIS-Stildatei) ----
+V0, VD, VL, O0, OD, R0, R1 = VB[0], VB[1], "#C9DCF2", OR[0], OR[1], RT[0], RT[1]
+
+LINIEN = [
+    ("Autobahn", [linie(VD, 2.4), linie(V0, 1.8), linie("#FFFFFF", 0.3)]),
+    ("Bundesstraße", [linie(VD, 1.8), linie(V0, 1.2)]),
+    ("Landes- und Kreisstraße", [linie(VD, 1.4), linie(VL, 0.9)]),
+    ("Gemeindestraße", [linie(VD, 1.0), linie("#FFFFFF", 0.6)]),
+    ("Wirtschaftsweg", [linie(VD, 0.3, [4, 1.5])]),
+    ("Radweg", [linie(V0, 0.6, [3, 1])]),
+    ("Fußweg", [linie(V0, 0.4, [1, 1])]),
+    ("Bahnstrecke", [linie(VD, 1.1), linie("#FFFFFF", 0.6, [3, 3])]),
+    ("Straßenbahn, Stadtbahn", [linie(VD, 0.5), marken(mk("line", 1.6, VD, rw=0.3), 2.5)]),
+    ("Buslinie", [linie(V0, 0.8)]),
+    ("Fährlinie", [linie(V0, 0.5, [1, 1.5])]),
+    ("Einbahnstraße, Fahrtrichtung", [linie(V0, 0.6), marken(mk("filled_arrowhead", 2.2, VD), 9)]),
+    ("Baustelle", [linie(O0, 1.2, [2, 1])]),
+    ("Umleitung", [linie(O0, 0.8), marken(mk("filled_arrowhead", 2.4, OD), 9)]),
+    ("Sperrung", [linie(R0, 1.0), marken(mk("cross2", 2.0, R1, rw=0.45), 6)]),
+    ("Stau, stockender Verkehr", [linie(R0, 1.6)]),
+]
+
+FLAECHEN = [
+    ("Parkfläche", [voll(VL), linie(V0, 0.4)]),
+    ("Verkehrsfläche", [voll("#E3ECF7"), linie(V0, 0.3)]),
+    ("Fußgängerzone", [voll("#E3ECF7"), muster(mk("circle", 0.6, V0), 2.4, versatz=1.2), linie(V0, 0.4)]),
+    ("Verkehrsberuhigter Bereich", [schraffur(V0, 0.25, 45, 2.5), linie(V0, 0.4)]),
+    ("Tempo-30-Zone", [band(V0 + "59", 1.5), linie(V0, 0.4, [3, 1.5])]),
+    ("Bewohnerparkzone", [voll(V0 + "26"), linie(V0, 0.4, [3, 1.5])]),
+    ("Bahngelände", [voll(VD + "40"), linie(VD, 0.4)]),
+    ("Baustellenbereich", [voll(O0 + "33"), schraffur(O0, 0.4, 45, 2.5), linie(OD, 0.4)]),
+    ("Sperrbereich", [voll(R0 + "26"), schraffur(R0, 0.4, 45, 2.5), schraffur(R0, 0.4, 135, 2.5), linie(R1, 0.4)]),
+    ("Halteverbotszone", [schraffur(R0, 0.3, 135, 2.5), linie(R1, 0.4, [3, 1.5])]),
+]

@@ -5,8 +5,11 @@ bundeseinheitliches Regelwerk; eigene Entwuerfe.
 Stil: immer Kreisrahmen (r = 44, Strich 5) mit heller Fuellung und dunklem Piktogramm. Die Farbe zeigt den
 Energietraeger (blau Wind, gelb Solar, gruen Bioenergie, tuerkis Wasser, rotbraun Waerme, grau Netz/Planung),
 der Rahmen den Status (durchgezogen Bestand, gestrichelt geplant, gepunktet beantragt, doppelt genehmigt).
+Linien und Flaechen: Farbe = Energietraeger wie bei den Punktsymbolen, durchgezogen = Bestand,
+gestrichelt = geplant; Vorrang- und Potenzialflaechen schraffiert.
 """
 from lib import *
+from qstil import linie, band, marken, voll, schraffur, muster, mk, sv
 
 KEY = "eeg"
 NAME = "Erneuerbare Energien"
@@ -126,3 +129,36 @@ S = [
 ]
 
 SYMBOLS = S
+
+# ---- Linien und Flaechen (QGIS-Stildatei) ----
+WD, SD, BD, GD, ND = WIND[1], SUN[1], BIO[1], GEO[1], NEU[1]
+
+LINIEN = [
+    ("Kabeltrasse Netzanschluss", [linie(ND, 0.6)]),
+    ("Kabeltrasse Netzanschluss, geplant", [linie(ND, 0.6, [4, 1.5])]),
+    ("Parkverkabelung", [linie(ND, 0.3)]),
+    ("Zuwegung", [linie(ND, 1.3), linie(NEU[0], 0.8)]),
+    ("Zuwegung, geplant", [linie(ND, 1.3, [3, 1.5]), linie(NEU[0], 0.8)]),
+    ("Zaun Solarpark", [linie(SD, 0.3), marken(mk("cross2", 1.2, SD, rw=0.25), 4)]),
+    ("Abstandslinie", [linie(WD, 0.4, [5, 1.5, 0.5, 1.5])]),
+    ("Rotorüberstrich", [linie(WD, 0.3, [1, 1])]),
+    ("Wärmeleitung", [linie(GD, 0.5)]),
+    ("Biogasleitung", [linie(BD, 0.5, [4, 1, 0.5, 1])]),
+]
+
+FLAECHEN = [
+    ("Windvorranggebiet", [voll(WIND[0] + "B3"), schraffur(WD, 0.25, 45, 3), linie(WD, 0.5)]),
+    ("Potenzialfläche Wind", [voll(WIND[0] + "B3"), linie(WD, 0.5, [4, 1.5])]),
+    ("Windpark", [voll(WIND[0]), linie(WD, 0.5)]),
+    ("Solarpark", [voll(SUN[0]), linie(SD, 0.5)]),
+    ("Solarpark, geplant", [voll(SUN[0] + "B3"), linie(SD, 0.5, [4, 1.5])]),
+    ("Modulfläche", [voll(SUN[0]), schraffur(SD, 0.2, 0, 1.2), linie(SD, 0.3)]),
+    ("Potenzialfläche Solar", [voll(SUN[0] + "B3"), schraffur(SD, 0.25, 45, 3), linie(SD, 0.5, [4, 1.5])]),
+    ("Agri-PV-Fläche", [voll(BIO[0]), schraffur(SD, 0.5, 0, 2.5), linie(SD, 0.4)]),
+    ("Bioenergie, Betriebsfläche", [voll(BIO[0]), linie(BD, 0.5)]),
+    ("Kranstellfläche, Baufläche", [voll(NEU[0]), linie(ND, 0.4)]),
+    ("Ausschlussfläche", [schraffur(ND, 0.25, 45, 2.5), schraffur(ND, 0.25, 135, 2.5), linie(ND, 0.5)]),
+    ("Abstandszone", [band(ND + "40", 1.5), linie(ND, 0.4, [3, 1.5])]),
+    ("Schattenwurfbereich", [voll(ND + "33"), linie(ND, 0.3, [1, 1])]),
+    ("Ausgleichsfläche", [schraffur(BD, 0.25, 135, 3), linie(BD, 0.5, [3, 1.5])]),
+]

@@ -4,8 +4,11 @@ Orientierung: Objektarten amtlicher topografischer Karten und Stadtplaene (z. B.
 Windmuehle, Aussichtsturm) und gaengige Sinnbilder fuer Orte von Interesse. Eigene Entwuerfe.
 Stil: immer abgerundetes weisses Quadrat mit dunklem Sinnbild, Strich 5. Die Farbe zeigt die Gruppe:
   grau = allgemein, rot = Gesundheit und Rettung, blau = Sicherheit, Auskunft, Dienste.
+Linien und Flaechen: grau = Grenzen und Gebaeude, rot = Untersuchungs- und Gefahrenbereiche, blau = Routen
+und Einzugsbereiche.
 """
 from lib import *
+from qstil import linie, band, marken, voll, schraffur, muster, mk, sv
 
 KEY = "allgemein"
 NAME = "Allgemein"
@@ -173,3 +176,31 @@ S = [
 ]
 
 SYMBOLS = S
+
+# ---- Linien und Flaechen (QGIS-Stildatei) ----
+A0, R0, P0 = AG[1], RD[1], PB[1]
+
+LINIEN = [
+    ("Staatsgrenze", [linie(A0 + "40", 2.6), linie(A0, 0.8, [8, 2, 0.8, 2])]),
+    ("Landesgrenze", [linie(A0, 0.7, [8, 2, 0.7, 2, 0.7, 2])]),
+    ("Kreisgrenze", [linie(A0, 0.5, [6, 2, 0.5, 2])]),
+    ("Gemeindegrenze", [linie(A0, 0.35, [4, 1.5])]),
+    ("Ortsteilgrenze", [linie(A0, 0.3, [0.5, 1])]),
+    ("Projektgrenze", [linie(R0, 0.8, [6, 2])]),
+    ("Rettungsweg", [linie(R0, 0.6), marken(mk("filled_arrowhead", 2.2, R0), 9)]),
+    ("Route", [linie(P0, 0.7)]),
+    ("Route, Variante", [linie(P0, 0.7, [2, 1])]),
+    ("Bezugslinie", [linie(A0, 0.25)]),
+]
+
+FLAECHEN = [
+    ("Gebäude", [voll("#BDBDBD"), linie(A0, 0.3)]),
+    ("Öffentliches Gebäude", [voll(P0 + "66"), linie(P0, 0.3)]),
+    ("Verwaltungsgebiet", [band(A0 + "40", 2), linie(A0, 0.5, [6, 2, 0.5, 2])]),
+    ("Untersuchungsgebiet", [band(R0 + "59", 1.5), linie(R0, 0.6)]),
+    ("Projektgebiet", [voll(R0 + "1A"), linie(R0, 0.6, [6, 2])]),
+    ("Gefahrenbereich", [schraffur(R0, 0.3, 45, 2.5), linie(R0, 0.5)]),
+    ("Hinweisfläche", [schraffur(A0, 0.25, 45, 2.5), linie(A0, 0.4)]),
+    ("Einzugsbereich", [voll(P0 + "26"), linie(P0, 0.4, [3, 1.5])]),
+    ("Abdeckung, Maske", [voll("#FFFFFFB3"), linie(A0, 0.2, [1, 1])]),
+]

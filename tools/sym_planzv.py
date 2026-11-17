@@ -5,8 +5,11 @@ Stand 2025), Schwarz-Weiss-Fassung. Reihenfolge und Praefixe folgen den Nummern 
   wa_ 10 Wasser              ab_ 11 Aufschuettung     lw_ 12 Wald            pf_ 13.2 Bepflanzung
   sg_ 13.3 Schutzgebiete     dk_ 14 Denkmalschutz     so_/na_ 15 Sonstige    um_ Elemente fuer Umgrenzungslinien
 Stil: schwarz auf weiss, Strich 4,5; Flaechenzeichen als liegendes Rechteck, Lagezeichen als Kreis.
+Linien und Flaechen: Linienarten schwarz wie in der Schwarz-Weiss-Fassung, Flaechen in den Farben der farbigen
+Fassung (Rot mittel, Braun mittel, Goldocker ...); Umgrenzungen nutzen die um_-Zeichen als Markierungslinie.
 """
 from lib import *
+from qstil import linie, band, marken, voll, schraffur, muster, mk, sv
 
 KEY = "planzv"
 NAME = "PlanZV"
@@ -227,3 +230,77 @@ S += [
 ]
 
 SYMBOLS = S
+
+# ---- Linien und Flaechen (QGIS-Stildatei) ----
+K0 = "#000000"
+ROT, BLAU_L, GRUEN_L = "#E8452C", "#1E96C8", "#4FE05A"      # Baulinie, Baugrenze, Strassenbegrenzungslinie
+OCKER, VIOLETT, VIOLETT_D, GRAU_D = "#FFD92E", "#D790DA", "#B040B8", "#6E6E6E"
+
+
+def um(name, abstand, groesse=5.0, dy=0):  # Umgrenzung: Linie mit um_-Zeichen auf der Innenseite
+    return [linie(K0, 0.3), marken(sv(name, groesse, dy=dy), abstand)]
+
+
+def fa(farbe):  # farbige Flaeche mit duenner Umrandung
+    return [voll(farbe), linie(K0, 0.25)]
+
+
+LINIEN = [
+    ("Baulinie", [linie(K0, 0.35, [6, 1.2, 0.5, 1.2, 0.5, 1.2])]),
+    ("Baulinie, farbig", [linie(ROT, 1.2, versatz=0.6), linie(K0, 0.35, [6, 1.2, 0.5, 1.2, 0.5, 1.2])]),
+    ("Baugrenze", [linie(K0, 0.35, [6, 1.2, 0.5, 1.2])]),
+    ("Baugrenze, farbig", [linie(BLAU_L, 1.2, versatz=0.6), linie(K0, 0.35, [6, 1.2, 0.5, 1.2])]),
+    ("Straßenbegrenzungslinie", [linie(K0, 0.35)]),
+    ("Straßenbegrenzungslinie, farbig", [linie(GRUEN_L, 1.2, versatz=0.6), linie(K0, 0.35)]),
+    ("Abgrenzung unterschiedlicher Nutzung", [linie(K0, 0.25), marken(mk("circle", 1.0, K0), 4)]),
+    ("Grenze des räumlichen Geltungsbereichs", [linie(K0, 1.2, [7, 1.5])]),
+    ("Bereich ohne Ein- und Ausfahrt", [linie(K0, 0.3), marken(sv("um_ohne_ein_ausfahrt", 4.5), 4.5)]),
+    ("Hauptversorgungsleitung oberirdisch", [linie(K0, 0.3), marken(mk("diamond", 1.8, K0), 9)]),
+    ("Hauptversorgungsleitung unterirdisch",
+     [linie(K0, 0.3, [3, 1.5]), marken(mk("diamond", 1.8, "#FFFFFF", K0, 0.3), 9)]),
+    ("Autobahn und autobahnähnliche Straße",
+     [linie(OCKER, 3.0), linie(K0, 0.5, versatz=1.5), linie(K0, 0.5, versatz=-1.5), linie(K0, 0.2)]),
+    ("Sonstige Hauptverkehrsstraße", [linie(OCKER, 2.4), linie(K0, 0.4, versatz=1.2), linie(K0, 0.4, versatz=-1.2)]),
+    ("Straßenbahn", [linie(K0, 0.3), marken(mk("line", 1.6, K0, rw=0.3, dy=-0.8), 5, 2.1),
+                     marken(mk("line", 1.6, K0, rw=0.3, dy=-0.8), 5, 2.9)]),
+    ("Seilbahn", [linie(K0, 0.3), marken(mk("circle", 1.8, "#FFFFFF", K0, 0.3), 12)]),
+    ("Hauptwanderweg", [marken(mk("circle", 0.8, K0), 2.5)]),
+    ("Geh-, Fahr- und Leitungsrecht bei schmalen Flächen",
+     [linie(K0, 0.3, [4, 2], versatz=0.9), linie(K0, 0.3, [4, 2], versatz=-0.9)]),
+    ("Stützmauer", [linie(K0, 0.25, versatz=0.6), linie(K0, 0.25, versatz=-0.6),
+                    marken(mk("line", 1.7, K0, rw=0.2, winkel=45), 1.3)]),
+]
+
+FLAECHEN = [
+    ("Wohnbaufläche (Rot mittel)", fa("#F4B3AA")),
+    ("Gemischte Baufläche (Braun mittel)", fa("#D8C08A")),
+    ("Gewerbliche Baufläche (Grau mittel)", fa("#B4B8B4")),
+    ("Sonderbaufläche (Orange mittel)", fa("#FFA51F")),
+    ("Fläche für den Gemeinbedarf (Karminrot mittel)", fa("#F7A8D8")),
+    ("Straßenverkehrsfläche (Goldocker)", fa(OCKER)),
+    ("Verkehrsfläche besonderer Zweckbestimmung", [voll("#FFFFFF"), schraffur(OCKER, 2.2, 45, 4.4), linie(K0, 0.25)]),
+    ("Bahnanlagen (Violett mittel)", fa(VIOLETT)),
+    ("Fläche für den Luftverkehr", [band(VIOLETT_D, 1.5), linie(K0, 0.25)]),
+    ("Fläche für Versorgungsanlagen (Gelb hell)", fa("#F6FF5A")),
+    ("Grünfläche (Grün mittel)", fa("#8FE38F")),
+    ("Wasserfläche (Blau mittel)", fa("#A9D9F2")),
+    ("Fläche für die Wasserwirtschaft", [band("#2E9BCB", 1.5), linie(K0, 0.25)]),
+    ("Fläche für die Landwirtschaft (Gelbgrün)", fa("#B4F2A6")),
+    ("Fläche für Wald (Blaugrün)", fa("#1FA3A3")),
+    ("Maßnahmen zum Schutz, zur Pflege und zur Entwicklung von Natur und Landschaft", um("um_massnahmen_natur", 6)),
+    ("Fläche zum Anpflanzen von Bäumen und Sträuchern", um("um_anpflanzung", 3.5, 4.0, dy=1.2)),
+    ("Fläche mit Bindungen für die Erhaltung von Bäumen und Sträuchern", um("um_erhaltung", 3.5, 4.0, dy=1.2)),
+    ("Schutzgebiet im Sinne des Naturschutzrechts", um("um_schutzgebiet", 7)),
+    ("Erhaltungsbereich oder Denkmalschutz, farbig",
+     [band(K0, 1.55), band("#E0705C", 1.4), marken(mk("line", 1.4, K0, rw=0.2, dy=0.7), 3.5), linie(K0, 0.3)]),
+    ("Fläche für Nebenanlagen, Stellplätze und Garagen", [linie(ROT, 0.35, [3, 1.5])]),
+    ("Mit Geh-, Fahr- und Leitungsrechten zu belastende Fläche",
+     [linie(K0, 0.3), marken(mk("square", 2.2, None, K0, 0.25, dy=1.1), 3.4)]),
+    ("Vorkehrungen zum Schutz gegen schädliche Umwelteinwirkungen", um("um_immissionsschutz", 5)),
+    ("Gebiet mit Verwendungsbeschränkung luftverunreinigender Stoffe", um("um_luftreinhaltung", 4)),
+    ("Von der Bebauung freizuhaltende Fläche", um("um_freihaltung", 5)),
+    ("Fläche, unter der der Bergbau umgeht", um("um_bergbau", 5)),
+    ("Fläche mit erheblich belasteten Böden", [linie(K0, 0.3), marken(sv("um_altlast", 5, dy=1.6), 5)]),
+    ("Räumlicher Geltungsbereich", [linie(K0, 2.4, [7, 1.5], innen=True)]),
+    ("Räumlicher Geltungsbereich, farbig", [band(GRAU_D, 1.3)]),
+]

@@ -4,8 +4,10 @@ Brutvogelkartierung, Massnahmentypen der Eingriffsregelung. Kein bundeseinheitli
 Stil: hellgruene Fuellung, dunkelgruener Strich 5. Die Rahmenform zeigt die Gruppe:
   Quadrat = Schutzgebiet/Schutzobjekt (Kurzzeichen), Kreis = Art, Fundpunkt oder Lebensstaette (Piktogramm),
   Raute = Massnahme (Kurzzeichen), Sechseck = Einrichtung oder Erfassung, Baumkrone = Einzelbaum.
+Linien und Flaechen: gruen; Schutzgebiete mit Randband oder Schraffur, Massnahmen gestrichelt umrandet.
 """
 from lib import *
+from qstil import linie, band, marken, voll, schraffur, muster, mk, sv
 
 KEY = "naturschutz"
 NAME = "Naturschutz"
@@ -145,3 +147,41 @@ S = [
 ]
 
 SYMBOLS = S
+
+# ---- Linien und Flaechen (QGIS-Stildatei) ----
+G0, GL = GR[1], GR[0]
+
+LINIEN = [
+    ("Schutzgebietsgrenze", [linie(G0, 0.6)]),
+    ("Schutzgebietsgrenze, geplant", [linie(G0, 0.6, [4, 1.5])]),
+    ("Zonengrenze", [linie(G0, 0.35, [5, 1.5, 0.5, 1.5])]),
+    ("Biotopverbundachse", [linie(G0 + "59", 2.0), marken(mk("filled_arrowhead", 2.0, G0), 9)]),
+    ("Wildtierkorridor", [linie(G0, 0.5, [3, 1.5]), marken(mk("arrowhead", 2.2, G0, rw=0.4), 9)]),
+    ("Flugroute", [linie(G0, 0.4, [0.5, 1.2]), marken(mk("arrowhead", 2.0, G0, rw=0.35), 9)]),
+    ("Amphibienschutzzaun", [linie(G0, 0.4), marken(mk("line", 1.4, G0, rw=0.3, dy=0.7), 2.5)]),
+    ("Transekt", [linie(G0, 0.4, [2, 1]), marken(mk("line", 1.8, G0, rw=0.35), 10)]),
+    ("Gewässerrandstreifen", [linie(G0 + "59", 1.8), linie(G0, 0.3)]),
+]
+
+FLAECHEN = [
+    ("Naturschutzgebiet", [voll(GL + "80"), band(G0, 1.2), linie(G0, 0.3)]),
+    ("Landschaftsschutzgebiet", [band(G0 + "66", 1.6), linie(G0, 0.4)]),
+    ("Nationalpark", [voll(GL + "80"), schraffur(G0, 0.2, 0, 2), band(G0, 1.2), linie(G0, 0.3)]),
+    ("Biosphärenreservat", [schraffur(G0, 0.2, 90, 2.5), linie(G0, 0.5, [6, 1.5])]),
+    ("Naturpark", [band(G0 + "40", 1.6), linie(G0, 0.5, [5, 2])]),
+    ("FFH-Gebiet", [schraffur(G0, 0.25, 45, 2.5), linie(G0, 0.4)]),
+    ("Vogelschutzgebiet", [schraffur(G0, 0.25, 135, 2.5), linie(G0, 0.4)]),
+    ("Natura 2000, FFH- und Vogelschutzgebiet",
+     [schraffur(G0, 0.25, 45, 2.5), schraffur(G0, 0.25, 135, 2.5), linie(G0, 0.4)]),
+    ("Gesetzlich geschütztes Biotop", [voll(GL), schraffur(G0, 0.2, 45, 1.2), linie(G0, 0.4)]),
+    ("FFH-Lebensraumtyp", [voll(GL + "80"), muster(mk("circle", 0.6, G0), 2.2, versatz=1.1), linie(G0, 0.3)]),
+    ("Naturdenkmal, flächenhaft", [voll(GL), linie(G0, 0.8)]),
+    ("Geschützter Landschaftsbestandteil", [linie(G0, 0.3), marken(mk("semi_circle", 1.6, G0, winkel=180), 3.5)]),
+    ("Kernzone", [voll(G0 + "99"), linie(G0, 0.3)]),
+    ("Pflegezone", [voll(G0 + "59"), linie(G0, 0.3)]),
+    ("Entwicklungszone", [voll(G0 + "26"), linie(G0, 0.3)]),
+    ("Kompensationsfläche", [schraffur(G0, 0.25, 135, 3), linie(G0, 0.5, [3, 1.5])]),
+    ("Ökokontofläche", [muster(mk("diamond", 1.2, G0), 3.5, versatz=1.75), linie(G0, 0.5, [3, 1.5])]),
+    ("Habitatfläche, Revier", [voll(GL + "80"), linie(G0, 0.3, [1, 1])]),
+    ("Untersuchungsgebiet", [linie(G0, 0.6, [6, 2, 1, 2])]),
+]

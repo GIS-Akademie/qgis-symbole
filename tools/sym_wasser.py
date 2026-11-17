@@ -4,8 +4,11 @@ gebraeuchliche Kurzzeichen der Wasserwirtschaft. Eigene Entwuerfe, keine amtlich
 Stil: hellblaue Fuellung, blauer Strich 5. Die Rahmenform zeigt die Gruppe:
   Kreis = Messstelle/Entnahme, Quadrat = Anlage oder Bauwerk, Raute = Gebiet,
   ohne Rahmen = Armatur oder Netzelement auf der Leitung (Leitung waagerecht durch die Symbolmitte).
+Linien und Flaechen: Trinkwasser und Gebiete dunkelblau, Gewaesser und Regenwasser hellblau, Schmutzwasser
+braun, Mischwasser violett (uebliche Kanalnetzfarben); Kanaele mit Fliessrichtungspfeil.
 """
 from lib import *
+from qstil import linie, band, marken, voll, schraffur, muster, mk, sv
 
 KEY = "wasser"
 NAME = "Wasserwirtschaft"
@@ -145,3 +148,44 @@ S = [
 ]
 
 SYMBOLS = S
+
+# ---- Linien und Flaechen (QGIS-Stildatei) ----
+B0, RW, SWK, MWK = WB[1], "#3FA9F5", "#8B5A2B", "#7B3FA0"
+
+
+def kanal(farbe):  # Kanal mit Fliessrichtungspfeilen
+    return [linie(farbe, 0.6), marken(mk("filled_arrowhead", 1.8, farbe), 12)]
+
+
+LINIEN = [
+    ("Trinkwasser-Hauptleitung", [linie(B0, 0.8)]),
+    ("Trinkwasser-Versorgungsleitung", [linie(B0, 0.5)]),
+    ("Trinkwasser-Hausanschluss", [linie(B0, 0.25)]),
+    ("Rohwasserleitung", [linie(B0, 0.5, [5, 1, 0.5, 1])]),
+    ("Leitung geplant", [linie(B0, 0.5, [3, 1.5])]),
+    ("Leitung stillgelegt", [linie(B0, 0.4), marken(mk("cross2", 1.5, B0, rw=0.3), 6)]),
+    ("Schmutzwasserkanal", kanal(SWK)),
+    ("Regenwasserkanal", kanal(RW)),
+    ("Mischwasserkanal", kanal(MWK)),
+    ("Abwasserdruckleitung", [linie(SWK, 0.5, [5, 1, 0.5, 1])]),
+    ("Fließgewässer", [linie(RW, 1.0)]),
+    ("Graben", [linie(RW, 0.4)]),
+    ("Verrohrtes Gewässer", [linie(RW, 0.8, [3, 1.5])]),
+    ("Deich", [linie(B0, 0.4), marken(mk("line", 1.6, B0, rw=0.3, dy=0.8), 1.6)]),
+]
+
+FLAECHEN = [
+    ("Gewässerfläche", [voll("#A9D4F5"), linie(B0, 0.3)]),
+    ("Wasserschutzgebiet Zone I", [voll(B0 + "99"), linie(B0, 0.4)]),
+    ("Wasserschutzgebiet Zone II", [voll(B0 + "59"), linie(B0, 0.4)]),
+    ("Wasserschutzgebiet Zone III", [voll(B0 + "26"), linie(B0, 0.4)]),
+    ("Heilquellenschutzgebiet", [schraffur(B0, 0.25, 135, 2.5), linie(B0, 0.4, [4, 1.5])]),
+    ("Überschwemmungsgebiet", [voll(RW + "33"), schraffur(B0, 0.25, 0, 2), linie(B0, 0.4)]),
+    ("Hochwasserrisikogebiet", [schraffur(B0, 0.25, 45, 3), linie(B0, 0.4, [4, 1.5])]),
+    ("Einzugsgebiet", [linie(B0, 0.6, [6, 1.5, 1, 1.5])]),
+    ("Versorgungsgebiet, Druckzone", [band(B0 + "59", 1.5), linie(B0, 0.3)]),
+    ("Entwässerungsgebiet Mischsystem", [voll(MWK + "26"), linie(MWK, 0.4)]),
+    ("Entwässerungsgebiet Trennsystem", [voll(SWK + "26"), linie(SWK, 0.4)]),
+    ("Rückhaltebecken, Anlagenfläche", [voll(WB[0]), linie(B0, 0.5)]),
+    ("Versickerungsfläche", [muster(mk("circle", 0.6, B0), 2.2, versatz=1.1), linie(B0, 0.4, [3, 1.5])]),
+]

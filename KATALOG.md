@@ -1,6 +1,6 @@
 # Symbolkatalog
 
-Alle Dateien liegen unter `collections/<Sammlung>/svg/`.
+Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Flächensymbole in der Stildatei `collections/<Sammlung>/symbol/Linien_und_Flaechen.xml`.
 
 ## PlanZV (`gisak_planzv`, 105 Symbole)
 
@@ -112,6 +112,58 @@ Alle Dateien liegen unter `collections/<Sammlung>/svg/`.
 | `gisak_planzv_um_altlast.svg` | Linienelement: Umgrenzung von Flächen mit erheblich belasteten Böden |
 | `gisak_planzv_um_ohne_ein_ausfahrt.svg` | Linienelement: Bereich ohne Ein- und Ausfahrt |
 
+### PlanZV: Linien und Flächen (47 Symbole)
+
+| Symbol in QGIS | Art |
+|---|---|
+| PlanZV: Baulinie | Linie |
+| PlanZV: Baulinie, farbig | Linie |
+| PlanZV: Baugrenze | Linie |
+| PlanZV: Baugrenze, farbig | Linie |
+| PlanZV: Straßenbegrenzungslinie | Linie |
+| PlanZV: Straßenbegrenzungslinie, farbig | Linie |
+| PlanZV: Abgrenzung unterschiedlicher Nutzung | Linie |
+| PlanZV: Grenze des räumlichen Geltungsbereichs | Linie |
+| PlanZV: Bereich ohne Ein- und Ausfahrt | Linie |
+| PlanZV: Hauptversorgungsleitung oberirdisch | Linie |
+| PlanZV: Hauptversorgungsleitung unterirdisch | Linie |
+| PlanZV: Autobahn und autobahnähnliche Straße | Linie |
+| PlanZV: Sonstige Hauptverkehrsstraße | Linie |
+| PlanZV: Straßenbahn | Linie |
+| PlanZV: Seilbahn | Linie |
+| PlanZV: Hauptwanderweg | Linie |
+| PlanZV: Geh-, Fahr- und Leitungsrecht bei schmalen Flächen | Linie |
+| PlanZV: Stützmauer | Linie |
+| PlanZV: Wohnbaufläche (Rot mittel) | Fläche |
+| PlanZV: Gemischte Baufläche (Braun mittel) | Fläche |
+| PlanZV: Gewerbliche Baufläche (Grau mittel) | Fläche |
+| PlanZV: Sonderbaufläche (Orange mittel) | Fläche |
+| PlanZV: Fläche für den Gemeinbedarf (Karminrot mittel) | Fläche |
+| PlanZV: Straßenverkehrsfläche (Goldocker) | Fläche |
+| PlanZV: Verkehrsfläche besonderer Zweckbestimmung | Fläche |
+| PlanZV: Bahnanlagen (Violett mittel) | Fläche |
+| PlanZV: Fläche für den Luftverkehr | Fläche |
+| PlanZV: Fläche für Versorgungsanlagen (Gelb hell) | Fläche |
+| PlanZV: Grünfläche (Grün mittel) | Fläche |
+| PlanZV: Wasserfläche (Blau mittel) | Fläche |
+| PlanZV: Fläche für die Wasserwirtschaft | Fläche |
+| PlanZV: Fläche für die Landwirtschaft (Gelbgrün) | Fläche |
+| PlanZV: Fläche für Wald (Blaugrün) | Fläche |
+| PlanZV: Maßnahmen zum Schutz, zur Pflege und zur Entwicklung von Natur und Landschaft | Fläche |
+| PlanZV: Fläche zum Anpflanzen von Bäumen und Sträuchern | Fläche |
+| PlanZV: Fläche mit Bindungen für die Erhaltung von Bäumen und Sträuchern | Fläche |
+| PlanZV: Schutzgebiet im Sinne des Naturschutzrechts | Fläche |
+| PlanZV: Erhaltungsbereich oder Denkmalschutz, farbig | Fläche |
+| PlanZV: Fläche für Nebenanlagen, Stellplätze und Garagen | Fläche |
+| PlanZV: Mit Geh-, Fahr- und Leitungsrechten zu belastende Fläche | Fläche |
+| PlanZV: Vorkehrungen zum Schutz gegen schädliche Umwelteinwirkungen | Fläche |
+| PlanZV: Gebiet mit Verwendungsbeschränkung luftverunreinigender Stoffe | Fläche |
+| PlanZV: Von der Bebauung freizuhaltende Fläche | Fläche |
+| PlanZV: Fläche, unter der der Bergbau umgeht | Fläche |
+| PlanZV: Fläche mit erheblich belasteten Böden | Fläche |
+| PlanZV: Räumlicher Geltungsbereich | Fläche |
+| PlanZV: Räumlicher Geltungsbereich, farbig | Fläche |
+
 ## Strom (`gisak_strom`, 51 Symbole)
 
 | Datei | Bedeutung |
@@ -168,6 +220,32 @@ Alle Dateien liegen unter `collections/<Sammlung>/svg/`.
 | `gisak_strom_kondensator.svg` | Kondensator / Kompensation |
 | `gisak_strom_drosselspule.svg` | Drosselspule |
 
+### Strom: Linien und Flächen (21 Symbole)
+
+| Symbol in QGIS | Art |
+|---|---|
+| Strom: Höchstspannungsfreileitung 380 kV | Linie |
+| Strom: Höchstspannungsfreileitung 220 kV | Linie |
+| Strom: Hochspannungsfreileitung 110 kV | Linie |
+| Strom: Mittelspannungsfreileitung | Linie |
+| Strom: Niederspannungsfreileitung | Linie |
+| Strom: Freileitung mit Maststandorten | Linie |
+| Strom: Hochspannungskabel 110 kV | Linie |
+| Strom: Mittelspannungskabel | Linie |
+| Strom: Niederspannungskabel | Linie |
+| Strom: Hausanschlusskabel | Linie |
+| Strom: Straßenbeleuchtungskabel | Linie |
+| Strom: Kabel im Schutzrohr | Linie |
+| Strom: Leitung geplant | Linie |
+| Strom: Leitung außer Betrieb | Linie |
+| Strom: Schutzstreifen | Fläche |
+| Strom: Trassenkorridor | Fläche |
+| Strom: Umspannwerk, Betriebsgelände | Fläche |
+| Strom: Stationsgebäude | Fläche |
+| Strom: Netzgebiet | Fläche |
+| Strom: Kabelgraben, Baufeld | Fläche |
+| Strom: Störungsgebiet | Fläche |
+
 ## Erneuerbare Energien (`gisak_eeg`, 43 Symbole)
 
 | Datei | Bedeutung |
@@ -215,6 +293,35 @@ Alle Dateien liegen unter `collections/<Sammlung>/svg/`.
 | `gisak_eeg_flugsicherung_radar.svg` | Flugsicherung / Radaranlage |
 | `gisak_eeg_eiswurf.svg` | Eiswurf / Eisfall |
 | `gisak_eeg_visualisierungspunkt.svg` | Visualisierungspunkt / Sichtbarkeitsanalyse |
+
+### Erneuerbare Energien: Linien und Flächen (24 Symbole)
+
+| Symbol in QGIS | Art |
+|---|---|
+| Erneuerbare Energien: Kabeltrasse Netzanschluss | Linie |
+| Erneuerbare Energien: Kabeltrasse Netzanschluss, geplant | Linie |
+| Erneuerbare Energien: Parkverkabelung | Linie |
+| Erneuerbare Energien: Zuwegung | Linie |
+| Erneuerbare Energien: Zuwegung, geplant | Linie |
+| Erneuerbare Energien: Zaun Solarpark | Linie |
+| Erneuerbare Energien: Abstandslinie | Linie |
+| Erneuerbare Energien: Rotorüberstrich | Linie |
+| Erneuerbare Energien: Wärmeleitung | Linie |
+| Erneuerbare Energien: Biogasleitung | Linie |
+| Erneuerbare Energien: Windvorranggebiet | Fläche |
+| Erneuerbare Energien: Potenzialfläche Wind | Fläche |
+| Erneuerbare Energien: Windpark | Fläche |
+| Erneuerbare Energien: Solarpark | Fläche |
+| Erneuerbare Energien: Solarpark, geplant | Fläche |
+| Erneuerbare Energien: Modulfläche | Fläche |
+| Erneuerbare Energien: Potenzialfläche Solar | Fläche |
+| Erneuerbare Energien: Agri-PV-Fläche | Fläche |
+| Erneuerbare Energien: Bioenergie, Betriebsfläche | Fläche |
+| Erneuerbare Energien: Kranstellfläche, Baufläche | Fläche |
+| Erneuerbare Energien: Ausschlussfläche | Fläche |
+| Erneuerbare Energien: Abstandszone | Fläche |
+| Erneuerbare Energien: Schattenwurfbereich | Fläche |
+| Erneuerbare Energien: Ausgleichsfläche | Fläche |
 
 ## Naturschutz (`gisak_naturschutz`, 58 Symbole)
 
@@ -278,6 +385,39 @@ Alle Dateien liegen unter `collections/<Sammlung>/svg/`.
 | `gisak_naturschutz_fotofalle.svg` | Fotofalle / Wildkamera |
 | `gisak_naturschutz_horchbox.svg` | Horchbox / akustische Erfassung |
 | `gisak_naturschutz_transekt.svg` | Transekt / Probefläche |
+
+### Naturschutz: Linien und Flächen (28 Symbole)
+
+| Symbol in QGIS | Art |
+|---|---|
+| Naturschutz: Schutzgebietsgrenze | Linie |
+| Naturschutz: Schutzgebietsgrenze, geplant | Linie |
+| Naturschutz: Zonengrenze | Linie |
+| Naturschutz: Biotopverbundachse | Linie |
+| Naturschutz: Wildtierkorridor | Linie |
+| Naturschutz: Flugroute | Linie |
+| Naturschutz: Amphibienschutzzaun | Linie |
+| Naturschutz: Transekt | Linie |
+| Naturschutz: Gewässerrandstreifen | Linie |
+| Naturschutz: Naturschutzgebiet | Fläche |
+| Naturschutz: Landschaftsschutzgebiet | Fläche |
+| Naturschutz: Nationalpark | Fläche |
+| Naturschutz: Biosphärenreservat | Fläche |
+| Naturschutz: Naturpark | Fläche |
+| Naturschutz: FFH-Gebiet | Fläche |
+| Naturschutz: Vogelschutzgebiet | Fläche |
+| Naturschutz: Natura 2000, FFH- und Vogelschutzgebiet | Fläche |
+| Naturschutz: Gesetzlich geschütztes Biotop | Fläche |
+| Naturschutz: FFH-Lebensraumtyp | Fläche |
+| Naturschutz: Naturdenkmal, flächenhaft | Fläche |
+| Naturschutz: Geschützter Landschaftsbestandteil | Fläche |
+| Naturschutz: Kernzone | Fläche |
+| Naturschutz: Pflegezone | Fläche |
+| Naturschutz: Entwicklungszone | Fläche |
+| Naturschutz: Kompensationsfläche | Fläche |
+| Naturschutz: Ökokontofläche | Fläche |
+| Naturschutz: Habitatfläche, Revier | Fläche |
+| Naturschutz: Untersuchungsgebiet | Fläche |
 
 ## Landschaftsplanung (`gisak_landschaftsplanung`, 62 Symbole)
 
@@ -346,6 +486,42 @@ Alle Dateien liegen unter `collections/<Sammlung>/svg/`.
 | `gisak_landschaftsplanung_wanderparkplatz.svg` | Wanderparkplatz |
 | `gisak_landschaftsplanung_kaltluftbahn.svg` | Kaltluftbahn / Frischluftschneise (nach rechts, drehbar) |
 
+### Landschaftsplanung: Linien und Flächen (31 Symbole)
+
+| Symbol in QGIS | Art |
+|---|---|
+| Landschaftsplanung: Hecke | Linie |
+| Landschaftsplanung: Baumreihe | Linie |
+| Landschaftsplanung: Allee | Linie |
+| Landschaftsplanung: Ufergehölz | Linie |
+| Landschaftsplanung: Fließgewässer | Linie |
+| Landschaftsplanung: Graben | Linie |
+| Landschaftsplanung: Wanderweg | Linie |
+| Landschaftsplanung: Radweg | Linie |
+| Landschaftsplanung: Reitweg | Linie |
+| Landschaftsplanung: Trockenmauer | Linie |
+| Landschaftsplanung: Zaun | Linie |
+| Landschaftsplanung: Sichtachse | Linie |
+| Landschaftsplanung: Kaltluftbahn | Linie |
+| Landschaftsplanung: Laubwald | Fläche |
+| Landschaftsplanung: Nadelwald | Fläche |
+| Landschaftsplanung: Mischwald | Fläche |
+| Landschaftsplanung: Aufforstung | Fläche |
+| Landschaftsplanung: Grünland | Fläche |
+| Landschaftsplanung: Extensivgrünland | Fläche |
+| Landschaftsplanung: Acker | Fläche |
+| Landschaftsplanung: Brache | Fläche |
+| Landschaftsplanung: Streuobstwiese | Fläche |
+| Landschaftsplanung: Magerrasen, Heide | Fläche |
+| Landschaftsplanung: Moor, Röhricht | Fläche |
+| Landschaftsplanung: Feuchtwiese | Fläche |
+| Landschaftsplanung: Stillgewässer | Fläche |
+| Landschaftsplanung: Siedlungsfläche | Fläche |
+| Landschaftsplanung: Maßnahmenfläche | Fläche |
+| Landschaftsplanung: Pflanzfläche | Fläche |
+| Landschaftsplanung: Sukzessionsfläche | Fläche |
+| Landschaftsplanung: Entsiegelungsfläche | Fläche |
+
 ## Verkehr (`gisak_verkehr`, 58 Symbole)
 
 | Datei | Bedeutung |
@@ -408,6 +584,37 @@ Alle Dateien liegen unter `collections/<Sammlung>/svg/`.
 | `gisak_verkehr_gefahrstelle.svg` | Gefahrstelle |
 | `gisak_verkehr_hoehenbeschraenkung.svg` | Höhenbeschränkung |
 | `gisak_verkehr_gewichtsbeschraenkung.svg` | Gewichtsbeschränkung |
+
+### Verkehr: Linien und Flächen (26 Symbole)
+
+| Symbol in QGIS | Art |
+|---|---|
+| Verkehr: Autobahn | Linie |
+| Verkehr: Bundesstraße | Linie |
+| Verkehr: Landes- und Kreisstraße | Linie |
+| Verkehr: Gemeindestraße | Linie |
+| Verkehr: Wirtschaftsweg | Linie |
+| Verkehr: Radweg | Linie |
+| Verkehr: Fußweg | Linie |
+| Verkehr: Bahnstrecke | Linie |
+| Verkehr: Straßenbahn, Stadtbahn | Linie |
+| Verkehr: Buslinie | Linie |
+| Verkehr: Fährlinie | Linie |
+| Verkehr: Einbahnstraße, Fahrtrichtung | Linie |
+| Verkehr: Baustelle | Linie |
+| Verkehr: Umleitung | Linie |
+| Verkehr: Sperrung | Linie |
+| Verkehr: Stau, stockender Verkehr | Linie |
+| Verkehr: Parkfläche | Fläche |
+| Verkehr: Verkehrsfläche | Fläche |
+| Verkehr: Fußgängerzone | Fläche |
+| Verkehr: Verkehrsberuhigter Bereich | Fläche |
+| Verkehr: Tempo-30-Zone | Fläche |
+| Verkehr: Bewohnerparkzone | Fläche |
+| Verkehr: Bahngelände | Fläche |
+| Verkehr: Baustellenbereich | Fläche |
+| Verkehr: Sperrbereich | Fläche |
+| Verkehr: Halteverbotszone | Fläche |
 
 ## Wasserwirtschaft (`gisak_wasser`, 59 Symbole)
 
@@ -473,6 +680,38 @@ Alle Dateien liegen unter `collections/<Sammlung>/svg/`.
 | `gisak_wasser_ueberschwemmungsgebiet.svg` | Überschwemmungsgebiet |
 | `gisak_wasser_hochwasserrisikogebiet.svg` | Hochwasserrisikogebiet (HQ100) |
 
+### Wasserwirtschaft: Linien und Flächen (27 Symbole)
+
+| Symbol in QGIS | Art |
+|---|---|
+| Wasserwirtschaft: Trinkwasser-Hauptleitung | Linie |
+| Wasserwirtschaft: Trinkwasser-Versorgungsleitung | Linie |
+| Wasserwirtschaft: Trinkwasser-Hausanschluss | Linie |
+| Wasserwirtschaft: Rohwasserleitung | Linie |
+| Wasserwirtschaft: Leitung geplant | Linie |
+| Wasserwirtschaft: Leitung stillgelegt | Linie |
+| Wasserwirtschaft: Schmutzwasserkanal | Linie |
+| Wasserwirtschaft: Regenwasserkanal | Linie |
+| Wasserwirtschaft: Mischwasserkanal | Linie |
+| Wasserwirtschaft: Abwasserdruckleitung | Linie |
+| Wasserwirtschaft: Fließgewässer | Linie |
+| Wasserwirtschaft: Graben | Linie |
+| Wasserwirtschaft: Verrohrtes Gewässer | Linie |
+| Wasserwirtschaft: Deich | Linie |
+| Wasserwirtschaft: Gewässerfläche | Fläche |
+| Wasserwirtschaft: Wasserschutzgebiet Zone I | Fläche |
+| Wasserwirtschaft: Wasserschutzgebiet Zone II | Fläche |
+| Wasserwirtschaft: Wasserschutzgebiet Zone III | Fläche |
+| Wasserwirtschaft: Heilquellenschutzgebiet | Fläche |
+| Wasserwirtschaft: Überschwemmungsgebiet | Fläche |
+| Wasserwirtschaft: Hochwasserrisikogebiet | Fläche |
+| Wasserwirtschaft: Einzugsgebiet | Fläche |
+| Wasserwirtschaft: Versorgungsgebiet, Druckzone | Fläche |
+| Wasserwirtschaft: Entwässerungsgebiet Mischsystem | Fläche |
+| Wasserwirtschaft: Entwässerungsgebiet Trennsystem | Fläche |
+| Wasserwirtschaft: Rückhaltebecken, Anlagenfläche | Fläche |
+| Wasserwirtschaft: Versickerungsfläche | Fläche |
+
 ## Vermessung (`gisak_vermessung`, 49 Symbole)
 
 | Datei | Bedeutung |
@@ -526,6 +765,77 @@ Alle Dateien liegen unter `collections/<Sammlung>/svg/`.
 | `gisak_vermessung_topo_bank.svg` | Topografie: Bank |
 | `gisak_vermessung_topo_eingang.svg` | Topografie: Eingang / Zufahrt (Spitze zeigt auf das Gebäude) |
 | `gisak_vermessung_topo_boeschung.svg` | Topografie: Böschung (Linienelement, Oberkante durch die Symbolmitte) |
+
+### Vermessung: Linien und Flächen (27 Symbole)
+
+| Symbol in QGIS | Art |
+|---|---|
+| Vermessung: Flurstücksgrenze | Linie |
+| Vermessung: Flurstücksgrenze, strittig | Linie |
+| Vermessung: Flurgrenze | Linie |
+| Vermessung: Gemarkungsgrenze | Linie |
+| Vermessung: Gemeindegrenze | Linie |
+| Vermessung: Nutzungsartengrenze | Linie |
+| Vermessung: Gebäudeumriss | Linie |
+| Vermessung: Messungslinie | Linie |
+| Vermessung: Höhenlinie | Linie |
+| Vermessung: Höhenlinie, Zähllinie | Linie |
+| Vermessung: Böschung, Oberkante | Linie |
+| Vermessung: Zaun | Linie |
+| Vermessung: Mauer | Linie |
+| Vermessung: Hecke | Linie |
+| Vermessung: Gleis | Linie |
+| Vermessung: Leitung unterirdisch | Linie |
+| Vermessung: Flurstück | Fläche |
+| Vermessung: Wohngebäude | Fläche |
+| Vermessung: Nebengebäude | Fläche |
+| Vermessung: Öffentliches Gebäude | Fläche |
+| Vermessung: Gebäude geplant | Fläche |
+| Vermessung: Gebäude abgebrochen | Fläche |
+| Vermessung: Überdachung | Fläche |
+| Vermessung: Unterirdisches Bauwerk | Fläche |
+| Vermessung: Befestigte Fläche | Fläche |
+| Vermessung: Wasserfläche | Fläche |
+| Vermessung: Baulast, Dienstbarkeit | Fläche |
+
+## Nordpfeile (`gisak_nordpfeile`, 34 Symbole)
+
+| Datei | Bedeutung |
+|---|---|
+| `gisak_nordpfeile_pfeil_linie.svg` | Nordpfeil, Linienpfeil |
+| `gisak_nordpfeile_pfeil_spitze.svg` | Nordpfeil, Pfeil mit gefüllter Spitze |
+| `gisak_nordpfeile_pfeil_halbspitze.svg` | Nordpfeil, Pfeil mit halber Spitze |
+| `gisak_nordpfeile_pfeil_kreuz.svg` | Nordpfeil, Pfeil mit Querstrich |
+| `gisak_nordpfeile_pfeil_ring.svg` | Nordpfeil, Pfeil mit Ring |
+| `gisak_nordpfeile_pfeil_gefiedert.svg` | Nordpfeil, Pfeil mit Befiederung |
+| `gisak_nordpfeile_pfeil_block.svg` | Nordpfeil, Blockpfeil im Umriss |
+| `gisak_nordpfeile_pfeil_block_voll.svg` | Nordpfeil, Blockpfeil gefüllt |
+| `gisak_nordpfeile_pfeil_block_n.svg` | Nordpfeil, Blockpfeil mit N im Schaft |
+| `gisak_nordpfeile_pfeil_gross_n.svg` | Nordpfeil, Pfeil über großem N |
+| `gisak_nordpfeile_nadel_geteilt.svg` | Nordpfeil, Nadel geteilt |
+| `gisak_nordpfeile_nadel_voll.svg` | Nordpfeil, Nadel gefüllt |
+| `gisak_nordpfeile_nadel_umriss.svg` | Nordpfeil, Nadel im Umriss |
+| `gisak_nordpfeile_nadel_dreieck_geteilt.svg` | Nordpfeil, Dreieck geteilt |
+| `gisak_nordpfeile_nadel_dreieck_voll.svg` | Nordpfeil, Dreieck gefüllt |
+| `gisak_nordpfeile_nadel_dreieck_umriss.svg` | Nordpfeil, Dreieck im Umriss |
+| `gisak_nordpfeile_nadel_raute.svg` | Nordpfeil, Kompassnadel mit schwarzer Nordhälfte |
+| `gisak_nordpfeile_nadel_raute_geteilt.svg` | Nordpfeil, Kompassnadel wechselnd geteilt |
+| `gisak_nordpfeile_kreis_pfeil.svg` | Nordpfeil im Kreis, Pfeil |
+| `gisak_nordpfeile_kreis_nadel.svg` | Nordpfeil im Kreis, Nadel geteilt |
+| `gisak_nordpfeile_kreis_voll.svg` | Nordpfeil im gefüllten Kreis, helle Nadel |
+| `gisak_nordpfeile_kreis_kreuz.svg` | Nordpfeil im Kreis, Achsenkreuz mit Pfeil |
+| `gisak_nordpfeile_kreis_kompass.svg` | Nordpfeil im Kreis, Kompass mit Teilung |
+| `gisak_nordpfeile_kreis_n.svg` | Nordpfeil, N im Kreis mit Spitze |
+| `gisak_nordpfeile_rose_4.svg` | Windrose, vier Strahlen geteilt |
+| `gisak_nordpfeile_rose_4_nord.svg` | Windrose, vier Strahlen mit schwarzem Nordstrahl |
+| `gisak_nordpfeile_rose_4_voll.svg` | Windrose, vier Strahlen gefüllt |
+| `gisak_nordpfeile_rose_8.svg` | Windrose, acht Strahlen geteilt |
+| `gisak_nordpfeile_rose_kreis.svg` | Windrose mit Ring |
+| `gisak_nordpfeile_rose_kreuz.svg` | Achsenkreuz mit Himmelsrichtungen N, O, S, W |
+| `gisak_nordpfeile_pfeil_spitze_ohne_n.svg` | Nordpfeil ohne Buchstabe, Pfeil mit gefüllter Spitze |
+| `gisak_nordpfeile_nadel_geteilt_ohne_n.svg` | Nordpfeil ohne Buchstabe, Nadel geteilt |
+| `gisak_nordpfeile_nadel_raute_ohne_n.svg` | Nordpfeil ohne Buchstabe, Kompassnadel |
+| `gisak_nordpfeile_rose_4_ohne_n.svg` | Windrose ohne Buchstabe, vier Strahlen geteilt |
 
 ## Allgemein (`gisak_allgemein`, 57 Symbole)
 
@@ -588,3 +898,27 @@ Alle Dateien liegen unter `collections/<Sammlung>/svg/`.
 | `gisak_allgemein_wertstoffhof.svg` | Wertstoffhof / Entsorgung |
 | `gisak_allgemein_altglascontainer.svg` | Altglas- / Wertstoffcontainer |
 | `gisak_allgemein_bauhof.svg` | Bauhof / Betriebshof |
+
+### Allgemein: Linien und Flächen (19 Symbole)
+
+| Symbol in QGIS | Art |
+|---|---|
+| Allgemein: Staatsgrenze | Linie |
+| Allgemein: Landesgrenze | Linie |
+| Allgemein: Kreisgrenze | Linie |
+| Allgemein: Gemeindegrenze | Linie |
+| Allgemein: Ortsteilgrenze | Linie |
+| Allgemein: Projektgrenze | Linie |
+| Allgemein: Rettungsweg | Linie |
+| Allgemein: Route | Linie |
+| Allgemein: Route, Variante | Linie |
+| Allgemein: Bezugslinie | Linie |
+| Allgemein: Gebäude | Fläche |
+| Allgemein: Öffentliches Gebäude | Fläche |
+| Allgemein: Verwaltungsgebiet | Fläche |
+| Allgemein: Untersuchungsgebiet | Fläche |
+| Allgemein: Projektgebiet | Fläche |
+| Allgemein: Gefahrenbereich | Fläche |
+| Allgemein: Hinweisfläche | Fläche |
+| Allgemein: Einzugsbereich | Fläche |
+| Allgemein: Abdeckung, Maske | Fläche |

@@ -3,8 +3,11 @@ Orientierung: Darstellung in Liegenschaftskarten (ALKIS) und Vermessungsrissen (
 nach DIN 4023. Eigene Nachkonstruktionen, keine amtlichen Vorlagen.
 Stil: schwarz auf weiss, Strich 5 (Details 4), geometrische Grundformen ohne Rahmen.
 Praefix topo_ = Topografie im Lageplan.
+Linien und Flaechen: schwarz-weiss; Grenzen nach Rang breiter, Gebaeude schraffiert, Topografie mit Marken
+auf der Linie (Boeschung nutzt topo_boeschung).
 """
 from lib import *
+from qstil import linie, band, marken, voll, schraffur, muster, mk, sv
 
 KEY = "vermessung"
 NAME = "Vermessung"
@@ -117,3 +120,39 @@ S = [
 ]
 
 SYMBOLS = S
+
+# ---- Linien und Flaechen (QGIS-Stildatei) ----
+K0 = "#000000"
+
+LINIEN = [
+    ("Flurstücksgrenze", [linie(K0, 0.25)]),
+    ("Flurstücksgrenze, strittig", [linie(K0, 0.25, [2, 1])]),
+    ("Flurgrenze", [linie(K0, 0.5, [6, 1.5, 0.5, 1.5])]),
+    ("Gemarkungsgrenze", [linie(K0, 0.7, [6, 1.5, 0.7, 1.5, 0.7, 1.5])]),
+    ("Gemeindegrenze", [linie(K0, 0.9, [8, 2])]),
+    ("Nutzungsartengrenze", [linie(K0, 0.2, [1, 1])]),
+    ("Gebäudeumriss", [linie(K0, 0.5)]),
+    ("Messungslinie", [linie(K0, 0.2, [3, 1])]),
+    ("Höhenlinie", [linie(K0, 0.2)]),
+    ("Höhenlinie, Zähllinie", [linie(K0, 0.45)]),
+    ("Böschung, Oberkante", [linie(K0, 0.25), marken(sv("topo_boeschung", 5), 3.2)]),
+    ("Zaun", [linie(K0, 0.25), marken(mk("cross2", 1.2, K0, rw=0.25), 5)]),
+    ("Mauer", [linie(K0, 1.0), linie("#FFFFFF", 0.5)]),
+    ("Hecke", [marken(mk("semi_circle", 2.0, None, K0, 0.25), 2.0)]),
+    ("Gleis", [linie(K0, 0.3), marken(mk("line", 1.6, K0, rw=0.3), 2.5)]),
+    ("Leitung unterirdisch", [linie(K0, 0.3, [4, 1, 1, 1])]),
+]
+
+FLAECHEN = [
+    ("Flurstück", [linie(K0, 0.25)]),
+    ("Wohngebäude", [voll("#FFFFFF"), schraffur(K0, 0.2, 45, 1.2), linie(K0, 0.5)]),
+    ("Nebengebäude", [voll("#FFFFFF"), schraffur(K0, 0.2, 45, 2.5), linie(K0, 0.4)]),
+    ("Öffentliches Gebäude", [voll("#B0B0B0"), linie(K0, 0.5)]),
+    ("Gebäude geplant", [linie(K0, 0.4, [3, 1.5])]),
+    ("Gebäude abgebrochen", [muster(mk("cross2", 1.2, K0, rw=0.2), 3.2, versatz=1.6), linie(K0, 0.3, [1.5, 1])]),
+    ("Überdachung", [linie(K0, 0.3, [1.5, 1])]),
+    ("Unterirdisches Bauwerk", [linie(K0, 0.3, [4, 1, 1, 1])]),
+    ("Befestigte Fläche", [muster(mk("circle", 0.4, K0), 2.0, versatz=1.0), linie(K0, 0.25)]),
+    ("Wasserfläche", [schraffur(K0, 0.15, 0, 1.5), linie(K0, 0.3)]),
+    ("Baulast, Dienstbarkeit", [schraffur(K0, 0.2, 135, 3), linie(K0, 0.3, [3, 1.5])]),
+]

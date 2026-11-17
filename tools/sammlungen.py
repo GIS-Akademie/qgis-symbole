@@ -6,6 +6,9 @@ Jede Sammlung ist ein Modul sym_<schluessel>.py mit
   DESC     Beschreibung fuer metadata.ini
   TAGS     Schlagworte fuer metadata.ini
   SYMBOLS  Liste von (name, titel, fuellfarbe, strichfarbe, [grundformen])
+und wahlweise (siehe qstil.py)
+  LINIEN   Liste von (titel, [ebenen]) fuer Liniensymbole
+  FLAECHEN Liste von (titel, [ebenen]) fuer Flaechensymbole
 """
 import importlib, os, re, subprocess, sys, tempfile
 from PIL import Image
@@ -13,12 +16,13 @@ from PIL import Image
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 MODULES = ["sym_planzv", "sym_strom", "sym_eeg", "sym_naturschutz", "sym_landschaftsplanung",
-           "sym_verkehr", "sym_wasser", "sym_vermessung", "sym_allgemein"]
+           "sym_verkehr", "sym_wasser", "sym_vermessung", "sym_nordpfeile", "sym_allgemein"]
 PRE = "gisak"
 
 
 def load(only=None):
     """Sammlungen laden und pruefen. only = Schluessel einer einzelnen Sammlung."""
+    import qstil
     mods = []
     for m in MODULES:
         if only and m != f"sym_{only}":
@@ -32,13 +36,22 @@ def load(only=None):
             if name in seen:
                 sys.exit(f"{m}: Symbolname '{name}' doppelt vergeben")
             seen.add(name)
+        titel = set()
+        for typ, t, ebenen in qstil.eintraege(mod):
+            if t in titel or re.search(r"[&<>\"]", t):
+                sys.exit(f"{m}: Titel '{t}' doppelt vergeben oder mit unzulaessigem Zeichen")
+            titel.add(t)
+            try:
+                qstil.pruefe(typ, t, ebenen)
+            except ValueError as err:
+                sys.exit(f"{m}: {err}")
         mods.append(mod)
     if not mods:
         sys.exit(f"Sammlung '{only}' nicht gefunden. Vorhanden: " + ", ".join(m[4:] for m in MODULES))
     return mods
 
 
-def raster(svgtext, size):
+def raster(svgtext, size, height=None):
     """SVG mit rsvg-convert in ein RGBA-Bild umwandeln (param()-Angaben werden auf die Vorgabe reduziert)."""
     data = re.sub(r"param\([^)]*\)\s*", "", svgtext)
     t = tempfile.NamedTemporaryFile(suffix=".svg", delete=False)
@@ -46,7 +59,8 @@ def raster(svgtext, size):
     t.close()
     out = t.name + ".png"
     try:
-        subprocess.run(["rsvg-convert", "-w", str(size), "-h", str(size), t.name, "-o", out], check=True)
+        subprocess.run(["rsvg-convert", "-w", str(size), "-h", str(height or size), t.name, "-o", out], check=True,
+                       timeout=120)
     except FileNotFoundError:
         os.unlink(t.name)
         sys.exit("rsvg-convert nicht gefunden. Das Programm (Paket librsvg) muss im PATH liegen.")

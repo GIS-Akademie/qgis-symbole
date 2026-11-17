@@ -4,8 +4,11 @@ Begleitplanung, Gehoelzdarstellung wie in Lageplaenen. Kein bundeseinheitliches 
 Stil: hellgruene Fuellung, dunkelgruener Strich 5 (Wasser blau). Die Form zeigt die Gruppe:
   Draufsicht ohne Rahmen = Gehoelz, Quadrat = Biotop- oder Nutzungstyp, gestricheltes Quadrat = Massnahme,
   Kreis = Erholung, Landschaftsbild, Klima.
+Linien und Flaechen: gruen (Wasser blau, Wege braun, Siedlung grau); Gehoelze als Kreisreihe,
+Bestand mit durchgezogenem, Massnahmen mit gestricheltem Umriss.
 """
 from lib import *
+from qstil import linie, band, marken, voll, schraffur, muster, mk, sv
 
 KEY = "landschaftsplanung"
 NAME = "Landschaftsplanung"
@@ -164,3 +167,46 @@ S = [
 ]
 
 SYMBOLS = S
+
+# ---- Linien und Flaechen (QGIS-Stildatei) ----
+G0, B0, S0, W0 = LG[1], BL[1], ST[1], BR[1]
+KRONE = mk("circle", 2.8, LG[0], G0, 0.3)
+
+LINIEN = [
+    ("Hecke", [marken(mk("circle", 2.0, LG[0], G0, 0.25), 1.7)]),
+    ("Baumreihe", [marken(KRONE, 4.5), marken(mk("circle", 0.6, G0), 4.5)]),
+    ("Allee", [linie(S0, 0.3), marken(KRONE, 4.5, versatz=2.0), marken(KRONE, 4.5, versatz=-2.0)]),
+    ("Ufergehölz", [linie(B0, 0.6), marken(mk("circle", 2.0, LG[0], G0, 0.25, dy=1.4), 2.6)]),
+    ("Fließgewässer", [linie(B0, 0.9)]),
+    ("Graben", [linie(B0, 0.4, [4, 1])]),
+    ("Wanderweg", [linie(W0, 0.5, [2, 1])]),
+    ("Radweg", [linie(W0, 0.5, [4, 1, 0.5, 1])]),
+    ("Reitweg", [linie(W0, 0.5, [0.5, 1])]),
+    ("Trockenmauer", [linie(S0, 0.9), marken(mk("line", 0.9, "#FFFFFF", rw=0.25), 1.8)]),
+    ("Zaun", [linie(S0, 0.3), marken(mk("cross2", 1.2, S0, rw=0.25), 4)]),
+    ("Sichtachse", [linie(G0, 0.4, [6, 2]), marken(mk("arrowhead", 2.0, G0, rw=0.35), 16)]),
+    ("Kaltluftbahn", [linie(B0 + "59", 2.2), marken(mk("filled_arrowhead", 2.2, B0), 9)]),
+]
+
+FLAECHEN = [
+    ("Laubwald", [voll("#B9DDA0"), muster(mk("circle", 1.4, None, G0, 0.25), 3.6, versatz=1.8), linie(G0, 0.3)]),
+    ("Nadelwald", [voll("#A3CF8E"), muster(mk("triangle", 1.5, G0), 3.6, versatz=1.8), linie(G0, 0.3)]),
+    ("Mischwald", [voll("#AED697"), muster(mk("circle", 1.4, None, G0, 0.25), 3.6),
+                   muster(mk("triangle", 1.2, G0, dy=1.8), 3.6, versatz=1.8), linie(G0, 0.3)]),
+    ("Aufforstung", [voll(LG[0] + "99"), muster(mk("cross", 1.4, G0, rw=0.25), 3.6, versatz=1.8),
+                     linie(G0, 0.4, [3, 1.5])]),
+    ("Grünland", [voll("#DDF0C8"), linie(G0, 0.3)]),
+    ("Extensivgrünland", [voll("#DDF0C8"), muster(mk("line", 1.0, G0, rw=0.25), 2.4, 3.0, versatz=1.2), linie(G0, 0.3)]),
+    ("Acker", [voll("#F1E3C8"), schraffur(W0, 0.15, 0, 1.8), linie(W0, 0.3)]),
+    ("Brache", [voll("#F1E3C8"), muster(mk("circle", 0.5, W0), 2.4, versatz=1.2), linie(W0, 0.3)]),
+    ("Streuobstwiese", [voll("#DDF0C8"), muster(mk("circle", 1.6, G0), 4.4, versatz=2.2), linie(G0, 0.3)]),
+    ("Magerrasen, Heide", [voll("#EEF2C4"), muster(mk("cross2", 0.9, G0, rw=0.2), 2.6, versatz=1.3), linie(G0, 0.3)]),
+    ("Moor, Röhricht", [voll(BL[0]), schraffur(B0, 0.2, 0, 1.5), linie(B0, 0.3)]),
+    ("Feuchtwiese", [voll("#DDF0C8"), schraffur(B0, 0.2, 0, 2.5), linie(G0, 0.3)]),
+    ("Stillgewässer", [voll("#B5DCF5"), linie(B0, 0.3)]),
+    ("Siedlungsfläche", [voll(ST[0]), linie(S0, 0.3)]),
+    ("Maßnahmenfläche", [schraffur(G0, 0.2, 45, 3), linie(G0, 0.5, [3, 1.5])]),
+    ("Pflanzfläche", [muster(mk("circle", 1.2, LG[0], G0, 0.25), 3.2, versatz=1.6), linie(G0, 0.5, [3, 1.5])]),
+    ("Sukzessionsfläche", [muster(mk("circle", 0.5, G0), 2.2, versatz=1.1), linie(G0, 0.5, [3, 1.5])]),
+    ("Entsiegelungsfläche", [schraffur(S0, 0.2, 45, 2.5), schraffur(S0, 0.2, 135, 2.5), linie(S0, 0.5, [3, 1.5])]),
+]
