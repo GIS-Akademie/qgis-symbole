@@ -111,7 +111,7 @@ Durchgezogen = Bestand, gestrichelt = geplant oder Maßnahme. Ausnahmen, die so 
   liegen rechts in Laufrichtung, bei Flächen innen (Symbole mit `marken` setzen dafür `force_rhr`).
   Dreht man eine Markierung mit `winkel`, dreht sich ihr `dy` mit.
 - Randzeichen an Flächen immer mit `marken(…, ecken=<mm>)`: Das schreibt zwei ineinander gesetzte
-  Geometriegeneratoren (Einheit mm): Der äußere trennt den Umriss an Knicken über 25° auf, der innere kürzt jeden
+  Geometriegeneratoren (Einheit mm): Der äußere glättet den Umriss um 0,5 mm (sonst fallen bei kleinem Maßstab an unruhigen Grenzen fast alle Zeichen weg) und trennt ihn an Knicken über 40° auf, der innere kürzt jeden
   Abschnitt so, dass die Zeichen mittig sitzen (`qstil.ecken_ausdruecke`).
   Der Generator rechnet in Zeichenkoordinaten (y nach unten), deshalb `force_polygon_ccw`, damit rechts innen ist.
 - **Ausdrücke flach halten.** Der Parser von QGIS 3.x (geprüft 3.44) braucht je Ebene verschachtelter

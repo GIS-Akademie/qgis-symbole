@@ -102,7 +102,7 @@ der Innenseite, unabhängig von der Digitalisierrichtung. Bei Linien mit einseit
 die Linie umdrehen.
 
 **Ecken bleiben frei:** Bei den Umgrenzungen mit Randzeichen prüft das Symbol die Geometrie beim Zeichnen: Der
-Umriss wird an jedem Knick über 25° aufgetrennt, und die Zeichen werden auf jeder Kante mittig verteilt, mit
+Umriss wird zuerst um bis zu 0,5 mm geglättet, dann an jedem Knick über 40° aufgetrennt, und die Zeichen werden auf jeder Kante mittig verteilt, mit
 Abstand zu den Ecken. Kanten, die für ein Zeichen zu kurz sind, bleiben leer; an Bögen aus vielen kurzen
 Stücken laufen die Zeichen durch. Dafür nutzt das Symbol einen Geometriegenerator in Millimetern (ab QGIS 3.24),
 das Ergebnis hängt also vom Kartenmaßstab ab und passt sich beim Zoomen an. Schwellenwinkel und Eckenabstand

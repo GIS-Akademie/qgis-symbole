@@ -68,7 +68,7 @@ def _var(name, value, body):
     return f"with_variable('{name}', {value}, {body})"
 
 
-def ecken_ausdruecke(abstand, ecke, winkel=25):
+def ecken_ausdruecke(abstand, ecke, winkel=40, glaetten=0.5):
     """Zwei QGIS-Ausdruecke fuer zwei ineinander gesetzte Geometriegeneratoren (Einheit Millimeter):
     1. trennt Umriss oder Linie an Knicken ueber `winkel` Grad (und am Ringanfang) in Abschnitte auf,
     2. kuerzt jeden Abschnitt beidseitig so, dass ein ganzzahliges Vielfaches von `abstand` bleibt und
@@ -77,7 +77,10 @@ def ecken_ausdruecke(abstand, ecke, winkel=25):
     Funktionsaufrufe etwa doppelt so lange (ab rund 20 Ebenen ueber eine Sekunde je Symbol, und das bei
     jedem Kopieren des Symbols) - die Symbolauswahl friert sonst ein."""
     i, d = repr(float(abstand)), repr(float(ecke))
-    b = f"if(geometry_type($geometry) = 'Polygon', boundary({UMLAUF}($geometry)), $geometry)"
+    # Vorab in Millimetern glaetten (Douglas-Peucker): Bei kleinem Massstab zaehlt sonst jeder kleine Knick als
+    # Ecke, die Abschnitte werden zu kurz und die Zeichen fallen weg. Die Zeichen sitzen damit hoechstens
+    # `glaetten` mm neben der gezeichneten Linie.
+    b = f"simplify(if(geometry_type($geometry) = 'Polygon', boundary({UMLAUF}($geometry)), $geometry), {glaetten})"
     w = ("abs(azimuth(point_n(@r, @element - 1), point_n(@r, @element))"
          " - azimuth(point_n(@r, @element), point_n(@r, @element + 1)))")
     cd = ("array_filter(array_foreach(generate_series(2, num_points(@r) - 1), "
