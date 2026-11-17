@@ -59,7 +59,7 @@ for cat, syms in CAT.items():
     name, desc, tags = META[cat]
     base = os.path.join(ROOT, "collections", cid)
     os.makedirs(os.path.join(base, "svg")); os.makedirs(os.path.join(base, "preview"))
-    open(os.path.join(base, "LICENSE"), "w", encoding="utf-8").write(LIC)
+    open(os.path.join(base, "LICENSE"), "w", encoding="utf-8", newline="\n").write(LIC)
     kat += [f"## {name} (`{cid}`, {len(syms)} Symbole)", "", "| Datei | Bedeutung |", "|---|---|"]
     cols, cell = 8, 96
     rows = (len(syms) + cols - 1) // cols
