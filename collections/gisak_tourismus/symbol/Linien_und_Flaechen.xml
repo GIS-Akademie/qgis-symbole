@@ -930,7 +930,7 @@
         <symbol type="line" name="@Tourismus und Freizeit: Wildruhezone (Betretungsverbot)@2" alpha="1" clip_to_extent="1" force_rhr="0">
           <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
             <prop k="SymbolType" v="Line"/>
-            <prop k="geometryModifier" v="collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries($geometry), 1)), with_variable('g', coalesce(geometry_n($geometry, @element), $geometry), if(length(@g) - 2 * 2.5 &lt; 5.0, NULL, line_substring(@g, (length(@g) - floor((length(@g) - 2 * 2.5) / 5.0) * 5.0) / 2, length(@g) - (length(@g) - floor((length(@g) - 2 * 2.5) / 5.0) * 5.0) / 2)))), @element IS NOT NULL))"/>
+            <prop k="geometryModifier" v="collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries($geometry), 1)), with_variable('g', coalesce(geometry_n($geometry, @element), $geometry), if(length(@g) &lt; 2 * 2.5, NULL, if(floor((length(@g) - 2 * 2.5) / 5.0) * 5.0 &lt;= 2.5, extend(line_substring(@g, length(@g) / 2 - 0.01, length(@g) / 2 + 0.01), 2.5, 0.5), line_substring(@g, (length(@g) - floor((length(@g) - 2 * 2.5) / 5.0) * 5.0) / 2, length(@g) - (length(@g) - floor((length(@g) - 2 * 2.5) / 5.0) * 5.0) / 2))))), @element IS NOT NULL))"/>
             <prop k="units" v="MM"/>
             <symbol type="line" name="@@Tourismus und Freizeit: Wildruhezone (Betretungsverbot)@2@0" alpha="1" clip_to_extent="1" force_rhr="0">
               <layer class="MarkerLine" enabled="1" locked="0" pass="0">

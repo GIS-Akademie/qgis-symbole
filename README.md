@@ -1,12 +1,12 @@
 # GIS-Akademie Symbolbibliothek für QGIS
 
-1025 Punktsymbole (SVG) sowie 500 Linien- und Flächensymbole in zwanzig Sammlungen, aufgebaut als Repository
+1025 Punktsymbole (SVG) sowie 498 Linien- und Flächensymbole in zwanzig Sammlungen, aufgebaut als Repository
 für das QGIS-Plugin **Resource Sharing**. Alle Symbole sind Eigenentwicklungen der GIS-Akademie und stehen
 unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de).
 
 | Sammlung | ID | Punkte | Linien | Flächen | Inhalt |
 |---|---|---|---|---|---|
-| PlanZV | `gisak_planzv` | 106 | 18 | 32 | Planzeichen für Bauleitpläne in Anlehnung an die Anlage zur PlanZV |
+| PlanZV | `gisak_planzv` | 106 | 18 | 30 | Planzeichen für Bauleitpläne in Anlehnung an die Anlage zur PlanZV |
 | Strom | `gisak_strom` | 51 | 14 | 7 | Stationen, Masten, Kabelgarnituren, Schaltzeichen, Leitungen nach Spannungsebene |
 | Erneuerbare Energien | `gisak_eeg` | 43 | 10 | 14 | Wind- und Solarparkplanung, Bioenergie, Wasserkraft, Wärme, Netzanschluss |
 | Naturschutz | `gisak_naturschutz` | 58 | 9 | 19 | Schutzgebiete, Arten und Fundpunkte, Kompensation, Erfassung |
@@ -103,7 +103,7 @@ die Linie umdrehen.
 
 **Ecken bleiben frei:** Bei den Umgrenzungen mit Randzeichen prüft das Symbol die Geometrie beim Zeichnen: Der
 Umriss wird zuerst um bis zu 0,5 mm geglättet, dann an jedem Knick über 40° aufgetrennt, und die Zeichen werden auf jeder Kante mittig verteilt, mit
-Abstand zu den Ecken. Kanten, die für ein Zeichen zu kurz sind, bleiben leer; an Bögen aus vielen kurzen
+Abstand zu den Ecken. Kurze Kanten bekommen ein einzelnes Zeichen in der Mitte, sehr kurze bleiben leer; an Bögen aus vielen kurzen
 Stücken laufen die Zeichen durch. Dafür nutzt das Symbol einen Geometriegenerator in Millimetern (ab QGIS 3.24),
 das Ergebnis hängt also vom Kartenmaßstab ab und passt sich beim Zoomen an. Schwellenwinkel und Eckenabstand
 stehen im Ausdruck des Geometriegenerators und lassen sich dort ändern.
@@ -206,7 +206,7 @@ Für die Beschriftung der Vorschaubilder genügt notfalls Arial.
   Farbwerte sind danach gewählt und nicht verbindlich. Nicht enthalten sind unter anderem die Flächen für
   Aufschüttungen und Abgrabungen und der Einfahrtbereich. Die Umgrenzung von Schutzgebieten (Nr. 13.3) zeigt die
   Anlage mit innen geschlossenen Strichgruppen und lässt „Differenzierungen in der Umgrenzungssignatur“ zur
-  Unterscheidung der Schutzgebiete zu, ohne sie festzulegen. Deshalb gibt es zusätzlich ein Paar für
+  Unterscheidung der Schutzgebiete zu, ohne sie festzulegen. Als Flächensymbol gibt es ein Paar für
   aneinandergrenzende Schutzgebiete, wie es in Plänen verbreitet ist: „Naturschutzgebiet“ mit geschlossenen und
   „Landschaftsschutzgebiet“ mit offenen Strichgruppen (`um_schutzgebiet_offen`), jeweils auf der Innenseite. Beide
   nutzen dasselbe Raster, das zweite ist um ein halbes Raster versetzt; an einer gemeinsamen Grenze stehen die

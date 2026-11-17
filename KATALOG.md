@@ -113,7 +113,7 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | `gisak_planzv_um_altlast.svg` | Linienelement: Umgrenzung von Flächen mit erheblich belasteten Böden |
 | `gisak_planzv_um_ohne_ein_ausfahrt.svg` | Linienelement: Bereich ohne Ein- und Ausfahrt |
 
-### PlanZV: Linien und Flächen (50 Symbole)
+### PlanZV: Linien und Flächen (48 Symbole)
 
 | Symbol in QGIS | Art |
 |---|---|
@@ -153,10 +153,8 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | PlanZV: Maßnahmen zum Schutz, zur Pflege und zur Entwicklung von Natur und Landschaft | Fläche |
 | PlanZV: Fläche zum Anpflanzen von Bäumen und Sträuchern | Fläche |
 | PlanZV: Fläche mit Bindungen für die Erhaltung von Bäumen und Sträuchern | Fläche |
-| PlanZV: Schutzgebiet im Sinne des Naturschutzrechts | Fläche |
 | PlanZV: Naturschutzgebiet, geschlossene Signatur | Fläche |
 | PlanZV: Landschaftsschutzgebiet, offene Signatur (versetzt) | Fläche |
-| PlanZV: Schutzgebiet im Sinne des Naturschutzrechts, farbig | Fläche |
 | PlanZV: Erhaltungsbereich oder Denkmalschutz, farbig | Fläche |
 | PlanZV: Fläche für Nebenanlagen, Stellplätze und Garagen | Fläche |
 | PlanZV: Mit Geh-, Fahr- und Leitungsrechten zu belastende Fläche | Fläche |

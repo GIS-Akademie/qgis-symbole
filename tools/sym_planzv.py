@@ -244,7 +244,7 @@ def um(name, abstand, groesse=5.0, dy=0):  # Umgrenzung: Linie mit um_-Zeichen a
     return [linie(K0, 0.3), marken(sv(name, groesse, dy=dy), abstand, ecken=0.4 * groesse)]
 
 
-def sgb(name, start, raster=10.0, groesse=10.0):  # Schutzgebiet: Gabeln innen, Beginn auf dem Raster waehlbar
+def sgb(name, start, raster=8.0, groesse=10.0):  # Schutzgebiet: Gabeln innen, Beginn auf dem Raster waehlbar
     return [linie(K0, 0.7), marken(sv(name, groesse), raster, start=start, ecken=3.0, raster=raster)]
 
 
@@ -297,13 +297,10 @@ FLAECHEN = [
     ("Maßnahmen zum Schutz, zur Pflege und zur Entwicklung von Natur und Landschaft", um("um_massnahmen_natur", 6)),
     ("Fläche zum Anpflanzen von Bäumen und Sträuchern", um("um_anpflanzung", 3.5, 4.0, dy=1.2)),
     ("Fläche mit Bindungen für die Erhaltung von Bäumen und Sträuchern", um("um_erhaltung", 3.5, 4.0, dy=1.2)),
-    ("Schutzgebiet im Sinne des Naturschutzrechts", um("um_schutzgebiet", 10, 8.0)),
     # Zwei Schutzgebiete an gemeinsamer Grenze: gleiches Raster, das zweite ein halbes Raster versetzt, damit
     # die Gabeln beider Flaechen beiderseits der Linie auf Luecke stehen.
-    ("Naturschutzgebiet, geschlossene Signatur", sgb("um_schutzgebiet", 5.0)),
-    ("Landschaftsschutzgebiet, offene Signatur (versetzt)", sgb("um_schutzgebiet_offen", 10.0)),
-    ("Schutzgebiet im Sinne des Naturschutzrechts, farbig",
-     [band("#3CCB4A", 2.4), linie(K0, 0.3), marken(sv("um_schutzgebiet", 8.0), 10, ecken=3.2)]),
+    ("Naturschutzgebiet, geschlossene Signatur", sgb("um_schutzgebiet", 4.0)),
+    ("Landschaftsschutzgebiet, offene Signatur (versetzt)", sgb("um_schutzgebiet_offen", 8.0)),
     ("Erhaltungsbereich oder Denkmalschutz, farbig",
      [band(K0, 1.55), band("#E0705C", 1.4), marken(mk("line", 1.4, K0, rw=0.2, dy=0.7), 3.5, ecken=1.5), linie(K0, 0.3)]),
     ("Fläche für Nebenanlagen, Stellplätze und Garagen", [linie(ROT, 0.35, [3, 1.5])]),

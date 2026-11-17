@@ -1185,7 +1185,7 @@
         <symbol type="line" name="@PlanZV: Maßnahmen zum Schutz, zur Pflege und zur Entwicklung von Natur und Landschaft@1" alpha="1" clip_to_extent="1" force_rhr="0">
           <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
             <prop k="SymbolType" v="Line"/>
-            <prop k="geometryModifier" v="collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries($geometry), 1)), with_variable('g', coalesce(geometry_n($geometry, @element), $geometry), if(length(@g) - 2 * 2.0 &lt; 6.0, NULL, line_substring(@g, (length(@g) - floor((length(@g) - 2 * 2.0) / 6.0) * 6.0) / 2, length(@g) - (length(@g) - floor((length(@g) - 2 * 2.0) / 6.0) * 6.0) / 2)))), @element IS NOT NULL))"/>
+            <prop k="geometryModifier" v="collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries($geometry), 1)), with_variable('g', coalesce(geometry_n($geometry, @element), $geometry), if(length(@g) &lt; 2 * 2.0, NULL, if(floor((length(@g) - 2 * 2.0) / 6.0) * 6.0 &lt;= 3.0, extend(line_substring(@g, length(@g) / 2 - 0.01, length(@g) / 2 + 0.01), 3.0, 0.5), line_substring(@g, (length(@g) - floor((length(@g) - 2 * 2.0) / 6.0) * 6.0) / 2, length(@g) - (length(@g) - floor((length(@g) - 2 * 2.0) / 6.0) * 6.0) / 2))))), @element IS NOT NULL))"/>
             <prop k="units" v="MM"/>
             <symbol type="line" name="@@PlanZV: Maßnahmen zum Schutz, zur Pflege und zur Entwicklung von Natur und Landschaft@1@0" alpha="1" clip_to_extent="1" force_rhr="0">
               <layer class="MarkerLine" enabled="1" locked="0" pass="0">
@@ -1249,7 +1249,7 @@
         <symbol type="line" name="@PlanZV: Fläche zum Anpflanzen von Bäumen und Sträuchern@1" alpha="1" clip_to_extent="1" force_rhr="0">
           <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
             <prop k="SymbolType" v="Line"/>
-            <prop k="geometryModifier" v="collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries($geometry), 1)), with_variable('g', coalesce(geometry_n($geometry, @element), $geometry), if(length(@g) - 2 * 1.6 &lt; 3.5, NULL, line_substring(@g, (length(@g) - floor((length(@g) - 2 * 1.6) / 3.5) * 3.5) / 2, length(@g) - (length(@g) - floor((length(@g) - 2 * 1.6) / 3.5) * 3.5) / 2)))), @element IS NOT NULL))"/>
+            <prop k="geometryModifier" v="collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries($geometry), 1)), with_variable('g', coalesce(geometry_n($geometry, @element), $geometry), if(length(@g) &lt; 2 * 1.6, NULL, if(floor((length(@g) - 2 * 1.6) / 3.5) * 3.5 &lt;= 1.75, extend(line_substring(@g, length(@g) / 2 - 0.01, length(@g) / 2 + 0.01), 1.75, 0.5), line_substring(@g, (length(@g) - floor((length(@g) - 2 * 1.6) / 3.5) * 3.5) / 2, length(@g) - (length(@g) - floor((length(@g) - 2 * 1.6) / 3.5) * 3.5) / 2))))), @element IS NOT NULL))"/>
             <prop k="units" v="MM"/>
             <symbol type="line" name="@@PlanZV: Fläche zum Anpflanzen von Bäumen und Sträuchern@1@0" alpha="1" clip_to_extent="1" force_rhr="0">
               <layer class="MarkerLine" enabled="1" locked="0" pass="0">
@@ -1313,7 +1313,7 @@
         <symbol type="line" name="@PlanZV: Fläche mit Bindungen für die Erhaltung von Bäumen und Sträuchern@1" alpha="1" clip_to_extent="1" force_rhr="0">
           <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
             <prop k="SymbolType" v="Line"/>
-            <prop k="geometryModifier" v="collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries($geometry), 1)), with_variable('g', coalesce(geometry_n($geometry, @element), $geometry), if(length(@g) - 2 * 1.6 &lt; 3.5, NULL, line_substring(@g, (length(@g) - floor((length(@g) - 2 * 1.6) / 3.5) * 3.5) / 2, length(@g) - (length(@g) - floor((length(@g) - 2 * 1.6) / 3.5) * 3.5) / 2)))), @element IS NOT NULL))"/>
+            <prop k="geometryModifier" v="collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries($geometry), 1)), with_variable('g', coalesce(geometry_n($geometry, @element), $geometry), if(length(@g) &lt; 2 * 1.6, NULL, if(floor((length(@g) - 2 * 1.6) / 3.5) * 3.5 &lt;= 1.75, extend(line_substring(@g, length(@g) / 2 - 0.01, length(@g) / 2 + 0.01), 1.75, 0.5), line_substring(@g, (length(@g) - floor((length(@g) - 2 * 1.6) / 3.5) * 3.5) / 2, length(@g) - (length(@g) - floor((length(@g) - 2 * 1.6) / 3.5) * 3.5) / 2))))), @element IS NOT NULL))"/>
             <prop k="units" v="MM"/>
             <symbol type="line" name="@@PlanZV: Fläche mit Bindungen für die Erhaltung von Bäumen und Sträuchern@1@0" alpha="1" clip_to_extent="1" force_rhr="0">
               <layer class="MarkerLine" enabled="1" locked="0" pass="0">
@@ -1354,70 +1354,6 @@
         </symbol>
       </layer>
     </symbol>
-    <symbol type="fill" name="PlanZV: Schutzgebiet im Sinne des Naturschutzrechts" alpha="1" clip_to_extent="1" force_rhr="1">
-      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
-        <prop k="line_color" v="0,0,0,255"/>
-        <prop k="line_style" v="solid"/>
-        <prop k="line_width" v="0.3"/>
-        <prop k="line_width_unit" v="MM"/>
-        <prop k="capstyle" v="flat"/>
-        <prop k="joinstyle" v="round"/>
-        <prop k="offset" v="0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="use_custom_dash" v="0"/>
-        <prop k="customdash" v="5;2"/>
-        <prop k="customdash_unit" v="MM"/>
-        <prop k="draw_inside_polygon" v="0"/>
-        <prop k="ring_filter" v="0"/>
-      </layer>
-      <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
-        <prop k="SymbolType" v="Line"/>
-        <prop k="geometryModifier" v="collect_geometries(array_foreach(generate_series(1, coalesce(num_geometries(simplify(if(geometry_type($geometry) = 'Polygon', boundary(force_polygon_ccw($geometry)), $geometry), 0.5)), 1)), with_variable('r', coalesce(geometry_n(simplify(if(geometry_type($geometry) = 'Polygon', boundary(force_polygon_ccw($geometry)), $geometry), 0.5), @element), simplify(if(geometry_type($geometry) = 'Polygon', boundary(force_polygon_ccw($geometry)), $geometry), 0.5)), with_variable('cd', array_filter(array_foreach(generate_series(2, num_points(@r) - 1), if(if(abs(azimuth(point_n(@r, @element - 1), point_n(@r, @element)) - azimuth(point_n(@r, @element), point_n(@r, @element + 1))) &gt; pi(), 2 * pi() - abs(azimuth(point_n(@r, @element - 1), point_n(@r, @element)) - azimuth(point_n(@r, @element), point_n(@r, @element + 1))), abs(azimuth(point_n(@r, @element - 1), point_n(@r, @element)) - azimuth(point_n(@r, @element), point_n(@r, @element + 1)))) &gt; radians(40), distance_to_vertex(@r, @element - 1), NULL)), @element IS NOT NULL), collect_geometries(array_foreach(generate_series(0, array_length(@cd)), line_substring(@r, if(@element = 0, 0, @cd[@element - 1]), if(@element = array_length(@cd), length(@r), @cd[@element]))))))))"/>
-        <prop k="units" v="MM"/>
-        <symbol type="line" name="@PlanZV: Schutzgebiet im Sinne des Naturschutzrechts@1" alpha="1" clip_to_extent="1" force_rhr="0">
-          <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
-            <prop k="SymbolType" v="Line"/>
-            <prop k="geometryModifier" v="collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries($geometry), 1)), with_variable('g', coalesce(geometry_n($geometry, @element), $geometry), if(length(@g) - 2 * 3.2 &lt; 10.0, NULL, line_substring(@g, (length(@g) - floor((length(@g) - 2 * 3.2) / 10.0) * 10.0) / 2, length(@g) - (length(@g) - floor((length(@g) - 2 * 3.2) / 10.0) * 10.0) / 2)))), @element IS NOT NULL))"/>
-            <prop k="units" v="MM"/>
-            <symbol type="line" name="@@PlanZV: Schutzgebiet im Sinne des Naturschutzrechts@1@0" alpha="1" clip_to_extent="1" force_rhr="0">
-              <layer class="MarkerLine" enabled="1" locked="0" pass="0">
-                <prop k="placement" v="interval"/>
-                <prop k="placements" v="Interval"/>
-                <prop k="interval" v="10"/>
-                <prop k="interval_unit" v="MM"/>
-                <prop k="offset_along_line" v="5"/>
-                <prop k="offset_along_line_unit" v="MM"/>
-                <prop k="offset" v="0"/>
-                <prop k="offset_unit" v="MM"/>
-                <prop k="rotate" v="1"/>
-                <prop k="average_angle_length" v="0"/>
-                <prop k="average_angle_unit" v="MM"/>
-                <prop k="place_on_every_part" v="1"/>
-                <prop k="ring_filter" v="0"/>
-                <symbol type="marker" name="@@@PlanZV: Schutzgebiet im Sinne des Naturschutzrechts@1@0@0" alpha="1" clip_to_extent="1" force_rhr="0">
-                  <layer class="SvgMarker" enabled="1" locked="0" pass="0">
-                    <prop k="name" v="gisak_planzv_um_schutzgebiet.svg"/>
-                    <prop k="size" v="8"/>
-                    <prop k="size_unit" v="MM"/>
-                    <prop k="scale_method" v="diameter"/>
-                    <prop k="fixedAspectRatio" v="0"/>
-                    <prop k="color" v="255,255,255,255"/>
-                    <prop k="outline_color" v="0,0,0,255"/>
-                    <prop k="outline_width" v="0"/>
-                    <prop k="outline_width_unit" v="MM"/>
-                    <prop k="angle" v="0"/>
-                    <prop k="offset" v="0,0"/>
-                    <prop k="offset_unit" v="MM"/>
-                    <prop k="horizontal_anchor_point" v="1"/>
-                    <prop k="vertical_anchor_point" v="1"/>
-                  </layer>
-                </symbol>
-              </layer>
-            </symbol>
-          </layer>
-        </symbol>
-      </layer>
-    </symbol>
     <symbol type="fill" name="PlanZV: Naturschutzgebiet, geschlossene Signatur" alpha="1" clip_to_extent="1" force_rhr="1">
       <layer class="SimpleLine" enabled="1" locked="0" pass="0">
         <prop k="line_color" v="0,0,0,255"/>
@@ -1441,15 +1377,15 @@
         <symbol type="line" name="@PlanZV: Naturschutzgebiet, geschlossene Signatur@1" alpha="1" clip_to_extent="1" force_rhr="0">
           <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
             <prop k="SymbolType" v="Line"/>
-            <prop k="geometryModifier" v="collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries($geometry), 1)), with_variable('g', coalesce(geometry_n($geometry, @element), $geometry), if(length(@g) - 2 * 3.0 &lt; 10.0, NULL, line_substring(@g, (length(@g) - floor((length(@g) - 2 * 3.0) / 10.0) * 10.0) / 2, length(@g) - (length(@g) - floor((length(@g) - 2 * 3.0) / 10.0) * 10.0) / 2)))), @element IS NOT NULL))"/>
+            <prop k="geometryModifier" v="collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries($geometry), 1)), with_variable('g', coalesce(geometry_n($geometry, @element), $geometry), if(length(@g) &lt; 2 * 3.0, NULL, if(floor((length(@g) - 2 * 3.0) / 8.0) * 8.0 &lt;= 4.0, extend(line_substring(@g, length(@g) / 2 - 0.01, length(@g) / 2 + 0.01), 4.0, 0.5), line_substring(@g, (length(@g) - floor((length(@g) - 2 * 3.0) / 8.0) * 8.0) / 2, length(@g) - (length(@g) - floor((length(@g) - 2 * 3.0) / 8.0) * 8.0) / 2))))), @element IS NOT NULL))"/>
             <prop k="units" v="MM"/>
             <symbol type="line" name="@@PlanZV: Naturschutzgebiet, geschlossene Signatur@1@0" alpha="1" clip_to_extent="1" force_rhr="0">
               <layer class="MarkerLine" enabled="1" locked="0" pass="0">
                 <prop k="placement" v="interval"/>
                 <prop k="placements" v="Interval"/>
-                <prop k="interval" v="10"/>
+                <prop k="interval" v="8"/>
                 <prop k="interval_unit" v="MM"/>
-                <prop k="offset_along_line" v="5"/>
+                <prop k="offset_along_line" v="4"/>
                 <prop k="offset_along_line_unit" v="MM"/>
                 <prop k="offset" v="0"/>
                 <prop k="offset_unit" v="MM"/>
@@ -1505,15 +1441,15 @@
         <symbol type="line" name="@PlanZV: Landschaftsschutzgebiet, offene Signatur (versetzt)@1" alpha="1" clip_to_extent="1" force_rhr="0">
           <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
             <prop k="SymbolType" v="Line"/>
-            <prop k="geometryModifier" v="collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries($geometry), 1)), with_variable('g', coalesce(geometry_n($geometry, @element), $geometry), if(length(@g) - 2 * 3.0 &lt; 10.0, NULL, line_substring(@g, (length(@g) - floor((length(@g) - 2 * 3.0) / 10.0) * 10.0) / 2, length(@g) - (length(@g) - floor((length(@g) - 2 * 3.0) / 10.0) * 10.0) / 2)))), @element IS NOT NULL))"/>
+            <prop k="geometryModifier" v="collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries($geometry), 1)), with_variable('g', coalesce(geometry_n($geometry, @element), $geometry), if(length(@g) &lt; 2 * 3.0, NULL, if(floor((length(@g) - 2 * 3.0) / 8.0) * 8.0 &lt;= 8.0, extend(line_substring(@g, length(@g) / 2 - 0.01, length(@g) / 2 + 0.01), 8.0, 0.5), line_substring(@g, (length(@g) - floor((length(@g) - 2 * 3.0) / 8.0) * 8.0) / 2, length(@g) - (length(@g) - floor((length(@g) - 2 * 3.0) / 8.0) * 8.0) / 2))))), @element IS NOT NULL))"/>
             <prop k="units" v="MM"/>
             <symbol type="line" name="@@PlanZV: Landschaftsschutzgebiet, offene Signatur (versetzt)@1@0" alpha="1" clip_to_extent="1" force_rhr="0">
               <layer class="MarkerLine" enabled="1" locked="0" pass="0">
                 <prop k="placement" v="interval"/>
                 <prop k="placements" v="Interval"/>
-                <prop k="interval" v="10"/>
+                <prop k="interval" v="8"/>
                 <prop k="interval_unit" v="MM"/>
-                <prop k="offset_along_line" v="10"/>
+                <prop k="offset_along_line" v="8"/>
                 <prop k="offset_along_line_unit" v="MM"/>
                 <prop k="offset" v="0"/>
                 <prop k="offset_unit" v="MM"/>
@@ -1526,85 +1462,6 @@
                   <layer class="SvgMarker" enabled="1" locked="0" pass="0">
                     <prop k="name" v="gisak_planzv_um_schutzgebiet_offen.svg"/>
                     <prop k="size" v="10"/>
-                    <prop k="size_unit" v="MM"/>
-                    <prop k="scale_method" v="diameter"/>
-                    <prop k="fixedAspectRatio" v="0"/>
-                    <prop k="color" v="255,255,255,255"/>
-                    <prop k="outline_color" v="0,0,0,255"/>
-                    <prop k="outline_width" v="0"/>
-                    <prop k="outline_width_unit" v="MM"/>
-                    <prop k="angle" v="0"/>
-                    <prop k="offset" v="0,0"/>
-                    <prop k="offset_unit" v="MM"/>
-                    <prop k="horizontal_anchor_point" v="1"/>
-                    <prop k="vertical_anchor_point" v="1"/>
-                  </layer>
-                </symbol>
-              </layer>
-            </symbol>
-          </layer>
-        </symbol>
-      </layer>
-    </symbol>
-    <symbol type="fill" name="PlanZV: Schutzgebiet im Sinne des Naturschutzrechts, farbig" alpha="1" clip_to_extent="1" force_rhr="1">
-      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
-        <prop k="line_color" v="60,203,74,255"/>
-        <prop k="line_style" v="solid"/>
-        <prop k="line_width" v="4.8"/>
-        <prop k="line_width_unit" v="MM"/>
-        <prop k="capstyle" v="flat"/>
-        <prop k="joinstyle" v="round"/>
-        <prop k="offset" v="0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="use_custom_dash" v="0"/>
-        <prop k="customdash" v="5;2"/>
-        <prop k="customdash_unit" v="MM"/>
-        <prop k="draw_inside_polygon" v="1"/>
-        <prop k="ring_filter" v="0"/>
-      </layer>
-      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
-        <prop k="line_color" v="0,0,0,255"/>
-        <prop k="line_style" v="solid"/>
-        <prop k="line_width" v="0.3"/>
-        <prop k="line_width_unit" v="MM"/>
-        <prop k="capstyle" v="flat"/>
-        <prop k="joinstyle" v="round"/>
-        <prop k="offset" v="0"/>
-        <prop k="offset_unit" v="MM"/>
-        <prop k="use_custom_dash" v="0"/>
-        <prop k="customdash" v="5;2"/>
-        <prop k="customdash_unit" v="MM"/>
-        <prop k="draw_inside_polygon" v="0"/>
-        <prop k="ring_filter" v="0"/>
-      </layer>
-      <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
-        <prop k="SymbolType" v="Line"/>
-        <prop k="geometryModifier" v="collect_geometries(array_foreach(generate_series(1, coalesce(num_geometries(simplify(if(geometry_type($geometry) = 'Polygon', boundary(force_polygon_ccw($geometry)), $geometry), 0.5)), 1)), with_variable('r', coalesce(geometry_n(simplify(if(geometry_type($geometry) = 'Polygon', boundary(force_polygon_ccw($geometry)), $geometry), 0.5), @element), simplify(if(geometry_type($geometry) = 'Polygon', boundary(force_polygon_ccw($geometry)), $geometry), 0.5)), with_variable('cd', array_filter(array_foreach(generate_series(2, num_points(@r) - 1), if(if(abs(azimuth(point_n(@r, @element - 1), point_n(@r, @element)) - azimuth(point_n(@r, @element), point_n(@r, @element + 1))) &gt; pi(), 2 * pi() - abs(azimuth(point_n(@r, @element - 1), point_n(@r, @element)) - azimuth(point_n(@r, @element), point_n(@r, @element + 1))), abs(azimuth(point_n(@r, @element - 1), point_n(@r, @element)) - azimuth(point_n(@r, @element), point_n(@r, @element + 1)))) &gt; radians(40), distance_to_vertex(@r, @element - 1), NULL)), @element IS NOT NULL), collect_geometries(array_foreach(generate_series(0, array_length(@cd)), line_substring(@r, if(@element = 0, 0, @cd[@element - 1]), if(@element = array_length(@cd), length(@r), @cd[@element]))))))))"/>
-        <prop k="units" v="MM"/>
-        <symbol type="line" name="@PlanZV: Schutzgebiet im Sinne des Naturschutzrechts, farbig@2" alpha="1" clip_to_extent="1" force_rhr="0">
-          <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
-            <prop k="SymbolType" v="Line"/>
-            <prop k="geometryModifier" v="collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries($geometry), 1)), with_variable('g', coalesce(geometry_n($geometry, @element), $geometry), if(length(@g) - 2 * 3.2 &lt; 10.0, NULL, line_substring(@g, (length(@g) - floor((length(@g) - 2 * 3.2) / 10.0) * 10.0) / 2, length(@g) - (length(@g) - floor((length(@g) - 2 * 3.2) / 10.0) * 10.0) / 2)))), @element IS NOT NULL))"/>
-            <prop k="units" v="MM"/>
-            <symbol type="line" name="@@PlanZV: Schutzgebiet im Sinne des Naturschutzrechts, farbig@2@0" alpha="1" clip_to_extent="1" force_rhr="0">
-              <layer class="MarkerLine" enabled="1" locked="0" pass="0">
-                <prop k="placement" v="interval"/>
-                <prop k="placements" v="Interval"/>
-                <prop k="interval" v="10"/>
-                <prop k="interval_unit" v="MM"/>
-                <prop k="offset_along_line" v="5"/>
-                <prop k="offset_along_line_unit" v="MM"/>
-                <prop k="offset" v="0"/>
-                <prop k="offset_unit" v="MM"/>
-                <prop k="rotate" v="1"/>
-                <prop k="average_angle_length" v="0"/>
-                <prop k="average_angle_unit" v="MM"/>
-                <prop k="place_on_every_part" v="1"/>
-                <prop k="ring_filter" v="0"/>
-                <symbol type="marker" name="@@@PlanZV: Schutzgebiet im Sinne des Naturschutzrechts, farbig@2@0@0" alpha="1" clip_to_extent="1" force_rhr="0">
-                  <layer class="SvgMarker" enabled="1" locked="0" pass="0">
-                    <prop k="name" v="gisak_planzv_um_schutzgebiet.svg"/>
-                    <prop k="size" v="8"/>
                     <prop k="size_unit" v="MM"/>
                     <prop k="scale_method" v="diameter"/>
                     <prop k="fixedAspectRatio" v="0"/>
@@ -1663,7 +1520,7 @@
         <symbol type="line" name="@PlanZV: Erhaltungsbereich oder Denkmalschutz, farbig@2" alpha="1" clip_to_extent="1" force_rhr="0">
           <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
             <prop k="SymbolType" v="Line"/>
-            <prop k="geometryModifier" v="collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries($geometry), 1)), with_variable('g', coalesce(geometry_n($geometry, @element), $geometry), if(length(@g) - 2 * 1.5 &lt; 3.5, NULL, line_substring(@g, (length(@g) - floor((length(@g) - 2 * 1.5) / 3.5) * 3.5) / 2, length(@g) - (length(@g) - floor((length(@g) - 2 * 1.5) / 3.5) * 3.5) / 2)))), @element IS NOT NULL))"/>
+            <prop k="geometryModifier" v="collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries($geometry), 1)), with_variable('g', coalesce(geometry_n($geometry, @element), $geometry), if(length(@g) &lt; 2 * 1.5, NULL, if(floor((length(@g) - 2 * 1.5) / 3.5) * 3.5 &lt;= 1.75, extend(line_substring(@g, length(@g) / 2 - 0.01, length(@g) / 2 + 0.01), 1.75, 0.5), line_substring(@g, (length(@g) - floor((length(@g) - 2 * 1.5) / 3.5) * 3.5) / 2, length(@g) - (length(@g) - floor((length(@g) - 2 * 1.5) / 3.5) * 3.5) / 2))))), @element IS NOT NULL))"/>
             <prop k="units" v="MM"/>
             <symbol type="line" name="@@PlanZV: Erhaltungsbereich oder Denkmalschutz, farbig@2@0" alpha="1" clip_to_extent="1" force_rhr="0">
               <layer class="MarkerLine" enabled="1" locked="0" pass="0">
@@ -1761,7 +1618,7 @@
         <symbol type="line" name="@PlanZV: Mit Geh-, Fahr- und Leitungsrechten zu belastende Fläche@1" alpha="1" clip_to_extent="1" force_rhr="0">
           <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
             <prop k="SymbolType" v="Line"/>
-            <prop k="geometryModifier" v="collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries($geometry), 1)), with_variable('g', coalesce(geometry_n($geometry, @element), $geometry), if(length(@g) - 2 * 2.4 &lt; 3.4, NULL, line_substring(@g, (length(@g) - floor((length(@g) - 2 * 2.4) / 3.4) * 3.4) / 2, length(@g) - (length(@g) - floor((length(@g) - 2 * 2.4) / 3.4) * 3.4) / 2)))), @element IS NOT NULL))"/>
+            <prop k="geometryModifier" v="collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries($geometry), 1)), with_variable('g', coalesce(geometry_n($geometry, @element), $geometry), if(length(@g) &lt; 2 * 2.4, NULL, if(floor((length(@g) - 2 * 2.4) / 3.4) * 3.4 &lt;= 1.7, extend(line_substring(@g, length(@g) / 2 - 0.01, length(@g) / 2 + 0.01), 1.7, 0.5), line_substring(@g, (length(@g) - floor((length(@g) - 2 * 2.4) / 3.4) * 3.4) / 2, length(@g) - (length(@g) - floor((length(@g) - 2 * 2.4) / 3.4) * 3.4) / 2))))), @element IS NOT NULL))"/>
             <prop k="units" v="MM"/>
             <symbol type="line" name="@@PlanZV: Mit Geh-, Fahr- und Leitungsrechten zu belastende Fläche@1@0" alpha="1" clip_to_extent="1" force_rhr="0">
               <layer class="MarkerLine" enabled="1" locked="0" pass="0">
@@ -1827,7 +1684,7 @@
         <symbol type="line" name="@PlanZV: Vorkehrungen zum Schutz gegen schädliche Umwelteinwirkungen@1" alpha="1" clip_to_extent="1" force_rhr="0">
           <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
             <prop k="SymbolType" v="Line"/>
-            <prop k="geometryModifier" v="collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries($geometry), 1)), with_variable('g', coalesce(geometry_n($geometry, @element), $geometry), if(length(@g) - 2 * 2.0 &lt; 5.0, NULL, line_substring(@g, (length(@g) - floor((length(@g) - 2 * 2.0) / 5.0) * 5.0) / 2, length(@g) - (length(@g) - floor((length(@g) - 2 * 2.0) / 5.0) * 5.0) / 2)))), @element IS NOT NULL))"/>
+            <prop k="geometryModifier" v="collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries($geometry), 1)), with_variable('g', coalesce(geometry_n($geometry, @element), $geometry), if(length(@g) &lt; 2 * 2.0, NULL, if(floor((length(@g) - 2 * 2.0) / 5.0) * 5.0 &lt;= 2.5, extend(line_substring(@g, length(@g) / 2 - 0.01, length(@g) / 2 + 0.01), 2.5, 0.5), line_substring(@g, (length(@g) - floor((length(@g) - 2 * 2.0) / 5.0) * 5.0) / 2, length(@g) - (length(@g) - floor((length(@g) - 2 * 2.0) / 5.0) * 5.0) / 2))))), @element IS NOT NULL))"/>
             <prop k="units" v="MM"/>
             <symbol type="line" name="@@PlanZV: Vorkehrungen zum Schutz gegen schädliche Umwelteinwirkungen@1@0" alpha="1" clip_to_extent="1" force_rhr="0">
               <layer class="MarkerLine" enabled="1" locked="0" pass="0">
@@ -1891,7 +1748,7 @@
         <symbol type="line" name="@PlanZV: Gebiet mit Verwendungsbeschränkung luftverunreinigender Stoffe@1" alpha="1" clip_to_extent="1" force_rhr="0">
           <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
             <prop k="SymbolType" v="Line"/>
-            <prop k="geometryModifier" v="collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries($geometry), 1)), with_variable('g', coalesce(geometry_n($geometry, @element), $geometry), if(length(@g) - 2 * 2.0 &lt; 4.0, NULL, line_substring(@g, (length(@g) - floor((length(@g) - 2 * 2.0) / 4.0) * 4.0) / 2, length(@g) - (length(@g) - floor((length(@g) - 2 * 2.0) / 4.0) * 4.0) / 2)))), @element IS NOT NULL))"/>
+            <prop k="geometryModifier" v="collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries($geometry), 1)), with_variable('g', coalesce(geometry_n($geometry, @element), $geometry), if(length(@g) &lt; 2 * 2.0, NULL, if(floor((length(@g) - 2 * 2.0) / 4.0) * 4.0 &lt;= 2.0, extend(line_substring(@g, length(@g) / 2 - 0.01, length(@g) / 2 + 0.01), 2.0, 0.5), line_substring(@g, (length(@g) - floor((length(@g) - 2 * 2.0) / 4.0) * 4.0) / 2, length(@g) - (length(@g) - floor((length(@g) - 2 * 2.0) / 4.0) * 4.0) / 2))))), @element IS NOT NULL))"/>
             <prop k="units" v="MM"/>
             <symbol type="line" name="@@PlanZV: Gebiet mit Verwendungsbeschränkung luftverunreinigender Stoffe@1@0" alpha="1" clip_to_extent="1" force_rhr="0">
               <layer class="MarkerLine" enabled="1" locked="0" pass="0">
@@ -1955,7 +1812,7 @@
         <symbol type="line" name="@PlanZV: Von der Bebauung freizuhaltende Fläche@1" alpha="1" clip_to_extent="1" force_rhr="0">
           <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
             <prop k="SymbolType" v="Line"/>
-            <prop k="geometryModifier" v="collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries($geometry), 1)), with_variable('g', coalesce(geometry_n($geometry, @element), $geometry), if(length(@g) - 2 * 2.0 &lt; 5.0, NULL, line_substring(@g, (length(@g) - floor((length(@g) - 2 * 2.0) / 5.0) * 5.0) / 2, length(@g) - (length(@g) - floor((length(@g) - 2 * 2.0) / 5.0) * 5.0) / 2)))), @element IS NOT NULL))"/>
+            <prop k="geometryModifier" v="collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries($geometry), 1)), with_variable('g', coalesce(geometry_n($geometry, @element), $geometry), if(length(@g) &lt; 2 * 2.0, NULL, if(floor((length(@g) - 2 * 2.0) / 5.0) * 5.0 &lt;= 2.5, extend(line_substring(@g, length(@g) / 2 - 0.01, length(@g) / 2 + 0.01), 2.5, 0.5), line_substring(@g, (length(@g) - floor((length(@g) - 2 * 2.0) / 5.0) * 5.0) / 2, length(@g) - (length(@g) - floor((length(@g) - 2 * 2.0) / 5.0) * 5.0) / 2))))), @element IS NOT NULL))"/>
             <prop k="units" v="MM"/>
             <symbol type="line" name="@@PlanZV: Von der Bebauung freizuhaltende Fläche@1@0" alpha="1" clip_to_extent="1" force_rhr="0">
               <layer class="MarkerLine" enabled="1" locked="0" pass="0">
@@ -2019,7 +1876,7 @@
         <symbol type="line" name="@PlanZV: Fläche, unter der der Bergbau umgeht@1" alpha="1" clip_to_extent="1" force_rhr="0">
           <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
             <prop k="SymbolType" v="Line"/>
-            <prop k="geometryModifier" v="collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries($geometry), 1)), with_variable('g', coalesce(geometry_n($geometry, @element), $geometry), if(length(@g) - 2 * 2.0 &lt; 5.0, NULL, line_substring(@g, (length(@g) - floor((length(@g) - 2 * 2.0) / 5.0) * 5.0) / 2, length(@g) - (length(@g) - floor((length(@g) - 2 * 2.0) / 5.0) * 5.0) / 2)))), @element IS NOT NULL))"/>
+            <prop k="geometryModifier" v="collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries($geometry), 1)), with_variable('g', coalesce(geometry_n($geometry, @element), $geometry), if(length(@g) &lt; 2 * 2.0, NULL, if(floor((length(@g) - 2 * 2.0) / 5.0) * 5.0 &lt;= 2.5, extend(line_substring(@g, length(@g) / 2 - 0.01, length(@g) / 2 + 0.01), 2.5, 0.5), line_substring(@g, (length(@g) - floor((length(@g) - 2 * 2.0) / 5.0) * 5.0) / 2, length(@g) - (length(@g) - floor((length(@g) - 2 * 2.0) / 5.0) * 5.0) / 2))))), @element IS NOT NULL))"/>
             <prop k="units" v="MM"/>
             <symbol type="line" name="@@PlanZV: Fläche, unter der der Bergbau umgeht@1@0" alpha="1" clip_to_extent="1" force_rhr="0">
               <layer class="MarkerLine" enabled="1" locked="0" pass="0">
@@ -2083,7 +1940,7 @@
         <symbol type="line" name="@PlanZV: Fläche mit erheblich belasteten Böden@1" alpha="1" clip_to_extent="1" force_rhr="0">
           <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
             <prop k="SymbolType" v="Line"/>
-            <prop k="geometryModifier" v="collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries($geometry), 1)), with_variable('g', coalesce(geometry_n($geometry, @element), $geometry), if(length(@g) - 2 * 2.6 &lt; 5.0, NULL, line_substring(@g, (length(@g) - floor((length(@g) - 2 * 2.6) / 5.0) * 5.0) / 2, length(@g) - (length(@g) - floor((length(@g) - 2 * 2.6) / 5.0) * 5.0) / 2)))), @element IS NOT NULL))"/>
+            <prop k="geometryModifier" v="collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries($geometry), 1)), with_variable('g', coalesce(geometry_n($geometry, @element), $geometry), if(length(@g) &lt; 2 * 2.6, NULL, if(floor((length(@g) - 2 * 2.6) / 5.0) * 5.0 &lt;= 2.5, extend(line_substring(@g, length(@g) / 2 - 0.01, length(@g) / 2 + 0.01), 2.5, 0.5), line_substring(@g, (length(@g) - floor((length(@g) - 2 * 2.6) / 5.0) * 5.0) / 2, length(@g) - (length(@g) - floor((length(@g) - 2 * 2.6) / 5.0) * 5.0) / 2))))), @element IS NOT NULL))"/>
             <prop k="units" v="MM"/>
             <symbol type="line" name="@@PlanZV: Fläche mit erheblich belasteten Böden@1@0" alpha="1" clip_to_extent="1" force_rhr="0">
               <layer class="MarkerLine" enabled="1" locked="0" pass="0">

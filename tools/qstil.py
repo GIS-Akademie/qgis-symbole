@@ -68,15 +68,18 @@ def _var(name, value, body):
     return f"with_variable('{name}', {value}, {body})"
 
 
-def ecken_ausdruecke(abstand, ecke, winkel=40, glaetten=0.5):
+def ecken_ausdruecke(abstand, ecke, start=None, winkel=40, glaetten=0.5):
     """Zwei QGIS-Ausdruecke fuer zwei ineinander gesetzte Geometriegeneratoren (Einheit Millimeter):
     1. trennt Umriss oder Linie an Knicken ueber `winkel` Grad (und am Ringanfang) in Abschnitte auf,
     2. kuerzt jeden Abschnitt beidseitig so, dass ein ganzzahliges Vielfaches von `abstand` bleibt und
-       mindestens `ecke` frei ist; Abschnitte, die fuer eine Markierung zu kurz sind, entfallen.
+       mindestens `ecke` frei ist. Passt so keine Markierung hinein, der Abschnitt ist aber mindestens
+       2 * `ecke` lang, bekommt er eine einzelne Markierung in der Mitte (ueber eine kurze, nach hinten
+       verlaengerte Hilfslinie, auf der die Markierung im Abstand `start` genau die Mitte trifft).
     Zwei flache Stufen statt eines Ausdrucks: Der Parser von QGIS 3.x braucht je Ebene verschachtelter
     Funktionsaufrufe etwa doppelt so lange (ab rund 20 Ebenen ueber eine Sekunde je Symbol, und das bei
     jedem Kopieren des Symbols) - die Symbolauswahl friert sonst ein."""
     i, d = repr(float(abstand)), repr(float(ecke))
+    s = repr(float(abstand / 2 if start is None else start))
     # Vorab in Millimetern glaetten (Douglas-Peucker): Bei kleinem Massstab zaehlt sonst jeder kleine Knick als
     # Ecke, die Abschnitte werden zu kurz und die Zeichen fallen weg. Die Zeichen sitzen damit hoechstens
     # `glaetten` mm neben der gezeichneten Linie.
@@ -93,11 +96,14 @@ def ecken_ausdruecke(abstand, ecke, winkel=40, glaetten=0.5):
                       _var("cd", cd, "collect_geometries(array_foreach(generate_series(0, array_length(@cd)), "
                                      f"{stueck}))"))
                + "))")
-    t = f"(length(@g) - floor((length(@g) - 2 * {d}) / {i}) * {i}) / 2"
+    nutz = f"floor((length(@g) - 2 * {d}) / {i}) * {i}"
+    t = f"(length(@g) - {nutz}) / 2"
+    mitte = f"extend(line_substring(@g, length(@g) / 2 - 0.01, length(@g) / 2 + 0.01), {s}, 0.5)"
     kuerzen = ("collect_geometries(array_filter(array_foreach("
                "generate_series(1, coalesce(num_geometries($geometry), 1)), "
                + _var("g", "coalesce(geometry_n($geometry, @element), $geometry)",
-                      f"if(length(@g) - 2 * {d} < {i}, NULL, line_substring(@g, {t}, length(@g) - {t}))")
+                      f"if(length(@g) < 2 * {d}, NULL, if({nutz} <= {s}, {mitte}, "
+                      f"line_substring(@g, {t}, length(@g) - {t})))")
                + "), @element IS NOT NULL))")
     return trennen, kuerzen
 
@@ -209,7 +215,7 @@ def symbol_xml(typ, name, ebenen, cid, ind="    "):
                 "offset_unit": "MM", "rotate": 1, "average_angle_length": 0, "average_angle_unit": "MM",
                 "place_on_every_part": 1, "ring_filter": 0}, i6,
                 _symbol("marker", f"@@{sub}@0@0", _marker_xml(p["marker"], i6 + "    ", cid), i6 + "  "))
-            trennen, kuerzen = ecken_ausdruecke(p["raster"], p["ecken"])
+            trennen, kuerzen = ecken_ausdruecke(p["raster"], p["ecken"], p["start"])
             innen = _layer("GeometryGenerator", {"SymbolType": "Line", "geometryModifier": kuerzen, "units": "MM"},
                            i4, _symbol("line", f"@{sub}@0", ml, i4 + "  "))
             out += _layer("GeometryGenerator", {"SymbolType": "Line", "geometryModifier": trennen, "units": "MM"},
@@ -332,6 +338,10 @@ def _ebene_svg(art, p, pts, zu, lookup, clip):
                 k = math.floor((ln - 2 * p["ecken"]) / p["raster"] + 1e-9)
                 ang = math.degrees(math.atan2(b[1] - a[1], b[0] - a[0]))
                 rand, pos = (ln - k * p["raster"]) / 2, p["start"]
+                if ln >= 2 * p["ecken"] and k * p["raster"] <= p["start"]:  # kurze Kante: ein Zeichen mittig
+                    out.append(f'<g transform="translate({_n((a[0] + b[0]) / 2)},{_n((a[1] + b[1]) / 2)}) '
+                               f'rotate({_n(ang)})">{m}</g>')
+                    continue
                 while k > 0 and pos < k * p["raster"] - 1e-6:  # QGIS setzt am Abschnittsende keine Markierung
                     t, pos = (rand + pos) / ln, pos + p["abstand"]
                     out.append(f'<g transform="translate({_n(a[0] + t * (b[0] - a[0]))},{_n(a[1] + t * (b[1] - a[1]))}) '
