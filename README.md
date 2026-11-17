@@ -56,7 +56,10 @@ sollten nach der Veröffentlichung nicht mehr geändert werden, weil Projekte da
 ## Erweitern
 
 Neue Symbole werden in `tools/sym_a.py` bzw. `tools/sym_b.py` als Liste von Grundformen ergänzt.
-`python tools/mkrepo.py <Zielordner>` erzeugt daraus alle SVGs, Vorschauen, `metadata.ini` und den Katalog neu.
+Danach im Repository-Ordner `python tools/mkrepo.py .` ausführen: Das erzeugt alle SVGs, Vorschauen,
+`metadata.ini`, `LICENSE` und den Katalog neu, `tools/` bleibt dabei unverändert. Mit einem anderen
+Zielordner (`python tools/mkrepo.py C:\Temp\neu`) entsteht dort ein vollständiges Repository samt `tools/`.
+Vorher committen: `collections/` wird vor dem Neuerzeugen gelöscht, mit `git diff` sieht man danach, was sich geändert hat.
 Benötigt werden Python 3 mit `fonttools`, `Pillow`, `lxml` (unter Windows z. B. die Python-Umgebung von
 ArcGIS Pro), das Programm `rsvg-convert` für die Vorschaubilder und die Schrift **Liberation Sans**
 ([Download](https://github.com/liberationfonts/liberation-fonts/releases), SIL Open Font License).
@@ -66,13 +69,11 @@ installiert“) und macOS gesucht. Liegt sie woanders, den Ordner mit den `.ttf`
 
 ```powershell
 $env:GISAK_FONT_DIR = "C:\Pfad\zu\liberation-fonts"
-python tools\mkrepo.py C:\Temp\qgis-symbole-neu
+python tools\mkrepo.py .
 ```
 
 Für die Symbole ist nur Liberation Sans Bold zulässig, damit die SVGs auf jedem Rechner identisch entstehen.
-Für die Beschriftung der Vorschaubilder genügt notfalls Arial. Wichtig: `mkrepo.py` löscht im Zielordner
-`collections/` und `tools/` und legt sie neu an, deshalb nie das Repository selbst als Ziel angeben,
-sondern in einen leeren Ordner erzeugen und das Ergebnis hineinkopieren.
+Für die Beschriftung der Vorschaubilder genügt notfalls Arial.
 
 ## Hinweise und Grenzen
 

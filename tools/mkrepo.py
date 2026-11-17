@@ -1,10 +1,29 @@
+"""Erzeugt SVGs, Vorschaubilder, metadata.ini, KATALOG.md und LICENSE.
+
+Aufruf:  python tools/mkrepo.py <Zielordner>
+  - Zielordner = dieses Repository (z. B. "."): nur collections/ und die Dateien im
+    Hauptordner werden neu erzeugt, tools/ bleibt unangetastet.
+  - anderer Ordner: dort entsteht ein vollstaendiges Repository inklusive tools/.
+"""
 import os, sys, shutil, re, subprocess, importlib, tempfile
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, HERE)
 from lib import Ctx, render, find_font
 from PIL import Image, ImageDraw, ImageFont
 from lxml import etree
 
+if len(sys.argv) != 2:
+    sys.exit(__doc__)
 ROOT = sys.argv[1]
+
+
+def _same_dir(a, b):
+    return os.path.normcase(os.path.realpath(a)) == os.path.normcase(os.path.realpath(b))
+
+
+IN_PLACE = _same_dir(ROOT, os.path.dirname(HERE))  # Ziel ist das Repository, in dem dieses Skript liegt
+if _same_dir(ROOT, HERE):
+    sys.exit("Zielordner ist tools/ selbst. Gemeint ist vermutlich der Repository-Ordner, z. B.: python tools/mkrepo.py .")
 CAT = {}
 for m in ("sym_a", "sym_b"):
     CAT.update(importlib.import_module(m).CAT)
@@ -34,7 +53,7 @@ Vollständiger Lizenztext: https://creativecommons.org/licenses/by/4.0/legalcode
 Kurzfassung:             https://creativecommons.org/licenses/by/4.0/deed.de
 """
 
-for sub in ("collections", "tools"):
+for sub in ("collections",) if IN_PLACE else ("collections", "tools"):
     shutil.rmtree(os.path.join(ROOT, sub), ignore_errors=True)
 os.makedirs(ROOT, exist_ok=True)
 # Nur fuer die Vorschaubilder; Arial ist metrisch gleich und dient unter Windows als Ersatz.
@@ -83,7 +102,9 @@ for cat, syms in CAT.items():
 open(os.path.join(ROOT, "metadata.ini"), "w", encoding="utf-8", newline="\n").write("\n".join(ini))
 open(os.path.join(ROOT, "KATALOG.md"), "w", encoding="utf-8", newline="\n").write("\n".join(kat))
 open(os.path.join(ROOT, "LICENSE"), "w", encoding="utf-8", newline="\n").write(LIC)
-os.makedirs(os.path.join(ROOT, "tools"))
-for f in ("lib.py", "sym_a.py", "sym_b.py", "mkrepo.py"):
-    shutil.copy(os.path.join(os.path.dirname(os.path.abspath(__file__)), f), os.path.join(ROOT, "tools", f))
+if not IN_PLACE:
+    os.makedirs(os.path.join(ROOT, "tools"))
+    for f in ("lib.py", "sym_a.py", "sym_b.py", "mkrepo.py"):
+        shutil.copy(os.path.join(HERE, f), os.path.join(ROOT, "tools", f))
 print("total", total, {c: len(s) for c, s in CAT.items()})
+print("Modus:", "im Repository (tools/ unveraendert)" if IN_PLACE else "neues Repository inkl. tools/")
