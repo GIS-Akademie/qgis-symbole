@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Druckerhöhungsanlage</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #D6ECFA" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #0B5CAD" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M37.34 49.84Q37.34 53.24 36.01 55.78Q34.67 58.31 32.23 59.66Q29.79 61 26.63 61H17.73V39H25.7Q31.26 39 34.3 41.8Q37.34 44.61 37.34 49.84ZM32.71 49.84Q32.71 46.29 30.87 44.43Q29.02 42.56 25.6 42.56H22.34V57.44H26.24Q29.21 57.44 30.96 55.39Q32.71 53.35 32.71 49.84ZM40.83 61V39H58.13V42.56H45.43V48.09H57.17V51.65H45.43V57.44H58.77V61ZM77.71 61 75.76 55.38H67.37L65.42 61H60.81L68.84 39H74.27L82.27 61ZM71.56 42.39 71.46 42.73Q71.31 43.29 71.09 44.01Q70.87 44.73 68.4 51.91H74.72L72.55 45.59L71.88 43.47Z" fill="param(outline) #0B5CAD" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

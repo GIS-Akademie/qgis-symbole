@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
   <title>Schutzgebiet: Nationalpark</title>
-  <circle cx="50" cy="50" r="43" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #000000" stroke-opacity="param(outline-opacity) 1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M33.8 60.51 24.64 44.33Q24.91 46.68 24.91 48.11V60.51H21V39.49H26.03L35.32 55.81Q35.05 53.56 35.05 51.71V39.49H38.96V60.51ZM43.06 60.51V39.49H47.46V57.11H58.73V60.51ZM79 46.14Q79 48.17 78.08 49.77Q77.15 51.36 75.43 52.24Q73.71 53.11 71.33 53.11H66.11V60.51H61.71V39.49H71.16Q74.93 39.49 76.96 41.23Q79 42.97 79 46.14ZM74.57 46.22Q74.57 42.91 70.66 42.91H66.11V49.72H70.78Q72.6 49.72 73.59 48.82Q74.57 47.92 74.57 46.22Z" fill="param(outline) #000000" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <circle cx="50" cy="50" r="43" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #000000" stroke-opacity="param(outline-opacity) 1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M33.24 60.87 23.76 44.13Q24.04 46.57 24.04 48.05V60.87H20V39.13H25.2L34.81 56.01Q34.53 53.68 34.53 51.77V39.13H38.58V60.87ZM42.82 60.87V39.13H47.37V57.35H59.03V60.87ZM80 46.01Q80 48.11 79.04 49.76Q78.09 51.41 76.3 52.31Q74.52 53.22 72.07 53.22H66.67V60.87H62.12V39.13H71.88Q75.79 39.13 77.89 40.93Q80 42.73 80 46.01ZM75.42 46.09Q75.42 42.66 71.38 42.66H66.67V49.71H71.5Q73.38 49.71 74.4 48.78Q75.42 47.85 75.42 46.09Z" fill="param(outline) #000000" fill-opacity="param(outline-opacity) 1" stroke="none"/>
 </svg>

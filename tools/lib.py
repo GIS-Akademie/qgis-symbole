@@ -236,6 +236,170 @@ def arrow(x1, y1, x2, y2, sw=5, head=9, s="S"):
     return [L(x1, y1, bx, by, sw, s), PG(pts, s)]
 
 
+# ---- Gruppen, Boegen, Sektoren ----
+def G(elems, dx=0, dy=0, k=1.0, a=0):
+    """Gruppe: Elemente verschieben, drehen (Grad, im Uhrzeigersinn) und skalieren."""
+    tr = f"translate({n(dx)},{n(dy)})"
+    if a:
+        tr += f" rotate({n(a)})"
+    if k != 1:
+        tr += f" scale({n(k)})"
+    return lambda c: f'<g transform="{tr}">' + "".join(e(c) for e in elems) + "</g>"
+
+
+def fit(elems, cx=50, cy=50, k=1.0, a=0):
+    """Ein im 100er-Raster um (50, 50) gezeichnetes Piktogramm nach (cx, cy) setzen und skalieren."""
+    tr = f"translate({n(cx)},{n(cy)})"
+    if a:
+        tr += f" rotate({n(a)})"
+    if k != 1:
+        tr += f" scale({n(k)})"
+    tr += " translate(-50,-50)"
+    return [lambda c: f'<g transform="{tr}">' + "".join(e(c) for e in elems) + "</g>"]
+
+
+def pt(cx, cy, r, a):
+    """Punkt auf dem Kreis; Winkel in Grad, 0 = oben, im Uhrzeigersinn."""
+    a = math.radians(a)
+    return cx + r * math.sin(a), cy - r * math.cos(a)
+
+
+def _arc(cx, cy, r, a0, a1):
+    x0, y0 = pt(cx, cy, r, a0)
+    x1, y1 = pt(cx, cy, r, a1)
+    big = 1 if (a1 - a0) % 360 > 180 else 0
+    return f"M{n(x0)},{n(y0)} A{n(r)},{n(r)} 0 {big} 1 {n(x1)},{n(y1)}", (x0, y0), (x1, y1)
+
+
+def arc(cx, cy, r, a0, a1, sw=5, s="S", cap="round"):
+    """Kreisbogen von a0 nach a1 im Uhrzeigersinn."""
+    return P(_arc(cx, cy, r, a0, a1)[0], "N", s, sw, cap)
+
+
+def pie(cx, cy, r, a0, a1, f="S"):
+    """Kreissektor."""
+    d = _arc(cx, cy, r, a0, a1)[0]
+    return P(f"M{n(cx)},{n(cy)} L" + d[1:] + " Z", f, "N", 0)
+
+
+def chord(cx, cy, r, a0, a1, f="S"):
+    """Kreisabschnitt zwischen a0 und a1."""
+    return P(_arc(cx, cy, r, a0, a1)[0] + " Z", f, "N", 0)
+
+
+def cloud(circs, f="F", s="S", sw=4.5):
+    """Umriss einer Kette sich ueberlappender Kreise [(cx, cy, r), ...] von links nach rechts."""
+    ups, lows = [], []
+    for (x0, y0, r0), (x1, y1, r1) in zip(circs, circs[1:]):
+        d = math.hypot(x1 - x0, y1 - y0)
+        a = (r0 * r0 - r1 * r1 + d * d) / (2 * d)
+        h = math.sqrt(max(r0 * r0 - a * a, 0))
+        mx, my = x0 + a * (x1 - x0) / d, y0 + a * (y1 - y0) / d
+        p, q = (mx + h * (y1 - y0) / d, my - h * (x1 - x0) / d), (mx - h * (y1 - y0) / d, my + h * (x1 - x0) / d)
+        ups.append(min(p, q, key=lambda v: v[1]))
+        lows.append(max(p, q, key=lambda v: v[1]))
+
+    def seg(c, p0, p1):
+        t0 = math.atan2(p0[1] - c[1], p0[0] - c[0])
+        t1 = math.atan2(p1[1] - c[1], p1[0] - c[0])
+        big = 1 if (t1 - t0) % (2 * math.pi) > math.pi else 0
+        return f" A{n(c[2])},{n(c[2])} 0 {big} 1 {n(p1[0])},{n(p1[1])}"
+
+    k = len(circs)
+    d = f"M{n(lows[0][0])},{n(lows[0][1])}" + seg(circs[0], lows[0], ups[0])
+    for i in range(1, k - 1):
+        d += seg(circs[i], ups[i - 1], ups[i])
+    d += seg(circs[-1], ups[-1], lows[-1])
+    for i in range(k - 2, 0, -1):
+        d += seg(circs[i], lows[i], lows[i - 1])
+    return P(d + " Z", f, s, sw)
+
+
+# ---- Allgemeine Piktogramme im 100er-Raster um (50, 50); fg = Zeichenfarbe, bg = Aussparungen ----
+def drop(f="F", s="S", sw=5):
+    return [P("M50,10 C64,30 78,46 78,62 A28,28 0 0 1 22,62 C22,46 36,30 50,10 Z", f, s, sw)]
+
+
+def flame(fg="S", bg="F"):
+    return [P("M52,10 C56,28 76,40 76,62 C76,80 64,92 50,92 C36,92 24,80 24,64 C24,50 33,44 37,32 "
+              "C42,42 44,44 48,44 C46,32 46,22 52,10 Z", fg, "N", 0),
+            P("M50,58 C57,65 61,70 61,77 C61,84 56,88 50,88 C44,88 39,84 39,77 C39,70 46,67 50,58 Z", bg, "N", 0)]
+
+
+def bucket(fg="S", sw=4):
+    """Eimer (Planzeichen Spielplatz)."""
+    return [PL([(33, 44), (67, 44), (61, 76), (39, 76)], sw, fg, close=True), L(29, 44, 71, 44, sw, fg),
+            P("M36,44 A14,15 0 0 1 64,44", "N", fg, sw * 0.85)]
+
+
+def tent(fg="S", sw=4):
+    return [PL([(50, 30), (76, 76), (24, 76)], sw, fg, close=True), L(50, 30, 44, 20, sw * 0.85, fg),
+            L(50, 30, 56, 20, sw * 0.85, fg)]
+
+
+def person(fg="S", sw=7):
+    """Gehende Person."""
+    return [C(52, 17, 9, fg, "N", 0), PL([(52, 30), (48, 56)], sw + 3, fg),
+            PL([(48, 56), (60, 72), (62, 90)], sw, fg), PL([(48, 56), (40, 72), (30, 88)], sw, fg),
+            PL([(52, 33), (66, 44), (72, 54)], sw - 1.5, fg), PL([(52, 33), (38, 42), (32, 54)], sw - 1.5, fg)]
+
+
+def house(fg="S", f="F", sw=5):
+    """Haus in Ansicht."""
+    return [R(26, 46, 48, 36, f, fg, sw), PL([(16, 50), (50, 18), (84, 50)], sw, fg)]
+
+
+def tree_side(fg="S", f="F", sw=5):
+    """Laubbaum in Ansicht."""
+    return [L(50, 60, 50, 90, sw + 1, fg), C(50, 38, 27, f, fg, sw)]
+
+
+def conifer_side(fg="S", f="F", sw=5):
+    """Nadelbaum in Ansicht."""
+    return [L(50, 74, 50, 92, sw + 1, fg), PG([(50, 8), (74, 76), (26, 76)], f, fg, sw)]
+
+
+def bike(fg="S", sw=4.5):
+    """Fahrrad."""
+    return [C(27, 62, 15, "N", fg, sw), C(73, 62, 15, "N", fg, sw),
+            PL([(27, 62), (42, 36), (64, 36), (73, 62)], sw, fg), PL([(42, 36), (50, 62), (64, 36)], sw, fg),
+            L(50, 62, 27, 62, sw, fg), PL([(64, 36), (62, 26), (70, 24)], sw, fg), L(34, 31, 46, 31, sw + 0.5, fg),
+            L(40, 31, 42, 36, sw, fg)]
+
+
+def fish(fg="S", bg="F"):
+    return [P("M16,50 Q40,26 66,50 Q40,74 16,50 Z", fg, "N", 0), PG([(60, 50), (84, 34), (84, 66)], fg),
+            C(31, 46, 3.2, bg, "N", 0)]
+
+
+def eye(fg="S", sw=5):
+    return [P("M14,50 Q50,16 86,50 Q50,84 14,50 Z", "N", fg, sw), C(50, 50, 12, fg, "N", 0)]
+
+
+def swimmer(fg="S"):
+    return [C(32, 34, 9, fg, "N", 0), PL([(43, 45), (62, 38), (78, 47)], 6.5, fg), wave(14, 62, 72, 5, 3, 5, fg),
+            wave(14, 78, 72, 5, 3, 5, fg)]
+
+
+def gear(cx, cy, r, k=8, f="S", hole=None, bg="F"):
+    """Zahnrad."""
+    pts = []
+    for i in range(k):
+        a = i * 360 / k
+        w = 360 / k / 4
+        pts += [pt(cx, cy, r * 0.78, a - w * 1.5), pt(cx, cy, r, a - w * 0.8), pt(cx, cy, r, a + w * 0.8),
+                pt(cx, cy, r * 0.78, a + w * 1.5)]
+    out = [PG(pts, f)]
+    if hole:
+        out.append(C(cx, cy, hole, bg, "N", 0))
+    return out
+
+
+def sun(cx, cy, r, fg="S", f="F", sw=4.5, rays=8, gap=6, ln=8):
+    return [C(cx, cy, r, f, fg, sw)] + [L(*pt(cx, cy, r + gap, i * 360 / rays), *pt(cx, cy, r + gap + ln, i * 360 / rays),
+                                         sw, fg) for i in range(rays)]
+
+
 def render(elems, ctx, title):
     body = "\n  ".join(e(ctx) for e in elems)
     return ('<?xml version="1.0" encoding="UTF-8"?>\n'

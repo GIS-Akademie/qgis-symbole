@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Pflegezone</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #DDF0C8" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #1E6B1E" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M48.9 44.5Q48.9 47.39 47.58 49.67Q46.26 51.95 43.8 53.19Q41.34 54.44 37.96 54.44H30.51V65H24.23V35H37.7Q43.09 35 46 37.48Q48.9 39.96 48.9 44.5ZM42.58 44.6Q42.58 39.88 37 39.88H30.51V49.61H37.17Q39.77 49.61 41.17 48.32Q42.58 47.03 42.58 44.6ZM75.77 65H51.69V60.55L67.92 39.92H53.31V35H74.9V39.36L58.68 60.08H75.77Z" fill="param(outline) #1E6B1E" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

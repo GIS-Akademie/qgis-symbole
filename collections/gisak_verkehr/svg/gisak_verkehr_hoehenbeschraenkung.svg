@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Höhenbeschränkung</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #D0021B" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #8B0000" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="36,16 64,16 50,32" fill="#FFFFFF" stroke="none"/>
+  <polygon points="36,84 64,84 50,68" fill="#FFFFFF" stroke="none"/>
+  <path d="M48.09 57.83V49.21Q48.09 45.17 45.76 45.17Q44.56 45.17 43.8 46.4Q43.04 47.64 43.04 49.6V57.83H39.05V45.9Q39.05 44.67 39.01 43.88Q38.98 43.09 38.94 42.47H42.74Q42.78 42.74 42.85 43.91Q42.92 45.08 42.92 45.52H42.98Q43.72 43.76 44.82 42.97Q45.92 42.17 47.45 42.17Q50.97 42.17 51.72 45.52H51.81Q52.59 43.73 53.68 42.95Q54.78 42.17 56.47 42.17Q58.71 42.17 59.89 43.7Q61.06 45.22 61.06 48.08V57.83H57.1V49.21Q57.1 45.17 54.78 45.17Q53.61 45.17 52.87 46.3Q52.12 47.42 52.05 49.41V57.83Z" fill="#FFFFFF" stroke="none"/>
+</svg>

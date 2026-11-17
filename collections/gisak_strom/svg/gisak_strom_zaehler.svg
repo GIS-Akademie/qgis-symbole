@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
   <title>Zähler / Messeinrichtung</title>
-  <rect x="14" y="22" width="72" height="56" rx="4" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #C8102E" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #C8102E" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M32.94 59.48 29.25 53.22 27.7 54.29V59.48H24.11V40.52H27.7V51.38L32.63 45.66H36.49L31.64 51.05L36.86 59.48ZM56.85 59.48H52.38L49.94 49.07Q49.5 47.23 49.19 45.22Q48.88 46.9 48.69 47.77Q48.5 48.65 45.97 59.48H41.5L36.86 41.48H40.68L43.29 53.1L43.87 55.91Q44.23 54.14 44.57 52.52Q44.91 50.91 47.12 41.48H51.33L53.61 51.06Q53.88 52.13 54.52 55.91L54.84 54.43L55.51 51.49L57.68 41.48H61.5ZM66.89 48.42Q67.62 46.83 68.72 46.12Q69.82 45.4 71.34 45.4Q73.54 45.4 74.71 46.76Q75.89 48.11 75.89 50.72V59.48H72.31V51.74Q72.31 48.1 69.85 48.1Q68.54 48.1 67.74 49.21Q66.95 50.33 66.95 52.08V59.48H63.36V40.52H66.95V45.69Q66.95 47.09 66.84 48.42Z" fill="param(outline) #C8102E" fill-opacity="param(outline-opacity) 1" stroke="none"/>
 </svg>

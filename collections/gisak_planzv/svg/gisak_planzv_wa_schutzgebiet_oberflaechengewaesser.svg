@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Wasserrecht: Schutzgebiet für Oberflächengewässer</title>
+  <circle cx="50" cy="50" r="43" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #000000" stroke-opacity="param(outline-opacity) 1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M45.17 49.9Q45.17 53.48 43.75 56.2Q42.33 58.92 39.7 60.36Q37.06 61.8 33.54 61.8Q28.14 61.8 25.07 58.62Q22 55.44 22 49.9Q22 44.38 25.06 41.29Q28.12 38.2 33.57 38.2Q39.03 38.2 42.1 41.32Q45.17 44.45 45.17 49.9ZM40.27 49.9Q40.27 46.19 38.51 44.08Q36.75 41.97 33.57 41.97Q30.35 41.97 28.59 44.07Q26.83 46.16 26.83 49.9Q26.83 53.68 28.63 55.85Q30.43 58.03 33.54 58.03Q36.77 58.03 38.52 55.91Q40.27 53.79 40.27 49.9ZM72.07 61.48H66.38L63.27 48.21Q62.7 45.87 62.31 43.31Q61.92 45.44 61.67 46.56Q61.43 47.67 58.2 61.48H52.51L46.6 38.54H51.47L54.79 53.35L55.53 56.93Q55.99 54.67 56.42 52.61Q56.85 50.55 59.67 38.54H65.04L67.94 50.75Q68.28 52.12 69.1 56.93L69.5 55.05L70.37 51.3L73.13 38.54H78Z" fill="param(outline) #000000" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

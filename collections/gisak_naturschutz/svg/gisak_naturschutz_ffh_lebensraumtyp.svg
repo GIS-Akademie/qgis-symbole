@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>FFH-Lebensraumtyp</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #DDF0C8" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #1E6B1E" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M20.16 61V39H24.77V57.44H36.57V61ZM54.81 61 49.7 52.65H44.3V61H39.69V39H50.69Q54.62 39 56.76 40.69Q58.9 42.39 58.9 45.56Q58.9 47.87 57.59 49.55Q56.28 51.23 54.04 51.76L59.99 61ZM54.26 45.75Q54.26 42.58 50.2 42.58H44.3V49.07H50.33Q52.26 49.07 53.26 48.2Q54.26 47.32 54.26 45.75ZM72.72 42.56V61H68.11V42.56H61.01V39H79.84V42.56Z" fill="param(outline) #1E6B1E" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

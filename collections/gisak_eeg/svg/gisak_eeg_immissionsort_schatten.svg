@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
   <title>Immissionsort Schattenwurf</title>
-  <polygon points="54,80 94,80 80,60 54,60" fill="param(outline) #37474F" fill-opacity="param(outline-opacity) 1" stroke="none"/>
-  <rect x="14" y="54" width="40" height="28" rx="0" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #37474F" stroke-opacity="param(outline-opacity) 1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M6,57 L34,30 L62,57" fill="none" stroke="param(outline) #37474F" stroke-opacity="param(outline-opacity) 1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="76" cy="26" r="9" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #37474F" stroke-opacity="param(outline-opacity) 1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M76,12.5 L76,8" fill="none" stroke="param(outline) #37474F" stroke-opacity="param(outline-opacity) 1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M85.55,16.45 L88.73,13.27" fill="none" stroke="param(outline) #37474F" stroke-opacity="param(outline-opacity) 1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M89.5,26 L94,26" fill="none" stroke="param(outline) #37474F" stroke-opacity="param(outline-opacity) 1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M85.55,35.55 L88.73,38.73" fill="none" stroke="param(outline) #37474F" stroke-opacity="param(outline-opacity) 1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M76,39.5 L76,44" fill="none" stroke="param(outline) #37474F" stroke-opacity="param(outline-opacity) 1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M66.45,35.55 L63.27,38.73" fill="none" stroke="param(outline) #37474F" stroke-opacity="param(outline-opacity) 1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M62.5,26 L58,26" fill="none" stroke="param(outline) #37474F" stroke-opacity="param(outline-opacity) 1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M66.45,16.45 L63.27,13.27" fill="none" stroke="param(outline) #37474F" stroke-opacity="param(outline-opacity) 1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="50" cy="50" r="44" fill="param(fill) #ECEFF1" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #37474F" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="46,70 78,70 68,56 46,56" fill="param(outline) #37474F" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <g transform="translate(36,54) scale(0.46) translate(-50,-50)"><rect x="26" y="46" width="48" height="36" rx="0" fill="param(fill) #ECEFF1" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #37474F" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M16,50 L50,18 L84,50" fill="none" stroke="param(outline) #37474F" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <circle cx="68" cy="30" r="6" fill="param(fill) #ECEFF1" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #37474F" stroke-opacity="param(outline-opacity) 1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M68,20 L68,15" fill="none" stroke="param(outline) #37474F" stroke-opacity="param(outline-opacity) 1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M75.07,22.93 L78.61,19.39" fill="none" stroke="param(outline) #37474F" stroke-opacity="param(outline-opacity) 1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M78,30 L83,30" fill="none" stroke="param(outline) #37474F" stroke-opacity="param(outline-opacity) 1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M75.07,37.07 L78.61,40.61" fill="none" stroke="param(outline) #37474F" stroke-opacity="param(outline-opacity) 1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M68,40 L68,45" fill="none" stroke="param(outline) #37474F" stroke-opacity="param(outline-opacity) 1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M60.93,37.07 L57.39,40.61" fill="none" stroke="param(outline) #37474F" stroke-opacity="param(outline-opacity) 1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M58,30 L53,30" fill="none" stroke="param(outline) #37474F" stroke-opacity="param(outline-opacity) 1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M60.93,22.93 L57.39,19.39" fill="none" stroke="param(outline) #37474F" stroke-opacity="param(outline-opacity) 1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

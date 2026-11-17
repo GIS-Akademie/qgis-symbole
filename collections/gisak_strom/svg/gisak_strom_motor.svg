@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Motor (Schaltzeichen)</title>
+  <circle cx="50" cy="50" r="34" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #C8102E" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M60.31 66V46.6Q60.31 45.95 60.32 45.29Q60.33 44.63 60.54 39.63Q58.93 45.74 58.15 48.15L52.38 66H47.62L41.85 48.15L39.42 39.63Q39.69 44.9 39.69 46.6V66H33.74V34H42.71L48.43 51.9L48.93 53.62L50.02 57.91L51.45 52.78L57.34 34H66.26V66Z" fill="param(outline) #C8102E" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <path d="M6,50 L16,50" fill="none" stroke="param(outline) #C8102E" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="butt" stroke-linejoin="round"/>
+  <path d="M84,50 L94,50" fill="none" stroke="param(outline) #C8102E" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="butt" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Jugendherberge / Gruppenunterkunft</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #333333" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M33.39 66.23Q28.41 66.23 25.74 64.07Q23.08 61.91 22.19 57.1L28.84 56.12Q29.25 58.6 30.37 59.79Q31.48 60.98 33.43 60.98Q35.43 60.98 36.46 59.64Q37.5 58.3 37.5 55.8V39.02H31.12V33.77H44.17V55.64Q44.17 60.64 41.34 63.43Q38.5 66.23 33.39 66.23ZM71.11 65.77V52.06H57.17V65.77H50.47V33.77H57.17V46.51H71.11V33.77H77.81V65.77Z" fill="param(outline) #333333" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

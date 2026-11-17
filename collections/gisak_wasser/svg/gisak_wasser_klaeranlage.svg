@@ -2,5 +2,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
   <title>Kläranlage</title>
   <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #D6ECFA" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #0B5CAD" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M41.14 65.28 30.17 51.25 26.4 54.13V65.28H20V34.72H26.4V48.58L40.17 34.72H47.63L34.57 47.65L48.69 65.28ZM73.67 65.28 70.96 57.47H59.31L56.6 65.28H50.21L61.35 34.72H68.9L80 65.28ZM65.12 39.43 64.99 39.91Q64.78 40.69 64.47 41.68Q64.17 42.68 60.74 52.66H69.53L66.51 43.87L65.58 40.93Z" fill="param(outline) #0B5CAD" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <path d="M41.3 65 30.53 51.22 26.82 54.06V65H20.54V35H26.82V48.61L40.34 35H47.67L34.85 47.69L48.71 65ZM73.24 65 70.58 57.33H59.14L56.48 65H50.2L61.15 35H68.56L79.46 65ZM64.85 39.62 64.72 40.09Q64.51 40.86 64.21 41.83Q63.91 42.81 60.55 52.61H69.17L66.21 43.99L65.3 41.09Z" fill="param(outline) #0B5CAD" fill-opacity="param(outline-opacity) 1" stroke="none"/>
 </svg>

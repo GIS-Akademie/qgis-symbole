@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Kabelkreuzung (ohne Verbindung)</title>
+  <path d="M6,50 L94,50" fill="none" stroke="param(outline) #C8102E" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="butt" stroke-linejoin="round"/>
+  <path d="M50,6 V36 A14,14 0 0 1 50,64 V94" fill="none" stroke="param(outline) #C8102E" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="butt" stroke-linejoin="round"/>
+</svg>

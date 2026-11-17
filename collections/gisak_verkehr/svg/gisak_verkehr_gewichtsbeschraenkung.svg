@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Gewichtsbeschränkung</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #D0021B" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #8B0000" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M52.58 72.1Q48.53 72.1 46.34 69.9Q44.16 67.69 44.16 63.22V42.39H39.68V36.19H44.61L47.49 27.9H53.23V36.19H59.92V42.39H53.23V60.74Q53.23 63.32 54.21 64.54Q55.19 65.77 57.25 65.77Q58.33 65.77 60.32 65.31V70.99Q56.92 72.1 52.58 72.1Z" fill="#FFFFFF" stroke="none"/>
+</svg>

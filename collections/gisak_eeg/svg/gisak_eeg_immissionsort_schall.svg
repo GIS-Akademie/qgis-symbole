@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
   <title>Immissionsort Schall</title>
-  <rect x="14" y="54" width="40" height="28" rx="0" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #37474F" stroke-opacity="param(outline-opacity) 1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M6,57 L34,30 L62,57" fill="none" stroke="param(outline) #37474F" stroke-opacity="param(outline-opacity) 1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M68,38 A17,17 0 0 1 68,66" fill="none" stroke="param(outline) #37474F" stroke-opacity="param(outline-opacity) 1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M77,27 A31,31 0 0 1 77,77" fill="none" stroke="param(outline) #37474F" stroke-opacity="param(outline-opacity) 1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="50" cy="50" r="44" fill="param(fill) #ECEFF1" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #37474F" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(36,54) scale(0.46) translate(-50,-50)"><rect x="26" y="46" width="48" height="36" rx="0" fill="param(fill) #ECEFF1" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #37474F" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M16,50 L50,18 L84,50" fill="none" stroke="param(outline) #37474F" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <path d="M61.3,39.09 A26,26 0 0 1 61.3,68.91" fill="none" stroke="param(outline) #37474F" stroke-opacity="param(outline-opacity) 1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M72.91,35 A38,38 0 0 1 72.91,73" fill="none" stroke="param(outline) #37474F" stroke-opacity="param(outline-opacity) 1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

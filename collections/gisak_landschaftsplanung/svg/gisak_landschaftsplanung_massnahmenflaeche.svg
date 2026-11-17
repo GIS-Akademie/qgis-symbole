@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
   <title>Maßnahmenfläche</title>
-  <rect x="8" y="8" width="84" height="84" rx="4" fill="param(fill) #CDE8B5" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #2E6B2E" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="12 8"/>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #CDE8B5" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #2E6B2E" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="12 8"/>
   <path d="M61.6 68V46.18Q61.6 45.44 61.61 44.7Q61.63 43.96 61.86 38.34Q60.04 45.21 59.17 47.92L52.68 68H47.32L40.83 47.92L38.09 38.34Q38.4 44.26 38.4 46.18V68H31.71V32H41.8L48.24 52.13L48.8 54.08L50.03 58.9L51.64 53.13L58.25 32H68.29V68Z" fill="param(outline) #2E6B2E" fill-opacity="param(outline-opacity) 1" stroke="none"/>
 </svg>

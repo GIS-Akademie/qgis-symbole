@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Kopfbaum</title>
+  <path d="M50,20 A17.25,17.25 0 0 1 75.98,35 A17.25,17.25 0 0 1 75.98,65 A17.25,17.25 0 0 1 50,80 A17.25,17.25 0 0 1 24.02,65 A17.25,17.25 0 0 1 24.02,35 A17.25,17.25 0 0 1 50,20 Z" fill="param(fill) #CDE8B5" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #2E6B2E" stroke-opacity="param(outline-opacity) 1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="50" cy="50" r="12" fill="param(outline) #2E6B2E" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Ver-/Entsorgung: Kraft-Wärme-Kopplung</title>
+  <circle cx="50" cy="50" r="43" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #000000" stroke-opacity="param(outline-opacity) 1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M32.35 58.93 25.94 50.73 23.74 52.41V58.93H20V41.07H23.74V49.17L31.78 41.07H36.14L28.52 48.63L36.76 58.93ZM56.86 58.93H52.43L50.01 48.6Q49.56 46.78 49.26 44.79Q48.95 46.45 48.76 47.31Q48.57 48.18 46.07 58.93H41.63L37.03 41.07H40.82L43.4 52.6L43.99 55.39Q44.34 53.63 44.68 52.03Q45.01 50.42 47.21 41.07H51.39L53.64 50.58Q53.91 51.64 54.54 55.39L54.86 53.92L55.53 51.01L57.69 41.07H61.47ZM75.59 58.93 69.18 50.73 66.97 52.41V58.93H63.24V41.07H66.97V49.17L75.02 41.07H79.38L71.75 48.63L80 58.93Z" fill="param(outline) #000000" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

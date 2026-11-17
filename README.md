@@ -1,20 +1,20 @@
 # GIS-Akademie Symbolbibliothek für QGIS
 
-211 SVG-Symbole in neun Sammlungen, aufgebaut als Repository für das QGIS-Plugin
+542 SVG-Symbole in neun Sammlungen, aufgebaut als Repository für das QGIS-Plugin
 **Resource Sharing**. Alle Symbole sind Eigenentwicklungen der GIS-Akademie und stehen
 unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de).
 
 | Sammlung | ID | Symbole | Inhalt |
 |---|---|---|---|
-| PlanZV | `gisak_planzv` | 42 | Planzeichen für Bauleitpläne in Anlehnung an die Anlage zur PlanZV |
-| Strom | `gisak_strom` | 24 | Stromnetze und Leitungspläne |
-| Erneuerbare Energien | `gisak_eeg` | 22 | Wind- und Solarparkplanung, weitere EEG-Anlagen |
-| Naturschutz | `gisak_naturschutz` | 27 | Schutzgebiete, Artenschutz, Kompensation |
-| Landschaftsplanung | `gisak_landschaftsplanung` | 22 | Gehölze, Gewässer, Erholung, Maßnahmen |
-| Verkehr | `gisak_verkehr` | 26 | Parken, ÖPNV, Bahn, Bauwerke, Verkehrstechnik |
-| Wasserwirtschaft | `gisak_wasser` | 17 | Messstellen, Anlagen, Armaturen, Schutzgebiete |
-| Vermessung | `gisak_vermessung` | 12 | Grenz- und Festpunkte, Nordpfeil |
-| Allgemein | `gisak_allgemein` | 19 | Öffentliche Einrichtungen, Orte von Interesse |
+| PlanZV | `gisak_planzv` | 105 | Planzeichen für Bauleitpläne in Anlehnung an die Anlage zur PlanZV |
+| Strom | `gisak_strom` | 51 | Stationen, Masten, Kabelgarnituren, Schaltzeichen |
+| Erneuerbare Energien | `gisak_eeg` | 43 | Wind- und Solarparkplanung, Bioenergie, Wasserkraft, Wärme, Netzanschluss |
+| Naturschutz | `gisak_naturschutz` | 58 | Schutzgebiete, Arten und Fundpunkte, Kompensation, Erfassung |
+| Landschaftsplanung | `gisak_landschaftsplanung` | 62 | Gehölze, Biotop- und Nutzungstypen, Maßnahmen, Erholung |
+| Verkehr | `gisak_verkehr` | 58 | Parken, ÖPNV, Bahn, Rad- und Fußverkehr, Bauwerke, Störungen |
+| Wasserwirtschaft | `gisak_wasser` | 59 | Messstellen, Anlagen, Armaturen, Kanalnetz, Gewässerbauwerke, Gebiete |
+| Vermessung | `gisak_vermessung` | 49 | Grenz- und Festpunkte, Aufschlüsse, Nordpfeile, Topografie im Lageplan |
+| Allgemein | `gisak_allgemein` | 57 | Öffentliche Einrichtungen, Rettung, Kultur, topografische Einzelobjekte, Freizeit |
 
 Die vollständige Liste aller Dateien mit Bedeutung steht in [KATALOG.md](KATALOG.md).
 Jede Sammlung enthält unter `preview/preview.png` eine Übersicht.
@@ -30,19 +30,42 @@ Jede Sammlung enthält unter `preview/preview.png` eine Übersicht.
 
 ## Farben ändern
 
-Jedes Symbol hat zwei in QGIS änderbare Farben mit fachüblicher Voreinstellung:
+Die Symbole haben bis zu zwei in QGIS änderbare Farben mit fachüblicher Voreinstellung:
 
 - **Füllfarbe** – Flächen und Hintergründe
 - **Strichfarbe** – Konturen und dunkle Zeichen
 
-Weiße Details (z. B. die Zeichen der Verkehrssymbole) sind fest. Die Strichstärken sind bewusst
+Reine Strich- und Buchstabenzeichen (z. B. `WA`, Schaltzeichen, Linienelemente) haben nur die Strichfarbe.
+Weiße Details (z. B. die Sinnbilder der Verkehrssymbole) sind fest. Die Strichstärken sind bewusst
 nicht parametrisiert, damit das Erscheinungsbild einheitlich bleibt; die Symbole skalieren über die Größe.
+
+## Stil und Vorbilder je Sammlung
+
+Jede Sammlung hat einen einheitlichen Stil. Innerhalb einer Sammlung zeigt die Rahmenform oder die Farbe,
+zu welcher Gruppe ein Symbol gehört.
+
+| Sammlung | Stil | Bedeutung von Form und Farbe | Orientierung |
+|---|---|---|---|
+| PlanZV | schwarz-weiß | liegendes Rechteck = Flächenzeichen, Kreis = Lagezeichen, Buchstaben ohne Rahmen | Anlage zur PlanZV (Stand 2025), Schwarz-Weiß-Fassung |
+| Strom | rot auf weiß | Quadrat = Station, Draufsicht = Mast, ohne Rahmen = Garnitur oder Schaltzeichen auf der Leitung | Legenden von Netzbetreibern, Schaltzeichen nach DIN EN 60617 |
+| Erneuerbare Energien | Kreis mit Piktogramm | Farbe = Energieträger, Rahmen = Status (durchgezogen Bestand, gestrichelt geplant, gepunktet beantragt, doppelt genehmigt) | Energieatlanten der Länder |
+| Naturschutz | grün | Quadrat = Schutzgebiet, Kreis = Art oder Lebensstätte, Raute = Maßnahme, Sechseck = Einrichtung oder Erfassung | Schutzkategorien des BNatSchG, Status der Brutvogelkartierung, Eingriffsregelung |
+| Landschaftsplanung | grün, Wasser blau | Draufsicht = Gehölz, Quadrat = Biotop- oder Nutzungstyp, gestricheltes Quadrat = Maßnahme, Kreis = Erholung | Bestands- und Maßnahmenpläne der Landschaftsplanung |
+| Verkehr | weißes Sinnbild auf farbigem Quadrat | blau = Anlage oder Angebot, orange = Baustelle und Störung, rot = Sperrung und Beschränkung | Hinweiszeichen der StVO, amtliche Stadt- und Verkehrskarten |
+| Wasserwirtschaft | blau | Kreis = Messstelle, Quadrat = Anlage oder Bauwerk, Raute = Gebiet, ohne Rahmen = Armatur auf der Leitung | Leitungs- und Kanalnetzpläne (DIN 2425), übliche Kurzzeichen |
+| Vermessung | schwarz-weiß | geometrische Grundformen ohne Rahmen | Liegenschaftskarte, Vermessungsriss (DIN 18702), Aufschlüsse nach DIN 4023 |
+| Allgemein | dunkles Sinnbild auf weißem Quadrat | grau = allgemein, rot = Gesundheit und Rettung, blau = Sicherheit und Dienste | Objektarten amtlicher topografischer Karten und Stadtpläne |
+
+**Linienelemente:** Einige Zeichen sind für Markierungslinien gedacht (PlanZV-Präfixe `um_` und `lt_`,
+Armaturen in Strom und Wasser, `topo_boeschung`). Bei ihnen verläuft die Linie waagerecht durch die
+Symbolmitte; bei den Umgrenzungen der PlanZV zeigt die Innenseite nach unten. In QGIS als Markierungslinie
+mit festem Abstand und „Markierung drehen“ verwenden.
 
 ## Aufbau
 
 ```
 metadata.ini                      Beschreibung des Repositorys und der Sammlungen
-collections/<ID>/svg/             SVG-Dateien, Schema gisak_<kategorie>_<name>.svg
+collections/<ID>/svg/             SVG-Dateien, Schema gisak_<sammlung>_<name>.svg
 collections/<ID>/preview/         Vorschaubild für das Plugin
 collections/<ID>/LICENSE          Lizenz der Sammlung
 KATALOG.md                        Liste aller Symbole
@@ -55,11 +78,20 @@ sollten nach der Veröffentlichung nicht mehr geändert werden, weil Projekte da
 
 ## Erweitern
 
-Neue Symbole werden in `tools/sym_a.py` bzw. `tools/sym_b.py` als Liste von Grundformen ergänzt.
-Danach im Repository-Ordner `python tools/mkrepo.py .` ausführen: Das erzeugt alle SVGs, Vorschauen,
-`metadata.ini`, `LICENSE` und den Katalog neu, `tools/` bleibt dabei unverändert. Mit einem anderen
-Zielordner (`python tools/mkrepo.py C:\Temp\neu`) entsteht dort ein vollständiges Repository samt `tools/`.
-Vorher committen: `collections/` wird vor dem Neuerzeugen gelöscht, mit `git diff` sieht man danach, was sich geändert hat.
+Jede Sammlung hat eine eigene Datei `tools/sym_<sammlung>.py`. Ein Symbol ist dort ein Eintrag aus Name, Titel,
+Füll- und Strichfarbe und einer Liste von Grundformen aus `tools/lib.py`. Am Anfang jeder Datei steht, welchen
+Stil die Sammlung hat.
+
+```powershell
+python tools\vorschau.py wasser C:\Temp\wasser.png    # Kontrollbild einer Sammlung mit Symbolnamen
+python tools\mkrepo.py .                              # alles neu erzeugen
+```
+
+`mkrepo.py .` erzeugt im Repository alle SVGs, Vorschauen, `metadata.ini`, `LICENSE` und den Katalog neu,
+`tools/` bleibt dabei unverändert. Mit einem anderen Zielordner (`python tools\mkrepo.py C:\Temp\neu`) entsteht
+dort ein vollständiges Repository samt `tools/`. Vorher committen: `collections/` wird vor dem Neuerzeugen
+gelöscht, mit `git diff` sieht man danach, was sich geändert hat.
+
 Benötigt werden Python 3 mit `fonttools`, `Pillow`, `lxml` (unter Windows z. B. die Python-Umgebung von
 ArcGIS Pro), das Programm `rsvg-convert` für die Vorschaubilder und die Schrift **Liberation Sans**
 ([Download](https://github.com/liberationfonts/liberation-fonts/releases), SIL Open Font License).
@@ -78,12 +110,15 @@ Für die Beschriftung der Vorschaubilder genügt notfalls Arial.
 ## Hinweise und Grenzen
 
 - **PlanZV:** Die Zeichen sind Nachkonstruktionen anhand der Anlage zur Planzeichenverordnung, keine amtlichen
-  Vorlagen. Vor dem Einsatz in rechtsverbindlichen Plänen bitte gegen die Anlage prüfen. Enthalten ist eine
-  Auswahl der punktförmigen Zeichen; Liniensignaturen, Flächenfarben und Umgrenzungen sind nicht Teil dieser Version.
-- **Übrige Kategorien:** Für Strom, EEG, Naturschutz, Landschaftsplanung, Verkehr, Wasser und Vermessung gibt es
-  kein bundeseinheitliches Regelwerk für Punktsymbole. Die Zeichen folgen verbreiteten Konventionen
-  (Schaltzeichen, Legenden von Netzbetreibern, Musterlegenden), sind aber eigene Entwürfe.
-- Bei Verkehr wurden bewusst keine Marken- oder Unternehmenslogos nachgebildet.
+  Vorlagen. Vor dem Einsatz in rechtsverbindlichen Plänen bitte gegen die Anlage prüfen. Enthalten sind die
+  Lage- und Flächenzeichen sowie Elemente für Umgrenzungslinien. Flächenfarben, Flächenmuster und die
+  Linienarten selbst (Baulinie, Baugrenze, Bahnanlagen usw.) werden in QGIS als Füll- bzw. Linienstil angelegt
+  und sind nicht Teil dieser Bibliothek. `TGa` ist eine gebräuchliche Ergänzung und steht nicht in der Anlage.
+- **Übrige Sammlungen:** Für Strom, Erneuerbare Energien, Naturschutz, Landschaftsplanung, Verkehr, Wasser,
+  Vermessung und Allgemein gibt es kein bundeseinheitliches Regelwerk für Punktsymbole. Die Zeichen orientieren
+  sich an den oben genannten Normen, Karten und Konventionen, sind aber eigene Entwürfe und keine normgerechten
+  Wiedergaben.
+- Marken- und Unternehmenslogos wurden bewusst nicht nachgebildet.
 
 ## Lizenz
 

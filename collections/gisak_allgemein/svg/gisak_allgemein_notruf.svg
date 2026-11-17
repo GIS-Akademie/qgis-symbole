@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Notruf / Notrufeinrichtung</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #C8102E" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M18.14 64.21V60.06H25.08V40.96L18.36 45.15V40.76L25.38 36.21H30.66V60.06H37.08V64.21ZM40.78 64.21V60.06H47.71V40.96L41 45.15V40.76L48.01 36.21H53.3V60.06H59.72V64.21ZM62.26 64.21V60.33Q63.35 57.93 65.37 55.64Q67.39 53.36 70.45 50.87Q73.39 48.49 74.57 46.94Q75.75 45.39 75.75 43.9Q75.75 40.24 72.08 40.24Q70.29 40.24 69.35 41.21Q68.4 42.17 68.12 44.1L62.5 43.78Q62.98 39.89 65.41 37.84Q67.85 35.79 72.04 35.79Q76.57 35.79 78.99 37.86Q81.42 39.92 81.42 43.66Q81.42 45.63 80.64 47.22Q79.87 48.81 78.66 50.15Q77.44 51.49 75.96 52.66Q74.48 53.84 73.09 54.95Q71.7 56.06 70.56 57.19Q69.42 58.33 68.86 59.62H81.86V64.21Z" fill="param(outline) #C8102E" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

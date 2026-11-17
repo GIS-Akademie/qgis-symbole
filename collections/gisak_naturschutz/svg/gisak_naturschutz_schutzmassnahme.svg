@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Schutzmaßnahme</title>
+  <polygon points="50,5 95,50 50,95 5,50" fill="param(fill) #DDF0C8" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #1E6B1E" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M64.8 57.22Q64.8 62.21 61.1 64.85Q57.4 67.49 50.23 67.49Q43.69 67.49 39.97 65.18Q36.26 62.86 35.2 58.16L42.07 57.02Q42.77 59.72 44.8 60.94Q46.83 62.16 50.42 62.16Q57.88 62.16 57.88 57.63Q57.88 56.18 57.02 55.24Q56.17 54.3 54.61 53.67Q53.05 53.04 48.64 52.15Q44.82 51.25 43.33 50.71Q41.83 50.17 40.63 49.43Q39.42 48.7 38.57 47.66Q37.73 46.62 37.26 45.22Q36.79 43.82 36.79 42.01Q36.79 37.4 40.25 34.95Q43.71 32.51 50.33 32.51Q56.65 32.51 59.82 34.48Q62.99 36.46 63.91 41.02L57.01 41.96Q56.48 39.77 54.85 38.66Q53.22 37.55 50.18 37.55Q43.71 37.55 43.71 41.6Q43.71 42.93 44.4 43.77Q45.09 44.62 46.44 45.21Q47.79 45.8 51.92 46.69Q56.82 47.73 58.93 48.61Q61.04 49.49 62.27 50.66Q63.5 51.83 64.15 53.46Q64.8 55.09 64.8 57.22Z" fill="param(outline) #1E6B1E" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

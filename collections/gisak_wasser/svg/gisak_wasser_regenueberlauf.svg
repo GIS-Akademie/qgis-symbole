@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Regenüberlauf</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #D6ECFA" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #0B5CAD" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M41.91 68.41 34.95 57.02H27.58V68.41H21.3V38.41H36.29Q41.65 38.41 44.57 40.72Q47.49 43.03 47.49 47.35Q47.49 50.5 45.7 52.79Q43.91 55.08 40.87 55.8L48.98 68.41ZM41.16 47.6Q41.16 43.28 35.63 43.28H27.58V52.14H35.8Q38.44 52.14 39.8 50.95Q41.16 49.76 41.16 47.6ZM65.27 68.83Q59.07 68.83 55.78 65.81Q52.49 62.79 52.49 57.16V38.41H58.77V56.67Q58.77 60.23 60.46 62.07Q62.16 63.91 65.44 63.91Q68.8 63.91 70.61 61.99Q72.42 60.06 72.42 56.46V38.41H78.7V56.85Q78.7 62.55 75.18 65.69Q71.65 68.83 65.27 68.83ZM68.33 35.83V31.17H72.53V35.83ZM58.67 35.83V31.17H62.8V35.83Z" fill="param(outline) #0B5CAD" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

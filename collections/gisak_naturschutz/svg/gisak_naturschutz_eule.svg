@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Eule</title>
+  <circle cx="50" cy="50" r="44" fill="param(fill) #DDF0C8" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #1E6B1E" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M30,30 L39,38 Q50,33 61,38 L70,30 V58 Q70,78 50,78 Q30,78 30,58 Z" fill="none" stroke="param(outline) #1E6B1E" stroke-opacity="param(outline-opacity) 1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="41" cy="52" r="7" fill="none" stroke="param(outline) #1E6B1E" stroke-opacity="param(outline-opacity) 1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="59" cy="52" r="7" fill="none" stroke="param(outline) #1E6B1E" stroke-opacity="param(outline-opacity) 1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="41" cy="52" r="2.5" fill="param(outline) #1E6B1E" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <circle cx="59" cy="52" r="2.5" fill="param(outline) #1E6B1E" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <polygon points="46,61 54,61 50,69" fill="param(outline) #1E6B1E" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
   <title>Bauweise: nur Doppelhäuser zulässig</title>
-  <polygon points="50,8 94,88 6,88" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #000000" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="50,8 94,88 6,88" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #000000" stroke-opacity="param(outline-opacity) 1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M60.7 63.82Q60.7 67.53 59.24 70.3Q57.78 73.07 55.12 74.54Q52.45 76 49.01 76H39.3V52H47.99Q54.05 52 57.38 55.06Q60.7 58.11 60.7 63.82ZM55.64 63.82Q55.64 59.95 53.63 57.92Q51.62 55.88 47.89 55.88H44.33V72.12H48.59Q51.82 72.12 53.73 69.89Q55.64 67.65 55.64 63.82Z" fill="param(outline) #000000" fill-opacity="param(outline-opacity) 1" stroke="none"/>
 </svg>

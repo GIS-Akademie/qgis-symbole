@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Netzersatzanlage / Notstromaggregat</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #C8102E" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M30.7 61.25 20.9 43.92Q21.18 46.45 21.18 47.98V61.25H17V38.75H22.38L32.33 56.22Q32.04 53.81 32.04 51.83V38.75H36.23V61.25ZM40.62 61.25V38.75H58.31V42.39H45.33V48.04H57.34V51.68H45.33V57.61H58.97V61.25ZM78.34 61.25 76.34 55.5H67.77L65.77 61.25H61.06L69.27 38.75H74.82L83 61.25ZM72.05 42.22 71.95 42.57Q71.79 43.14 71.57 43.88Q71.34 44.61 68.82 51.96H75.29L73.07 45.49L72.38 43.32Z" fill="param(outline) #C8102E" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

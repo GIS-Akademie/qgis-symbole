@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
-  <title>Verkehr: Hubschrauberlandeplatz</title>
-  <circle cx="50" cy="50" r="44" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #000000" stroke-opacity="param(outline-opacity) 1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M50,50 L50,17" fill="none" stroke="param(outline) #000000" stroke-opacity="param(outline-opacity) 1" stroke-width="6.5" stroke-linecap="butt" stroke-linejoin="round"/>
-  <path d="M50,50 L78.58,66.5" fill="none" stroke="param(outline) #000000" stroke-opacity="param(outline-opacity) 1" stroke-width="6.5" stroke-linecap="butt" stroke-linejoin="round"/>
-  <path d="M50,50 L21.42,66.5" fill="none" stroke="param(outline) #000000" stroke-opacity="param(outline-opacity) 1" stroke-width="6.5" stroke-linecap="butt" stroke-linejoin="round"/>
-  <circle cx="50" cy="50" r="6" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #000000" stroke-opacity="param(outline-opacity) 1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <title>Luftverkehr: Hubschrauberlandeplatz</title>
+  <circle cx="50" cy="50" r="43" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #000000" stroke-opacity="param(outline-opacity) 1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="45.5,16 54.5,16 54.5,42 45.5,42" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #000000" stroke-opacity="param(outline-opacity) 1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="83.43,66.1 78.93,73.9 56.41,60.9 60.91,53.1" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #000000" stroke-opacity="param(outline-opacity) 1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="21.07,73.9 16.57,66.1 39.09,53.1 43.59,60.9" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #000000" stroke-opacity="param(outline-opacity) 1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="50" cy="52" r="6" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #000000" stroke-opacity="param(outline-opacity) 1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

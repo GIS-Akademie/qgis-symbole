@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Art der baulichen Nutzung: Beschleunigungsgebiet für die Windenergie an Land (WIND)</title>
+  <rect x="6" y="26" width="88" height="48" rx="0" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #000000" stroke-opacity="param(outline-opacity) 1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="16 9"/>
+  <path d="M35.39 59.18H30.83L28.34 48.56Q27.89 46.68 27.57 44.64Q27.26 46.34 27.07 47.24Q26.87 48.13 24.29 59.18H19.73L15 40.82H18.9L21.55 52.68L22.15 55.54Q22.52 53.73 22.86 52.08Q23.21 50.44 25.46 40.82H29.76L32.08 50.59Q32.36 51.69 33.01 55.54L33.33 54.03L34.02 51.04L36.24 40.82H40.14ZM41.95 59.18V40.82H45.79V59.18ZM60.54 59.18 52.54 45.04Q52.78 47.1 52.78 48.35V59.18H49.36V40.82H53.75L61.87 55.08Q61.64 53.11 61.64 51.49V40.82H65.05V59.18ZM85 49.86Q85 52.7 83.89 54.82Q82.77 56.94 80.73 58.06Q78.69 59.18 76.06 59.18H68.63V40.82H75.28Q79.92 40.82 82.46 43.16Q85 45.5 85 49.86ZM81.13 49.86Q81.13 46.91 79.59 45.35Q78.05 43.79 75.2 43.79H72.48V56.21H75.74Q78.21 56.21 79.67 54.5Q81.13 52.8 81.13 49.86Z" fill="param(outline) #000000" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

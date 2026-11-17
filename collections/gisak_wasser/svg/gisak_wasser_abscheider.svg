@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Abscheider (Leichtflüssigkeit, Fett)</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #D6ECFA" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #0B5CAD" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M20.41 61V39H25.02V57.44H36.82V61ZM44.55 42.56V49.37H55.81V52.93H44.55V61H39.94V39H56.17V42.56ZM75.03 61 73.08 55.38H64.69L62.74 61H58.13L66.16 39H71.59L79.59 61ZM68.88 42.39 68.78 42.73Q68.63 43.29 68.41 44.01Q68.19 44.73 65.72 51.91H72.05L69.88 45.59L69.21 43.47Z" fill="param(outline) #0B5CAD" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

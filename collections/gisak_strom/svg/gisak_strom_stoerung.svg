@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Störung / Fehlerort</title>
+  <polygon points="50,8 94,88 6,88" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #C8102E" stroke-opacity="param(outline-opacity) 1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="54.34,41.4 40.7,63.1 48.76,63.1 45.04,78.6 59.3,55.66 51.24,55.66" fill="param(outline) #C8102E" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

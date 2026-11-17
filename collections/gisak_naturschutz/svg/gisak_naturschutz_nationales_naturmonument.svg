@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Nationales Naturmonument</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #DDF0C8" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #1E6B1E" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M30.51 60.27 21.56 44.45Q21.82 46.76 21.82 48.16V60.27H18V39.73H22.91L32 55.68Q31.73 53.48 31.73 51.67V39.73H35.55V60.27ZM52.07 60.27 43.12 44.45Q43.38 46.76 43.38 48.16V60.27H39.56V39.73H44.47L53.56 55.68Q53.29 53.48 53.29 51.67V39.73H57.11V60.27ZM78.18 60.27V47.82Q78.18 47.4 78.19 46.97Q78.19 46.55 78.33 43.34Q77.29 47.27 76.8 48.81L73.09 60.27H70.03L66.33 48.81L64.77 43.34Q64.94 46.73 64.94 47.82V60.27H61.12V39.73H66.88L70.56 51.22L70.88 52.33L71.58 55.08L72.49 51.79L76.27 39.73H82V60.27Z" fill="param(outline) #1E6B1E" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

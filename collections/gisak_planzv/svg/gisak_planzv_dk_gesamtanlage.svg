@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Denkmalschutz: Gesamtanlage (Ensemble)</title>
+  <circle cx="50" cy="50" r="43" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #000000" stroke-opacity="param(outline-opacity) 1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M63.37 49.78Q63.37 54.42 61.55 57.88Q59.73 61.34 56.4 63.17Q53.07 65 48.77 65H36.63V35H47.49Q55.07 35 59.22 38.82Q63.37 42.64 63.37 49.78ZM57.05 49.78Q57.05 44.94 54.54 42.4Q52.02 39.85 47.36 39.85H42.91V60.15H48.23Q52.28 60.15 54.66 57.36Q57.05 54.57 57.05 49.78Z" fill="param(outline) #000000" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

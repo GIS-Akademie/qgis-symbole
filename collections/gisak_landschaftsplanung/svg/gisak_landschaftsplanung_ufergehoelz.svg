@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Ufergehölz</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #CDE8B5" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #2E6B2E" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M18,74 q5.33,-5 10.67,0 t10.67,0 t10.67,0 t10.67,0 t10.67,0 t10.67,0" fill="none" stroke="param(outline) #2E6B2E" stroke-opacity="param(outline-opacity) 1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M32,30 A8.05,8.05 0 0 1 44.12,37 A8.05,8.05 0 0 1 44.12,51 A8.05,8.05 0 0 1 32,58 A8.05,8.05 0 0 1 19.88,51 A8.05,8.05 0 0 1 19.88,37 A8.05,8.05 0 0 1 32,30 Z" fill="param(fill) #CDE8B5" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #2E6B2E" stroke-opacity="param(outline-opacity) 1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M62,23 A9.77,9.77 0 0 1 76.72,31.5 A9.77,9.77 0 0 1 76.72,48.5 A9.77,9.77 0 0 1 62,57 A9.77,9.77 0 0 1 47.28,48.5 A9.77,9.77 0 0 1 47.28,31.5 A9.77,9.77 0 0 1 62,23 Z" fill="param(fill) #CDE8B5" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #2E6B2E" stroke-opacity="param(outline-opacity) 1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
