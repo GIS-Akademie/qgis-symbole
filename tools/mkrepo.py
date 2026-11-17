@@ -1,6 +1,6 @@
 import os, sys, shutil, re, subprocess, importlib, tempfile
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from lib import Ctx, render
+from lib import Ctx, render, find_font
 from PIL import Image, ImageDraw, ImageFont
 from lxml import etree
 
@@ -37,8 +37,9 @@ Kurzfassung:             https://creativecommons.org/licenses/by/4.0/deed.de
 for sub in ("collections", "tools"):
     shutil.rmtree(os.path.join(ROOT, sub), ignore_errors=True)
 os.makedirs(ROOT, exist_ok=True)
-font = ImageFont.truetype("/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf", 13)
-fontb = ImageFont.truetype("/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf", 22)
+# Nur fuer die Vorschaubilder; Arial ist metrisch gleich und dient unter Windows als Ersatz.
+font = ImageFont.truetype(find_font(["LiberationSans-Regular.ttf", "arial.ttf", "Arial.ttf"]), 13)
+fontb = ImageFont.truetype(find_font(["LiberationSans-Bold.ttf", "arialbd.ttf", "Arial Bold.ttf"]), 22)
 
 
 def png(svgtext, size):

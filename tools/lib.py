@@ -5,12 +5,45 @@ Alle Symbole: viewBox 0 0 100 100. Rollen:
   W = festes Weiss,  N = keine
 """
 import math
+import os
+import sys
 from fontTools.ttLib import TTFont
 from fontTools.pens.svgPathPen import SVGPathPen
 from fontTools.pens.transformPen import TransformPen
 from fontTools.pens.boundsPen import BoundsPen
 
-_FONT = TTFont("/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf")
+def _font_dirs():
+    """Suchorte fuer Schriften: GISAK_FONT_DIR, dann Linux, Windows, macOS."""
+    dirs = []
+    if os.environ.get("GISAK_FONT_DIR"):
+        dirs.append(os.environ["GISAK_FONT_DIR"])
+    dirs += ["/usr/share/fonts/truetype/liberation", "/usr/share/fonts/liberation-sans",
+             "/usr/share/fonts/TTF", os.path.expanduser("~/.local/share/fonts")]
+    windir = os.environ.get("WINDIR", r"C:\Windows")
+    dirs.append(os.path.join(windir, "Fonts"))
+    if os.environ.get("LOCALAPPDATA"):  # fuer den Benutzer installierte Schriften
+        dirs.append(os.path.join(os.environ["LOCALAPPDATA"], "Microsoft", "Windows", "Fonts"))
+    dirs += ["/Library/Fonts", os.path.expanduser("~/Library/Fonts")]
+    return dirs
+
+
+def find_font(names, required=True):
+    """Erste gefundene Schriftdatei aus `names` (Dateinamen, Reihenfolge = Vorrang)."""
+    for name in names:
+        for d in _font_dirs():
+            p = os.path.join(d, name)
+            if os.path.isfile(p):
+                return p
+    if required:
+        sys.exit(f"Schrift nicht gefunden: {', '.join(names)}\n"
+                 "Liberation Sans installieren (https://github.com/liberationfonts/liberation-fonts/releases)\n"
+                 "oder den Ordner mit den .ttf-Dateien in der Umgebungsvariablen GISAK_FONT_DIR angeben.")
+    return None
+
+
+# Die Beschriftungen der Symbole werden in Pfade umgewandelt. Damit die SVGs auf jedem
+# Rechner identisch entstehen, ist hier bewusst nur Liberation Sans Bold zulaessig.
+_FONT = TTFont(find_font(["LiberationSans-Bold.ttf"]))
 _GS = _FONT.getGlyphSet()
 _CMAP = _FONT.getBestCmap()
 _HMTX = _FONT["hmtx"]
