@@ -110,10 +110,15 @@ Durchgezogen = Bestand, gestrichelt = geplant oder Maßnahme. Ausnahmen, die so 
 - Markierungen stehen so, wie sie auf einer Linie von links nach rechts erscheinen. `dy > 0` und `versatz > 0`
   liegen rechts in Laufrichtung, bei Flächen innen (Symbole mit `marken` setzen dafür `force_rhr`).
   Dreht man eine Markierung mit `winkel`, dreht sich ihr `dy` mit.
-- Randzeichen an Flächen immer mit `marken(…, ecken=<mm>)`: Das schreibt einen Geometriegenerator (Einheit mm),
-  der den Umriss an Knicken über 25° auftrennt und die Zeichen je Kante mittig setzt (`qstil.ecken_ausdruck`).
+- Randzeichen an Flächen immer mit `marken(…, ecken=<mm>)`: Das schreibt zwei ineinander gesetzte
+  Geometriegeneratoren (Einheit mm): Der äußere trennt den Umriss an Knicken über 25° auf, der innere kürzt jeden
+  Abschnitt so, dass die Zeichen mittig sitzen (`qstil.ecken_ausdruecke`).
   Der Generator rechnet in Zeichenkoordinaten (y nach unten), deshalb `force_polygon_ccw`, damit rechts innen ist.
-  Im Ausdruck nur wenige `with_variable` schachteln: ab etwa 14 Ebenen hängt die Auswertung in QGIS.
+- **Ausdrücke flach halten.** Der Parser von QGIS 3.x (geprüft 3.44) braucht je Ebene verschachtelter
+  Funktionsaufrufe etwa doppelt so lange: 14 Ebenen 4 ms, 18 Ebenen 0,1 s, rund 24 Ebenen 1,5 s – und QGIS parst
+  bei jedem Kopieren eines Symbols neu. Ein einziger tiefer Ausdruck ließ die Symbolauswahl einfrieren
+  („Application Hang“ im Windows-Ereignisprotokoll). QGIS 4.2 zeigt das nicht, deshalb immer auch in der
+  LTR-Version messen: `QgsSymbolLayerUtils.symbolPreviewPixmap()` je Symbol muss unter 0,05 s bleiben.
   Beim Test ohne Oberfläche braucht der Render-Kontext einen Ausdruckskontext mit dem Feature, sonst zeichnet
   der Generator nichts.
 - Randbänder innen mit `band()`; Versätze bei Flächenumrissen vermeiden, sie hängen von der Umlaufrichtung ab.
@@ -137,6 +142,14 @@ Durchgezogen = Bestand, gestrichelt = geplant oder Maßnahme. Ausnahmen, die so 
 Resource Sharing liest je Sammlung `author`, `email`, `name`, `tags` und `description` ohne Rückfallwert; fehlt
 eines, scheitert schon das Hinzufügen des Repositorys („No option … in section“). `email` kommt aus `EMAIL` in
 `mkrepo.py`. Prüfen lässt sich das mit `configparser.ConfigParser().read_file(…)` und `get()` auf diese Felder.
+
+## Bekannte Schwäche des Plugins nach einem Push
+
+Resource Sharing 1.2.0 klont mit `depth=1` und zieht später mit `dulwich.porcelain.pull` nach. Nach jedem neuen
+Commit scheitert das mit `Error: (b'<alt>', b'<neu>')` (DivergedBranches), bis der lokale Klon unter
+`<Profil>/resource_sharing/repositories/github.com/GIS-Akademie/qgis-symbole` gelöscht oder mit
+`git fetch --depth=1 <url> master` und `git reset --hard FETCH_HEAD` nachgezogen wird. Deshalb Änderungen
+gesammelt pushen, nicht in vielen kleinen Schritten.
 
 ## Prüfen in QGIS
 

@@ -45,6 +45,12 @@ Flächensymbole (`linien_flaechen.png`).
 6. Nordpfeile im Drucklayout: **Element hinzufügen › Nordpfeil hinzufügen**, dann in den Elementeigenschaften
    unter den SVG-Gruppen einen Nordpfeil der Sammlung wählen.
 
+**Fehler nach einer Aktualisierung des Repositorys:** Meldet das Plugin beim Installieren nur
+`Error: (b'…', b'…')` mit zwei Prüfsummen, kann es seinen lokalen Klon nicht auf den neuen Stand bringen
+(es klont nur den letzten Stand und scheitert dann am Nachziehen). Abhilfe: QGIS schließen, den Ordner
+`resource_sharing/repositories/github.com/GIS-Akademie/qgis-symbole` im QGIS-Profilordner löschen
+(**Einstellungen › Benutzerprofile › Aktuellen Profilordner öffnen**) und die Sammlung erneut installieren.
+
 Ohne das Plugin lässt sich die Stildatei `collections/<ID>/symbol/Linien_und_Flaechen.xml` auch in der
 Stilverwaltung über **Importieren** laden. Damit die wenigen Symbole mit SVG-Markierungen (Umgrenzungen der
 PlanZV, Böschung) ihre Zeichen finden, vorher den Ordner `collections/<ID>/svg` unter
