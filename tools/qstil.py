@@ -52,23 +52,31 @@ def band(farbe, breite):
     return linie(farbe, 2 * breite, innen=True)
 
 
-def marken(marker, abstand, start=None, versatz=0, ecken=None, raster=None):
+RAND = 0.05  # mm, um die ein Abschnitt verlaengert wird, damit Markierungen an seinen Enden gezeichnet werden
+
+
+def marken(marker, abstand, start=None, versatz=0, ecken=None, raster=None, mindest=None):
     """raster (nur mit ecken): Laenge, auf deren Vielfaches jede Kante gekuerzt wird; Vorgabe = abstand.
-    Fuer wechselnde Zeichen zwei Ebenen mit gleichem raster, abstand = 2 * raster und start = raster / 2 bzw.
-    1,5 * raster anlegen."""
+    start (mit ecken): raster / 2 (Vorgabe) setzt n Markierungen in die Rasterfelder, start = 0 setzt n + 1
+    Markierungen auf die Rastergrenzen, also auf Luecke zur ersten Art (fuer zwei Flaechen an einer Grenze).
+    mindest (mit ecken): Kanten ab dieser Laenge, in die das Raster nicht passt, bekommen eine Markierung in der
+    Mitte; Vorgabe 2 * ecken."""
     if ecken is not None and versatz:
         raise ValueError("marken: ecken laesst sich nicht mit versatz kombinieren")
     raster = abstand if raster is None else raster
     if start is None:
         start = (raster if ecken is not None else abstand) / 2
-    return ("marken", dict(marker=marker, abstand=abstand, start=start, versatz=versatz, ecken=ecken, raster=raster))
+    if mindest is None and ecken is not None:
+        mindest = 2 * ecken
+    return ("marken", dict(marker=marker, abstand=abstand, start=start, versatz=versatz, ecken=ecken, raster=raster,
+                           mindest=mindest))
 
 
 def _var(name, value, body):
     return f"with_variable('{name}', {value}, {body})"
 
 
-def ecken_ausdruecke(abstand, ecke, start=None, winkel=40, glaetten=0.5):
+def ecken_ausdruecke(abstand, ecke, start=None, mindest=None, winkel=40, glaetten=0.5):
     """Zwei QGIS-Ausdruecke fuer zwei ineinander gesetzte Geometriegeneratoren (Einheit Millimeter):
     1. trennt Umriss oder Linie an Knicken ueber `winkel` Grad (und am Ringanfang) in Abschnitte auf,
     2. kuerzt jeden Abschnitt beidseitig so, dass ein ganzzahliges Vielfaches von `abstand` bleibt und
@@ -79,7 +87,10 @@ def ecken_ausdruecke(abstand, ecke, start=None, winkel=40, glaetten=0.5):
     Funktionsaufrufe etwa doppelt so lange (ab rund 20 Ebenen ueber eine Sekunde je Symbol, und das bei
     jedem Kopieren des Symbols) - die Symbolauswahl friert sonst ein."""
     i, d = repr(float(abstand)), repr(float(ecke))
-    s = repr(float(abstand / 2 if start is None else start))
+    start = abstand / 2 if start is None else start
+    rand = RAND if start < 0.01 else 0.0          # Markierungen auf den Rastergrenzen, auch an beiden Enden
+    s, pad = repr(float(start + rand)), repr(rand)
+    mind = repr(float(2 * ecke if mindest is None else mindest))
     # Vorab in Millimetern glaetten (Douglas-Peucker): Bei kleinem Massstab zaehlt sonst jeder kleine Knick als
     # Ecke, die Abschnitte werden zu kurz und die Zeichen fallen weg. Die Zeichen sitzen damit hoechstens
     # `glaetten` mm neben der gezeichneten Linie.
@@ -102,8 +113,8 @@ def ecken_ausdruecke(abstand, ecke, start=None, winkel=40, glaetten=0.5):
     kuerzen = ("collect_geometries(array_filter(array_foreach("
                "generate_series(1, coalesce(num_geometries($geometry), 1)), "
                + _var("g", "coalesce(geometry_n($geometry, @element), $geometry)",
-                      f"if(length(@g) < 2 * {d}, NULL, if({nutz} <= {s}, {mitte}, "
-                      f"line_substring(@g, {t}, length(@g) - {t})))")
+                      f"if(length(@g) < {mind}, NULL, if({nutz} < {s}, {mitte}, "
+                      f"line_substring(@g, {t} - {pad}, length(@g) - {t} + {pad})))")
                + "), @element IS NOT NULL))")
     return trennen, kuerzen
 
@@ -211,11 +222,12 @@ def symbol_xml(typ, name, ebenen, cid, ind="    "):
             i4, i6 = i2 + "    ", i2 + "        "
             ml = _layer("MarkerLine", {
                 "placement": "interval", "placements": "Interval", "interval": p["abstand"], "interval_unit": "MM",
-                "offset_along_line": p["start"], "offset_along_line_unit": "MM", "offset": 0,
+                "offset_along_line": p["start"] + (RAND if p["start"] < 0.01 else 0),
+                "offset_along_line_unit": "MM", "offset": 0,
                 "offset_unit": "MM", "rotate": 1, "average_angle_length": 0, "average_angle_unit": "MM",
                 "place_on_every_part": 1, "ring_filter": 0}, i6,
                 _symbol("marker", f"@@{sub}@0@0", _marker_xml(p["marker"], i6 + "    ", cid), i6 + "  "))
-            trennen, kuerzen = ecken_ausdruecke(p["raster"], p["ecken"], p["start"])
+            trennen, kuerzen = ecken_ausdruecke(p["raster"], p["ecken"], p["start"], p["mindest"])
             innen = _layer("GeometryGenerator", {"SymbolType": "Line", "geometryModifier": kuerzen, "units": "MM"},
                            i4, _symbol("line", f"@{sub}@0", ml, i4 + "  "))
             out += _layer("GeometryGenerator", {"SymbolType": "Line", "geometryModifier": trennen, "units": "MM"},
@@ -338,11 +350,14 @@ def _ebene_svg(art, p, pts, zu, lookup, clip):
                 k = math.floor((ln - 2 * p["ecken"]) / p["raster"] + 1e-9)
                 ang = math.degrees(math.atan2(b[1] - a[1], b[0] - a[0]))
                 rand, pos = (ln - k * p["raster"]) / 2, p["start"]
-                if ln >= 2 * p["ecken"] and k * p["raster"] <= p["start"]:  # kurze Kante: ein Zeichen mittig
+                if ln < p["mindest"]:
+                    continue
+                if max(k, 0) * p["raster"] < p["start"] + (RAND if p["start"] < 0.01 else 0):  # ein Zeichen mittig
                     out.append(f'<g transform="translate({_n((a[0] + b[0]) / 2)},{_n((a[1] + b[1]) / 2)}) '
                                f'rotate({_n(ang)})">{m}</g>')
                     continue
-                while k > 0 and pos < k * p["raster"] - 1e-6:  # QGIS setzt am Abschnittsende keine Markierung
+                # QGIS setzt am Abschnittsende keine Markierung; bei start = 0 ist der Abschnitt dafuer verlaengert
+                while k > 0 and pos < k * p["raster"] + (1e-6 if p["start"] < 0.01 else -1e-6):
                     t, pos = (rand + pos) / ln, pos + p["abstand"]
                     out.append(f'<g transform="translate({_n(a[0] + t * (b[0] - a[0]))},{_n(a[1] + t * (b[1] - a[1]))}) '
                                f'rotate({_n(ang)})">{m}</g>')

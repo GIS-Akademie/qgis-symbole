@@ -209,7 +209,7 @@ Für die Beschriftung der Vorschaubilder genügt notfalls Arial.
   Unterscheidung der Schutzgebiete zu, ohne sie festzulegen. Als Flächensymbol gibt es ein Paar für
   aneinandergrenzende Schutzgebiete, wie es in Plänen verbreitet ist: „Naturschutzgebiet“ mit geschlossenen und
   „Landschaftsschutzgebiet“ mit offenen Strichgruppen (`um_schutzgebiet_offen`), jeweils auf der Innenseite. Beide
-  nutzen dasselbe Raster, das zweite ist um ein halbes Raster versetzt; an einer gemeinsamen Grenze stehen die
+  nutzen dasselbe Raster (6,5 mm), das zweite ist um ein halbes Raster versetzt; an einer gemeinsamen Grenze stehen die
   Zeichen der beiden Flächen dadurch beiderseits der Linie auf Lücke. Welche Schutzgebietsart welche Variante
   erhält, legt die Zeichenerklärung des Plans fest. `TGa` ist eine gebräuchliche Ergänzung und steht
   nicht in der Anlage.
