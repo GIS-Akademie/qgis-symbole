@@ -33,31 +33,50 @@ Flächensymbole (`linien_flaechen.png`).
 
 ## Einbinden in QGIS
 
-1. Plugin **QGIS Resource Sharing** installieren.
-2. Im Plugin unter **Settings › Add repository…** die URL eintragen:
-   - Git: `https://github.com/GIS-Akademie/qgis-symbole.git` (Repository muss öffentlich sein, Branch `master`)
-   - Netzlaufwerk: `file://G:/Pfad/zum/Repository`
-3. Unter **All collections** die gewünschten Sammlungen installieren.
-4. Die Punktsymbole erscheinen im Symboleditor bei **SVG-Markierung** unter den SVG-Gruppen (**User Symbols**).
-   Zusätzlich stehen sie als fertige Markierungssymbole direkt in der Symbolauswahl für Punktlayer, mit Namen wie
-   `Tourismus und Freizeit: Bouleplatz` und dem Schlagwort `…/Punkte`. Heißt ein Punktsymbol wie ein Linien- oder
-   Flächensymbol derselben Sammlung, trägt es den Zusatz `(Punkt)`.
-5. Die Linien- und Flächensymbole stehen in der Symbolauswahl und in der **Stilverwaltung**. Dort tragen sie
-   das Schlagwort `<Name der Sammlung> (<Name des Repositorys>)/Linien_und_Flaechen`, der Symbolname beginnt mit
-   der Sammlung, z. B. `PlanZV: Baugrenze`.
-6. Nordpfeile im Drucklayout: **Element hinzufügen › Nordpfeil hinzufügen**, dann in den Elementeigenschaften
-   unter den SVG-Gruppen einen Nordpfeil der Sammlung wählen.
+### Installieren
 
-**Fehler nach einer Aktualisierung des Repositorys:** Meldet das Plugin beim Installieren nur
-`Error: (b'…', b'…')` mit zwei Prüfsummen, kann es seinen lokalen Klon nicht auf den neuen Stand bringen
-(es klont nur den letzten Stand und scheitert dann am Nachziehen). Abhilfe: QGIS schließen, den Ordner
-`resource_sharing/repositories/github.com/GIS-Akademie/qgis-symbole` im QGIS-Profilordner löschen
+1. In QGIS das Plugin **QGIS Resource Sharing** installieren (**Erweiterungen › Erweiterungen verwalten und
+   installieren**). Version 1.2.0 des Plugins läuft in QGIS 3.34 bis 3.x.
+2. Im Plugin unter **Settings › Add repository…** einen Namen vergeben und die URL eintragen:
+   - Git: `https://github.com/GIS-Akademie/qgis-symbole.git` (Branch `master`)
+   - Netzlaufwerk: `file://G:/Pfad/zum/Repository`
+3. Unter **All collections** die gewünschten Sammlungen auswählen und **Install** anklicken. Am besten bei
+   leerem Projekt, nicht während ein Projekt mit vielen Layern geöffnet ist.
+
+### Symbole finden
+
+| Symbolart | Wo in QGIS | Name bzw. Gruppe |
+|---|---|---|
+| Punktsymbole | Symbolauswahl eines Punktlayers | `<Sammlung>: <Bezeichnung>`, z. B. `Tourismus und Freizeit: Bouleplatz / Boule / Pétanque` |
+| Punktsymbole als SVG | Symboleditor › **SVG-Markierung** › SVG-Gruppen | Gruppe `GIS-Akademie Symbole <Sammlung>`, Datei `gisak_<sammlung>_<name>.svg` |
+| Linien- und Flächensymbole | Symbolauswahl eines Linien- bzw. Flächenlayers | `<Sammlung>: <Bezeichnung>`, z. B. `PlanZV: Baugrenze` |
+| Nordpfeile | Drucklayout › **Element hinzufügen › Nordpfeil hinzufügen** › SVG-Gruppen | Gruppe `GIS-Akademie Symbole Nordpfeile` |
+
+- **Suchen:** Das Suchfeld der Symbolauswahl findet Symbole über Teile des Namens, z. B. `schutzgebiet`.
+- **Filtern:** Jede Sammlung hat zwei Schlagworte, `…/Punkte` und `…/Linien_und_Flaechen`; in der
+  **Stilverwaltung** lässt sich danach filtern.
+- **Zusatz im Namen:** Das Plugin hängt an Symbolnamen, Schlagworte und SVG-Gruppen den Namen an, den man dem
+  Repository in Schritt 2 gegeben hat, z. B. `PlanZV: Baugrenze (GIS-Akademie)`.
+- **Zusatz `(Punkt)`:** Heißt ein Punktsymbol wie ein Linien- oder Flächensymbol derselben Sammlung, trägt es
+  diesen Zusatz, z. B. `Naturschutz: Naturschutzgebiet (Punkt)`.
+- **Vorgabegröße** der Punktsymbole ist 6 mm (Nordpfeile 12 mm); Größe und Farben lassen sich wie gewohnt ändern.
+
+### Aktualisieren
+
+Nach einer Aktualisierung der Bibliothek im Plugin **Reload repositories** wählen und die Sammlung unter
+**Installed collections** mit **Reinstall** neu installieren. Layer in bestehenden Projekten behalten ihr
+gespeichertes Symbol, bis man es neu aus der Auswahl zuweist.
+
+**Fehler `Error: (b'…', b'…')` mit zwei Prüfsummen:** Das Plugin kann seinen lokalen Klon nicht auf den neuen
+Stand bringen (es klont nur den letzten Stand und scheitert dann am Nachziehen). Abhilfe: QGIS schließen, den
+Ordner `resource_sharing/repositories/github.com/GIS-Akademie/qgis-symbole` im QGIS-Profilordner löschen
 (**Einstellungen › Benutzerprofile › Aktuellen Profilordner öffnen**) und die Sammlung erneut installieren.
 
-Ohne das Plugin lässt sich die Stildatei `collections/<ID>/symbol/Linien_und_Flaechen.xml` auch in der
-Stilverwaltung über **Importieren** laden. Damit die wenigen Symbole mit SVG-Markierungen (Umgrenzungen der
-PlanZV, Böschung) ihre Zeichen finden, vorher den Ordner `collections/<ID>/svg` unter
-**Einstellungen › Optionen › System › SVG-Pfade** eintragen.
+### Ohne das Plugin
+
+Die Stildateien `collections/<ID>/symbol/Punkte.xml` und `Linien_und_Flaechen.xml` lassen sich in der
+Stilverwaltung über **Importieren** laden. Damit die Symbole ihre SVG-Dateien finden, vorher den Ordner
+`collections/<ID>/svg` unter **Einstellungen › Optionen › System › SVG-Pfade** eintragen.
 
 ## Farben ändern
 
