@@ -1634,7 +1634,7 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | Kartengestaltung: Plangebiet | Fl채che |
 | Kartengestaltung: Schraffur, neutral | Fl채che |
 
-## Allgemein (`gisak_allgemein`, 57 Symbole)
+## Allgemein (`gisak_allgemein`, 137 Symbole)
 
 | Datei | Bedeutung |
 |---|---|
@@ -1695,6 +1695,86 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | `gisak_allgemein_wertstoffhof.svg` | Wertstoffhof / Entsorgung |
 | `gisak_allgemein_altglascontainer.svg` | Altglas- / Wertstoffcontainer |
 | `gisak_allgemein_bauhof.svg` | Bauhof / Betriebshof |
+| `gisak_allgemein_buergerhaus.svg` | B체rgerhaus / Gemeindezentrum |
+| `gisak_allgemein_buergerbuero.svg` | B체rgerb체ro / B체rgerservice |
+| `gisak_allgemein_standesamt.svg` | Standesamt |
+| `gisak_allgemein_seniorentreff.svg` | Seniorentreff / Begegnungsst채tte |
+| `gisak_allgemein_zoll.svg` | Zoll |
+| `gisak_allgemein_justizvollzugsanstalt.svg` | Justizvollzugsanstalt |
+| `gisak_allgemein_kaserne.svg` | Kaserne / Milit채rische Einrichtung |
+| `gisak_allgemein_forschung.svg` | Forschung / Labor |
+| `gisak_allgemein_industrie.svg` | Industrie / Fabrik |
+| `gisak_allgemein_lager.svg` | Lager / Logistik |
+| `gisak_allgemein_stadion.svg` | Stadion / Arena |
+| `gisak_allgemein_kino.svg` | Kino |
+| `gisak_allgemein_veranstaltungshalle.svg` | Veranstaltungshalle / Konzert |
+| `gisak_allgemein_zoo.svg` | Zoo / Tierpark |
+| `gisak_allgemein_botanischer_garten.svg` | Botanischer Garten |
+| `gisak_allgemein_hundewiese.svg` | Hundewiese / Hundeauslauf |
+| `gisak_allgemein_grillplatz.svg` | Grillplatz |
+| `gisak_allgemein_sitzbank.svg` | Sitzbank / Rastplatz |
+| `gisak_allgemein_trinkbrunnen.svg` | Trinkbrunnen / Trinkwasser |
+| `gisak_allgemein_telefon.svg` | 횜ffentliches Telefon |
+| `gisak_allgemein_topo_kirche.svg` | Topografie: Kirche |
+| `gisak_allgemein_topo_kapelle.svg` | Topografie: Kapelle |
+| `gisak_allgemein_topo_wegkreuz.svg` | Topografie: Wegkreuz / Bildstock |
+| `gisak_allgemein_topo_gipfelkreuz.svg` | Topografie: Gipfel mit Gipfelkreuz |
+| `gisak_allgemein_topo_turm.svg` | Topografie: Turm |
+| `gisak_allgemein_topo_burg.svg` | Topografie: Burg / Schloss |
+| `gisak_allgemein_topo_ruine.svg` | Topografie: Ruine |
+| `gisak_allgemein_topo_schornstein.svg` | Topografie: Schornstein |
+| `gisak_allgemein_topo_windrad.svg` | Topografie: Windrad / Windenergieanlage |
+| `gisak_allgemein_topo_windmuehle.svg` | Topografie: Windm체hle |
+| `gisak_allgemein_topo_bergwerk.svg` | Topografie: Bergwerk, in Betrieb |
+| `gisak_allgemein_topo_bergwerk_stillgelegt.svg` | Topografie: Bergwerk, stillgelegt |
+| `gisak_allgemein_topo_steinbruch.svg` | Topografie: Steinbruch / Grube |
+| `gisak_allgemein_topo_fels.svg` | Topografie: Fels / Felsgruppe |
+| `gisak_allgemein_topo_grenzstein.svg` | Topografie: Grenzstein |
+| `gisak_allgemein_topo_quelle.svg` | Topografie: Quelle |
+| `gisak_allgemein_topo_brunnen.svg` | Topografie: Brunnen |
+| `gisak_allgemein_topo_laubbaum.svg` | Topografie: Laubbaum (Ansicht) |
+| `gisak_allgemein_topo_nadelbaum.svg` | Topografie: Nadelbaum (Ansicht) |
+| `gisak_allgemein_topo_einzelbaum.svg` | Topografie: markanter Einzelbaum / Naturdenkmal |
+| `gisak_allgemein_topo_schutzhuette.svg` | Topografie: Schutzh체tte / Unterstand |
+| `gisak_allgemein_topo_wegweiser.svg` | Topografie: Wegweiser |
+| `gisak_allgemein_kr_information.svg` | Punktmarker: Information |
+| `gisak_allgemein_kr_achtung.svg` | Punktmarker: Achtung |
+| `gisak_allgemein_kr_frage.svg` | Punktmarker: Frage / Kl채rungsbedarf |
+| `gisak_allgemein_kr_start.svg` | Punktmarker: Start |
+| `gisak_allgemein_kr_ziel.svg` | Punktmarker: Ziel (Zielflagge) |
+| `gisak_allgemein_kr_treffpunkt.svg` | Punktmarker: Treffpunkt / Sammelstelle |
+| `gisak_allgemein_kr_standort.svg` | Punktmarker: Standort / Sie sind hier |
+| `gisak_allgemein_kr_foto.svg` | Punktmarker: Foto / Fotopunkt |
+| `gisak_allgemein_kr_aussicht.svg` | Punktmarker: Aussicht / Aussichtspunkt |
+| `gisak_allgemein_kr_parken.svg` | Punktmarker: Parken |
+| `gisak_allgemein_kr_wc.svg` | Punktmarker: WC |
+| `gisak_allgemein_kr_notruf.svg` | Punktmarker: Notruf |
+| `gisak_allgemein_kr_erste_hilfe.svg` | Punktmarker: Erste Hilfe |
+| `gisak_allgemein_kr_polizei.svg` | Punktmarker: Polizei |
+| `gisak_allgemein_form_kreis.svg` | Formmarker: Kreis |
+| `gisak_allgemein_form_ring.svg` | Formmarker: Ring |
+| `gisak_allgemein_form_zielscheibe.svg` | Formmarker: Zielscheibe |
+| `gisak_allgemein_form_quadrat.svg` | Formmarker: Quadrat |
+| `gisak_allgemein_form_raute.svg` | Formmarker: Raute |
+| `gisak_allgemein_form_dreieck.svg` | Formmarker: Dreieck |
+| `gisak_allgemein_form_dreieck_spitze.svg` | Formmarker: Dreieck auf der Spitze |
+| `gisak_allgemein_form_fuenfeck.svg` | Formmarker: F체nfeck |
+| `gisak_allgemein_form_sechseck.svg` | Formmarker: Sechseck |
+| `gisak_allgemein_form_stern.svg` | Formmarker: Stern |
+| `gisak_allgemein_form_kreuz.svg` | Formmarker: Kreuz / Plus |
+| `gisak_allgemein_form_schraegkreuz.svg` | Formmarker: Schr채gkreuz |
+| `gisak_allgemein_form_herz.svg` | Formmarker: Herz |
+| `gisak_allgemein_form_tropfen.svg` | Formmarker: Tropfen |
+| `gisak_allgemein_form_flagge.svg` | Formmarker: Flagge |
+| `gisak_allgemein_form_haus.svg` | Formmarker: Haus |
+| `gisak_allgemein_nadel_leer.svg` | Standortnadel, leer |
+| `gisak_allgemein_nadel_punkt.svg` | Standortnadel mit Punkt |
+| `gisak_allgemein_nadel_stern.svg` | Standortnadel mit Stern |
+| `gisak_allgemein_nadel_haus.svg` | Standortnadel mit Haus |
+| `gisak_allgemein_nadel_kreuz.svg` | Standortnadel mit Kreuz |
+| `gisak_allgemein_nadel_info.svg` | Standortnadel mit i (Information) |
+| `gisak_allgemein_nadel_achtung.svg` | Standortnadel mit Ausrufezeichen |
+| `gisak_allgemein_nadel_person.svg` | Standortnadel mit Person |
 
 ### Allgemein: Linien und Fl채chen (19 Symbole)
 

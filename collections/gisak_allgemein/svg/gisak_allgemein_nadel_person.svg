@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Standortnadel mit Person</title>
+  <path d="M50,95 C32,64 18,52 18,37 C18,19 32,5 50,5 C68,5 82,19 82,37 C82,52 68,64 50,95 Z" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #333333" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="50" cy="25" r="8" fill="param(outline) #333333" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <path d="M35,56 V48 Q35,37 50,37 Q65,37 65,48 V56 Z" fill="param(outline) #333333" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

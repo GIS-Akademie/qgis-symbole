@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Punktmarker: Parken</title>
+  <circle cx="50" cy="50" r="43" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #1F4E9E" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M68.92 41.56Q68.92 46 66.89 49.49Q64.87 52.99 61.1 54.9Q57.33 56.81 52.14 56.81H40.71V73H31.08V27H51.75Q60.01 27 64.46 30.8Q68.92 34.61 68.92 41.56ZM59.22 41.72Q59.22 34.48 50.67 34.48H40.71V49.4H50.93Q54.91 49.4 57.07 47.42Q59.22 45.45 59.22 41.72Z" fill="param(outline) #1F4E9E" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Formmarker: Schrägkreuz</title>
+  <polygon points="68.38,14.64 85.36,31.62 66.97,50 85.36,68.38 68.38,85.36 50,66.97 31.62,85.36 14.64,68.38 33.03,50 14.64,31.62 31.62,14.64 50,33.03" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #333333" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

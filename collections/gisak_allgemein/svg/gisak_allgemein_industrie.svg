@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Industrie / Fabrik</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #333333" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="14,84 14,56 32,44 32,56 50,44 50,56 66,56 66,84" fill="param(outline) #333333" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <rect x="66" y="20" width="14" height="64" rx="0" fill="param(outline) #333333" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <rect x="22" y="66" width="8" height="9" rx="0" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="none"/>
+  <rect x="40" y="66" width="8" height="9" rx="0" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="none"/>
+</svg>

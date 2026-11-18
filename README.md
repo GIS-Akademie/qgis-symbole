@@ -1,6 +1,6 @@
 # GIS-Akademie Symbolbibliothek für QGIS
 
-1025 Punktsymbole (SVG) sowie 498 Linien- und Flächensymbole in zwanzig Sammlungen, aufgebaut als Repository
+1105 Punktsymbole (SVG) sowie 498 Linien- und Flächensymbole in zwanzig Sammlungen, aufgebaut als Repository
 für das QGIS-Plugin **Resource Sharing**. Alle Symbole sind Eigenentwicklungen der GIS-Akademie und stehen
 unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de).
 
@@ -25,7 +25,7 @@ unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de).
 | Brand- und Katastrophenschutz | `gisak_brandschutz` | 42 | 10 | 10 | Feuerwehr und Löschwasser, Rettung, Katastrophenschutz, Gefahrenstellen |
 | Nordpfeile | `gisak_nordpfeile` | 34 | – | – | Schlichte Nordpfeile für Karten und Drucklayouts |
 | Kartengestaltung | `gisak_layout` | 61 | 9 | 10 | Nummern 1–20 und Buchstaben A–L als Marker, Hinweiszeichen, Pfeile, Rahmen und Ausschnitte |
-| Allgemein | `gisak_allgemein` | 57 | 10 | 9 | Öffentliche Einrichtungen, Rettung, Kultur, topografische Einzelobjekte, Grenzen |
+| Allgemein | `gisak_allgemein` | 137 | 10 | 9 | Öffentliche Einrichtungen, Rettung, Kultur, topografische Einzelzeichen, runde Punktmarker, freie Formen und Standortnadeln, Grenzen |
 
 Die vollständige Liste aller Symbole mit Bedeutung steht in [KATALOG.md](KATALOG.md).
 Jede Sammlung enthält unter `preview/` eine Übersicht der Punktsymbole (`preview.png`) und der Linien- und
@@ -134,7 +134,7 @@ zu welcher Gruppe ein Symbol gehört.
 | Denkmalpflege | ziegelrot | Quadrat = Baudenkmal, Kreis = Bodendenkmal oder Fundstelle, Raute = Status oder Schutz, Sechseck = Erinnerung und Vermittlung; gestrichelt = vermutet oder abgegangen | Denkmalkartierungen der Landesämter, archäologische Fundstellenkarten |
 | Brand- und Katastrophenschutz | weißes Sinnbild auf farbigem Quadrat | rot = Feuerwehr und Brandschutz, grün = Rettung und Flucht, blau = Katastrophenschutz, gelbes Dreieck = Gefahrenstelle | DIN 14095, DIN 14034, ISO 7010, taktische Zeichen |
 | Kartengestaltung | schwarz-weiß | Kreis = Nummer, Quadrat = Buchstabe, Raute = Hinweiszeichen, ohne Rahmen = Pfeil oder Marke; rot = Hervorhebung | übliche Verweiszeichen in Plänen |
-| Allgemein | dunkles Sinnbild auf weißem Quadrat | grau = allgemein, rot = Gesundheit und Rettung, blau = Sicherheit und Dienste | Objektarten amtlicher topografischer Karten und Stadtpläne |
+| Allgemein | dunkles Sinnbild auf weißer Fläche | Quadrat = Einrichtung oder Ort von Interesse, Kreis (`kr_`) = Punktmarker, ohne Rahmen (`topo_`) = topografisches Einzelzeichen, Formen und Nadeln (`form_`, `nadel_`) = freie Marker ohne feste Bedeutung; grau = allgemein, rot = Gesundheit und Rettung, blau = Sicherheit, Auskunft, Dienste | Objektarten amtlicher topografischer Karten und Stadtpläne |
 
 **Farben der Leitungen in der Wasserwirtschaft:** Trinkwasser und Gebiete dunkelblau, Gewässer und Regenwasser
 hellblau, Schmutzwasser braun, Mischwasser violett (übliche Farben in Kanalnetzplänen).
