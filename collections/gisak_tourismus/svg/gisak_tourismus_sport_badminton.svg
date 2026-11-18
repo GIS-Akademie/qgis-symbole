@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Badminton / Federball</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #C2410C" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #7A2807" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(50,54) rotate(25)"><polygon points="-7,12 7,12 24,-30 -24,-30" fill="#FFFFFF" stroke="none"/><circle cx="0" cy="20" r="11" fill="#FFFFFF" stroke="none"/><path d="M-8,9 L8,9" fill="none" stroke="param(fill) #C2410C" stroke-opacity="param(fill-opacity) 1" stroke-width="3.5" stroke-linecap="butt" stroke-linejoin="round"/><path d="M-3,6 L-9,-30" fill="none" stroke="param(fill) #C2410C" stroke-opacity="param(fill-opacity) 1" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round"/><path d="M3,6 L9,-30" fill="none" stroke="param(fill) #C2410C" stroke-opacity="param(fill-opacity) 1" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round"/><path d="M-18,-12 L18,-12" fill="none" stroke="param(fill) #C2410C" stroke-opacity="param(fill-opacity) 1" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round"/></g>
+</svg>

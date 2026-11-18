@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Kegelbahn / Bowling</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #C2410C" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #7A2807" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(28,46) scale(0.85) translate(-50,-50)"><path d="M50,14 C56,14 58,20 56,26 C54,32 62,44 62,58 C62,70 58,80 56,82 H44 C42,80 38,70 38,58 C38,44 46,32 44,26 C42,20 44,14 50,14 Z" fill="#FFFFFF" stroke="none"/><path d="M43,28 L57,28" fill="none" stroke="param(fill) #C2410C" stroke-opacity="param(fill-opacity) 1" stroke-width="3.5" stroke-linecap="butt" stroke-linejoin="round"/></g>
+  <g transform="translate(51,46) scale(0.85) translate(-50,-50)"><path d="M50,14 C56,14 58,20 56,26 C54,32 62,44 62,58 C62,70 58,80 56,82 H44 C42,80 38,70 38,58 C38,44 46,32 44,26 C42,20 44,14 50,14 Z" fill="#FFFFFF" stroke="none"/><path d="M43,28 L57,28" fill="none" stroke="param(fill) #C2410C" stroke-opacity="param(fill-opacity) 1" stroke-width="3.5" stroke-linecap="butt" stroke-linejoin="round"/></g>
+  <circle cx="73" cy="70" r="13" fill="#FFFFFF" stroke="none"/>
+  <circle cx="69" cy="65" r="2.3" fill="param(fill) #C2410C" fill-opacity="param(fill-opacity) 1" stroke="none"/>
+  <circle cx="76" cy="64" r="2.3" fill="param(fill) #C2410C" fill-opacity="param(fill-opacity) 1" stroke="none"/>
+  <circle cx="74" cy="71" r="2.3" fill="param(fill) #C2410C" fill-opacity="param(fill-opacity) 1" stroke="none"/>
+</svg>

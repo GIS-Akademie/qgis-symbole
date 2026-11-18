@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Freiluftschach / Schach</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #C2410C" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #7A2807" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="50" cy="24" r="10" fill="#FFFFFF" stroke="none"/>
+  <path d="M39,37 L61,37" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="44,38 56,38 63,60 37,60" fill="#FFFFFF" stroke="none"/>
+  <rect x="31" y="58" width="38" height="8" rx="2" fill="#FFFFFF" stroke="none"/>
+  <rect x="20" y="72" width="60" height="12" rx="0" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="20" y="72" width="12" height="12" rx="0" fill="#FFFFFF" stroke="none"/>
+  <rect x="44" y="72" width="12" height="12" rx="0" fill="#FFFFFF" stroke="none"/>
+  <rect x="68" y="72" width="12" height="12" rx="0" fill="#FFFFFF" stroke="none"/>
+</svg>

@@ -1,6 +1,6 @@
 # GIS-Akademie Symbolbibliothek für QGIS
 
-1105 Punktsymbole (SVG) sowie 498 Linien- und Flächensymbole in zwanzig Sammlungen, aufgebaut als Repository
+1150 Punktsymbole (SVG) sowie 498 Linien- und Flächensymbole in zwanzig Sammlungen, aufgebaut als Repository
 für das QGIS-Plugin **Resource Sharing**. Alle Symbole sind Eigenentwicklungen der GIS-Akademie und stehen
 unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de).
 
@@ -20,7 +20,7 @@ unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de).
 | Lärm und Immissionen | `gisak_laerm` | 38 | 11 | 13 | Immissionsorte, Quellen, Schutzmaßnahmen, Pegelklassen der Lärmkartierung |
 | Forst | `gisak_forst` | 45 | 11 | 14 | Baumarten und Bestand, Betrieb, Jagd, Waldfunktionen, Altersklassen |
 | Landwirtschaft | `gisak_landwirtschaft` | 45 | 11 | 14 | Betrieb und Ställe, Kulturen, Technik und Wasser, Schutz- und Förderkulissen |
-| Tourismus und Freizeit | `gisak_tourismus` | 45 | 14 | 10 | Unterkunft und Service, Wandern und Rad, Wasser und Winter, Sehenswertes, Wegearten |
+| Tourismus und Freizeit | `gisak_tourismus` | 90 | 14 | 10 | Unterkunft und Service, Wandern und Rad, Wasser und Winter, Sehenswertes, 45 Sportarten (darunter Boule), Wegearten |
 | Denkmalpflege und Archäologie | `gisak_denkmal` | 45 | 9 | 10 | Baudenkmale, Bodendenkmale und Fundstellen, Status, Erinnerung |
 | Brand- und Katastrophenschutz | `gisak_brandschutz` | 42 | 10 | 10 | Feuerwehr und Löschwasser, Rettung, Katastrophenschutz, Gefahrenstellen |
 | Nordpfeile | `gisak_nordpfeile` | 34 | – | – | Schlichte Nordpfeile für Karten und Drucklayouts |
@@ -130,7 +130,7 @@ zu welcher Gruppe ein Symbol gehört.
 | Lärm | violett | Kreis = Immissionsort oder Messung, Quadrat = Quelle, Raute = Schutzmaßnahme, Sechseck = schutzbedürftige Nutzung, ohne Rahmen = Hilfszeichen der Schallausbreitung | 34. BImSchV, DIN 45682, DIN 18005, TA Lärm |
 | Forst | dunkelgrün | Baumkrone ohne Rahmen = Baumart oder Bestand, Quadrat = betriebliche Einrichtung, Kreis = Jagd und Wild, Raute = Waldfunktion oder Schutz | Forstbetriebskarten der Länder, Waldfunktionenkartierung |
 | Landwirtschaft | ocker | Quadrat = Betrieb und Gebäude, Kreis = Kultur oder Nutzung, Sechseck = Technik und Wasser, Raute = Schutz, Förderung, Gebietskulisse | Kulturartengruppen des Agrarantrags (InVeKoS), Feldblockkataster |
-| Tourismus | weißes Sinnbild auf farbigem Quadrat | grau = Unterkunft und Service, grün = Wandern, Rad und Natur, blau = Wasser und Winter, braun = Sehenswertes und Erlebnis | touristische Hinweiszeichen der StVO, amtliche Wander- und Freizeitkarten |
+| Tourismus | weißes Sinnbild auf farbigem Quadrat | grau = Unterkunft und Service, grün = Wandern, Rad und Natur, blau = Wasser und Winter (auch Wasser- und Wintersport), braun = Sehenswertes und Erlebnis, orangerot = Sport (`sport_`) | touristische Hinweiszeichen der StVO, amtliche Wander- und Freizeitkarten |
 | Denkmalpflege | ziegelrot | Quadrat = Baudenkmal, Kreis = Bodendenkmal oder Fundstelle, Raute = Status oder Schutz, Sechseck = Erinnerung und Vermittlung; gestrichelt = vermutet oder abgegangen | Denkmalkartierungen der Landesämter, archäologische Fundstellenkarten |
 | Brand- und Katastrophenschutz | weißes Sinnbild auf farbigem Quadrat | rot = Feuerwehr und Brandschutz, grün = Rettung und Flucht, blau = Katastrophenschutz, gelbes Dreieck = Gefahrenstelle | DIN 14095, DIN 14034, ISO 7010, taktische Zeichen |
 | Kartengestaltung | schwarz-weiß | Kreis = Nummer, Quadrat = Buchstabe, Raute = Hinweiszeichen, ohne Rahmen = Pfeil oder Marke; rot = Hervorhebung | übliche Verweiszeichen in Plänen |

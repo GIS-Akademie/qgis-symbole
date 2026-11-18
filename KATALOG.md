@@ -1194,7 +1194,7 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | Verkehr: Sperrbereich | Fläche |
 | Verkehr: Halteverbotszone | Fläche |
 
-## Tourismus und Freizeit (`gisak_tourismus`, 45 Symbole)
+## Tourismus und Freizeit (`gisak_tourismus`, 90 Symbole)
 
 | Datei | Bedeutung |
 |---|---|
@@ -1243,6 +1243,51 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | `gisak_tourismus_golfplatz.svg` | Golfplatz / Minigolf |
 | `gisak_tourismus_reiten.svg` | Reiten / Reiterhof |
 | `gisak_tourismus_spielplatz.svg` | Spielplatz / Freizeitpark |
+| `gisak_tourismus_sport_fussball.svg` | Fußball / Fußballplatz |
+| `gisak_tourismus_sport_handball.svg` | Handball |
+| `gisak_tourismus_sport_basketball.svg` | Basketball / Streetball |
+| `gisak_tourismus_sport_volleyball.svg` | Volleyball |
+| `gisak_tourismus_sport_beachvolleyball.svg` | Beachvolleyball |
+| `gisak_tourismus_sport_hockey.svg` | Hockey |
+| `gisak_tourismus_sport_rugby_football.svg` | Rugby / American Football |
+| `gisak_tourismus_sport_baseball.svg` | Baseball / Softball |
+| `gisak_tourismus_sport_tennis.svg` | Tennis / Tennisplatz |
+| `gisak_tourismus_sport_tischtennis.svg` | Tischtennis / Tischtennisplatte |
+| `gisak_tourismus_sport_badminton.svg` | Badminton / Federball |
+| `gisak_tourismus_sport_minigolf.svg` | Minigolf |
+| `gisak_tourismus_sport_boule.svg` | Bouleplatz / Boule / Pétanque |
+| `gisak_tourismus_sport_kegeln.svg` | Kegelbahn / Bowling |
+| `gisak_tourismus_sport_billard.svg` | Billard |
+| `gisak_tourismus_sport_bogenschiessen.svg` | Bogenschießen |
+| `gisak_tourismus_sport_schiessen.svg` | Schießsport / Schießstand |
+| `gisak_tourismus_sport_darts.svg` | Darts |
+| `gisak_tourismus_sport_schach.svg` | Freiluftschach / Schach |
+| `gisak_tourismus_sport_leichtathletik.svg` | Leichtathletik / Laufbahn / Stadion |
+| `gisak_tourismus_sport_laufen.svg` | Laufstrecke / Jogging |
+| `gisak_tourismus_sport_nordic_walking.svg` | Nordic Walking |
+| `gisak_tourismus_sport_fitnessparcours.svg` | Fitnessparcours / Trimm-dich-Pfad / Calisthenics |
+| `gisak_tourismus_sport_fitnessstudio.svg` | Fitnessstudio / Kraftraum |
+| `gisak_tourismus_sport_turnen.svg` | Turnen / Turnhalle / Sporthalle |
+| `gisak_tourismus_sport_yoga.svg` | Yoga / Gymnastik |
+| `gisak_tourismus_sport_kampfsport.svg` | Kampfsport / Judo / Karate |
+| `gisak_tourismus_sport_boxen.svg` | Boxen |
+| `gisak_tourismus_sport_fechten.svg` | Fechten |
+| `gisak_tourismus_sport_skatepark.svg` | Skatepark / Skateanlage |
+| `gisak_tourismus_sport_inlineskaten.svg` | Inlineskaten / Skaterstrecke |
+| `gisak_tourismus_sport_rennrad.svg` | Radsport / Rennradstrecke / Radrennbahn |
+| `gisak_tourismus_sport_gleitschirm.svg` | Gleitschirmfliegen / Drachenfliegen |
+| `gisak_tourismus_sport_fallschirm.svg` | Fallschirmspringen |
+| `gisak_tourismus_sport_segelflug.svg` | Segelflug / Segelfluggelände |
+| `gisak_tourismus_sport_ballonfahrt.svg` | Ballonfahrt / Ballonstartplatz |
+| `gisak_tourismus_sport_motorsport.svg` | Motorsport / Kartbahn |
+| `gisak_tourismus_rudern.svg` | Rudern / Ruderstrecke |
+| `gisak_tourismus_stand_up_paddling.svg` | Stand-up-Paddling |
+| `gisak_tourismus_tauchen.svg` | Tauchen / Schnorcheln |
+| `gisak_tourismus_kitesurfen.svg` | Kitesurfen / Wasserski / Wakeboard |
+| `gisak_tourismus_snowboard.svg` | Snowboard / Funpark |
+| `gisak_tourismus_eishockey.svg` | Eishockey / Eishalle |
+| `gisak_tourismus_eisstockschiessen.svg` | Eisstockschießen / Curling |
+| `gisak_tourismus_skisprungschanze.svg` | Skisprungschanze / Skispringen |
 
 ### Tourismus und Freizeit: Linien und Flächen (24 Symbole)
 
