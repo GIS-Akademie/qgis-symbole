@@ -113,20 +113,23 @@ def ecken_ausdruecke(p, winkel=55, glaetten=0.5):
     # `glaetten` mm neben der gezeichneten Linie.
     b = f"simplify(if(geometry_type($geometry) = 'Polygon', boundary({UMLAUF}($geometry)), $geometry), {glaetten})"
 
+    # Flach halten (Parsezeit in QGIS 3.x): Knick ueber den Kosinus der Richtungsaenderung statt ueber
+    # verschachtelte if/abs, und die Randstuecke als Feld anhaengen statt in einer weiteren if-Ebene.
+    grenze = _n(round(math.cos(math.radians(winkel)), 4))
+
     def knick(vor, im, nach):  # Richtungsaenderung am Stuetzpunkt `im` groesser als der Schwellenwinkel?
-        w = (f"abs(azimuth(point_n(@r, {vor}), point_n(@r, {im})) - azimuth(point_n(@r, {im}), point_n(@r, {nach})))")
-        return f"if({w} > pi(), 2 * pi() - {w}, {w}) > radians({winkel})"
+        return (f"cos(azimuth(point_n(@r, {vor}), point_n(@r, {im})) - azimuth(point_n(@r, {im}), "
+                f"point_n(@r, {nach}))) < {grenze}")
 
     cd = ("array_filter(array_foreach(generate_series(2, num_points(@r) - 1), "
           f"if({knick('@element - 1', '@element', '@element + 1')}, distance_to_vertex(@r, @element - 1), NULL)"
           "), @element IS NOT NULL)")
-    enden = "array(line_substring(@r, @cd[array_length(@cd) - 1], length(@r)), line_substring(@r, 0, @cd[0]))"
-    anfang_ecke = knick("num_points(@r) - 1", "1", "2")
-    rand = (f"if(is_closed(@r) AND NOT ({anfang_ecke}), line_merge(collect_geometries({enden})), "
-            f"collect_geometries({enden}))")
+    enden = "line_substring(@r, array_last(@cd), length(@r)), line_substring(@r, 0, array_first(@cd))"
+    rand = (f"if(is_closed(@r) AND NOT ({knick('num_points(@r) - 1', '1', '2')}), "
+            f"array(line_merge(collect_geometries(array({enden})))), array({enden}))")
     mitte = ("array_foreach(generate_series(1, array_length(@cd) - 1), "
              "line_substring(@r, @cd[@element - 1], @cd[@element]))")
-    teile = f"if(array_length(@cd) = 0, @r, collect_geometries(array_append({mitte}, {rand})))"
+    teile = f"if(array_length(@cd) = 0, @r, collect_geometries(array_cat({mitte}, {rand})))"
     trennen = (f"collect_geometries(array_foreach(generate_series(1, coalesce(num_geometries({b}), 1)), "
                + _var("r", f"coalesce(geometry_n({b}, @element), {b})", _var("cd", cd, teile)) + "))")
 
