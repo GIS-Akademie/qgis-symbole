@@ -244,9 +244,10 @@ def um(name, abstand, groesse=5.0, dy=0):  # Umgrenzung: Linie mit um_-Zeichen a
     return [linie(K0, 0.3), marken(sv(name, groesse, dy=dy), abstand, ecken=0.4 * groesse)]
 
 
-def sgb(name, start, raster=6.5, groesse=10.0):  # Schutzgebiet: Gabeln innen; start 0 = auf Luecke zum anderen
+def sgb(name, luecke):  # Schutzgebiet: Gabeln innen; luecke=True steht auf Luecke zum anderen Zeichen
     # ecken 4.6 = Gabeltiefe + halbe Gabelbreite: So beruehren sich die Gabeln zweier Kanten an einer Ecke nicht.
-    return [linie(K0, 0.7), marken(sv(name, groesse), raster, start=start, ecken=4.6, raster=raster, mindest=6.0)]
+    # Abstand 8 mm ab 1:20000, bis 13 mm bei 1:1000 und groesser.
+    return [linie(K0, 0.7), marken(sv(name, 10.0), 8.0, ecken=4.6, mindest=6.0, luecke=luecke, weit=13.0)]
 
 
 def fa(farbe):  # farbige Flaeche mit duenner Umrandung
@@ -300,8 +301,8 @@ FLAECHEN = [
     ("Fläche mit Bindungen für die Erhaltung von Bäumen und Sträuchern", um("um_erhaltung", 3.5, 4.0, dy=1.2)),
     # Zwei Schutzgebiete an gemeinsamer Grenze: gleiches Raster, das zweite ein halbes Raster versetzt, damit
     # die Gabeln beider Flaechen beiderseits der Linie auf Luecke stehen.
-    ("Naturschutzgebiet, geschlossene Signatur", sgb("um_schutzgebiet", 3.25)),
-    ("Landschaftsschutzgebiet, offene Signatur (versetzt)", sgb("um_schutzgebiet_offen", 0.0)),
+    ("Naturschutzgebiet, geschlossene Signatur", sgb("um_schutzgebiet", False)),
+    ("Landschaftsschutzgebiet, offene Signatur (versetzt)", sgb("um_schutzgebiet_offen", True)),
     ("Erhaltungsbereich oder Denkmalschutz, farbig",
      [band(K0, 1.55), band("#E0705C", 1.4), marken(mk("line", 1.4, K0, rw=0.2, dy=0.7), 3.5, ecken=1.5), linie(K0, 0.3)]),
     ("Fläche für Nebenanlagen, Stellplätze und Garagen", [linie(ROT, 0.35, [3, 1.5])]),

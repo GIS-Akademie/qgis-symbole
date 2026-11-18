@@ -6,10 +6,11 @@ Masse in Millimetern, Farben als "#RRGGBB" oder "#RRGGBBAA" (mit Deckkraft).
 Ebenen fuer Linien und fuer den Umriss von Flaechen:
   linie(farbe, breite, strich=None, ende="flat", versatz=0)   einfache Linie; strich = [Strich, Luecke, ...],
                                                               versatz > 0 = nach rechts in Laufrichtung
-  marken(marker, abstand, start=None, versatz=0, ecken=None)  Markierungen entlang der Linie, mitgedreht;
+  marken(marker, abstand, start=None, versatz=0, ecken=None, mindest=None, luecke=False, weit=None)
+                                                              Markierungen entlang der Linie, mitgedreht;
                                                               ecken = Mindestabstand zu Ecken in mm: Die Linie
                                                               wird an Knicken aufgetrennt und die Markierungen
-                                                              werden je Abschnitt mittig verteilt
+                                                              werden je Abschnitt mittig verteilt (siehe marken)
 Ebenen nur fuer Flaechen:
   voll(farbe)                                                 Vollfarbe
   schraffur(farbe, breite, winkel, abstand)                   Schraffur; winkel gegen den Uhrzeigersinn, 45 = "/"
@@ -52,70 +53,95 @@ def band(farbe, breite):
     return linie(farbe, 2 * breite, innen=True)
 
 
-RAND = 0.05  # mm, um die ein Abschnitt verlaengert wird, damit Markierungen an seinen Enden gezeichnet werden
+STUMMEL = 0.1  # mm, halbe Laenge des Linienstuecks, das je Markierung erzeugt wird
+M_GROSS, M_KLEIN = 1000, 20000   # Massstabszahlen, zwischen denen der Abstand von `weit` auf `abstand` faellt
+M_VORSCHAU = 5000                # Massstab fuer Vorschau und Symbolauswahl (dort gibt es keinen Kartenmassstab)
 
 
-def marken(marker, abstand, start=None, versatz=0, ecken=None, raster=None, mindest=None):
-    """raster (nur mit ecken): Laenge, auf deren Vielfaches jede Kante gekuerzt wird; Vorgabe = abstand.
-    start (mit ecken): raster / 2 (Vorgabe) setzt n Markierungen in die Rasterfelder, start = 0 setzt n + 1
-    Markierungen auf die Rastergrenzen, also auf Luecke zur ersten Art (fuer zwei Flaechen an einer Grenze).
-    mindest (mit ecken): Kanten ab dieser Laenge, in die das Raster nicht passt, bekommen eine Markierung in der
-    Mitte; Vorgabe 2 * ecken."""
-    if ecken is not None and versatz:
-        raise ValueError("marken: ecken laesst sich nicht mit versatz kombinieren")
-    raster = abstand if raster is None else raster
+def marken(marker, abstand, start=None, versatz=0, ecken=None, mindest=None, luecke=False, weit=None):
+    """Mit ecken (Mindestabstand zu Ecken in mm) werden die Markierungen je Kante mittig verteilt:
+    luecke=False setzt sie in die Rasterfelder, luecke=True auf die Rastergrenzen (eine mehr, auf Luecke zur
+    ersten Art - fuer zwei Flaechen an einer gemeinsamen Grenze).
+    mindest: Kanten ab dieser Laenge, in die das Raster nicht passt, bekommen eine Markierung in der Mitte
+    (Vorgabe 2 * ecken).
+    weit: Abstand bei grossem Massstab (1:1000 und groesser); `abstand` gilt dann ab 1:20000, dazwischen wird
+    ueber den Logarithmus des Massstabs interpoliert. Ohne weit ist der Abstand in jedem Massstab gleich."""
+    if ecken is not None and (versatz or start is not None):
+        raise ValueError("marken: ecken laesst sich nicht mit versatz oder start kombinieren")
     if start is None:
-        start = (raster if ecken is not None else abstand) / 2
+        start = abstand / 2
     if mindest is None and ecken is not None:
         mindest = 2 * ecken
-    return ("marken", dict(marker=marker, abstand=abstand, start=start, versatz=versatz, ecken=ecken, raster=raster,
-                           mindest=mindest))
+    return ("marken", dict(marker=marker, abstand=abstand, start=start, versatz=versatz, ecken=ecken,
+                           mindest=mindest, luecke=luecke, weit=weit))
+
+
+def raster_bei(p, massstab=M_VORSCHAU):
+    """Abstand der Markierungen (mm) bei einem Massstab, wie ihn der QGIS-Ausdruck berechnet."""
+    if p["weit"] is None:
+        return p["abstand"]
+    lo, hi = math.log10(M_GROSS), math.log10(M_KLEIN)
+    f = min(1.0, max(0.0, (math.log10(massstab) - lo) / (hi - lo)))
+    return p["weit"] + f * (p["abstand"] - p["weit"])
 
 
 def _var(name, value, body):
     return f"with_variable('{name}', {value}, {body})"
 
 
-def ecken_ausdruecke(abstand, ecke, start=None, mindest=None, winkel=40, glaetten=0.5):
+def ecken_ausdruecke(p, winkel=55, glaetten=0.5):
     """Zwei QGIS-Ausdruecke fuer zwei ineinander gesetzte Geometriegeneratoren (Einheit Millimeter):
-    1. trennt Umriss oder Linie an Knicken ueber `winkel` Grad (und am Ringanfang) in Abschnitte auf,
-    2. kuerzt jeden Abschnitt beidseitig so, dass ein ganzzahliges Vielfaches von `abstand` bleibt und
-       mindestens `ecke` frei ist. Passt so keine Markierung hinein, der Abschnitt ist aber mindestens
-       2 * `ecke` lang, bekommt er eine einzelne Markierung in der Mitte (ueber eine kurze, nach hinten
-       verlaengerte Hilfslinie, auf der die Markierung im Abstand `start` genau die Mitte trifft).
+    1. glaettet Umriss oder Linie und trennt an Knicken ueber `winkel` Grad in Abschnitte auf. Bei Ringen wird
+       ueber den Anfangspunkt hinweg verbunden, wenn dort keine Ecke liegt - sonst bliebe an dieser beliebigen
+       Stelle eine Luecke von zwei Eckenabstaenden.
+    2. erzeugt je Markierung ein kurzes Linienstueck an ihrer Stelle; die Markierungslinie setzt auf jedes genau
+       eine Markierung. So liegt die ganze Verteilung im Ausdruck und kann vom Kartenmassstab abhaengen.
+       Je Abschnitt: n = Zahl der Rasterfelder, die mit `ecken` Abstand zu beiden Enden hineinpassen;
+       Markierungen in den Feldmitten (n Stueck) oder auf den Feldgrenzen (n + 1, luecke=True);
+       passt kein Feld hinein, eine Markierung in der Mitte, sofern der Abschnitt mindestens `mindest` lang ist.
     Zwei flache Stufen statt eines Ausdrucks: Der Parser von QGIS 3.x braucht je Ebene verschachtelter
     Funktionsaufrufe etwa doppelt so lange (ab rund 20 Ebenen ueber eine Sekunde je Symbol, und das bei
     jedem Kopieren des Symbols) - die Symbolauswahl friert sonst ein."""
-    i, d = repr(float(abstand)), repr(float(ecke))
-    start = abstand / 2 if start is None else start
-    rand = RAND if start < 0.01 else 0.0          # Markierungen auf den Rastergrenzen, auch an beiden Enden
-    s, pad = repr(float(start + rand)), repr(rand)
-    mind = repr(float(2 * ecke if mindest is None else mindest))
+    d, mind, st = repr(float(p["ecken"])), repr(float(p["mindest"])), repr(STUMMEL)
+    if p["weit"] is None:
+        raster = repr(float(p["abstand"]))
+    else:  # scale_linear begrenzt auf den Wertebereich; ohne Kartenmassstab (Vorschau) gilt M_VORSCHAU
+        raster = (f"scale_linear(log10(coalesce(@map_scale, {M_VORSCHAU})), {_n(math.log10(M_GROSS))}, "
+                  f"{_n(math.log10(M_KLEIN))}, {repr(float(p['weit']))}, {repr(float(p['abstand']))})")
     # Vorab in Millimetern glaetten (Douglas-Peucker): Bei kleinem Massstab zaehlt sonst jeder kleine Knick als
     # Ecke, die Abschnitte werden zu kurz und die Zeichen fallen weg. Die Zeichen sitzen damit hoechstens
     # `glaetten` mm neben der gezeichneten Linie.
     b = f"simplify(if(geometry_type($geometry) = 'Polygon', boundary({UMLAUF}($geometry)), $geometry), {glaetten})"
-    w = ("abs(azimuth(point_n(@r, @element - 1), point_n(@r, @element))"
-         " - azimuth(point_n(@r, @element), point_n(@r, @element + 1)))")
+
+    def knick(vor, im, nach):  # Richtungsaenderung am Stuetzpunkt `im` groesser als der Schwellenwinkel?
+        w = (f"abs(azimuth(point_n(@r, {vor}), point_n(@r, {im})) - azimuth(point_n(@r, {im}), point_n(@r, {nach})))")
+        return f"if({w} > pi(), 2 * pi() - {w}, {w}) > radians({winkel})"
+
     cd = ("array_filter(array_foreach(generate_series(2, num_points(@r) - 1), "
-          f"if(if({w} > pi(), 2 * pi() - {w}, {w}) > radians({winkel}), distance_to_vertex(@r, @element - 1), NULL)"
+          f"if({knick('@element - 1', '@element', '@element + 1')}, distance_to_vertex(@r, @element - 1), NULL)"
           "), @element IS NOT NULL)")
-    stueck = ("line_substring(@r, if(@element = 0, 0, @cd[@element - 1]), "
-              "if(@element = array_length(@cd), length(@r), @cd[@element]))")
+    enden = "array(line_substring(@r, @cd[array_length(@cd) - 1], length(@r)), line_substring(@r, 0, @cd[0]))"
+    anfang_ecke = knick("num_points(@r) - 1", "1", "2")
+    rand = (f"if(is_closed(@r) AND NOT ({anfang_ecke}), line_merge(collect_geometries({enden})), "
+            f"collect_geometries({enden}))")
+    mitte = ("array_foreach(generate_series(1, array_length(@cd) - 1), "
+             "line_substring(@r, @cd[@element - 1], @cd[@element]))")
+    teile = f"if(array_length(@cd) = 0, @r, collect_geometries(array_append({mitte}, {rand})))"
     trennen = (f"collect_geometries(array_foreach(generate_series(1, coalesce(num_geometries({b}), 1)), "
-               + _var("r", f"coalesce(geometry_n({b}, @element), {b})",
-                      _var("cd", cd, "collect_geometries(array_foreach(generate_series(0, array_length(@cd)), "
-                                     f"{stueck}))"))
-               + "))")
-    nutz = f"floor((length(@g) - 2 * {d}) / {i}) * {i}"
-    t = f"(length(@g) - {nutz}) / 2"
-    mitte = f"extend(line_substring(@g, length(@g) / 2 - 0.01, length(@g) / 2 + 0.01), {s}, 0.5)"
-    kuerzen = ("collect_geometries(array_filter(array_foreach("
-               "generate_series(1, coalesce(num_geometries($geometry), 1)), "
-               + _var("g", "coalesce(geometry_n($geometry, @element), $geometry)",
-                      f"if(length(@g) < {mind}, NULL, if({nutz} < {s}, {mitte}, "
-                      f"line_substring(@g, {t} - {pad}, length(@g) - {t} + {pad})))")
-               + "), @element IS NOT NULL))")
+               + _var("r", f"coalesce(geometry_n({b}, @element), {b})", _var("cd", cd, teile)) + "))")
+
+    # Stufe 2: @i Raster, @g Abschnitt, @n Zahl der Rasterfelder
+    erste = "0" if p["luecke"] else "@i / 2"
+    letzte = "@n" if p["luecke"] else "@n - 1"
+    ort = f"if(@n < 1, length(@g) / 2, (length(@g) - @n * @i) / 2 + {erste} + @element * @i)"
+    stummel = (f"collect_geometries(array_foreach(generate_series(0, if(@n < 1, 0, {letzte})), "
+               f"line_substring(@g, {ort} - {st}, {ort} + {st})))")
+    kuerzen = _var("i", raster, "collect_geometries(array_filter(array_foreach("
+                   "generate_series(1, coalesce(num_geometries($geometry), 1)), "
+                   + _var("g", "coalesce(geometry_n($geometry, @element), $geometry)",
+                          _var("n", f"floor((length(@g) - 2 * {d}) / @i)",
+                               f"if(length(@g) < {mind}, NULL, {stummel})"))
+                   + "), @element IS NOT NULL))")
     return trennen, kuerzen
 
 
@@ -220,14 +246,13 @@ def symbol_xml(typ, name, ebenen, cid, ind="    "):
             out += _layer("SimpleLine", _linie_props(p), i2)
         elif art == "marken" and p["ecken"] is not None:
             i4, i6 = i2 + "    ", i2 + "        "
-            ml = _layer("MarkerLine", {
-                "placement": "interval", "placements": "Interval", "interval": p["abstand"], "interval_unit": "MM",
-                "offset_along_line": p["start"] + (RAND if p["start"] < 0.01 else 0),
-                "offset_along_line_unit": "MM", "offset": 0,
+            ml = _layer("MarkerLine", {  # genau eine Markierung in der Mitte jedes Linienstuecks
+                "placement": "interval", "placements": "Interval", "interval": 1000, "interval_unit": "MM",
+                "offset_along_line": STUMMEL, "offset_along_line_unit": "MM", "offset": 0,
                 "offset_unit": "MM", "rotate": 1, "average_angle_length": 0, "average_angle_unit": "MM",
                 "place_on_every_part": 1, "ring_filter": 0}, i6,
                 _symbol("marker", f"@@{sub}@0@0", _marker_xml(p["marker"], i6 + "    ", cid), i6 + "  "))
-            trennen, kuerzen = ecken_ausdruecke(p["raster"], p["ecken"], p["start"], p["mindest"])
+            trennen, kuerzen = ecken_ausdruecke(p)
             innen = _layer("GeometryGenerator", {"SymbolType": "Line", "geometryModifier": kuerzen, "units": "MM"},
                            i4, _symbol("line", f"@{sub}@0", ml, i4 + "  "))
             out += _layer("GeometryGenerator", {"SymbolType": "Line", "geometryModifier": trennen, "units": "MM"},
@@ -344,21 +369,21 @@ def _ebene_svg(art, p, pts, zu, lookup, clip):
         segs = [(q[i], q[(i + 1) % len(q)]) for i in range(len(q) if zu else len(q) - 1)]
         total = sum(math.hypot(b[0] - a[0], b[1] - a[1]) for a, b in segs)
         m, out, s = _marker_svg(p["marker"], lookup), [], p["start"]
-        if p["ecken"] is not None:  # je Abschnitt mittig, Ecken frei (wie ecken_ausdruecke)
+        if p["ecken"] is not None:  # je Kante mittig, Ecken frei (wie ecken_ausdruecke, Massstab M_VORSCHAU)
+            r = raster_bei(p)
             for a, b in segs:
                 ln = math.hypot(b[0] - a[0], b[1] - a[1])
-                k = math.floor((ln - 2 * p["ecken"]) / p["raster"] + 1e-9)
-                ang = math.degrees(math.atan2(b[1] - a[1], b[0] - a[0]))
-                rand, pos = (ln - k * p["raster"]) / 2, p["start"]
                 if ln < p["mindest"]:
                     continue
-                if max(k, 0) * p["raster"] < p["start"] + (RAND if p["start"] < 0.01 else 0):  # ein Zeichen mittig
-                    out.append(f'<g transform="translate({_n((a[0] + b[0]) / 2)},{_n((a[1] + b[1]) / 2)}) '
-                               f'rotate({_n(ang)})">{m}</g>')
-                    continue
-                # QGIS setzt am Abschnittsende keine Markierung; bei start = 0 ist der Abschnitt dafuer verlaengert
-                while k > 0 and pos < k * p["raster"] + (1e-6 if p["start"] < 0.01 else -1e-6):
-                    t, pos = (rand + pos) / ln, pos + p["abstand"]
+                k = math.floor((ln - 2 * p["ecken"]) / r + 1e-9)
+                ang = math.degrees(math.atan2(b[1] - a[1], b[0] - a[0]))
+                if k < 1:
+                    orte = [ln / 2]
+                else:
+                    orte = [(ln - k * r) / 2 + (0 if p["luecke"] else r / 2) + j * r
+                            for j in range(k + 1 if p["luecke"] else k)]
+                for o in orte:
+                    t = o / ln
                     out.append(f'<g transform="translate({_n(a[0] + t * (b[0] - a[0]))},{_n(a[1] + t * (b[1] - a[1]))}) '
                                f'rotate({_n(ang)})">{m}</g>')
             return "".join(out)

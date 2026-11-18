@@ -111,8 +111,13 @@ Durchgezogen = Bestand, gestrichelt = geplant oder Maßnahme. Ausnahmen, die so 
   liegen rechts in Laufrichtung, bei Flächen innen (Symbole mit `marken` setzen dafür `force_rhr`).
   Dreht man eine Markierung mit `winkel`, dreht sich ihr `dy` mit.
 - Randzeichen an Flächen immer mit `marken(…, ecken=<mm>)`: Das schreibt zwei ineinander gesetzte
-  Geometriegeneratoren (Einheit mm): Der äußere glättet den Umriss um 0,5 mm (sonst fallen bei kleinem Maßstab an unruhigen Grenzen fast alle Zeichen weg) und trennt ihn an Knicken über 40° auf, der innere kürzt jeden
-  Abschnitt so, dass die Zeichen mittig sitzen (`qstil.ecken_ausdruecke`).
+  Geometriegeneratoren (Einheit mm, `qstil.ecken_ausdruecke`). Der äußere glättet den Umriss um 0,5 mm (sonst fallen
+  bei kleinem Maßstab an unruhigen Grenzen fast alle Zeichen weg), trennt ihn an Knicken über 55° auf und verbindet
+  bei Ringen über den Anfangspunkt hinweg, wenn dort keine Ecke liegt (sonst bleibt dort eine unerklärliche Lücke).
+  Der innere erzeugt je Zeichen ein 0,2 mm kurzes Linienstück; die Markierungslinie setzt auf jedes genau ein Zeichen.
+  So liegt die ganze Verteilung im Ausdruck: `luecke=True` setzt die Zeichen auf die Rastergrenzen (auf Lücke zu
+  einem zweiten Symbol an gemeinsamer Grenze), `weit=<mm>` macht den Abstand vom Kartenmaßstab abhängig
+  (`@map_scale`, in der Vorschau 1:5000), `mindest` gibt kurzen Kanten ein einzelnes Zeichen in der Mitte.
   Der Generator rechnet in Zeichenkoordinaten (y nach unten), deshalb `force_polygon_ccw`, damit rechts innen ist.
 - **Ausdrücke flach halten.** Der Parser von QGIS 3.x (geprüft 3.44) braucht je Ebene verschachtelter
   Funktionsaufrufe etwa doppelt so lange: 14 Ebenen 4 ms, 18 Ebenen 0,1 s, rund 24 Ebenen 1,5 s – und QGIS parst

@@ -102,7 +102,7 @@ der Innenseite, unabhängig von der Digitalisierrichtung. Bei Linien mit einseit
 die Linie umdrehen.
 
 **Ecken bleiben frei:** Bei den Umgrenzungen mit Randzeichen prüft das Symbol die Geometrie beim Zeichnen: Der
-Umriss wird zuerst um bis zu 0,5 mm geglättet, dann an jedem Knick über 40° aufgetrennt, und die Zeichen werden auf jeder Kante mittig verteilt, mit
+Umriss wird zuerst um bis zu 0,5 mm geglättet, dann an jedem Knick über 55° aufgetrennt, und die Zeichen werden auf jeder Kante mittig verteilt, mit
 Abstand zu den Ecken. Kurze Kanten bekommen ein einzelnes Zeichen in der Mitte, sehr kurze bleiben leer; an Bögen aus vielen kurzen
 Stücken laufen die Zeichen durch. Dafür nutzt das Symbol einen Geometriegenerator in Millimetern (ab QGIS 3.24),
 das Ergebnis hängt also vom Kartenmaßstab ab und passt sich beim Zoomen an. Schwellenwinkel und Eckenabstand
@@ -209,7 +209,8 @@ Für die Beschriftung der Vorschaubilder genügt notfalls Arial.
   Unterscheidung der Schutzgebiete zu, ohne sie festzulegen. Als Flächensymbol gibt es ein Paar für
   aneinandergrenzende Schutzgebiete, wie es in Plänen verbreitet ist: „Naturschutzgebiet“ mit geschlossenen und
   „Landschaftsschutzgebiet“ mit offenen Strichgruppen (`um_schutzgebiet_offen`), jeweils auf der Innenseite. Beide
-  nutzen dasselbe Raster (6,5 mm), das zweite ist um ein halbes Raster versetzt; an einer gemeinsamen Grenze stehen die
+  nutzen dasselbe Raster, das zweite ist um ein halbes Raster versetzt. Der Abstand der Zeichen hängt vom
+  Kartenmaßstab ab: 8 mm ab 1:20000, ansteigend bis 13 mm bei 1:1000 und größer; an einer gemeinsamen Grenze stehen die
   Zeichen der beiden Flächen dadurch beiderseits der Linie auf Lücke. Welche Schutzgebietsart welche Variante
   erhält, legt die Zeichenerklärung des Plans fest. `TGa` ist eine gebräuchliche Ergänzung und steht
   nicht in der Anlage.
