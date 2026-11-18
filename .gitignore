@@ -3,3 +3,6 @@ __pycache__/
 .venv/
 .claude/settings.local.json
 Thumbs.db
+
+# Arbeitsnotizen fuer Claude Code, nur lokal
+CLAUDE.md
