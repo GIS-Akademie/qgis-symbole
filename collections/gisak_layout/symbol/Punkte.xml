@@ -1,0 +1,1103 @@
+<!DOCTYPE qgis_style>
+<qgis_style version="2">
+  <symbols>
+    <symbol type="marker" name="Kartengestaltung: Nummer 1 im Kreis" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_nr_01.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Nummer 2 im Kreis" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_nr_02.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Nummer 3 im Kreis" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_nr_03.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Nummer 4 im Kreis" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_nr_04.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Nummer 5 im Kreis" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_nr_05.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Nummer 6 im Kreis" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_nr_06.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Nummer 7 im Kreis" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_nr_07.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Nummer 8 im Kreis" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_nr_08.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Nummer 9 im Kreis" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_nr_09.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Nummer 10 im Kreis" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_nr_10.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Nummer 11 im Kreis" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_nr_11.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Nummer 12 im Kreis" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_nr_12.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Nummer 13 im Kreis" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_nr_13.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Nummer 14 im Kreis" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_nr_14.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Nummer 15 im Kreis" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_nr_15.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Nummer 16 im Kreis" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_nr_16.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Nummer 17 im Kreis" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_nr_17.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Nummer 18 im Kreis" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_nr_18.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Nummer 19 im Kreis" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_nr_19.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Nummer 20 im Kreis" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_nr_20.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Nummer 1 im gefüllten Kreis" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_nrv_01.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Nummer 2 im gefüllten Kreis" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_nrv_02.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Nummer 3 im gefüllten Kreis" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_nrv_03.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Nummer 4 im gefüllten Kreis" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_nrv_04.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Nummer 5 im gefüllten Kreis" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_nrv_05.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Nummer 6 im gefüllten Kreis" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_nrv_06.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Nummer 7 im gefüllten Kreis" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_nrv_07.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Nummer 8 im gefüllten Kreis" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_nrv_08.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Nummer 9 im gefüllten Kreis" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_nrv_09.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Nummer 10 im gefüllten Kreis" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_nrv_10.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Buchstabe A im Quadrat" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_bu_a.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Buchstabe B im Quadrat" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_bu_b.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Buchstabe C im Quadrat" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_bu_c.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Buchstabe D im Quadrat" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_bu_d.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Buchstabe E im Quadrat" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_bu_e.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Buchstabe F im Quadrat" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_bu_f.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Buchstabe G im Quadrat" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_bu_g.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Buchstabe H im Quadrat" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_bu_h.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Buchstabe I im Quadrat" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_bu_i.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Buchstabe J im Quadrat" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_bu_j.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Buchstabe K im Quadrat" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_bu_k.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Buchstabe L im Quadrat" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_bu_l.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Hinweis: Achtung" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_hw_achtung.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Hinweis: Klärungsbedarf" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_hw_frage.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Hinweis: Information" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_hw_info.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Hinweis: erledigt / in Ordnung" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_hw_erledigt.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Hinweis: Mangel / nicht in Ordnung" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_hw_mangel.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Hinweis: besonders wichtig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_hw_stern.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Pfeil (drehbar)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_pfeil.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Pfeil, schlank (drehbar)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_pfeil_schlank.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Doppelpfeil (drehbar)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_pfeil_doppelt.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Pfeil im Umriss (drehbar)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_pfeil_umriss.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Pfeilspitze (drehbar)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_pfeil_spitze.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Standortmarke" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_standort.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Standortmarke, gefüllt" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_standort_voll.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Fadenkreuz / Bezugspunkt" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_fadenkreuz.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Detailverweis (Lupe)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_detail.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Schnittmarke (drehbar, Blickrichtung nach oben)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_schnittmarke.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Blickrichtung / Fotostandpunkt (drehbar)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_blickrichtung.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Punktmarke" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_punkt.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Kartengestaltung: Punktmarke mit Ring" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_layout_punkt_ring.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+  </symbols>
+</qgis_style>

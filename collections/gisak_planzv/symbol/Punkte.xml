@@ -1,0 +1,1913 @@
+<!DOCTYPE qgis_style>
+<qgis_style version="2">
+  <symbols>
+    <symbol type="marker" name="PlanZV: Art der baulichen Nutzung: Wohnbaufläche (W)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_nu_w.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Art der baulichen Nutzung: Kleinsiedlungsgebiet (WS)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_nu_ws.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Art der baulichen Nutzung: Reines Wohngebiet (WR)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_nu_wr.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Art der baulichen Nutzung: Allgemeines Wohngebiet (WA)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_nu_wa.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Art der baulichen Nutzung: Besonderes Wohngebiet (WB)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_nu_wb.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Art der baulichen Nutzung: Gemischte Baufläche (M)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_nu_m.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Art der baulichen Nutzung: Dorfgebiet (MD)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_nu_md.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Art der baulichen Nutzung: Dörfliches Wohngebiet (MDW)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_nu_mdw.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Art der baulichen Nutzung: Mischgebiet (MI)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_nu_mi.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Art der baulichen Nutzung: Urbanes Gebiet (MU)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_nu_mu.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Art der baulichen Nutzung: Kerngebiet (MK)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_nu_mk.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Art der baulichen Nutzung: Gewerbliche Baufläche (G)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_nu_g.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Art der baulichen Nutzung: Gewerbegebiet (GE)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_nu_ge.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Art der baulichen Nutzung: Industriegebiet (GI)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_nu_gi.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Art der baulichen Nutzung: Sonderbaufläche (S)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_nu_s.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Art der baulichen Nutzung: Sondergebiet (SO)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_nu_so.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Art der baulichen Nutzung: Beschleunigungsgebiet für die Windenergie an Land (WIND)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_nu_wind.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Bauweise: offene Bauweise" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_bw_offen.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Bauweise: geschlossene Bauweise" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_bw_geschlossen.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Bauweise: abweichende Bauweise" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_bw_abweichend.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Bauweise: nur Einzelhäuser zulässig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_bw_einzelhaeuser.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Bauweise: nur Doppelhäuser zulässig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_bw_doppelhaeuser.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Bauweise: nur Hausgruppen zulässig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_bw_hausgruppen.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Bauweise: nur Einzel- und Doppelhäuser zulässig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_bw_einzel_doppelhaeuser.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Gemeinbedarf: Öffentliche Verwaltungen" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_gb_oeffentliche_verwaltung.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Gemeinbedarf: Schule" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_gb_schule.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Gemeinbedarf: Kirchen und kirchlichen Zwecken dienende Gebäude und Einrichtungen" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_gb_kirche.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Gemeinbedarf: Sozialen Zwecken dienende Gebäude und Einrichtungen" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_gb_sozial.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Gemeinbedarf: Gesundheitlichen Zwecken dienende Gebäude und Einrichtungen" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_gb_gesundheit.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Gemeinbedarf: Kulturellen Zwecken dienende Gebäude und Einrichtungen" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_gb_kultur.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Gemeinbedarf: Sportlichen Zwecken dienende Gebäude und Einrichtungen" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_gb_sport.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Gemeinbedarf: Post" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_gb_post.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Gemeinbedarf: Schutzbauwerk" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_gb_schutzbauwerk.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Gemeinbedarf: Feuerwehr" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_gb_feuerwehr.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Sport- und Spielanlagen: Sportanlagen" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_sp_sportanlagen.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Sport- und Spielanlagen: Spielanlagen" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_sp_spielanlagen.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Verkehr: Ruhender Verkehr" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_vk_ruhender_verkehr.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Verkehr: Überörtlicher Weg, Hauptwanderweg" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_vk_hauptwanderweg.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Luftverkehr: Flughafen" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_vk_flughafen.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Luftverkehr: Landeplatz" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_vk_landeplatz.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Luftverkehr: Segelfluggelände" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_vk_segelfluggelaende.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Luftverkehr: Hubschrauberlandeplatz" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_vk_hubschrauberlandeplatz.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Verkehrsfläche besonderer Zweckbestimmung: Öffentliche Parkfläche" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_vk_parkflaeche.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Verkehrsfläche besonderer Zweckbestimmung: Fußgängerbereich" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_vk_fussgaengerbereich.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Verkehrsfläche besonderer Zweckbestimmung: Verkehrsberuhigter Bereich" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_vk_verkehrsberuhigter_bereich.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Verkehr: Einfahrt (Spitze zeigt auf das Grundstück)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_vk_einfahrt.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Ver-/Entsorgung: Elektrizität" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_ve_elektrizitaet.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Ver-/Entsorgung: Gas" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_ve_gas.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Ver-/Entsorgung: Fernwärme" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_ve_fernwaerme.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Ver-/Entsorgung: Wasser" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_ve_wasser.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Ver-/Entsorgung: Abwasser" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_ve_abwasser.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Ver-/Entsorgung: Abfall" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_ve_abfall.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Ver-/Entsorgung: Ablagerung" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_ve_ablagerung.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Ver-/Entsorgung: Erneuerbare Energien" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_ve_erneuerbare_energien.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Ver-/Entsorgung: Kraft-Wärme-Kopplung" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_ve_kraft_waerme_kopplung.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Hauptversorgungsleitung oberirdisch (Linienelement)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_lt_oberirdisch.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Hauptversorgungsleitung unterirdisch (Linienelement)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_lt_unterirdisch.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Grünfläche: Parkanlage" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_gr_parkanlage.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Grünfläche: Dauerkleingärten" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_gr_dauerkleingaerten.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Grünfläche: Sportplatz" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_gr_sportplatz.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Grünfläche: Spielplatz" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_gr_spielplatz.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Grünfläche: Zeltplatz" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_gr_zeltplatz.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Grünfläche: Badeplatz, Freibad" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_gr_badeplatz.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Grünfläche: Friedhof" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_gr_friedhof.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Wasserfläche: Hafen" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_wa_hafen.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Wasserwirtschaft: Hochwasserrückhaltebecken" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_wa_hochwasserrueckhaltebecken.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Wasserwirtschaft: Überschwemmungsgebiet" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_wa_ueberschwemmungsgebiet.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Wasserrecht: Schutzgebiet für Grund- und Quellwassergewinnung" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_wa_schutzgebiet_grundwasser.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Wasserrecht: Schutzgebiet für Oberflächengewässer" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_wa_schutzgebiet_oberflaechengewaesser.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Fläche für Aufschüttungen" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_ab_aufschuettung.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Fläche für Abgrabungen oder für die Gewinnung von Bodenschätzen" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_ab_abgrabung.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Wald: Erholungswald" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_lw_erholungswald.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Anpflanzen: Bäume" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_pf_baum_anpflanzen.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Anpflanzen: Sträucher" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_pf_strauch_anpflanzen.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Anpflanzen: Sonstige Bepflanzungen" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_pf_bepflanzung_anpflanzen.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Erhaltung: Bäume" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_pf_baum_erhalten.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Erhaltung: Sträucher" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_pf_strauch_erhalten.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Erhaltung: Sonstige Bepflanzungen" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_pf_bepflanzung_erhalten.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Schutzgebiet: Naturschutzgebiet" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_sg_naturschutzgebiet.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Schutzgebiet: Nationalpark" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_sg_nationalpark.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Schutzgebiet: Landschaftsschutzgebiet" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_sg_landschaftsschutzgebiet.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Schutzgebiet: Naturpark" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_sg_naturpark.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Schutzgebiet: Naturdenkmal" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_sg_naturdenkmal.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Schutzgebiet: Geschützter Landschaftsbestandteil" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_sg_geschuetzter_landschaftsbestandteil.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Stadterhaltung: Erhaltungsbereich" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_dk_erhaltungsbereich.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Denkmalschutz: Gesamtanlage (Ensemble)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_dk_gesamtanlage.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Denkmalschutz: Einzelanlage (unbewegliches Kulturdenkmal)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_dk_einzelanlage.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Sonstige: Höhenlage bei Festsetzungen (Höhenbezugspunkt)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_so_hoehenlage.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Sonstige: Boden erheblich mit umweltgefährdenden Stoffen belastet (Lagezeichen)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_so_altlast.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Nebenanlagen: Stellplätze" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_na_stellplaetze.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Nebenanlagen: Garagen" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_na_garagen.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Nebenanlagen: Gemeinschaftsstellplätze" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_na_gemeinschaftsstellplaetze.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Nebenanlagen: Gemeinschaftsgaragen" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_na_gemeinschaftsgaragen.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Nebenanlagen: Tiefgaragen (gebräuchliche Ergänzung)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_na_tiefgaragen.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Linienelement: Abgrenzung unterschiedlicher Nutzung (Perlschnur)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_um_nutzungsgrenze.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Linienelement: Umgrenzung von Flächen zum Anpflanzen" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_um_anpflanzung.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Linienelement: Umgrenzung von Flächen mit Bindungen für die Erhaltung" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_um_erhaltung.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Linienelement: Umgrenzung von Flächen für Maßnahmen zum Schutz, zur Pflege und zur Entwicklung von Natur und Landschaft" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_um_massnahmen_natur.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Linienelement: Umgrenzung von Schutzgebieten im Sinne des Naturschutzrechts (geschlossen, wie in der Anlage)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_um_schutzgebiet.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Linienelement: Umgrenzung von Schutzgebieten, offene Variante zur Unterscheidung" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_um_schutzgebiet_offen.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Linienelement: Umgrenzung von Flächen für Vorkehrungen zum Schutz gegen schädliche Umwelteinwirkungen" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_um_immissionsschutz.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Linienelement: Umgrenzung von Gebieten mit Verwendungsbeschränkung luftverunreinigender Stoffe" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_um_luftreinhaltung.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Linienelement: Umgrenzung von Flächen, die von der Bebauung freizuhalten sind" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_um_freihaltung.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Linienelement: Umgrenzung von Flächen, unter denen der Bergbau umgeht" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_um_bergbau.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Linienelement: Umgrenzung von Flächen mit erheblich belasteten Böden" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_um_altlast.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="PlanZV: Linienelement: Bereich ohne Ein- und Ausfahrt" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_planzv_um_ohne_ein_ausfahrt.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+  </symbols>
+</qgis_style>

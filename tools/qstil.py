@@ -293,6 +293,35 @@ def stil_xml(symbole, cid):
     return f'<!DOCTYPE qgis_style>\n<qgis_style version="2">\n  <symbols>\n{body}  </symbols>\n</qgis_style>\n'
 
 
+PUNKT_DATEI = "Punkte.xml"
+PUNKT_GROESSE = 6.0  # mm; eine Sammlung kann mit GROESSE einen anderen Vorgabewert setzen
+
+
+def punkte(mod):
+    """Punktsymbole einer Sammlung als [(symbolname, name in QGIS, fuellfarbe, strichfarbe), ...].
+    Stilnamen teilen sich in QGIS einen Namensraum ueber alle Symbolarten: Gibt es den Titel schon als Linie,
+    Flaeche oder anderes Punktsymbol, bekommt das Punktsymbol den Zusatz (Punkt) bzw. seinen Symbolnamen."""
+    belegt = {qgis_name(mod, t) for _, t, _ in eintraege(mod)}
+    out = []
+    for sn, titel, fuell, strich, _ in mod.SYMBOLS:
+        name = qgis_name(mod, titel)
+        if name in belegt:
+            name += " (Punkt)"
+        if name in belegt:
+            name = f"{qgis_name(mod, titel)} ({sn})"
+        belegt.add(name)
+        out.append((sn, name, fuell, strich))
+    return out
+
+
+def punkte_xml(mod, cid):
+    """Stildatei mit je einem Markierungssymbol (SVG-Markierung) je Punktsymbol der Sammlung."""
+    g = float(getattr(mod, "GROESSE", PUNKT_GROESSE))
+    body = "".join(_symbol("marker", name, _marker_xml(sv(sn, g, fuell, strich), "      ", cid), "    ")
+                   for sn, name, fuell, strich in punkte(mod))
+    return f'<!DOCTYPE qgis_style>\n<qgis_style version="2">\n  <symbols>\n{body}  </symbols>\n</qgis_style>\n'
+
+
 def eintraege(mod):
     """Alle Linien- und Flaechensymbole einer Sammlung als [(typ, titel, ebenen), ...]."""
     return ([("line", t, e) for t, e in getattr(mod, "LINIEN", [])]

@@ -15,6 +15,7 @@ DESC = ("Schlichte Nordpfeile für Karten und Drucklayouts: Pfeile mit Schaft, N
 TAGS = "nordpfeil, norden, nordrichtung, kompass, windrose, layout, drucklayout, karte"
 
 BK = ("#FFFFFF", "#000000")
+GROESSE = 12.0  # Vorgabegroesse des Markierungssymbols in mm
 
 
 def nn():

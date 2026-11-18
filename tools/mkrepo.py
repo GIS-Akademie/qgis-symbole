@@ -58,7 +58,8 @@ def write(path, text):
 
 ini = ["[general]", "collections=" + ",".join(f"{PRE}_{m.KEY}" for m in MODS), ""]
 kat = ["# Symbolkatalog", "", "Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und "
-       f"Flächensymbole in der Stildatei `collections/<Sammlung>/symbol/{qstil.STIL_DATEI}`.", ""]
+       f"Flächensymbole in der Stildatei `collections/<Sammlung>/symbol/{qstil.STIL_DATEI}`. Die Punktsymbole "
+       f"stehen zusätzlich als fertige Markierungssymbole in `symbol/{qstil.PUNKT_DATEI}`.", ""]
 counts, stile = {}, {}
 for mod in MODS:
     cid = f"{PRE}_{mod.KEY}"
@@ -85,8 +86,11 @@ for mod in MODS:
     kat.append("")
     previews = ["preview/preview.png"]
     stil = qstil.eintraege(mod)
+    os.makedirs(os.path.join(base, "symbol"))
+    pxml = qstil.punkte_xml(mod, cid)  # Punktsymbole zusaetzlich als fertige Markierungssymbole
+    etree.fromstring(pxml.encode())
+    write(os.path.join(base, "symbol", qstil.PUNKT_DATEI), pxml)
     if stil:
-        os.makedirs(os.path.join(base, "symbol"))
         xml = qstil.stil_xml([(typ, qstil.qgis_name(mod, t), eb) for typ, t, eb in stil], cid)
         etree.fromstring(xml.encode())  # Wohlgeformtheit
         write(os.path.join(base, "symbol", qstil.STIL_DATEI), xml)

@@ -39,6 +39,9 @@ Flächensymbole (`linien_flaechen.png`).
    - Netzlaufwerk: `file://G:/Pfad/zum/Repository`
 3. Unter **All collections** die gewünschten Sammlungen installieren.
 4. Die Punktsymbole erscheinen im Symboleditor bei **SVG-Markierung** unter den SVG-Gruppen (**User Symbols**).
+   Zusätzlich stehen sie als fertige Markierungssymbole direkt in der Symbolauswahl für Punktlayer, mit Namen wie
+   `Tourismus und Freizeit: Bouleplatz` und dem Schlagwort `…/Punkte`. Heißt ein Punktsymbol wie ein Linien- oder
+   Flächensymbol derselben Sammlung, trägt es den Zusatz `(Punkt)`.
 5. Die Linien- und Flächensymbole stehen in der Symbolauswahl und in der **Stilverwaltung**. Dort tragen sie
    das Schlagwort `<Name der Sammlung> (<Name des Repositorys>)/Linien_und_Flaechen`, der Symbolname beginnt mit
    der Sammlung, z. B. `PlanZV: Baugrenze`.
@@ -150,7 +153,7 @@ das bereits fertig als Linien- bzw. Flächensymbol.
 ```
 metadata.ini                      Beschreibung des Repositorys und der Sammlungen
 collections/<ID>/svg/             SVG-Dateien, Schema gisak_<sammlung>_<name>.svg
-collections/<ID>/symbol/          QGIS-Stildatei Linien_und_Flaechen.xml mit den Linien- und Flächensymbolen
+collections/<ID>/symbol/          QGIS-Stildateien: Linien_und_Flaechen.xml und Punkte.xml (Punktsymbole als Markierungssymbole)
 collections/<ID>/preview/         Vorschaubilder für das Plugin
 collections/<ID>/LICENSE          Lizenz der Sammlung
 KATALOG.md                        Liste aller Symbole

@@ -1,6 +1,6 @@
 # Symbolkatalog
 
-Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Flächensymbole in der Stildatei `collections/<Sammlung>/symbol/Linien_und_Flaechen.xml`.
+Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Flächensymbole in der Stildatei `collections/<Sammlung>/symbol/Linien_und_Flaechen.xml`. Die Punktsymbole stehen zusätzlich als fertige Markierungssymbole in `symbol/Punkte.xml`.
 
 ## PlanZV (`gisak_planzv`, 106 Symbole)
 
