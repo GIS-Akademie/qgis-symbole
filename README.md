@@ -78,7 +78,9 @@ Die Bibliothek gibt es auch als eigenes QGIS-Plugin **GIS-Akademie Symbole** (QG
 keine Git-Verbindung zu GitHub und eignet sich deshalb für Netze mit Proxy oder Firewall, in denen Resource
 Sharing mit `Connection to github.com timed out` scheitert.
 
-1. Das ZIP mit `python tools\mkplugin.py` bauen (liegt danach unter `dist\gisak_symbole-<Version>.zip`).
+1. Das ZIP `gisak_symbole-<Version>.zip` von der Seite
+   [Releases](https://github.com/GIS-Akademie/qgis-symbole/releases/latest) herunterladen und nicht entpacken.
+   (Selbst bauen: `python tools\mkplugin.py`, das ZIP liegt danach unter `dist\`.)
 2. In QGIS **Erweiterungen › Erweiterungen verwalten und installieren › Aus ZIP installieren** wählen.
 3. Beim ersten Start erscheint die Liste der Sammlungen; angehakte werden in die Symbolauswahl eingetragen
    (alle 20 Sammlungen: etwa eine Viertelminute). Später erreichbar über **Erweiterungen › GIS-Akademie Symbole ›
@@ -279,3 +281,7 @@ Für die Beschriftung der Vorschaubilder genügt notfalls Arial.
 
 © 2026 GIS-Akademie, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de).
 Bei Weitergabe bitte „GIS-Akademie“ als Urheber nennen.
+
+Das QGIS-Plugin „GIS-Akademie Symbole“ (Code unter `tools/plugin/`) steht unter der GNU General Public License,
+Version 2 oder später. Die im Plugin enthaltenen Symbole dürfen wahlweise unter dieser GPL oder unter CC BY 4.0
+genutzt werden.

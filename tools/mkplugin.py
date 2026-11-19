@@ -4,8 +4,9 @@ Aufruf:  python tools\\mkplugin.py [<zielordner>]        (Vorgabe: dist im Repos
 
 Vorher `python tools\\mkrepo.py .` laufen lassen: Das Plugin enthaelt die SVGs und Stildateien aus collections/
 und die Angaben aus metadata.ini, dazu den Code aus tools/plugin/gisak_symbole. Das ZIP laesst sich in QGIS ueber
-"Erweiterungen > Aus ZIP installieren" einspielen. Die Versionsnummer ist VERSION aus mkrepo.py. Das Plugin
-merkt sich je Sammlung eine Kennung der Stildateien (`stand` in sammlungen.json) und traegt nach einem Update nur
+"Erweiterungen > Aus ZIP installieren" einspielen. Die Versionsnummer des Plugins steht in
+tools/plugin/gisak_symbole/metadata.txt (unabhaengig von VERSION in mkrepo.py); bei jeder Veroeffentlichung
+erhoehen. Das Plugin merkt sich je Sammlung eine Kennung der Stildateien (`stand` in sammlungen.json) und traegt nach einem Update nur
 die Sammlungen neu ein, deren Stildateien sich geaendert haben.
 """
 import configparser
@@ -22,16 +23,6 @@ QUELLE = os.path.join(HIER, "plugin", "gisak_symbole")
 NAME = "gisak_symbole"
 ZEIT = (2026, 1, 1, 0, 0, 0)  # fester Zeitstempel: gleicher Inhalt ergibt das gleiche ZIP
 
-LIZENZ = """GIS-Akademie Symbole (QGIS-Plugin)
-
-Programmcode (*.py): GNU General Public License, Version 2 oder (nach Wahl) jede spaetere Version,
-https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
-
-Symbole (Ordner symbole und stile): Creative Commons Namensnennung 4.0 International (CC BY 4.0),
-siehe LICENSE_SYMBOLE. Namensnennung: GIS-Akademie, https://github.com/GIS-Akademie/qgis-symbole
-"""
-
-
 def _konstante(name):
     text = open(os.path.join(HIER, "mkrepo.py"), encoding="utf-8").read()
     return re.search(rf'^{name} = "([^"]*)"', text, re.M).group(1)
@@ -44,7 +35,6 @@ def _lesen(pfad):
 
 def main():
     ziel = sys.argv[1] if len(sys.argv) > 1 else os.path.join(REPO, "dist")
-    version = _konstante("VERSION")
     ini = configparser.ConfigParser(interpolation=None)
     ini.read(os.path.join(REPO, "metadata.ini"), encoding="utf-8")
     dateien = {}  # Pfad im ZIP -> bytes
@@ -71,14 +61,14 @@ def main():
                           punkte=zahl["marker"], linien=zahl["line"], flaechen=zahl["fill"],
                           stand=stand.hexdigest()[:16]))
     dateien["sammlungen.json"] = (json.dumps(liste, ensure_ascii=False, indent=1) + "\n").encode("utf-8")
-    dateien["LICENSE"] = LIZENZ.encode("utf-8")
     dateien["LICENSE_SYMBOLE"] = _lesen(os.path.join(REPO, "LICENSE"))
     for f in sorted(os.listdir(QUELLE)):
         p = os.path.join(QUELLE, f)
         if os.path.isfile(p) and not f.endswith(".pyc"):
             dateien[f] = _lesen(p).replace(b"\r\n", b"\n")
     meta = dateien["metadata.txt"].decode("utf-8")
-    for platz, wert in (("VERSION", version), ("EMAIL", _konstante("EMAIL")), ("SAMMLUNGEN", len(liste)),
+    version = re.search(r"^version=(\S+)", meta, re.M).group(1)
+    for platz, wert in (("EMAIL", _konstante("EMAIL")), ("SAMMLUNGEN", len(liste)),
                         ("PUNKTE", sum(s["punkte"] for s in liste)),
                         ("STILE", sum(s["linien"] + s["flaechen"] for s in liste))):
         meta = meta.replace(f"@{platz}@", str(wert))

@@ -1,8 +1,10 @@
 [general]
 name=GIS-Akademie Symbole
-description=Symbolbibliothek der GIS-Akademie: @PUNKTE@ Punktsymbole (SVG) und @STILE@ Linien- und Flächensymbole in @SAMMLUNGEN@ Sammlungen
-about=Trägt die Symbolbibliothek der GIS-Akademie in die Symbolauswahl von QGIS ein: Planzeichen nach PlanZV, Raumordnung, Strom, Leitungen, erneuerbare Energien, Wasserwirtschaft, Boden, Lärm, Naturschutz, Landschaftsplanung, Forst, Landwirtschaft, Verkehr, Tourismus, Denkmalschutz, Brandschutz, Vermessung, Nordpfeile, Layout und allgemeine Zeichen. Die Sammlungen lassen sich einzeln an- und abwählen (Menü Erweiterungen, GIS-Akademie Symbole). Die Punktsymbole stehen zusätzlich als SVG-Dateien in der SVG-Auswahl bereit; Füll- und Strichfarbe sind in QGIS änderbar. Symbole: CC BY 4.0, GIS-Akademie.
-version=@VERSION@
+description=Symbol library for German planning and utility maps: @PUNKTE@ SVG point symbols and @STILE@ line and fill symbols in @SAMMLUNGEN@ collections
+about=Adds the GIS-Akademie symbol library to the QGIS symbol selector. Collections can be switched on and off individually (Plugins menu, GIS-Akademie Symbole): German zoning plan signs (PlanZV), regional planning, electricity, gas / district heating / telecom, renewable energy, water management, soil, noise, nature conservation, landscape planning, forestry, agriculture, traffic, tourism and sports, heritage, fire and disaster control, surveying, north arrows, map layout and general signs. Point symbols are also available as SVG files in the SVG selector; fill and stroke colour can be changed in QGIS. Symbol names and the dialog are in German. No external dependencies.
+    Deutsch: Trägt die Symbolbibliothek der GIS-Akademie in die Symbolauswahl von QGIS ein. Die Sammlungen lassen sich einzeln an- und abwählen (Menü Erweiterungen, GIS-Akademie Symbole). Die Punktsymbole stehen zusätzlich als SVG-Dateien in der SVG-Auswahl bereit; Füll- und Strichfarbe sind in QGIS änderbar.
+    Licence: code GPL-2.0-or-later; symbols GPL-2.0-or-later or CC BY 4.0 (GIS-Akademie), at your option.
+version=1.1
 qgisMinimumVersion=3.34
 qgisMaximumVersion=4.99
 supportsQt6=True

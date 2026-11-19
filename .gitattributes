@@ -8,3 +8,4 @@ LICENSE text eol=lf
 *.png binary
 .gitattributes text eol=lf
 .gitignore text eol=lf
+*.txt text eol=lf
