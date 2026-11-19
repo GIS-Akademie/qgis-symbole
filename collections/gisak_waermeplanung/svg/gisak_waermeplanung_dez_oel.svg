@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Ölheizung</title>
+  <polygon points="50,7 93,44 93,93 7,93 7,44" fill="param(fill) #F7DDE0" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #9B1B30" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M57.78 68.61Q57.78 72.36 56.29 75.21Q54.81 78.05 52.05 79.56Q49.29 81.07 45.61 81.07Q39.96 81.07 36.75 77.74Q33.54 74.41 33.54 68.61Q33.54 62.84 36.74 59.6Q39.94 56.37 45.65 56.37Q51.35 56.37 54.56 59.64Q57.78 62.91 57.78 68.61ZM52.65 68.61Q52.65 64.73 50.81 62.53Q48.97 60.32 45.65 60.32Q42.28 60.32 40.44 62.51Q38.6 64.7 38.6 68.61Q38.6 72.57 40.48 74.84Q42.36 77.11 45.61 77.11Q48.99 77.11 50.82 74.9Q52.65 72.69 52.65 68.61ZM47.83 54.66V50.93H51.18V54.66ZM40.1 54.66V50.93H43.4V54.66ZM61.68 80.73V55.45H66.46V80.73Z" fill="param(outline) #9B1B30" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Messfahrt / Profilmesspunkt</title>
+  <circle cx="50" cy="50" r="44" fill="param(fill) #D5EEF0" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #0E6E78" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M20,66 L38,38 L60,62 L80,34" fill="none" stroke="param(outline) #0E6E78" stroke-opacity="param(outline-opacity) 1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="20" cy="66" r="6" fill="param(outline) #0E6E78" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <circle cx="38" cy="38" r="6" fill="param(outline) #0E6E78" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <circle cx="60" cy="62" r="6" fill="param(outline) #0E6E78" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <circle cx="80" cy="34" r="6" fill="param(outline) #0E6E78" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

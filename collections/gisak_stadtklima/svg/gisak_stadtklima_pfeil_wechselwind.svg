@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Berg- und Talwind / Wechselströmung (drehbar)</title>
+  <path d="M26,50 L74,50" fill="none" stroke="param(outline) #0E6E78" stroke-opacity="param(outline-opacity) 1" stroke-width="7" stroke-linecap="butt" stroke-linejoin="round"/>
+  <polygon points="96,50 70,34 70,66" fill="param(outline) #0E6E78" fill-opacity="param(outline-opacity) 1" stroke="param(outline) #0E6E78" stroke-opacity="param(outline-opacity) 1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="4,50 30,34 30,66" fill="param(outline) #0E6E78" fill-opacity="param(outline-opacity) 1" stroke="param(outline) #0E6E78" stroke-opacity="param(outline-opacity) 1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

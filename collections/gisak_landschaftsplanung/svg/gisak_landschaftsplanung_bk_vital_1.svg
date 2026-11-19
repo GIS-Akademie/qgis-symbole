@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Baumkataster Vitalitätsstufe 1 (geschwächt, Degenerationsphase)</title>
+  <path d="M50,9 A18.04,18.04 0 0 1 78.99,21.01 A18.04,18.04 0 0 1 91,50 A18.04,18.04 0 0 1 78.99,78.99 A18.04,18.04 0 0 1 50,91 A18.04,18.04 0 0 1 21.01,78.99 A18.04,18.04 0 0 1 9,50 A18.04,18.04 0 0 1 21.01,21.01 A18.04,18.04 0 0 1 50,9 Z" fill="param(fill) #E6E273" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #2E6B2E" stroke-opacity="param(outline-opacity) 1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M38.5 67V61.96H46.92V38.77L38.77 43.86V38.53L47.29 33H53.7V61.96H61.5V67Z" fill="param(outline) #2E6B2E" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

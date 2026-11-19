@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Maßnahme des Hitzeaktionsplans</title>
+  <polygon points="50,5 95,50 50,95 5,50" fill="param(fill) #D5EEF0" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #0E6E78" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M37.16 57.87V51.12H30.3V57.87H27V42.13H30.3V48.4H37.16V42.13H40.45V57.87ZM54.65 57.87 53.26 53.85H47.26L45.86 57.87H42.56L48.31 42.13H52.2L57.92 57.87ZM50.25 44.55 50.18 44.8Q50.07 45.2 49.92 45.72Q49.76 46.23 47.99 51.37H52.52L50.97 46.84L50.49 45.32ZM73 47.11Q73 48.63 72.31 49.83Q71.61 51.02 70.32 51.68Q69.03 52.33 67.26 52.33H63.35V57.87H60.05V42.13H67.12Q69.95 42.13 71.47 43.43Q73 44.73 73 47.11ZM69.68 47.17Q69.68 44.69 66.75 44.69H63.35V49.79H66.84Q68.21 49.79 68.94 49.12Q69.68 48.44 69.68 47.17Z" fill="param(outline) #0E6E78" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

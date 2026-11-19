@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Lufthygienische Belastung</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #D5EEF0" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #0E6E78" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M41.55,51.73 A12,12 0 1 1 31.12,34 A17,17 0 0 1 64.58,32.23 A13,13 0 1 1 55.58,51.22 A17,17 0 0 1 41.55,51.73 Z" fill="param(outline) #0E6E78" fill-opacity="param(outline-opacity) 1" stroke="param(outline) #0E6E78" stroke-opacity="param(outline-opacity) 1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="34" cy="72" r="4.5" fill="param(outline) #0E6E78" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <circle cx="50" cy="72" r="4.5" fill="param(outline) #0E6E78" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <circle cx="66" cy="72" r="4.5" fill="param(outline) #0E6E78" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

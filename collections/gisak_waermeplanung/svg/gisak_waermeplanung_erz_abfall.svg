@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Thermische Abfallbehandlung (Müllheizkraftwerk)</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #F7DDE0" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #9B1B30" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M27.68 57.64V48.38Q27.68 48.07 27.69 47.75Q27.69 47.44 27.79 45.05Q27.02 47.97 26.65 49.12L23.9 57.64H21.62L18.87 49.12L17.71 45.05Q17.84 47.57 17.84 48.38V57.64H15V42.36H19.28L22.01 50.91L22.25 51.73L22.77 53.78L23.45 51.33L26.26 42.36H30.52V57.64ZM43.34 57.64V51.09H36.69V57.64H33.49V42.36H36.69V48.44H43.34V42.36H46.54V57.64ZM60.09 57.64 54.61 50.62 52.72 52.06V57.64H49.52V42.36H52.72V49.29L59.6 42.36H63.33L56.81 48.82L63.86 57.64ZM81.05 57.64H77.26L75.19 48.8Q74.81 47.24 74.55 45.54Q74.29 46.96 74.13 47.7Q73.97 48.44 71.82 57.64H68.03L64.09 42.36H67.33L69.54 52.23L70.04 54.61Q70.35 53.11 70.63 51.73Q70.92 50.36 72.79 42.36H76.37L78.3 50.49Q78.53 51.4 79.07 54.61L79.34 53.35L79.92 50.86L81.76 42.36H85Z" fill="param(outline) #9B1B30" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

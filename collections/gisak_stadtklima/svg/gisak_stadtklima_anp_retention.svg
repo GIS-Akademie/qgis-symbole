@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Regenwasserrückhalt / Schwammstadt</title>
+  <polygon points="50,5 95,50 50,95 5,50" fill="param(fill) #D5EEF0" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #0E6E78" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M28,50 Q50,82 72,50" fill="none" stroke="param(outline) #0E6E78" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(50,36) scale(0.3) translate(-50,-50)"><path d="M50,10 C64,30 78,46 78,62 A28,28 0 0 1 22,62 C22,46 36,30 50,10 Z" fill="param(outline) #0E6E78" fill-opacity="param(outline-opacity) 1" stroke="none"/></g>
+</svg>

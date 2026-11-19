@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Hybridheizung</title>
+  <polygon points="50,7 93,44 93,93 7,93 7,44" fill="param(fill) #F7DDE0" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #9B1B30" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M35.71 74.27V64.84H26.13V74.27H21.52V52.27H26.13V61.03H35.71V52.27H40.32V74.27ZM46.89 80.9Q45.32 80.9 44.13 80.7V77.58Q44.96 77.7 45.64 77.7Q46.58 77.7 47.2 77.41Q47.81 77.11 48.31 76.42Q48.8 75.74 49.41 74.1L42.72 57.37H47.36L50.02 65.29Q50.64 66.99 51.59 70.5L51.98 69.02L53 65.35L55.5 57.37H60.09L53.4 75.16Q52.06 78.41 50.62 79.65Q49.17 80.9 46.89 80.9ZM78.48 65.76Q78.48 69.94 76.8 72.26Q75.12 74.58 72 74.58Q70.2 74.58 68.89 73.8Q67.58 73.02 66.88 71.55H66.85Q66.85 72.1 66.78 73.05Q66.71 74 66.63 74.27H62.37Q62.49 72.82 62.49 70.41V51.1H66.88V57.56L66.82 60.31H66.88Q68.36 57.06 72.28 57.06Q75.28 57.06 76.88 59.33Q78.48 61.6 78.48 65.76ZM73.9 65.76Q73.9 62.89 73.06 61.5Q72.22 60.11 70.45 60.11Q68.67 60.11 67.75 61.6Q66.82 63.09 66.82 65.9Q66.82 68.58 67.73 70.08Q68.64 71.58 70.42 71.58Q73.9 71.58 73.9 65.76Z" fill="param(outline) #9B1B30" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

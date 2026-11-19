@@ -6,6 +6,9 @@ Stil: hellblaue Fuellung, blauer Strich 5. Die Rahmenform zeigt die Gruppe:
   ohne Rahmen = Armatur oder Netzelement auf der Leitung (Leitung waagerecht durch die Symbolmitte).
 Linien und Flaechen: Trinkwasser und Gebiete dunkelblau, Gewaesser und Regenwasser hellblau, Schmutzwasser
 braun, Mischwasser violett (uebliche Kanalnetzfarben); Kanaele mit Fliessrichtungspfeil.
+Starkregen (Praefix sr_, Titel "Starkregen ..."): Klassen der Ueberflutungstiefe und der Fliessgeschwindigkeit
+nach dem Leitfaden "Kommunales Starkregenrisikomanagement in Baden-Wuerttemberg" (LUBW 2016), Szenarien
+selten, aussergewoehnlich, extrem; die Hinweiskarte Starkregengefahren des BKG kennt nur die beiden letzten.
 """
 from lib import *
 from qstil import linie, band, marken, voll, schraffur, muster, mk, sv
@@ -13,8 +16,8 @@ from qstil import linie, band, marken, voll, schraffur, muster, mk, sv
 KEY = "wasser"
 NAME = "Wasserwirtschaft"
 DESC = ("Symbole für Wasserwirtschaft: Messstellen, Wasserversorgung und Abwasser (Anlagen, Armaturen, "
-        "Kanalnetz), Bauwerke am Gewässer, Wasserschutz- und Überschwemmungsgebiete")
-TAGS = "wasser, wasserwirtschaft, abwasser, kanal, pegel, hydrant, trinkwasser, hochwasser"
+        "Kanalnetz), Bauwerke am Gewässer, Wasserschutz- und Überschwemmungsgebiete, Starkregengefahren")
+TAGS = "wasser, wasserwirtschaft, abwasser, kanal, pegel, hydrant, trinkwasser, hochwasser, starkregen"
 
 WB = ("#D6ECFA", "#0B5CAD")
 
@@ -145,6 +148,30 @@ S = [
     ("heilquellenschutzgebiet", "Heilquellenschutzgebiet", *WB, geb("HQS", 18, 52)),
     ("ueberschwemmungsgebiet", "Überschwemmungsgebiet", *WB, geb("ÜSG", 18, 52)),
     ("hochwasserrisikogebiet", "Hochwasserrisikogebiet (HQ100)", *WB, geb("HQ100", 14, 56)),
+    # ---- Starkregen (Quadrat = Bauwerk oder Objekt, Kreis = Messung, Raute = Gebiet, Pfeil ohne Rahmen) ----
+    ("sr_fruehwarnsensor", "Starkregen, Frühwarnsensor / Warnpegel", *WB,
+     ms(L(50, 82, 50, 60, 5), C(50, 56, 7, "S", "N", 0), arc(50, 56, 18, -50, 50, 4.5), arc(50, 56, 30, -50, 50, 4.5))),
+    ("sr_notwasserweg", "Starkregen, Notwasserweg / Notabflussweg", *WB, ufer(*arrow(22, 50, 80, 50, 6, 15))),
+    ("sr_retentionsflaeche", "Starkregen, Retentionsfläche / multifunktionale Fläche", *WB,
+     an(PL([(16, 32), (30, 74), (70, 74), (84, 32)], 5), wave(27, 52, 46, 4, 2, 4.5))),
+    ("sr_gelaendesenke", "Starkregen, Geländesenke / Überflutungsschwerpunkt", *WB,
+     an(E(50, 52, 33, 24, "N", "S", 4.5), E(50, 55, 16, 10, "S", "N", 0))),
+    ("sr_kanalueberstau", "Starkregen, Kanalüberstau / Rückstau", *WB,
+     an(L(18, 74, 82, 74, 5), R(37, 64, 26, 10, "S", "N", 0), *arrow(50, 62, 50, 20, 5, 13),
+        P("M40,56 Q34,38 24,46", "N", "S", 4.5), P("M60,56 Q66,38 76,46", "N", "S", 4.5))),
+    ("sr_unterfuehrung", "Starkregen, Überflutungsgefährdete Unterführung", *WB,
+     an(L(16, 26, 84, 26, 7, cap="butt"), P("M28,82 V54 A22,22 0 0 1 72,54 V82", "N", "S", 5),
+        wave(32, 70, 36, 4, 2, 4.5))),
+    ("sr_einlaufbauwerk", "Starkregen, Einlaufbauwerk mit Rechen (Verklausungsgefahr)", *WB,
+     an(*arrow(16, 50, 46, 50, 5.5, 13), R(52, 24, 30, 52, "N", "S", 4.5),
+        *[L(x, 24, x, 76, 4, cap="butt") for x in (62, 72)])),
+    ("sr_risikoobjekt", "Starkregen, Risikoobjekt / gefährdetes Gebäude", *WB,
+     an(*fit(house(), 50, 40, 0.62), wave(18, 80, 64, 5, 3, 5))),
+    ("sr_objektschutz", "Starkregen, Objektschutz / Schutzeinrichtung", *WB,
+     an(*fit(house(), 50, 42, 0.56), PL([(20, 56), (20, 82), (80, 82), (80, 56)], 6))),
+    ("sr_gefahrenbereich", "Starkregengefahrenbereich", *WB, geb("SR", 26)),
+    ("sr_fliessrichtung", "Starkregen, Fließrichtung (nach rechts, drehbar)", *WB,
+     [wave(6, 50, 40, 8, 2, 7)] + arrow(46, 50, 95, 50, 7, 22)),
 ]
 
 SYMBOLS = S
@@ -155,6 +182,19 @@ B0, RW, SWK, MWK = WB[1], "#3FA9F5", "#8B5A2B", "#7B3FA0"
 
 def kanal(farbe):  # Kanal mit Fliessrichtungspfeilen
     return [linie(farbe, 0.6), marken(mk("filled_arrowhead", 1.8, farbe), 12)]
+
+
+# Starkregen: Klassen wie in den Starkregengefahrenkarten nach dem Leitfaden "Kommunales Starkregenrisikomanagement
+# in Baden-Wuerttemberg" (LUBW 2016): Ueberflutungstiefe ab 5 cm in vier Klassen, Fliessgeschwindigkeit in vier
+# Klassen. Farben nicht vorgeschrieben: Tiefen in Blautoenen, Geschwindigkeiten gruen bis rot (einzige Ausnahme
+# vom Blau der Sammlung, weil die Karten die Gefahr ueber die Farbe zeigen).
+SRT = [("5 bis 10 cm", "#C6E2F7"), ("10 bis 50 cm", "#7DB9EC"), ("50 bis 100 cm", "#2F80D0"), ("über 100 cm", "#0A3A82")]
+SRV = [("unter 0,2 m/s", "#4CAF50"), ("0,2 bis 0,5 m/s", "#F2C200"), ("0,5 bis 2 m/s", "#F07D00"),
+       ("über 2 m/s", "#D0021B")]
+
+
+def fliess(farbe, breite):  # Fliessweg mit Richtungspfeilen, Staerke nach Klasse
+    return [linie(farbe, breite), marken(mk("filled_arrowhead", 1.4 + breite, farbe), 9)]
 
 
 LINIEN = [
@@ -172,6 +212,10 @@ LINIEN = [
     ("Graben", [linie(RW, 0.4)]),
     ("Verrohrtes Gewässer", [linie(RW, 0.8, [3, 1.5])]),
     ("Deich", [linie(B0, 0.4), marken(mk("line", 1.6, B0, rw=0.3, dy=0.8), 1.6)]),
+] + [(f"Starkregen, Fließgeschwindigkeit {t}", fliess(c, b)) for (t, c), b in zip(SRV, (0.3, 0.45, 0.6, 0.8))] + [
+    ("Starkregen, Fließweg / Abflussbahn", [linie(RW, 0.6, [4, 1]), marken(mk("filled_arrowhead", 1.8, RW), 10)]),
+    ("Starkregen, Notwasserweg", [linie(B0 + "59", 2.2), linie(B0, 0.4, [3, 1.5]), marken(mk("filled_arrowhead", 2.0, B0), 12)]),
+    ("Starkregen, Schutzlinie / Objektschutz", [linie(B0, 0.8), marken(mk("triangle", 1.4, B0, dy=0.9), 3)]),
 ]
 
 FLAECHEN = [
@@ -188,4 +232,11 @@ FLAECHEN = [
     ("Entwässerungsgebiet Trennsystem", [voll(SWK + "26"), linie(SWK, 0.4)]),
     ("Rückhaltebecken, Anlagenfläche", [voll(WB[0]), linie(B0, 0.5)]),
     ("Versickerungsfläche", [muster(mk("circle", 0.6, B0), 2.2, versatz=1.1), linie(B0, 0.4, [3, 1.5])]),
+] + [(f"Starkregen, Überflutungstiefe {t}", [voll(c)]) for t, c in SRT] + [
+    ("Starkregen, Überflutungsausdehnung seltenes Ereignis", [voll(RW + "99"), linie(B0, 0.3)]),
+    ("Starkregen, Überflutungsausdehnung außergewöhnliches Ereignis", [voll(RW + "59"), linie(B0, 0.3, [3, 1])]),
+    ("Starkregen, Überflutungsausdehnung extremes Ereignis", [voll(RW + "26"), linie(B0, 0.3, [1, 1])]),
+    ("Starkregen, Retentionsfläche / Notüberflutungsfläche", [schraffur(RW, 0.25, 0, 1.6), linie(B0, 0.5, [3, 1.5])]),
+    ("Starkregen, Geländesenke", [schraffur(B0, 0.2, 45, 2.2), schraffur(B0, 0.2, 135, 2.2), linie(B0, 0.3)]),
+    ("Starkregen, Risikobereich", [band(SRV[3][1] + "59", 1.5), linie(SRV[3][1], 0.4)]),
 ]

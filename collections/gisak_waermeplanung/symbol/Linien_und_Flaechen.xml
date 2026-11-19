@@ -1,0 +1,1820 @@
+<!DOCTYPE qgis_style>
+<qgis_style version="2">
+  <symbols>
+    <symbol type="line" name="Wärmeplanung: Wärmeliniendichte unter 700 kWh/(m·a)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="240,207,138,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.6"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wärmeplanung: Wärmeliniendichte 700 bis 1500 kWh/(m·a)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="246,165,74,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.9"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wärmeplanung: Wärmeliniendichte 1500 bis 2000 kWh/(m·a)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="215,25,28,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="1.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wärmeplanung: Wärmeliniendichte über 2000 kWh/(m·a)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="107,15,18,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="1.6"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wärmeplanung: Wärmenetz (Wasser), Bestand" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="30,107,42,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.8"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wärmeplanung: Wärmenetz (Dampf), Bestand" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="30,107,42,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.8"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+      <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <prop k="placement" v="interval"/>
+        <prop k="placements" v="Interval"/>
+        <prop k="interval" v="6"/>
+        <prop k="interval_unit" v="MM"/>
+        <prop k="offset_along_line" v="3"/>
+        <prop k="offset_along_line_unit" v="MM"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="rotate" v="1"/>
+        <prop k="average_angle_length" v="0"/>
+        <prop k="average_angle_unit" v="MM"/>
+        <prop k="ring_filter" v="0"/>
+        <symbol type="marker" name="@Wärmeplanung: Wärmenetz (Dampf), Bestand@1" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+            <prop k="name" v="circle"/>
+            <prop k="size" v="1.5"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="color" v="255,255,255,255"/>
+            <prop k="outline_color" v="30,107,42,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0.3"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="joinstyle" v="miter"/>
+            <prop k="cap_style" v="round"/>
+            <prop k="angle" v="0"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wärmeplanung: Wärmenetz genehmigt" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="30,107,42,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.8"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="customdash" v="5;1.2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wärmeplanung: Wärmenetz geplant" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="30,107,42,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.8"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="customdash" v="2.5;1.5"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wärmeplanung: Gasnetz (Methan), Bestand" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,106,88,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.7"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wärmeplanung: Gasnetz (Methan), Stilllegung vorgesehen" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,106,88,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.5"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+      <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <prop k="placement" v="interval"/>
+        <prop k="placements" v="Interval"/>
+        <prop k="interval" v="6"/>
+        <prop k="interval_unit" v="MM"/>
+        <prop k="offset_along_line" v="3"/>
+        <prop k="offset_along_line_unit" v="MM"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="rotate" v="1"/>
+        <prop k="average_angle_length" v="0"/>
+        <prop k="average_angle_unit" v="MM"/>
+        <prop k="ring_filter" v="0"/>
+        <symbol type="marker" name="@Wärmeplanung: Gasnetz (Methan), Stilllegung vorgesehen@1" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+            <prop k="name" v="cross2"/>
+            <prop k="size" v="1.6"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="color" v="0,0,0,0"/>
+            <prop k="outline_color" v="122,106,88,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0.3"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="joinstyle" v="miter"/>
+            <prop k="cap_style" v="round"/>
+            <prop k="angle" v="0"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wärmeplanung: Wasserstoffnetz, Bestand" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="111,35,128,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.8"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wärmeplanung: Wasserstoffnetz, geplant" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="111,35,128,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.8"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="customdash" v="2.5;1.5"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wärmeplanung: Abwassersammler (ab DN 800)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="47,127,193,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.9"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wärmeplanung: Grenze des beplanten Gebiets" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="34,34,34,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.9"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="customdash" v="6;1.5;1;1.5"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wärmeplanung: Grenze eines beplanten Teilgebiets" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="85,85,85,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.5"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="customdash" v="3;1.5"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wärmeplanung: Baublockgrenze" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="154,154,154,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Wärmenetzgebiet" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="140,200,149,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="30,107,42,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.4"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Wärmenetzverdichtungsgebiet" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="77,170,91,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="30,107,42,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.4"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Wärmenetzausbaugebiet" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="171,215,178,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="LinePatternFill" enabled="1" locked="0" pass="0">
+        <prop k="angle" v="45"/>
+        <prop k="distance" v="2.5"/>
+        <prop k="distance_unit" v="MM"/>
+        <prop k="line_width" v="0.3"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="color" v="30,107,42,255"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <symbol type="line" name="@Wärmeplanung: Wärmenetzausbaugebiet@1" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+            <prop k="line_color" v="30,107,42,255"/>
+            <prop k="line_style" v="solid"/>
+            <prop k="line_width" v="0.3"/>
+            <prop k="line_width_unit" v="MM"/>
+            <prop k="capstyle" v="flat"/>
+            <prop k="joinstyle" v="round"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="use_custom_dash" v="0"/>
+            <prop k="customdash" v="5;2"/>
+            <prop k="customdash_unit" v="MM"/>
+            <prop k="draw_inside_polygon" v="0"/>
+            <prop k="ring_filter" v="0"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="30,107,42,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.4"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Wärmenetzneubaugebiet" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="213,235,216,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="LinePatternFill" enabled="1" locked="0" pass="0">
+        <prop k="angle" v="45"/>
+        <prop k="distance" v="2.5"/>
+        <prop k="distance_unit" v="MM"/>
+        <prop k="line_width" v="0.3"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="color" v="30,107,42,255"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <symbol type="line" name="@Wärmeplanung: Wärmenetzneubaugebiet@1" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+            <prop k="line_color" v="30,107,42,255"/>
+            <prop k="line_style" v="solid"/>
+            <prop k="line_width" v="0.3"/>
+            <prop k="line_width_unit" v="MM"/>
+            <prop k="capstyle" v="flat"/>
+            <prop k="joinstyle" v="round"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="use_custom_dash" v="0"/>
+            <prop k="customdash" v="5;2"/>
+            <prop k="customdash_unit" v="MM"/>
+            <prop k="draw_inside_polygon" v="0"/>
+            <prop k="ring_filter" v="0"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="LinePatternFill" enabled="1" locked="0" pass="0">
+        <prop k="angle" v="135"/>
+        <prop k="distance" v="2.5"/>
+        <prop k="distance_unit" v="MM"/>
+        <prop k="line_width" v="0.3"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="color" v="30,107,42,255"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <symbol type="line" name="@Wärmeplanung: Wärmenetzneubaugebiet@2" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+            <prop k="line_color" v="30,107,42,255"/>
+            <prop k="line_style" v="solid"/>
+            <prop k="line_width" v="0.3"/>
+            <prop k="line_width_unit" v="MM"/>
+            <prop k="capstyle" v="flat"/>
+            <prop k="joinstyle" v="round"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="use_custom_dash" v="0"/>
+            <prop k="customdash" v="5;2"/>
+            <prop k="customdash_unit" v="MM"/>
+            <prop k="draw_inside_polygon" v="0"/>
+            <prop k="ring_filter" v="0"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="30,107,42,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.4"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Wasserstoffnetzgebiet" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="204,147,214,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="111,35,128,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.4"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Gebiet für die dezentrale Wärmeversorgung" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="242,208,127,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="138,98,0,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.4"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Prüfgebiet" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="220,220,220,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="LinePatternFill" enabled="1" locked="0" pass="0">
+        <prop k="angle" v="45"/>
+        <prop k="distance" v="3"/>
+        <prop k="distance_unit" v="MM"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="color" v="85,85,85,255"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <symbol type="line" name="@Wärmeplanung: Prüfgebiet@1" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+            <prop k="line_color" v="85,85,85,255"/>
+            <prop k="line_style" v="solid"/>
+            <prop k="line_width" v="0.25"/>
+            <prop k="line_width_unit" v="MM"/>
+            <prop k="capstyle" v="flat"/>
+            <prop k="joinstyle" v="round"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="use_custom_dash" v="0"/>
+            <prop k="customdash" v="5;2"/>
+            <prop k="customdash_unit" v="MM"/>
+            <prop k="draw_inside_polygon" v="0"/>
+            <prop k="ring_filter" v="0"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="85,85,85,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.4"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="customdash" v="3;1.5"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Eignung Wärmenetz, sehr wahrscheinlich geeignet" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="46,155,62,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="30,107,42,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Eignung Wärmenetz, wahrscheinlich geeignet" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="125,193,135,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="30,107,42,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Eignung Wärmenetz, wahrscheinlich ungeeignet" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="184,221,189,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="30,107,42,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Eignung Wärmenetz, sehr wahrscheinlich ungeeignet" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="230,243,232,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="30,107,42,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Eignung Wasserstoffnetz, sehr wahrscheinlich geeignet" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="162,59,181,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="111,35,128,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Eignung Wasserstoffnetz, wahrscheinlich geeignet" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="197,133,209,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="111,35,128,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Eignung Wasserstoffnetz, wahrscheinlich ungeeignet" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="223,188,230,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="111,35,128,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Eignung Wasserstoffnetz, sehr wahrscheinlich ungeeignet" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="244,231,246,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="111,35,128,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Eignung dezentrale Versorgung, sehr wahrscheinlich geeignet" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="232,169,23,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="138,98,0,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Eignung dezentrale Versorgung, wahrscheinlich geeignet" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="241,202,111,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="138,98,0,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Eignung dezentrale Versorgung, wahrscheinlich ungeeignet" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="247,226,176,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="138,98,0,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Eignung dezentrale Versorgung, sehr wahrscheinlich ungeeignet" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="252,245,227,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="138,98,0,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Wärmedichte unter 70 MWh/(ha·a)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="255,246,220,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="154,154,154,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Wärmedichte 70 bis 175 MWh/(ha·a)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="251,223,154,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="154,154,154,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Wärmedichte 175 bis 415 MWh/(ha·a)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="246,165,74,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="154,154,154,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Wärmedichte 415 bis 1050 MWh/(ha·a)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="215,25,28,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="154,154,154,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Wärmedichte über 1050 MWh/(ha·a)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="107,15,18,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="154,154,154,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Überwiegender Energieträger Heizöl" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="58,58,58,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="255,255,255,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Überwiegender Energieträger Erdgas" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="138,123,106,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="255,255,255,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Überwiegender Energieträger Wärmenetz" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="46,155,62,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="255,255,255,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Überwiegender Energieträger Biomasse" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="154,91,19,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="255,255,255,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Überwiegender Energieträger Strom" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="242,194,0,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="255,255,255,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Überwiegender Energieträger Sonstige" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="47,143,193,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="255,255,255,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Vom Gasnetz versorgtes Gebiet (Bestand)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="122,106,88,153"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,106,88,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.4"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Vom Wärmenetz versorgtes Gebiet (Bestand)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="46,155,62,128"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="3"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="1"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="30,107,42,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.5"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Teilgebiet mit verkürzter Wärmeplanung (§ 14)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="LinePatternFill" enabled="1" locked="0" pass="0">
+        <prop k="angle" v="135"/>
+        <prop k="distance" v="3"/>
+        <prop k="distance_unit" v="MM"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="color" v="85,85,85,255"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <symbol type="line" name="@Wärmeplanung: Teilgebiet mit verkürzter Wärmeplanung (§ 14)@0" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+            <prop k="line_color" v="85,85,85,255"/>
+            <prop k="line_style" v="solid"/>
+            <prop k="line_width" v="0.25"/>
+            <prop k="line_width_unit" v="MM"/>
+            <prop k="capstyle" v="flat"/>
+            <prop k="joinstyle" v="round"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="use_custom_dash" v="0"/>
+            <prop k="customdash" v="5;2"/>
+            <prop k="customdash_unit" v="MM"/>
+            <prop k="draw_inside_polygon" v="0"/>
+            <prop k="ring_filter" v="0"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="85,85,85,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.4"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Gebiet mit erhöhtem Energieeinsparpotenzial" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="LinePatternFill" enabled="1" locked="0" pass="0">
+        <prop k="angle" v="45"/>
+        <prop k="distance" v="2.5"/>
+        <prop k="distance_unit" v="MM"/>
+        <prop k="line_width" v="0.3"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="color" v="155,27,48,255"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <symbol type="line" name="@Wärmeplanung: Gebiet mit erhöhtem Energieeinsparpotenzial@0" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+            <prop k="line_color" v="155,27,48,255"/>
+            <prop k="line_style" v="solid"/>
+            <prop k="line_width" v="0.3"/>
+            <prop k="line_width_unit" v="MM"/>
+            <prop k="capstyle" v="flat"/>
+            <prop k="joinstyle" v="round"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="use_custom_dash" v="0"/>
+            <prop k="customdash" v="5;2"/>
+            <prop k="customdash_unit" v="MM"/>
+            <prop k="draw_inside_polygon" v="0"/>
+            <prop k="ring_filter" v="0"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="155,27,48,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.5"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="customdash" v="3;1.5"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Gebiet mit Anschluss- und Benutzungszwang" alpha="1" clip_to_extent="1" force_rhr="1">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="30,107,42,102"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="3"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="1"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="30,107,42,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.5"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+      <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
+        <prop k="SymbolType" v="Line"/>
+        <prop k="geometryModifier" v="collect_geometries(array_foreach(generate_series(1, coalesce(num_geometries(simplify(if(geometry_type($geometry) = 'Polygon', boundary(force_polygon_ccw($geometry)), $geometry), 0.5)), 1)), with_variable('r', coalesce(geometry_n(simplify(if(geometry_type($geometry) = 'Polygon', boundary(force_polygon_ccw($geometry)), $geometry), 0.5), @element), simplify(if(geometry_type($geometry) = 'Polygon', boundary(force_polygon_ccw($geometry)), $geometry), 0.5)), with_variable('cd', array_filter(array_foreach(generate_series(2, num_points(@r) - 1), if(cos(azimuth(point_n(@r, @element - 1), point_n(@r, @element)) - azimuth(point_n(@r, @element), point_n(@r, @element + 1))) &lt; 0.574, distance_to_vertex(@r, @element - 1), NULL)), @element IS NOT NULL), if(array_length(@cd) = 0, @r, collect_geometries(array_cat(array_foreach(generate_series(1, array_length(@cd) - 1), line_substring(@r, @cd[@element - 1], @cd[@element])), if(is_closed(@r) AND NOT (cos(azimuth(point_n(@r, num_points(@r) - 1), point_n(@r, 1)) - azimuth(point_n(@r, 1), point_n(@r, 2))) &lt; 0.574), array(line_merge(collect_geometries(array(line_substring(@r, array_last(@cd), length(@r)), line_substring(@r, 0, array_first(@cd)))))), array(line_substring(@r, array_last(@cd), length(@r)), line_substring(@r, 0, array_first(@cd)))))))))))"/>
+        <prop k="units" v="MM"/>
+        <symbol type="line" name="@Wärmeplanung: Gebiet mit Anschluss- und Benutzungszwang@2" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="GeometryGenerator" enabled="1" locked="0" pass="0">
+            <prop k="SymbolType" v="Line"/>
+            <prop k="geometryModifier" v="with_variable('i', 8.0, collect_geometries(array_filter(array_foreach(generate_series(1, coalesce(num_geometries($geometry), 1)), with_variable('g', coalesce(geometry_n($geometry, @element), $geometry), with_variable('n', floor((length(@g) - 2 * 1.5) / @i), if(length(@g) &lt; 3.0, NULL, collect_geometries(array_foreach(generate_series(0, if(@n &lt; 1, 0, @n - 1)), line_substring(@g, if(@n &lt; 1, length(@g) / 2, (length(@g) - @n * @i) / 2 + @i / 2 + @element * @i) - 0.1, if(@n &lt; 1, length(@g) / 2, (length(@g) - @n * @i) / 2 + @i / 2 + @element * @i) + 0.1))))))), @element IS NOT NULL)))"/>
+            <prop k="units" v="MM"/>
+            <symbol type="line" name="@@Wärmeplanung: Gebiet mit Anschluss- und Benutzungszwang@2@0" alpha="1" clip_to_extent="1" force_rhr="0">
+              <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+                <prop k="placement" v="interval"/>
+                <prop k="placements" v="Interval"/>
+                <prop k="interval" v="1000"/>
+                <prop k="interval_unit" v="MM"/>
+                <prop k="offset_along_line" v="0.1"/>
+                <prop k="offset_along_line_unit" v="MM"/>
+                <prop k="offset" v="0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="rotate" v="1"/>
+                <prop k="average_angle_length" v="0"/>
+                <prop k="average_angle_unit" v="MM"/>
+                <prop k="place_on_every_part" v="1"/>
+                <prop k="ring_filter" v="0"/>
+                <symbol type="marker" name="@@@Wärmeplanung: Gebiet mit Anschluss- und Benutzungszwang@2@0@0" alpha="1" clip_to_extent="1" force_rhr="0">
+                  <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+                    <prop k="name" v="triangle"/>
+                    <prop k="size" v="1.6"/>
+                    <prop k="size_unit" v="MM"/>
+                    <prop k="scale_method" v="diameter"/>
+                    <prop k="color" v="30,107,42,255"/>
+                    <prop k="outline_color" v="0,0,0,0"/>
+                    <prop k="outline_style" v="no"/>
+                    <prop k="outline_width" v="0"/>
+                    <prop k="outline_width_unit" v="MM"/>
+                    <prop k="joinstyle" v="miter"/>
+                    <prop k="cap_style" v="round"/>
+                    <prop k="angle" v="0"/>
+                    <prop k="offset" v="0,1"/>
+                    <prop k="offset_unit" v="MM"/>
+                    <prop k="horizontal_anchor_point" v="1"/>
+                    <prop k="vertical_anchor_point" v="1"/>
+                  </layer>
+                </symbol>
+              </layer>
+            </symbol>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Gebiet zum Neu- oder Ausbau von Wärmenetzen (§ 26)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="46,155,62,153"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="4"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="1"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="30,107,42,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.8"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Wasserstoffnetzausbaugebiet (§ 26)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="162,59,181,153"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="4"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="1"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="111,35,128,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.8"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Potenzialfläche Solarthermie" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="255,232,77,179"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="138,98,0,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.4"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Potenzialfläche oberflächennahe Geothermie" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="201,162,122,102"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="LinePatternFill" enabled="1" locked="0" pass="0">
+        <prop k="angle" v="0"/>
+        <prop k="distance" v="2.5"/>
+        <prop k="distance_unit" v="MM"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="color" v="122,74,30,255"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <symbol type="line" name="@Wärmeplanung: Potenzialfläche oberflächennahe Geothermie@1" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+            <prop k="line_color" v="122,74,30,255"/>
+            <prop k="line_style" v="solid"/>
+            <prop k="line_width" v="0.25"/>
+            <prop k="line_width_unit" v="MM"/>
+            <prop k="capstyle" v="flat"/>
+            <prop k="joinstyle" v="round"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="use_custom_dash" v="0"/>
+            <prop k="customdash" v="5;2"/>
+            <prop k="customdash_unit" v="MM"/>
+            <prop k="draw_inside_polygon" v="0"/>
+            <prop k="ring_filter" v="0"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,74,30,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.4"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Potenzial Abwasserwärme (Kanal)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="47,127,193,89"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="47,127,193,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.3"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Potenzial Gewässerwärme" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="47,127,193,51"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="LinePatternFill" enabled="1" locked="0" pass="0">
+        <prop k="angle" v="0"/>
+        <prop k="distance" v="2"/>
+        <prop k="distance_unit" v="MM"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="color" v="47,127,193,255"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <symbol type="line" name="@Wärmeplanung: Potenzial Gewässerwärme@1" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+            <prop k="line_color" v="47,127,193,255"/>
+            <prop k="line_style" v="solid"/>
+            <prop k="line_width" v="0.25"/>
+            <prop k="line_width_unit" v="MM"/>
+            <prop k="capstyle" v="flat"/>
+            <prop k="joinstyle" v="round"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="use_custom_dash" v="0"/>
+            <prop k="customdash" v="5;2"/>
+            <prop k="customdash_unit" v="MM"/>
+            <prop k="draw_inside_polygon" v="0"/>
+            <prop k="ring_filter" v="0"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="47,127,193,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.4"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Potenzial unvermeidbare Abwärme" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="181,18,27,204"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="107,15,18,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.4"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Potenzialfläche Biomasse" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="213,235,216,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="LinePatternFill" enabled="1" locked="0" pass="0">
+        <prop k="angle" v="90"/>
+        <prop k="distance" v="2.5"/>
+        <prop k="distance_unit" v="MM"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="color" v="30,107,42,255"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <symbol type="line" name="@Wärmeplanung: Potenzialfläche Biomasse@1" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+            <prop k="line_color" v="30,107,42,255"/>
+            <prop k="line_style" v="solid"/>
+            <prop k="line_width" v="0.25"/>
+            <prop k="line_width_unit" v="MM"/>
+            <prop k="capstyle" v="flat"/>
+            <prop k="joinstyle" v="round"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="use_custom_dash" v="0"/>
+            <prop k="customdash" v="5;2"/>
+            <prop k="customdash_unit" v="MM"/>
+            <prop k="draw_inside_polygon" v="0"/>
+            <prop k="ring_filter" v="0"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="30,107,42,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.4"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Potenzialfläche Großwärmespeicher" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="247,221,224,179"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="155,27,48,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.5"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="customdash" v="3;1.5"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wärmeplanung: Ausschlussgebiet (Potenzialanalyse)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="LinePatternFill" enabled="1" locked="0" pass="0">
+        <prop k="angle" v="45"/>
+        <prop k="distance" v="2"/>
+        <prop k="distance_unit" v="MM"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="color" v="85,85,85,255"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <symbol type="line" name="@Wärmeplanung: Ausschlussgebiet (Potenzialanalyse)@0" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+            <prop k="line_color" v="85,85,85,255"/>
+            <prop k="line_style" v="solid"/>
+            <prop k="line_width" v="0.2"/>
+            <prop k="line_width_unit" v="MM"/>
+            <prop k="capstyle" v="flat"/>
+            <prop k="joinstyle" v="round"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="use_custom_dash" v="0"/>
+            <prop k="customdash" v="5;2"/>
+            <prop k="customdash_unit" v="MM"/>
+            <prop k="draw_inside_polygon" v="0"/>
+            <prop k="ring_filter" v="0"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="LinePatternFill" enabled="1" locked="0" pass="0">
+        <prop k="angle" v="135"/>
+        <prop k="distance" v="2"/>
+        <prop k="distance_unit" v="MM"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="color" v="85,85,85,255"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <symbol type="line" name="@Wärmeplanung: Ausschlussgebiet (Potenzialanalyse)@1" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+            <prop k="line_color" v="85,85,85,255"/>
+            <prop k="line_style" v="solid"/>
+            <prop k="line_width" v="0.2"/>
+            <prop k="line_width_unit" v="MM"/>
+            <prop k="capstyle" v="flat"/>
+            <prop k="joinstyle" v="round"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="use_custom_dash" v="0"/>
+            <prop k="customdash" v="5;2"/>
+            <prop k="customdash_unit" v="MM"/>
+            <prop k="draw_inside_polygon" v="0"/>
+            <prop k="ring_filter" v="0"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="85,85,85,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.5"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+  </symbols>
+</qgis_style>

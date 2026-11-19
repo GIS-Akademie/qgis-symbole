@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Wärmepumpe</title>
+  <polygon points="50,7 93,44 93,93 7,93 7,44" fill="param(fill) #F7DDE0" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #9B1B30" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M49.11 79H42.65L39.12 63.96Q38.48 61.3 38.03 58.41Q37.59 60.82 37.31 62.09Q37.04 63.35 33.38 79H26.92L20.23 53H25.74L29.51 69.79L30.36 73.85Q30.87 71.29 31.36 68.95Q31.85 66.62 35.04 53H41.13L44.42 66.84Q44.81 68.39 45.73 73.85L46.19 71.71L47.17 67.47L50.3 53H55.82ZM79.77 61.23Q79.77 63.74 78.63 65.71Q77.49 67.69 75.35 68.77Q73.22 69.85 70.29 69.85H63.83V79H58.39V53H70.07Q74.74 53 77.25 55.15Q79.77 57.3 79.77 61.23ZM74.29 61.32Q74.29 57.23 69.46 57.23H63.83V65.66H69.61Q71.86 65.66 73.08 64.54Q74.29 63.43 74.29 61.32Z" fill="param(outline) #9B1B30" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

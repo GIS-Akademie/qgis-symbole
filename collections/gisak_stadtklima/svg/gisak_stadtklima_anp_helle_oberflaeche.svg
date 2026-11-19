@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Helle Oberfläche / Rückstrahlung erhöhen</title>
+  <polygon points="50,5 95,50 50,95 5,50" fill="param(fill) #D5EEF0" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #0E6E78" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M34,68 L66,68" fill="none" stroke="param(outline) #0E6E78" stroke-opacity="param(outline-opacity) 1" stroke-width="7" stroke-linecap="butt" stroke-linejoin="round"/>
+  <path d="M32,36 L41.97,53.09" fill="none" stroke="param(outline) #0E6E78" stroke-opacity="param(outline-opacity) 1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="46,60 37.44,54.84 45.72,50" fill="param(outline) #0E6E78" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <path d="M54,60 L63.97,42.91" fill="none" stroke="param(outline) #0E6E78" stroke-opacity="param(outline-opacity) 1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="68,36 67.72,46 59.44,41.16" fill="param(outline) #0E6E78" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

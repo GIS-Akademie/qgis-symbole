@@ -599,7 +599,120 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | Erneuerbare Energien: Schattenwurfbereich | Fläche |
 | Erneuerbare Energien: Ausgleichsfläche | Fläche |
 
-## Wasserwirtschaft (`gisak_wasser`, 59 Symbole)
+## Wärmeplanung (`gisak_waermeplanung`, 42 Symbole)
+
+| Datei | Bedeutung |
+|---|---|
+| `gisak_waermeplanung_erz_heizwerk.svg` | Heizwerk |
+| `gisak_waermeplanung_erz_heizkraftwerk.svg` | Heizkraftwerk (Kraft-Wärme-Kopplung) |
+| `gisak_waermeplanung_erz_biomasse.svg` | Biomasseheizwerk |
+| `gisak_waermeplanung_erz_grosswaermepumpe.svg` | Großwärmepumpe |
+| `gisak_waermeplanung_erz_solarthermie.svg` | Solarthermieanlage |
+| `gisak_waermeplanung_erz_geothermie.svg` | Geothermieanlage (tiefe Geothermie) |
+| `gisak_waermeplanung_erz_power_to_heat.svg` | Power-to-Heat-Anlage (Elektrodenkessel) |
+| `gisak_waermeplanung_erz_abfall.svg` | Thermische Abfallbehandlung (Müllheizkraftwerk) |
+| `gisak_waermeplanung_erz_elektrolyseur.svg` | Elektrolyseur (Wasserstofferzeugung über 1 MW) |
+| `gisak_waermeplanung_pot_abwaerme_industrie.svg` | Unvermeidbare Abwärme (Industrie, Gewerbe) |
+| `gisak_waermeplanung_pot_abwaerme_rechenzentrum.svg` | Abwärme Rechenzentrum |
+| `gisak_waermeplanung_pot_abwasser.svg` | Abwasserwärme (Kanal) |
+| `gisak_waermeplanung_pot_klaeranlage.svg` | Kläranlage (Wärme aus dem Ablauf) |
+| `gisak_waermeplanung_pot_gewaesser.svg` | Gewässerwärme (Fluss, See) |
+| `gisak_waermeplanung_pot_grundwasser.svg` | Grundwasserwärme (Brunnen) |
+| `gisak_waermeplanung_pot_erdwaerme.svg` | Oberflächennahe Geothermie (Erdsonde, Kollektor) |
+| `gisak_waermeplanung_pot_tiefengeothermie.svg` | Tiefe Geothermie |
+| `gisak_waermeplanung_pot_solarthermie.svg` | Solarthermie |
+| `gisak_waermeplanung_pot_biomasse.svg` | Biomasse |
+| `gisak_waermeplanung_pot_umweltluft.svg` | Umgebungsluft (Luft-Wärmepumpe) |
+| `gisak_waermeplanung_inf_waermespeicher.svg` | Wärmespeicher |
+| `gisak_waermeplanung_inf_erdbeckenspeicher.svg` | Saisonaler Wärmespeicher (Erdbecken, Aquifer) |
+| `gisak_waermeplanung_inf_gasspeicher.svg` | Gasspeicher |
+| `gisak_waermeplanung_inf_wasserstoffspeicher.svg` | Wasserstoffspeicher |
+| `gisak_waermeplanung_inf_uebergabe.svg` | Wärmeübergabestation (Netzkopplung) |
+| `gisak_waermeplanung_inf_umspannwerk.svg` | Umspannwerk (Netzanschlusskapazität Strom) |
+| `gisak_waermeplanung_inf_einspeisung.svg` | Einspeisepunkt in das Wärmenetz |
+| `gisak_waermeplanung_vb_grossverbraucher.svg` | Großverbraucher |
+| `gisak_waermeplanung_vb_ankerkunde.svg` | Ankerkunde |
+| `gisak_waermeplanung_vb_oeffentlich.svg` | Öffentliche Liegenschaft |
+| `gisak_waermeplanung_vb_prozesswaerme.svg` | Prozesswärme |
+| `gisak_waermeplanung_vb_einsparung.svg` | Sanierungsschwerpunkt (Energieeinsparung) |
+| `gisak_waermeplanung_vb_massnahme.svg` | Maßnahme der Umsetzungsstrategie |
+| `gisak_waermeplanung_vb_fokusgebiet.svg` | Fokusgebiet |
+| `gisak_waermeplanung_dez_gas.svg` | Gasheizung |
+| `gisak_waermeplanung_dez_oel.svg` | Ölheizung |
+| `gisak_waermeplanung_dez_biomasse.svg` | Biomasseheizung (Pellets, Holz) |
+| `gisak_waermeplanung_dez_waermepumpe.svg` | Wärmepumpe |
+| `gisak_waermeplanung_dez_strom.svg` | Stromdirektheizung (Nachtspeicher) |
+| `gisak_waermeplanung_dez_waermenetz.svg` | Hausübergabestation (Wärmenetzanschluss) |
+| `gisak_waermeplanung_dez_solarthermie.svg` | Solarthermie auf dem Dach |
+| `gisak_waermeplanung_dez_hybrid.svg` | Hybridheizung |
+
+### Wärmeplanung: Linien und Flächen (61 Symbole)
+
+| Symbol in QGIS | Art |
+|---|---|
+| Wärmeplanung: Wärmeliniendichte unter 700 kWh/(m·a) | Linie |
+| Wärmeplanung: Wärmeliniendichte 700 bis 1500 kWh/(m·a) | Linie |
+| Wärmeplanung: Wärmeliniendichte 1500 bis 2000 kWh/(m·a) | Linie |
+| Wärmeplanung: Wärmeliniendichte über 2000 kWh/(m·a) | Linie |
+| Wärmeplanung: Wärmenetz (Wasser), Bestand | Linie |
+| Wärmeplanung: Wärmenetz (Dampf), Bestand | Linie |
+| Wärmeplanung: Wärmenetz genehmigt | Linie |
+| Wärmeplanung: Wärmenetz geplant | Linie |
+| Wärmeplanung: Gasnetz (Methan), Bestand | Linie |
+| Wärmeplanung: Gasnetz (Methan), Stilllegung vorgesehen | Linie |
+| Wärmeplanung: Wasserstoffnetz, Bestand | Linie |
+| Wärmeplanung: Wasserstoffnetz, geplant | Linie |
+| Wärmeplanung: Abwassersammler (ab DN 800) | Linie |
+| Wärmeplanung: Grenze des beplanten Gebiets | Linie |
+| Wärmeplanung: Grenze eines beplanten Teilgebiets | Linie |
+| Wärmeplanung: Baublockgrenze | Linie |
+| Wärmeplanung: Wärmenetzgebiet | Fläche |
+| Wärmeplanung: Wärmenetzverdichtungsgebiet | Fläche |
+| Wärmeplanung: Wärmenetzausbaugebiet | Fläche |
+| Wärmeplanung: Wärmenetzneubaugebiet | Fläche |
+| Wärmeplanung: Wasserstoffnetzgebiet | Fläche |
+| Wärmeplanung: Gebiet für die dezentrale Wärmeversorgung | Fläche |
+| Wärmeplanung: Prüfgebiet | Fläche |
+| Wärmeplanung: Eignung Wärmenetz, sehr wahrscheinlich geeignet | Fläche |
+| Wärmeplanung: Eignung Wärmenetz, wahrscheinlich geeignet | Fläche |
+| Wärmeplanung: Eignung Wärmenetz, wahrscheinlich ungeeignet | Fläche |
+| Wärmeplanung: Eignung Wärmenetz, sehr wahrscheinlich ungeeignet | Fläche |
+| Wärmeplanung: Eignung Wasserstoffnetz, sehr wahrscheinlich geeignet | Fläche |
+| Wärmeplanung: Eignung Wasserstoffnetz, wahrscheinlich geeignet | Fläche |
+| Wärmeplanung: Eignung Wasserstoffnetz, wahrscheinlich ungeeignet | Fläche |
+| Wärmeplanung: Eignung Wasserstoffnetz, sehr wahrscheinlich ungeeignet | Fläche |
+| Wärmeplanung: Eignung dezentrale Versorgung, sehr wahrscheinlich geeignet | Fläche |
+| Wärmeplanung: Eignung dezentrale Versorgung, wahrscheinlich geeignet | Fläche |
+| Wärmeplanung: Eignung dezentrale Versorgung, wahrscheinlich ungeeignet | Fläche |
+| Wärmeplanung: Eignung dezentrale Versorgung, sehr wahrscheinlich ungeeignet | Fläche |
+| Wärmeplanung: Wärmedichte unter 70 MWh/(ha·a) | Fläche |
+| Wärmeplanung: Wärmedichte 70 bis 175 MWh/(ha·a) | Fläche |
+| Wärmeplanung: Wärmedichte 175 bis 415 MWh/(ha·a) | Fläche |
+| Wärmeplanung: Wärmedichte 415 bis 1050 MWh/(ha·a) | Fläche |
+| Wärmeplanung: Wärmedichte über 1050 MWh/(ha·a) | Fläche |
+| Wärmeplanung: Überwiegender Energieträger Heizöl | Fläche |
+| Wärmeplanung: Überwiegender Energieträger Erdgas | Fläche |
+| Wärmeplanung: Überwiegender Energieträger Wärmenetz | Fläche |
+| Wärmeplanung: Überwiegender Energieträger Biomasse | Fläche |
+| Wärmeplanung: Überwiegender Energieträger Strom | Fläche |
+| Wärmeplanung: Überwiegender Energieträger Sonstige | Fläche |
+| Wärmeplanung: Vom Gasnetz versorgtes Gebiet (Bestand) | Fläche |
+| Wärmeplanung: Vom Wärmenetz versorgtes Gebiet (Bestand) | Fläche |
+| Wärmeplanung: Teilgebiet mit verkürzter Wärmeplanung (§ 14) | Fläche |
+| Wärmeplanung: Gebiet mit erhöhtem Energieeinsparpotenzial | Fläche |
+| Wärmeplanung: Gebiet mit Anschluss- und Benutzungszwang | Fläche |
+| Wärmeplanung: Gebiet zum Neu- oder Ausbau von Wärmenetzen (§ 26) | Fläche |
+| Wärmeplanung: Wasserstoffnetzausbaugebiet (§ 26) | Fläche |
+| Wärmeplanung: Potenzialfläche Solarthermie | Fläche |
+| Wärmeplanung: Potenzialfläche oberflächennahe Geothermie | Fläche |
+| Wärmeplanung: Potenzial Abwasserwärme (Kanal) | Fläche |
+| Wärmeplanung: Potenzial Gewässerwärme | Fläche |
+| Wärmeplanung: Potenzial unvermeidbare Abwärme | Fläche |
+| Wärmeplanung: Potenzialfläche Biomasse | Fläche |
+| Wärmeplanung: Potenzialfläche Großwärmespeicher | Fläche |
+| Wärmeplanung: Ausschlussgebiet (Potenzialanalyse) | Fläche |
+
+## Wasserwirtschaft (`gisak_wasser`, 70 Symbole)
 
 | Datei | Bedeutung |
 |---|---|
@@ -662,8 +775,19 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | `gisak_wasser_heilquellenschutzgebiet.svg` | Heilquellenschutzgebiet |
 | `gisak_wasser_ueberschwemmungsgebiet.svg` | Überschwemmungsgebiet |
 | `gisak_wasser_hochwasserrisikogebiet.svg` | Hochwasserrisikogebiet (HQ100) |
+| `gisak_wasser_sr_fruehwarnsensor.svg` | Starkregen, Frühwarnsensor / Warnpegel |
+| `gisak_wasser_sr_notwasserweg.svg` | Starkregen, Notwasserweg / Notabflussweg |
+| `gisak_wasser_sr_retentionsflaeche.svg` | Starkregen, Retentionsfläche / multifunktionale Fläche |
+| `gisak_wasser_sr_gelaendesenke.svg` | Starkregen, Geländesenke / Überflutungsschwerpunkt |
+| `gisak_wasser_sr_kanalueberstau.svg` | Starkregen, Kanalüberstau / Rückstau |
+| `gisak_wasser_sr_unterfuehrung.svg` | Starkregen, Überflutungsgefährdete Unterführung |
+| `gisak_wasser_sr_einlaufbauwerk.svg` | Starkregen, Einlaufbauwerk mit Rechen (Verklausungsgefahr) |
+| `gisak_wasser_sr_risikoobjekt.svg` | Starkregen, Risikoobjekt / gefährdetes Gebäude |
+| `gisak_wasser_sr_objektschutz.svg` | Starkregen, Objektschutz / Schutzeinrichtung |
+| `gisak_wasser_sr_gefahrenbereich.svg` | Starkregengefahrenbereich |
+| `gisak_wasser_sr_fliessrichtung.svg` | Starkregen, Fließrichtung (nach rechts, drehbar) |
 
-### Wasserwirtschaft: Linien und Flächen (27 Symbole)
+### Wasserwirtschaft: Linien und Flächen (44 Symbole)
 
 | Symbol in QGIS | Art |
 |---|---|
@@ -681,6 +805,13 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | Wasserwirtschaft: Graben | Linie |
 | Wasserwirtschaft: Verrohrtes Gewässer | Linie |
 | Wasserwirtschaft: Deich | Linie |
+| Wasserwirtschaft: Starkregen, Fließgeschwindigkeit unter 0,2 m/s | Linie |
+| Wasserwirtschaft: Starkregen, Fließgeschwindigkeit 0,2 bis 0,5 m/s | Linie |
+| Wasserwirtschaft: Starkregen, Fließgeschwindigkeit 0,5 bis 2 m/s | Linie |
+| Wasserwirtschaft: Starkregen, Fließgeschwindigkeit über 2 m/s | Linie |
+| Wasserwirtschaft: Starkregen, Fließweg / Abflussbahn | Linie |
+| Wasserwirtschaft: Starkregen, Notwasserweg | Linie |
+| Wasserwirtschaft: Starkregen, Schutzlinie / Objektschutz | Linie |
 | Wasserwirtschaft: Gewässerfläche | Fläche |
 | Wasserwirtschaft: Wasserschutzgebiet Zone I | Fläche |
 | Wasserwirtschaft: Wasserschutzgebiet Zone II | Fläche |
@@ -694,6 +825,16 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | Wasserwirtschaft: Entwässerungsgebiet Trennsystem | Fläche |
 | Wasserwirtschaft: Rückhaltebecken, Anlagenfläche | Fläche |
 | Wasserwirtschaft: Versickerungsfläche | Fläche |
+| Wasserwirtschaft: Starkregen, Überflutungstiefe 5 bis 10 cm | Fläche |
+| Wasserwirtschaft: Starkregen, Überflutungstiefe 10 bis 50 cm | Fläche |
+| Wasserwirtschaft: Starkregen, Überflutungstiefe 50 bis 100 cm | Fläche |
+| Wasserwirtschaft: Starkregen, Überflutungstiefe über 100 cm | Fläche |
+| Wasserwirtschaft: Starkregen, Überflutungsausdehnung seltenes Ereignis | Fläche |
+| Wasserwirtschaft: Starkregen, Überflutungsausdehnung außergewöhnliches Ereignis | Fläche |
+| Wasserwirtschaft: Starkregen, Überflutungsausdehnung extremes Ereignis | Fläche |
+| Wasserwirtschaft: Starkregen, Retentionsfläche / Notüberflutungsfläche | Fläche |
+| Wasserwirtschaft: Starkregen, Geländesenke | Fläche |
+| Wasserwirtschaft: Starkregen, Risikobereich | Fläche |
 
 ## Boden, Altlasten und Geologie (`gisak_boden`, 44 Symbole)
 
@@ -846,6 +987,99 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | Lärm und Immissionen: Geruchsimmissionsbereich | Fläche |
 | Lärm und Immissionen: Richtwertüberschreitung | Fläche |
 
+## Stadtklima (`gisak_stadtklima`, 40 Symbole)
+
+| Datei | Bedeutung |
+|---|---|
+| `gisak_stadtklima_mess_klimastation.svg` | Klimamessstation |
+| `gisak_stadtklima_mess_temperatur.svg` | Temperaturmesspunkt |
+| `gisak_stadtklima_mess_wind.svg` | Windmessung |
+| `gisak_stadtklima_mess_strahlung.svg` | Strahlungsmessung |
+| `gisak_stadtklima_mess_luft.svg` | Luftmessstation |
+| `gisak_stadtklima_mess_no2.svg` | Passivsammler Stickstoffdioxid |
+| `gisak_stadtklima_mess_feinstaub.svg` | Feinstaubmessung |
+| `gisak_stadtklima_mess_messfahrt.svg` | Messfahrt / Profilmesspunkt |
+| `gisak_stadtklima_last_waermeinsel.svg` | Städtische Wärmeinsel / Hitze-Hotspot |
+| `gisak_stadtklima_last_hitze.svg` | Hitzebelastung am Tag |
+| `gisak_stadtklima_last_tropennacht.svg` | Nächtliche Überwärmung / Tropennacht |
+| `gisak_stadtklima_last_versiegelung.svg` | Hoher Versiegelungsgrad |
+| `gisak_stadtklima_last_luft.svg` | Lufthygienische Belastung |
+| `gisak_stadtklima_last_durchlueftung.svg` | Durchlüftungsmangel / Strömungshindernis |
+| `gisak_stadtklima_last_duese.svg` | Düseneffekt / Windkomfort eingeschränkt |
+| `gisak_stadtklima_last_sensibel.svg` | Hitzesensible Einrichtung (Pflegeheim, Krankenhaus, Kita) |
+| `gisak_stadtklima_ausgl_kaltluftentstehung.svg` | Kaltluftentstehungsgebiet |
+| `gisak_stadtklima_ausgl_frischluft.svg` | Frischluftentstehungsgebiet |
+| `gisak_stadtklima_ausgl_gruen.svg` | Klimaaktive Grünfläche / Parkklima |
+| `gisak_stadtklima_ausgl_wasser.svg` | Klimaaktive Wasserfläche |
+| `gisak_stadtklima_ausgl_kaltluftsee.svg` | Kaltluftsammelgebiet / Kaltluftsee |
+| `gisak_stadtklima_ausgl_leitbahn.svg` | Luftleitbahn / Ventilationsbahn (nach rechts, drehbar) |
+| `gisak_stadtklima_anp_dachbegruenung.svg` | Dachbegrünung |
+| `gisak_stadtklima_anp_fassadenbegruenung.svg` | Fassadenbegrünung |
+| `gisak_stadtklima_anp_baumpflanzung.svg` | Baumpflanzung / Stadtgrün |
+| `gisak_stadtklima_anp_entsiegelung.svg` | Entsiegelung |
+| `gisak_stadtklima_anp_verschattung.svg` | Verschattung / Sonnenschutz |
+| `gisak_stadtklima_anp_trinkbrunnen.svg` | Trinkwasserbrunnen |
+| `gisak_stadtklima_anp_kuehler_ort.svg` | Kühler Ort |
+| `gisak_stadtklima_anp_wasserspiel.svg` | Wasserspiel / Sprühnebel |
+| `gisak_stadtklima_anp_retention.svg` | Regenwasserrückhalt / Schwammstadt |
+| `gisak_stadtklima_anp_helle_oberflaeche.svg` | Helle Oberfläche / Rückstrahlung erhöhen |
+| `gisak_stadtklima_anp_hitzeaktionsplan.svg` | Maßnahme des Hitzeaktionsplans |
+| `gisak_stadtklima_pfeil_kaltluft.svg` | Kaltluftabfluss (nach rechts, drehbar) |
+| `gisak_stadtklima_pfeil_frischluft.svg` | Frischluftzufuhr (nach rechts, drehbar) |
+| `gisak_stadtklima_pfeil_flurwind.svg` | Flurwind (nach rechts, drehbar) |
+| `gisak_stadtklima_pfeil_hangabwind.svg` | Hangabwind (nach rechts, drehbar) |
+| `gisak_stadtklima_pfeil_wechselwind.svg` | Berg- und Talwind / Wechselströmung (drehbar) |
+| `gisak_stadtklima_pfeil_hauptwind.svg` | Hauptwindrichtung (nach rechts, drehbar) |
+| `gisak_stadtklima_pfeil_barriere.svg` | Strömungsbarriere (Anströmung von links, drehbar) |
+
+### Stadtklima: Linien und Flächen (43 Symbole)
+
+| Symbol in QGIS | Art |
+|---|---|
+| Stadtklima: Kaltluftleitbahn | Linie |
+| Stadtklima: Frischluftleitbahn | Linie |
+| Stadtklima: Kaltluftabfluss am Hang | Linie |
+| Stadtklima: Flurwind | Linie |
+| Stadtklima: Hauptwindrichtung | Linie |
+| Stadtklima: Strömungsbarriere / Riegelbebauung | Linie |
+| Stadtklima: Lufthygienisch belasteter Straßenabschnitt | Linie |
+| Stadtklima: Isotherme, Hauptlinie | Linie |
+| Stadtklima: Isotherme, Zwischenlinie | Linie |
+| Stadtklima: Grenze Luftaustauschbereich | Linie |
+| Stadtklima: Bebauungsgrenze aus klimatischen Gründen | Linie |
+| Stadtklima: Messfahrtroute | Linie |
+| Stadtklima: Klimatop Gewässer | Fläche |
+| Stadtklima: Klimatop Freiland | Fläche |
+| Stadtklima: Klimatop Wald | Fläche |
+| Stadtklima: Klimatop Grünanlage / Park | Fläche |
+| Stadtklima: Klimatop Gartenstadt / Vorstadt | Fläche |
+| Stadtklima: Klimatop Stadtrand | Fläche |
+| Stadtklima: Klimatop Stadt | Fläche |
+| Stadtklima: Klimatop Innenstadt | Fläche |
+| Stadtklima: Klimatop Gewerbe | Fläche |
+| Stadtklima: Klimatop Industrie | Fläche |
+| Stadtklima: Klimatop Gleisanlagen | Fläche |
+| Stadtklima: Thermische Belastung gering | Fläche |
+| Stadtklima: Thermische Belastung mäßig | Fläche |
+| Stadtklima: Thermische Belastung hoch | Fläche |
+| Stadtklima: Thermische Belastung sehr hoch | Fläche |
+| Stadtklima: Ausgleichsraum, mittlere Bedeutung | Fläche |
+| Stadtklima: Ausgleichsraum, hohe Bedeutung | Fläche |
+| Stadtklima: Ausgleichsraum, sehr hohe Bedeutung | Fläche |
+| Stadtklima: Kaltluftentstehungsgebiet | Fläche |
+| Stadtklima: Frischluftentstehungsgebiet | Fläche |
+| Stadtklima: Kaltluftsammelgebiet | Fläche |
+| Stadtklima: Kaltlufteinwirkbereich | Fläche |
+| Stadtklima: Luftleitbahn, Freihaltebereich | Fläche |
+| Stadtklima: Überwärmungsgebiet / städtische Wärmeinsel | Fläche |
+| Stadtklima: Gebiet mit Durchlüftungsmangel | Fläche |
+| Stadtklima: Lufthygienischer Belastungsbereich | Fläche |
+| Stadtklima: Dachbegrünung, Bestand | Fläche |
+| Stadtklima: Dachbegrünung, Potenzial | Fläche |
+| Stadtklima: Entsiegelungs- und Begrünungspotenzial | Fläche |
+| Stadtklima: Maßnahmenfläche Klimaanpassung | Fläche |
+| Stadtklima: Fokusgebiet Hitzevorsorge | Fläche |
+
 ## Naturschutz (`gisak_naturschutz`, 58 Symbole)
 
 | Datei | Bedeutung |
@@ -942,7 +1176,7 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | Naturschutz: Habitatfläche, Revier | Fläche |
 | Naturschutz: Untersuchungsgebiet | Fläche |
 
-## Landschaftsplanung (`gisak_landschaftsplanung`, 62 Symbole)
+## Landschaftsplanung (`gisak_landschaftsplanung`, 82 Symbole)
 
 | Datei | Bedeutung |
 |---|---|
@@ -961,6 +1195,26 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | `gisak_landschaftsplanung_strauch.svg` | Strauch / Gebüsch |
 | `gisak_landschaftsplanung_hecke.svg` | Hecke |
 | `gisak_landschaftsplanung_feldgehoelz.svg` | Feldgehölz |
+| `gisak_landschaftsplanung_bk_vital_0.svg` | Baumkataster Vitalitätsstufe 0 (vital, Explorationsphase) |
+| `gisak_landschaftsplanung_bk_vital_1.svg` | Baumkataster Vitalitätsstufe 1 (geschwächt, Degenerationsphase) |
+| `gisak_landschaftsplanung_bk_vital_2.svg` | Baumkataster Vitalitätsstufe 2 (merklich geschädigt, Stagnationsphase) |
+| `gisak_landschaftsplanung_bk_vital_3.svg` | Baumkataster Vitalitätsstufe 3 (stark geschädigt, Resignationsphase) |
+| `gisak_landschaftsplanung_bk_jungbaum.svg` | Baumkataster Jungbaum (mit Dreibock) |
+| `gisak_landschaftsplanung_bk_habitatbaum.svg` | Baumkataster Habitatbaum / Höhlenbaum |
+| `gisak_landschaftsplanung_bk_totbaum.svg` | Baumkataster abgestorbener Baum |
+| `gisak_landschaftsplanung_bk_stubben.svg` | Baumkataster Stubben / Baumstumpf |
+| `gisak_landschaftsplanung_bk_leerstandort.svg` | Baumkataster freier Baumstandort / leere Baumscheibe |
+| `gisak_landschaftsplanung_bk_kontrolle.svg` | Baumkataster Regelkontrolle fällig |
+| `gisak_landschaftsplanung_bk_untersuchung.svg` | Baumkataster eingehende Untersuchung erforderlich |
+| `gisak_landschaftsplanung_bk_gefahr.svg` | Baumkataster Verkehrssicherheit gefährdet / Sofortmaßnahme |
+| `gisak_landschaftsplanung_bk_schaden.svg` | Baumkataster Schaden (Höhlung, Riss, Faulstelle) |
+| `gisak_landschaftsplanung_bk_schaedling.svg` | Baumkataster Schädlings- oder Pilzbefall |
+| `gisak_landschaftsplanung_bk_kronenpflege.svg` | Baumkataster Maßnahme Kronenpflege / Kronenschnitt |
+| `gisak_landschaftsplanung_bk_kroneneinkuerzung.svg` | Baumkataster Maßnahme Kroneneinkürzung |
+| `gisak_landschaftsplanung_bk_totholz.svg` | Baumkataster Maßnahme Totholzbeseitigung |
+| `gisak_landschaftsplanung_bk_kronensicherung.svg` | Baumkataster Maßnahme Kronensicherung |
+| `gisak_landschaftsplanung_bk_lichtraum.svg` | Baumkataster Maßnahme Lichtraumprofil herstellen |
+| `gisak_landschaftsplanung_bk_bewaesserung.svg` | Baumkataster Maßnahme Bewässerung |
 | `gisak_landschaftsplanung_wald_laub.svg` | Laubwald |
 | `gisak_landschaftsplanung_wald_nadel.svg` | Nadelwald |
 | `gisak_landschaftsplanung_wald_misch.svg` | Mischwald |
@@ -1009,7 +1263,7 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | `gisak_landschaftsplanung_wanderparkplatz.svg` | Wanderparkplatz |
 | `gisak_landschaftsplanung_kaltluftbahn.svg` | Kaltluftbahn / Frischluftschneise (nach rechts, drehbar) |
 
-### Landschaftsplanung: Linien und Flächen (31 Symbole)
+### Landschaftsplanung: Linien und Flächen (35 Symbole)
 
 | Symbol in QGIS | Art |
 |---|---|
@@ -1026,6 +1280,7 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | Landschaftsplanung: Zaun | Linie |
 | Landschaftsplanung: Sichtachse | Linie |
 | Landschaftsplanung: Kaltluftbahn | Linie |
+| Landschaftsplanung: Baumschutzzaun | Linie |
 | Landschaftsplanung: Laubwald | Fläche |
 | Landschaftsplanung: Nadelwald | Fläche |
 | Landschaftsplanung: Mischwald | Fläche |
@@ -1044,6 +1299,9 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | Landschaftsplanung: Pflanzfläche | Fläche |
 | Landschaftsplanung: Sukzessionsfläche | Fläche |
 | Landschaftsplanung: Entsiegelungsfläche | Fläche |
+| Landschaftsplanung: Kronentraufbereich | Fläche |
+| Landschaftsplanung: Wurzelschutzbereich (Kronentraufe zuzüglich 1,5 m) | Fläche |
+| Landschaftsplanung: Baumscheibe | Fläche |
 
 ## Forst (`gisak_forst`, 45 Symbole)
 

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Starkregen, Fließrichtung (nach rechts, drehbar)</title>
+  <path d="M6,50 q5,-8 10,0 t10,0 t10,0 t10,0" fill="none" stroke="param(outline) #0B5CAD" stroke-opacity="param(outline-opacity) 1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M46,50 L77.4,50" fill="none" stroke="param(outline) #0B5CAD" stroke-opacity="param(outline-opacity) 1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="95,50 75.69,60.55 75.69,39.45" fill="param(outline) #0B5CAD" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Hauptwindrichtung (nach rechts, drehbar)</title>
+  <path d="M22,50 L76.4,50" fill="none" stroke="param(outline) #0E6E78" stroke-opacity="param(outline-opacity) 1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="94,50 74.69,60.55 74.69,39.45" fill="param(outline) #0E6E78" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <path d="M8,32 L24,50 L8,68" fill="none" stroke="param(outline) #0E6E78" stroke-opacity="param(outline-opacity) 1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M24,32 L40,50 L24,68" fill="none" stroke="param(outline) #0E6E78" stroke-opacity="param(outline-opacity) 1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

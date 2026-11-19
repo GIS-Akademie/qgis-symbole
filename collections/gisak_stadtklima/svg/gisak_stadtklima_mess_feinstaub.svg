@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Feinstaubmessung</title>
+  <circle cx="50" cy="50" r="44" fill="param(fill) #D5EEF0" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #0E6E78" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M45.23 44.86Q45.23 47.57 44 49.69Q42.77 51.82 40.47 52.98Q38.18 54.14 35.02 54.14H28.06V64H22.2V36H34.78Q39.81 36 42.52 38.32Q45.23 40.63 45.23 44.86ZM39.33 44.96Q39.33 40.55 34.12 40.55H28.06V49.63H34.28Q36.71 49.63 38.02 48.43Q39.33 47.23 39.33 44.96ZM72.59 64V47.03Q72.59 46.45 72.6 45.88Q72.61 45.3 72.79 40.93Q71.38 46.27 70.71 48.38L65.66 64H61.49L56.44 48.38L54.31 40.93Q54.55 45.54 54.55 47.03V64H49.34V36H57.19L62.2 51.66L62.64 53.17L63.59 56.93L64.84 52.43L69.99 36H77.8V64Z" fill="param(outline) #0E6E78" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

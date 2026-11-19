@@ -532,6 +532,57 @@
         </symbol>
       </layer>
     </symbol>
+    <symbol type="line" name="Landschaftsplanung: Baumschutzzaun" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="46,107,46,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.4"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+      <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <prop k="placement" v="interval"/>
+        <prop k="placements" v="Interval"/>
+        <prop k="interval" v="3"/>
+        <prop k="interval_unit" v="MM"/>
+        <prop k="offset_along_line" v="1.5"/>
+        <prop k="offset_along_line_unit" v="MM"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="rotate" v="1"/>
+        <prop k="average_angle_length" v="0"/>
+        <prop k="average_angle_unit" v="MM"/>
+        <prop k="ring_filter" v="0"/>
+        <symbol type="marker" name="@Landschaftsplanung: Baumschutzzaun@1" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+            <prop k="name" v="line"/>
+            <prop k="size" v="1.6"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="color" v="0,0,0,0"/>
+            <prop k="outline_color" v="46,107,46,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0.3"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="joinstyle" v="miter"/>
+            <prop k="cap_style" v="flat"/>
+            <prop k="angle" v="0"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
     <symbol type="fill" name="Landschaftsplanung: Laubwald" alpha="1" clip_to_extent="1" force_rhr="0">
       <layer class="SimpleFill" enabled="1" locked="0" pass="0">
         <prop k="color" v="185,221,160,255"/>
@@ -1481,6 +1532,100 @@
         <prop k="offset_unit" v="MM"/>
         <prop k="use_custom_dash" v="1"/>
         <prop k="customdash" v="3;1.5"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Landschaftsplanung: Kronentraufbereich" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="205,232,181,128"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="46,107,46,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.3"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="customdash" v="0.5;1"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Landschaftsplanung: Wurzelschutzbereich (Kronentraufe zuzüglich 1,5 m)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="LinePatternFill" enabled="1" locked="0" pass="0">
+        <prop k="angle" v="45"/>
+        <prop k="distance" v="2"/>
+        <prop k="distance_unit" v="MM"/>
+        <prop k="line_width" v="0.15"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="color" v="46,107,46,255"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <symbol type="line" name="@Landschaftsplanung: Wurzelschutzbereich (Kronentraufe zuzüglich 1,5 m)@0" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+            <prop k="line_color" v="46,107,46,255"/>
+            <prop k="line_style" v="solid"/>
+            <prop k="line_width" v="0.15"/>
+            <prop k="line_width_unit" v="MM"/>
+            <prop k="capstyle" v="flat"/>
+            <prop k="joinstyle" v="round"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="use_custom_dash" v="0"/>
+            <prop k="customdash" v="5;2"/>
+            <prop k="customdash_unit" v="MM"/>
+            <prop k="draw_inside_polygon" v="0"/>
+            <prop k="ring_filter" v="0"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="46,107,46,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.5"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="customdash" v="3;1;0.5;1"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Landschaftsplanung: Baumscheibe" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="232,213,181,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="107,68,35,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.3"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
         <prop k="customdash_unit" v="MM"/>
         <prop k="draw_inside_polygon" v="0"/>
         <prop k="ring_filter" v="0"/>

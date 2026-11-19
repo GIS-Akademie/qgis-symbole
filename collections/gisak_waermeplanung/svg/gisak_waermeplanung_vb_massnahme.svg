@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Maßnahme der Umsetzungsstrategie</title>
+  <polygon points="50,5 95,50 50,95 5,50" fill="param(fill) #F7DDE0" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #9B1B30" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M59.67 65V46.82Q59.67 46.2 59.68 45.58Q59.69 44.96 59.88 40.28Q58.37 46.01 57.64 48.26L52.24 65H47.76L42.36 48.26L40.08 40.28Q40.33 45.22 40.33 46.82V65H34.76V35H43.17L48.53 51.78L49 53.4L50.02 57.42L51.36 52.61L56.88 35H65.24V65Z" fill="param(outline) #9B1B30" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

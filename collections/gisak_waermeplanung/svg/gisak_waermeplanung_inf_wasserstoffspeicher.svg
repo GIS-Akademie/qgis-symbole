@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Wasserstoffspeicher</title>
+  <polygon points="96,50 73,89.84 27,89.84 4,50 27,10.16 73,10.16" fill="param(fill) #F7DDE0" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #9B1B30" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="50" cy="50" r="28" fill="none" stroke="param(outline) #9B1B30" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M50.23 60V49.71H39.77V60H34.75V36H39.77V45.56H50.23V36H55.25V60Z" fill="param(outline) #9B1B30" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <path d="M58.1 67.1V65.17Q58.65 63.96 59.66 62.82Q60.67 61.68 62.2 60.44Q63.67 59.24 64.26 58.47Q64.85 57.69 64.85 56.95Q64.85 55.12 63.01 55.12Q62.12 55.12 61.64 55.6Q61.17 56.09 61.03 57.05L58.22 56.89Q58.46 54.94 59.68 53.92Q60.89 52.9 62.99 52.9Q65.26 52.9 66.47 53.93Q67.68 54.96 67.68 56.83Q67.68 57.81 67.29 58.61Q66.9 59.4 66.3 60.07Q65.69 60.75 64.95 61.33Q64.21 61.92 63.52 62.47Q62.82 63.03 62.25 63.6Q61.68 64.16 61.4 64.81H67.9V67.1Z" fill="param(outline) #9B1B30" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

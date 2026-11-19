@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Großwärmepumpe</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #F7DDE0" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #9B1B30" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M49.01 64.41H41.85L37.94 47.74Q37.23 44.79 36.74 41.58Q36.25 44.26 35.94 45.66Q35.63 47.07 31.58 64.41H24.42L17 35.59H23.12L27.29 54.2L28.23 58.7Q28.8 55.86 29.34 53.27Q29.89 50.69 33.42 35.59H40.17L43.81 50.93Q44.24 52.65 45.27 58.7L45.78 56.33L46.86 51.63L50.34 35.59H56.45ZM83 44.71Q83 47.49 81.73 49.68Q80.46 51.87 78.1 53.07Q75.74 54.26 72.49 54.26H65.33V64.41H59.3V35.59H72.24Q77.42 35.59 80.21 37.97Q83 40.36 83 44.71ZM76.93 44.82Q76.93 40.27 71.57 40.27H65.33V49.62H71.73Q74.23 49.62 75.58 48.38Q76.93 47.15 76.93 44.82Z" fill="param(outline) #9B1B30" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

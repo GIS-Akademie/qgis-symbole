@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Prozesswärme</title>
+  <polygon points="50,5 95,50 50,95 5,50" fill="param(fill) #F7DDE0" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #9B1B30" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="45.25,34.33 46.71,29.26 53.29,29.26 54.75,34.33 57.72,35.55 62.34,33.01 66.99,37.66 64.45,42.28 65.67,45.25 70.74,46.71 70.74,53.29 65.67,54.75 64.45,57.72 66.99,62.34 62.34,66.99 57.72,64.45 54.75,65.67 53.29,70.74 46.71,70.74 45.25,65.67 42.28,64.45 37.66,66.99 33.01,62.34 35.55,57.72 34.33,54.75 29.26,53.29 29.26,46.71 34.33,45.25 35.55,42.28 33.01,37.66 37.66,33.01 42.28,35.55" fill="param(outline) #9B1B30" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <circle cx="50" cy="50" r="7" fill="param(fill) #F7DDE0" fill-opacity="param(fill-opacity) 1" stroke="none"/>
+</svg>

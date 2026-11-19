@@ -6,6 +6,9 @@ Stil: hellgruene Fuellung, dunkelgruener Strich 5 (Wasser blau). Die Form zeigt 
   Kreis = Erholung, Landschaftsbild, Klima.
 Linien und Flaechen: gruen (Wasser blau, Wege braun, Siedlung grau); Gehoelze als Kreisreihe,
 Bestand mit durchgezogenem, Massnahmen mit gestricheltem Umriss.
+Baumkataster (Praefix bk_, Titel "Baumkataster ..."): Baumkrone in Draufsicht mit Zeichen in der Mitte.
+Vitalitaetsstufen 0 bis 3 nach Roloff, Massnahmen in Anlehnung an die Leistungen der ZTV-Baumpflege (FLL),
+Wurzelschutzbereich nach DIN 18920 (Kronentraufe zuzueglich 1,5 m). Die Regelwerke selbst lagen nicht vor.
 """
 from lib import *
 from qstil import linie, band, marken, voll, schraffur, muster, mk, sv
@@ -13,8 +16,9 @@ from qstil import linie, band, marken, voll, schraffur, muster, mk, sv
 KEY = "landschaftsplanung"
 NAME = "Landschaftsplanung"
 DESC = ("Symbole für Landschaftsplanung und landschaftspflegerische Begleitplanung: Bäume und Gehölze nach "
-        "Maßnahme, Biotop- und Nutzungstypen, Maßnahmenarten, Erholung, Landschaftsbild und Klima")
-TAGS = "landschaftsplanung, lbp, gruenordnung, baum, gehoelz, biotoptyp, massnahme, erholung"
+        "Maßnahme, Baumkataster (Vitalität, Zustand, Baumpflege), Biotop- und Nutzungstypen, Maßnahmenarten, "
+        "Erholung, Landschaftsbild und Klima")
+TAGS = "landschaftsplanung, lbp, gruenordnung, baum, baumkataster, gehoelz, biotoptyp, massnahme, erholung"
 
 LG = ("#CDE8B5", "#2E6B2E")
 BL = ("#D6ECFA", "#0B5CAD")
@@ -62,6 +66,10 @@ STAMM = [R(8, 36, 76, 28, "N", "S", 5, 14), E(80, 50, 11, 14, "F", "S", 5), C(80
          L(22, 46, 50, 46, 3), L(30, 55, 62, 55, 3)]
 TISCH = [L(22, 36, 78, 36, 7), L(36, 38, 26, 82, 5), L(64, 38, 74, 82, 5), L(6, 60, 30, 60, 6), L(70, 60, 94, 60, 6)]
 MAEANDER = [P("M8,62 Q22,26 40,50 T68,50", "N", "S", 7)] + arrow(68, 50, 90, 34, 7, 16)
+# Baumkataster: Vitalitaetsstufen 0 bis 3 nach Roloff (Kronenstruktur), wie sie die Baumkontrolle nutzt.
+# Einzige Ausnahme vom Gruen der Sammlung: Kronenfarbe gruen, gelb, orange, rot (in QGIS aenderbar).
+VITAL = [("vital, Explorationsphase", "#9AD67A"), ("geschwächt, Degenerationsphase", "#E6E273"),
+         ("merklich geschädigt, Stagnationsphase", "#F4B052"), ("stark geschädigt, Resignationsphase", "#E3705F")]
 
 S = [
     # ---- Gehoelze (Draufsicht) ----
@@ -88,6 +96,39 @@ S = [
      treetop(21, 50, 15, sw=3.5, k=6) + treetop(50, 50, 15, sw=3.5, k=6) + treetop(79, 50, 15, sw=3.5, k=6)),
     ("feldgehoelz", "Feldgehölz", *LG,
      [cloud([(26, 56, 19), (50, 44, 25), (74, 56, 19)], "F", "S", 4.5), dot(34, 56), dot(50, 42), dot(66, 56)]),
+    # ---- Baumkataster (Draufsicht): Vitalitaetsstufen nach Roloff, Zustand, Massnahmen der Baumpflege ----
+    *[(f"bk_vital_{i}", f"Baumkataster Vitalitätsstufe {i} ({t})", c, LG[1], treetop(50, 50, 41) + [T(str(i), 50, 50, 34)])
+      for i, (t, c) in enumerate(VITAL)],
+    ("bk_jungbaum", "Baumkataster Jungbaum (mit Dreibock)", *LG,
+     treetop(50, 50, 21, k=6) + [dot(50, 50, 5)] + [C(x, y, 6, "N", "S", 4) for x, y in regpoly(50, 52, 38, 3)]),
+    ("bk_habitatbaum", "Baumkataster Habitatbaum / Höhlenbaum", *LG, treetop(50, 50, 41) + [E(50, 50, 10, 16, "S", "N", 0)]),
+    ("bk_totbaum", "Baumkataster abgestorbener Baum", *LG,
+     [C(50, 50, 43, "N", "S", 3.5, "8 7")] + [L(50, 50, *pt(50, 50, 32, a), 5) for a in range(0, 360, 60)]
+     + [L(*pt(50, 50, 19, a), *pt(50, 50, 31, a + 28), 4) for a in range(0, 360, 60)]),
+    ("bk_stubben", "Baumkataster Stubben / Baumstumpf", *LG,
+     [C(50, 50, 28, "F", "S", 5), C(50, 50, 16, "N", "S", 3.5), dot(50, 50, 5)]),
+    ("bk_leerstandort", "Baumkataster freier Baumstandort / leere Baumscheibe", *LG,
+     [R(12, 12, 76, 76, "N", "S", 4.5, 6), C(50, 50, 23, "N", "S", 4, "8 7")]),
+    ("bk_kontrolle", "Baumkataster Regelkontrolle fällig", *LG, treetop(50, 50, 41) + [PL([(30, 52), (44, 66), (70, 34)], 7)]),
+    ("bk_untersuchung", "Baumkataster eingehende Untersuchung erforderlich", *LG,
+     treetop(50, 50, 41) + [C(45, 45, 13, "N", "S", 5), L(55, 55, 70, 70, 7)]),
+    ("bk_gefahr", "Baumkataster Verkehrssicherheit gefährdet / Sofortmaßnahme", *LG,
+     treetop(50, 50, 41) + [T("!", 50, 50, 40)]),
+    ("bk_schaden", "Baumkataster Schaden (Höhlung, Riss, Faulstelle)", *LG, treetop(50, 50, 41) + lightning(50, 50, 0.8)),
+    ("bk_schaedling", "Baumkataster Schädlings- oder Pilzbefall", *LG,
+     treetop(50, 50, 41) + [E(50, 54, 10, 14, "S", "N", 0), C(50, 35, 6, "S", "N", 0)]
+     + [L(50, y, 50 + d, y - 6, 3.5) for y in (48, 55, 62) for d in (-21, 21)]),
+    ("bk_kronenpflege", "Baumkataster Maßnahme Kronenpflege / Kronenschnitt", *LG,
+     treetop(50, 50, 41) + [L(37, 26, 59, 62, 4.5), L(63, 26, 41, 62, 4.5), C(62, 69, 7, "N", "S", 4), C(38, 69, 7, "N", "S", 4)]),
+    ("bk_kroneneinkuerzung", "Baumkataster Maßnahme Kroneneinkürzung", *LG,
+     [C(50, 50, 44, "N", "S", 3.5, "8 7")] + treetop(50, 50, 27) + [dot(50, 50, 6)]),
+    ("bk_totholz", "Baumkataster Maßnahme Totholzbeseitigung", *LG,
+     treetop(50, 50, 41) + [L(30, 68, 68, 32, 5.5), L(46, 53, 44, 32, 4.5), L(57, 42, 72, 50, 4.5)]),
+    ("bk_kronensicherung", "Baumkataster Maßnahme Kronensicherung", *LG,
+     treetop(50, 50, 41) + [PL([(32, 40), (68, 40), (50, 68)], 4, close=True), dot(32, 40, 6), dot(68, 40, 6), dot(50, 68, 6)]),
+    ("bk_lichtraum", "Baumkataster Maßnahme Lichtraumprofil herstellen", *LG,
+     treetop(50, 50, 41) + [R(30, 32, 40, 36, "N", "S", 4.5, 0, "8 6"), *arrow(50, 78, 50, 46, 4.5, 11)]),
+    ("bk_bewaesserung", "Baumkataster Maßnahme Bewässerung", *LG, treetop(50, 50, 41) + fit(drop("S", "N", 0), 50, 50, 0.5)),
     # ---- Biotop- und Nutzungstypen (Quadrat) ----
     ("wald_laub", "Laubwald", *LG, bt(*laub(34, 54, 0.5), *laub(64, 48, 0.66))),
     ("wald_nadel", "Nadelwald", *LG, bt(*nadel(34, 54, 0.5), *nadel(64, 48, 0.66))),
@@ -186,6 +227,7 @@ LINIEN = [
     ("Zaun", [linie(S0, 0.3), marken(mk("cross2", 1.2, S0, rw=0.25), 4)]),
     ("Sichtachse", [linie(G0, 0.4, [6, 2]), marken(mk("arrowhead", 2.0, G0, rw=0.35), 16)]),
     ("Kaltluftbahn", [linie(B0 + "59", 2.2), marken(mk("filled_arrowhead", 2.2, B0), 9)]),
+    ("Baumschutzzaun", [linie(G0, 0.4), marken(mk("line", 1.6, G0, rw=0.3), 3)]),
 ]
 
 FLAECHEN = [
@@ -209,4 +251,7 @@ FLAECHEN = [
     ("Pflanzfläche", [muster(mk("circle", 1.2, LG[0], G0, 0.25), 3.2, versatz=1.6), linie(G0, 0.5, [3, 1.5])]),
     ("Sukzessionsfläche", [muster(mk("circle", 0.5, G0), 2.2, versatz=1.1), linie(G0, 0.5, [3, 1.5])]),
     ("Entsiegelungsfläche", [schraffur(S0, 0.2, 45, 2.5), schraffur(S0, 0.2, 135, 2.5), linie(S0, 0.5, [3, 1.5])]),
+    ("Kronentraufbereich", [voll(LG[0] + "80"), linie(G0, 0.3, [0.5, 1])]),
+    ("Wurzelschutzbereich (Kronentraufe zuzüglich 1,5 m)", [schraffur(G0, 0.15, 45, 2), linie(G0, 0.5, [3, 1, 0.5, 1])]),
+    ("Baumscheibe", [voll(BR[0]), linie(W0, 0.3)]),
 ]

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Nächtliche Überwärmung / Tropennacht</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #D5EEF0" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #0E6E78" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(36,50) scale(0.76) translate(-50,-50)"><rect x="42" y="10" width="16" height="56" rx="8" fill="param(fill) #D5EEF0" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #0E6E78" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="50" cy="74" r="15" fill="param(outline) #0E6E78" fill-opacity="param(outline-opacity) 1" stroke="none"/><path d="M50,34 L50,72" fill="none" stroke="param(outline) #0E6E78" stroke-opacity="param(outline-opacity) 1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <g transform="translate(66,36) scale(0.46) translate(-50,-50)"><path d="M56,16 A34,34 0 1 0 84,60 A27,27 0 0 1 56,16 Z" fill="param(outline) #0E6E78" fill-opacity="param(outline-opacity) 1" stroke="none"/></g>
+</svg>

@@ -409,6 +409,378 @@
         </symbol>
       </layer>
     </symbol>
+    <symbol type="line" name="Wasserwirtschaft: Starkregen, Fließgeschwindigkeit unter 0,2 m/s" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="76,175,80,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.3"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+      <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <prop k="placement" v="interval"/>
+        <prop k="placements" v="Interval"/>
+        <prop k="interval" v="9"/>
+        <prop k="interval_unit" v="MM"/>
+        <prop k="offset_along_line" v="4.5"/>
+        <prop k="offset_along_line_unit" v="MM"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="rotate" v="1"/>
+        <prop k="average_angle_length" v="0"/>
+        <prop k="average_angle_unit" v="MM"/>
+        <prop k="ring_filter" v="0"/>
+        <symbol type="marker" name="@Wasserwirtschaft: Starkregen, Fließgeschwindigkeit unter 0,2 m/s@1" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+            <prop k="name" v="filled_arrowhead"/>
+            <prop k="size" v="1.7"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="color" v="76,175,80,255"/>
+            <prop k="outline_color" v="0,0,0,0"/>
+            <prop k="outline_style" v="no"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="joinstyle" v="miter"/>
+            <prop k="cap_style" v="round"/>
+            <prop k="angle" v="0"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wasserwirtschaft: Starkregen, Fließgeschwindigkeit 0,2 bis 0,5 m/s" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="242,194,0,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.45"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+      <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <prop k="placement" v="interval"/>
+        <prop k="placements" v="Interval"/>
+        <prop k="interval" v="9"/>
+        <prop k="interval_unit" v="MM"/>
+        <prop k="offset_along_line" v="4.5"/>
+        <prop k="offset_along_line_unit" v="MM"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="rotate" v="1"/>
+        <prop k="average_angle_length" v="0"/>
+        <prop k="average_angle_unit" v="MM"/>
+        <prop k="ring_filter" v="0"/>
+        <symbol type="marker" name="@Wasserwirtschaft: Starkregen, Fließgeschwindigkeit 0,2 bis 0,5 m/s@1" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+            <prop k="name" v="filled_arrowhead"/>
+            <prop k="size" v="1.85"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="color" v="242,194,0,255"/>
+            <prop k="outline_color" v="0,0,0,0"/>
+            <prop k="outline_style" v="no"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="joinstyle" v="miter"/>
+            <prop k="cap_style" v="round"/>
+            <prop k="angle" v="0"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wasserwirtschaft: Starkregen, Fließgeschwindigkeit 0,5 bis 2 m/s" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="240,125,0,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.6"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+      <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <prop k="placement" v="interval"/>
+        <prop k="placements" v="Interval"/>
+        <prop k="interval" v="9"/>
+        <prop k="interval_unit" v="MM"/>
+        <prop k="offset_along_line" v="4.5"/>
+        <prop k="offset_along_line_unit" v="MM"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="rotate" v="1"/>
+        <prop k="average_angle_length" v="0"/>
+        <prop k="average_angle_unit" v="MM"/>
+        <prop k="ring_filter" v="0"/>
+        <symbol type="marker" name="@Wasserwirtschaft: Starkregen, Fließgeschwindigkeit 0,5 bis 2 m/s@1" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+            <prop k="name" v="filled_arrowhead"/>
+            <prop k="size" v="2"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="color" v="240,125,0,255"/>
+            <prop k="outline_color" v="0,0,0,0"/>
+            <prop k="outline_style" v="no"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="joinstyle" v="miter"/>
+            <prop k="cap_style" v="round"/>
+            <prop k="angle" v="0"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wasserwirtschaft: Starkregen, Fließgeschwindigkeit über 2 m/s" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="208,2,27,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.8"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+      <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <prop k="placement" v="interval"/>
+        <prop k="placements" v="Interval"/>
+        <prop k="interval" v="9"/>
+        <prop k="interval_unit" v="MM"/>
+        <prop k="offset_along_line" v="4.5"/>
+        <prop k="offset_along_line_unit" v="MM"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="rotate" v="1"/>
+        <prop k="average_angle_length" v="0"/>
+        <prop k="average_angle_unit" v="MM"/>
+        <prop k="ring_filter" v="0"/>
+        <symbol type="marker" name="@Wasserwirtschaft: Starkregen, Fließgeschwindigkeit über 2 m/s@1" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+            <prop k="name" v="filled_arrowhead"/>
+            <prop k="size" v="2.2"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="color" v="208,2,27,255"/>
+            <prop k="outline_color" v="0,0,0,0"/>
+            <prop k="outline_style" v="no"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="joinstyle" v="miter"/>
+            <prop k="cap_style" v="round"/>
+            <prop k="angle" v="0"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wasserwirtschaft: Starkregen, Fließweg / Abflussbahn" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="63,169,245,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.6"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="customdash" v="4;1"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+      <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <prop k="placement" v="interval"/>
+        <prop k="placements" v="Interval"/>
+        <prop k="interval" v="10"/>
+        <prop k="interval_unit" v="MM"/>
+        <prop k="offset_along_line" v="5"/>
+        <prop k="offset_along_line_unit" v="MM"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="rotate" v="1"/>
+        <prop k="average_angle_length" v="0"/>
+        <prop k="average_angle_unit" v="MM"/>
+        <prop k="ring_filter" v="0"/>
+        <symbol type="marker" name="@Wasserwirtschaft: Starkregen, Fließweg / Abflussbahn@1" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+            <prop k="name" v="filled_arrowhead"/>
+            <prop k="size" v="1.8"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="color" v="63,169,245,255"/>
+            <prop k="outline_color" v="0,0,0,0"/>
+            <prop k="outline_style" v="no"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="joinstyle" v="miter"/>
+            <prop k="cap_style" v="round"/>
+            <prop k="angle" v="0"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wasserwirtschaft: Starkregen, Notwasserweg" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="11,92,173,89"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="2.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="11,92,173,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.4"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="customdash" v="3;1.5"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+      <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <prop k="placement" v="interval"/>
+        <prop k="placements" v="Interval"/>
+        <prop k="interval" v="12"/>
+        <prop k="interval_unit" v="MM"/>
+        <prop k="offset_along_line" v="6"/>
+        <prop k="offset_along_line_unit" v="MM"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="rotate" v="1"/>
+        <prop k="average_angle_length" v="0"/>
+        <prop k="average_angle_unit" v="MM"/>
+        <prop k="ring_filter" v="0"/>
+        <symbol type="marker" name="@Wasserwirtschaft: Starkregen, Notwasserweg@2" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+            <prop k="name" v="filled_arrowhead"/>
+            <prop k="size" v="2"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="color" v="11,92,173,255"/>
+            <prop k="outline_color" v="0,0,0,0"/>
+            <prop k="outline_style" v="no"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="joinstyle" v="miter"/>
+            <prop k="cap_style" v="round"/>
+            <prop k="angle" v="0"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wasserwirtschaft: Starkregen, Schutzlinie / Objektschutz" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="11,92,173,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.8"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+      <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <prop k="placement" v="interval"/>
+        <prop k="placements" v="Interval"/>
+        <prop k="interval" v="3"/>
+        <prop k="interval_unit" v="MM"/>
+        <prop k="offset_along_line" v="1.5"/>
+        <prop k="offset_along_line_unit" v="MM"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="rotate" v="1"/>
+        <prop k="average_angle_length" v="0"/>
+        <prop k="average_angle_unit" v="MM"/>
+        <prop k="ring_filter" v="0"/>
+        <symbol type="marker" name="@Wasserwirtschaft: Starkregen, Schutzlinie / Objektschutz@1" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+            <prop k="name" v="triangle"/>
+            <prop k="size" v="1.4"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="color" v="11,92,173,255"/>
+            <prop k="outline_color" v="0,0,0,0"/>
+            <prop k="outline_style" v="no"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="joinstyle" v="miter"/>
+            <prop k="cap_style" v="round"/>
+            <prop k="angle" v="0"/>
+            <prop k="offset" v="0,0.9"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
     <symbol type="fill" name="Wasserwirtschaft: Gewässerfläche" alpha="1" clip_to_extent="1" force_rhr="0">
       <layer class="SimpleFill" enabled="1" locked="0" pass="0">
         <prop k="color" v="169,212,245,255"/>
@@ -819,6 +1191,268 @@
         <prop k="offset_unit" v="MM"/>
         <prop k="use_custom_dash" v="1"/>
         <prop k="customdash" v="3;1.5"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wasserwirtschaft: Starkregen, Überflutungstiefe 5 bis 10 cm" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="198,226,247,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wasserwirtschaft: Starkregen, Überflutungstiefe 10 bis 50 cm" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="125,185,236,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wasserwirtschaft: Starkregen, Überflutungstiefe 50 bis 100 cm" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="47,128,208,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wasserwirtschaft: Starkregen, Überflutungstiefe über 100 cm" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="10,58,130,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wasserwirtschaft: Starkregen, Überflutungsausdehnung seltenes Ereignis" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="63,169,245,153"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="11,92,173,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.3"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wasserwirtschaft: Starkregen, Überflutungsausdehnung außergewöhnliches Ereignis" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="63,169,245,89"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="11,92,173,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.3"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="customdash" v="3;1"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wasserwirtschaft: Starkregen, Überflutungsausdehnung extremes Ereignis" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="63,169,245,38"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="11,92,173,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.3"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="customdash" v="1;1"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wasserwirtschaft: Starkregen, Retentionsfläche / Notüberflutungsfläche" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="LinePatternFill" enabled="1" locked="0" pass="0">
+        <prop k="angle" v="0"/>
+        <prop k="distance" v="1.6"/>
+        <prop k="distance_unit" v="MM"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="color" v="63,169,245,255"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <symbol type="line" name="@Wasserwirtschaft: Starkregen, Retentionsfläche / Notüberflutungsfläche@0" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+            <prop k="line_color" v="63,169,245,255"/>
+            <prop k="line_style" v="solid"/>
+            <prop k="line_width" v="0.25"/>
+            <prop k="line_width_unit" v="MM"/>
+            <prop k="capstyle" v="flat"/>
+            <prop k="joinstyle" v="round"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="use_custom_dash" v="0"/>
+            <prop k="customdash" v="5;2"/>
+            <prop k="customdash_unit" v="MM"/>
+            <prop k="draw_inside_polygon" v="0"/>
+            <prop k="ring_filter" v="0"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="11,92,173,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.5"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="customdash" v="3;1.5"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wasserwirtschaft: Starkregen, Geländesenke" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="LinePatternFill" enabled="1" locked="0" pass="0">
+        <prop k="angle" v="45"/>
+        <prop k="distance" v="2.2"/>
+        <prop k="distance_unit" v="MM"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="color" v="11,92,173,255"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <symbol type="line" name="@Wasserwirtschaft: Starkregen, Geländesenke@0" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+            <prop k="line_color" v="11,92,173,255"/>
+            <prop k="line_style" v="solid"/>
+            <prop k="line_width" v="0.2"/>
+            <prop k="line_width_unit" v="MM"/>
+            <prop k="capstyle" v="flat"/>
+            <prop k="joinstyle" v="round"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="use_custom_dash" v="0"/>
+            <prop k="customdash" v="5;2"/>
+            <prop k="customdash_unit" v="MM"/>
+            <prop k="draw_inside_polygon" v="0"/>
+            <prop k="ring_filter" v="0"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="LinePatternFill" enabled="1" locked="0" pass="0">
+        <prop k="angle" v="135"/>
+        <prop k="distance" v="2.2"/>
+        <prop k="distance_unit" v="MM"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="color" v="11,92,173,255"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <symbol type="line" name="@Wasserwirtschaft: Starkregen, Geländesenke@1" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+            <prop k="line_color" v="11,92,173,255"/>
+            <prop k="line_style" v="solid"/>
+            <prop k="line_width" v="0.2"/>
+            <prop k="line_width_unit" v="MM"/>
+            <prop k="capstyle" v="flat"/>
+            <prop k="joinstyle" v="round"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="use_custom_dash" v="0"/>
+            <prop k="customdash" v="5;2"/>
+            <prop k="customdash_unit" v="MM"/>
+            <prop k="draw_inside_polygon" v="0"/>
+            <prop k="ring_filter" v="0"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="11,92,173,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.3"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wasserwirtschaft: Starkregen, Risikobereich" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="208,2,27,89"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="3"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="1"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="208,2,27,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.4"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
         <prop k="customdash_unit" v="MM"/>
         <prop k="draw_inside_polygon" v="0"/>
         <prop k="ring_filter" v="0"/>
