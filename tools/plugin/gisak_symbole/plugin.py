@@ -114,11 +114,20 @@ class GisakSymbole:
 
     def pruefen(self):
         """Erster Start: Auswahl anbieten. Neue Plugin-Version: geaenderte Sammlungen auffrischen."""
+        alle = kern.sammlungen()
         keys = kern.installiert()
         if keys is None:
             self.dialog()
-        elif kern.veraltet(kern.sammlungen()):
-            self.anwenden(keys)
+        else:
+            if kern.veraltet(alle):
+                self.anwenden(keys)
+            neu = kern.unbekannt(alle)
+            if neu:
+                self.iface.messageBar().pushMessage(
+                    TITEL, "Neue Sammlungen verfügbar: " + ", ".join(s["titel"] for s in neu)
+                    + ". Eintragen über Erweiterungen › GIS-Akademie Symbole › Sammlungen auswählen …",
+                    Qgis.MessageLevel.Info, 30)
+        kern.bekannt_merken(alle)
 
     def dialog(self):
         alle = kern.sammlungen()

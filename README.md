@@ -1,6 +1,6 @@
 # GIS-Akademie Symbolbibliothek für QGIS
 
-1150 Punktsymbole (SVG) sowie 498 Linien- und Flächensymbole in zwanzig Sammlungen, aufgebaut als Repository
+1165 Punktsymbole (SVG) sowie 578 Linien- und Flächensymbole in 21 Sammlungen, aufgebaut als Repository
 für das QGIS-Plugin **Resource Sharing**. Alle Symbole sind Eigenentwicklungen der GIS-Akademie und stehen
 unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de).
 
@@ -15,6 +15,7 @@ unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de).
 | Wasserwirtschaft | `gisak_wasser` | 59 | 14 | 13 | Messstellen, Anlagen, Armaturen, Kanalnetz, Gewässerbauwerke, Gebiete |
 | Vermessung | `gisak_vermessung` | 49 | 16 | 11 | Grenz- und Festpunkte, Aufschlüsse, Grenzen, Gebäude, Topografie im Lageplan |
 | Raumordnung und Regionalplanung | `gisak_raumordnung` | 40 | 14 | 27 | Zentrale Orte, Standorte, Infrastruktur, Vorrang- und Vorbehaltsgebiete |
+| Realnutzung | `gisak_realnutzung` | 15 | 7 | 73 | Tatsächliche Nutzung nach AdV-Nutzungsartenkatalog: Siedlung, Verkehr, Vegetation, Gewässer; Vegetationszeichen |
 | Gas, Fernwärme, Telekommunikation | `gisak_leitungen` | 43 | 14 | 11 | Stationen, Armaturen und Netzelemente der drei Sparten, Leitungen nach Druckstufe und Art |
 | Boden, Altlasten und Geologie | `gisak_boden` | 44 | 11 | 14 | Aufschlüsse, Altlasten, Bodenschutz, Rohstoffe, Bodenarten als Signatur |
 | Lärm und Immissionen | `gisak_laerm` | 38 | 11 | 13 | Immissionsorte, Quellen, Schutzmaßnahmen, Pegelklassen der Lärmkartierung |
@@ -83,7 +84,7 @@ Sharing mit `Connection to github.com timed out` scheitert.
    (Selbst bauen: `python tools\mkplugin.py`, das ZIP liegt danach unter `dist\`.)
 2. In QGIS **Erweiterungen › Erweiterungen verwalten und installieren › Aus ZIP installieren** wählen.
 3. Beim ersten Start erscheint die Liste der Sammlungen; angehakte werden in die Symbolauswahl eingetragen
-   (alle 20 Sammlungen: etwa eine Viertelminute). Später erreichbar über **Erweiterungen › GIS-Akademie Symbole ›
+   (alle 21 Sammlungen: etwa eine Viertelminute). Später erreichbar über **Erweiterungen › GIS-Akademie Symbole ›
    Sammlungen auswählen …**.
 
 Die Symbole heißen wie oben, nur ohne den Klammerzusatz von Resource Sharing. Jede Sammlung hat genau ein
@@ -130,6 +131,7 @@ angelegt, die Symbole sind also für den Druckmaßstab gedacht.
 | Wasserwirtschaft | Trinkwasserleitungen, Schmutz-, Regen- und Mischwasserkanal mit Fließrichtung, Gewässer, Deich | Schutzgebietszonen, Überschwemmungs- und Risikogebiet, Einzugs- und Entwässerungsgebiete |
 | Vermessung | Flurstücks-, Flur-, Gemarkungs- und Gemeindegrenze, Höhenlinien, Böschung, Zaun, Mauer, Hecke | Flurstück, Gebäude nach Art, geplant, abgebrochen, befestigte Fläche |
 | Raumordnung | Verwaltungs- und Regionsgrenzen, Entwicklungsachsen, Straße und Schiene (Bestand, Planung), Trassenkorridor, Grünzäsur | Vorrang- und Vorbehaltsgebiete je Thema, Grünzug, Verdichtungsraum, Eignungs- und Ausschlussgebiet |
+| Realnutzung | Grenzen von Nutzungsart, Gruppe, Bereich und Kartiereinheit, Baumreihen | 26 Nutzungsartengruppen und die Arten von Landwirtschaft und Wald mit Schlüssel, je in Katasterfarbe und kräftig |
 | Gas, Fernwärme, Telekommunikation | Gas nach Druckstufe, Fernwärme Vor- und Rücklauf, Glasfaser, Kupfer, Leerrohr, Richtfunk | Schutzstreifen, Versorgungs- und Ausbaugebiete, Betriebsgelände |
 | Boden | Störung, Schichtgrenze, Abbau- und Rutschungskante, Altlastengrenze | Altlasten nach Status, Abbau, Schutzflächen, Bodenarten |
 | Lärm | Lärmschutzwand und -wall, Isophonen, Emissionsbänder | Pegelklassen in den Farben der DIN 45682, Schutzzonen, ruhiges Gebiet |
@@ -170,6 +172,7 @@ zu welcher Gruppe ein Symbol gehört.
 | Vermessung | schwarz-weiß | geometrische Grundformen ohne Rahmen | Liegenschaftskarte, Vermessungsriss (DIN 18702), Aufschlüsse nach DIN 4023 |
 | Nordpfeile | schwarz-weiß, ohne Rahmen | Präfix = Bauart: `pfeil_` mit Schaft, `nadel_` ohne Schaft, `kreis_` im Kreis, `rose_` Windrose; das N steht über der Spitze, `_ohne_n` = ohne Buchstabe | Nordpfeile amtlicher Karten, Lagepläne und Bauleitpläne |
 | Raumordnung | schwarz-weiß, Flächen farbig | konzentrische Kreise = Zentraler Ort (Rang über Ringe und Füllung), Quadrat = Standort, Kreis = Infrastruktur, Raute = Freiraum, kleines Quadrat mit Buchstabe = Kategorie (Z, G, N, V); Vorranggebiet durchgezogen und dicht, Vorbehaltsgebiet gestrichelt und weit schraffiert | § 7 ROG, Zentrale-Orte-System, NLT-Arbeitshilfe Planzeichen in der Regionalplanung (Niedersachsen 2024), Anlage 3 LPlG-DVO NRW |
+| Realnutzung | grün `#00853C` (Zeichen), Flächen in Katasterfarben | Vegetationszeichen ohne Rahmen (`veg_`) wie in der Liegenschaftskarte; Flächen heißen `<Schlüssel> <Bezeichnung>` nach AdV-Nutzungsartenkatalog; ohne Zusatz = blasse Farbe des ALKIS-Signaturenkatalogs mit Vegetationszeichen, „kräftig“ = eigene Farben für Übersichtskarten | AdV-Nutzungsartenkatalog (GeoInfoDok 7.0.1), ALKIS-Signaturenkatalog der AdV (Version 6.0) |
 | Gas, Fernwärme, Telekommunikation | Farbe je Sparte | gelb = Gas, orangerot = Fernwärme, grün = Telekommunikation; Quadrat = Station, Kreis = Messstelle oder Einrichtung, ohne Rahmen = Armatur auf der Leitung | Rohrnetzpläne nach DIN 2425, übliche Spartenfarben der Leitungsauskunft |
 | Boden | braun | Kreis = Aufschluss oder Messstelle, Quadrat = Altlast oder Standort, Raute = Bodenschutz, Sechseck = Geologie und Rohstoffe | DIN 4023, Bodenkundliche Kartieranleitung, Altlastenkataster der Länder |
 | Lärm | violett | Kreis = Immissionsort oder Messung, Quadrat = Quelle, Raute = Schutzmaßnahme, Sechseck = schutzbedürftige Nutzung, ohne Rahmen = Hilfszeichen der Schallausbreitung | 34. BImSchV, DIN 45682, DIN 18005, TA Lärm |
@@ -270,6 +273,10 @@ Für die Beschriftung der Vorschaubilder genügt notfalls Arial.
   (Gruppe Feuerwehr), in Feuerwehrplänen üblicherweise blau.
 - **Lärm:** Die Farben der Pegelklassen sind der Farbtabelle der DIN 45682 in den LAI-Hinweisen zur Lärmkartierung
   (Fassung 08.08.2025) entnommen; die Norm selbst lag nicht vor.
+- **Realnutzung:** Gliederung, Schlüssel und Bezeichnungen folgen dem AdV-Nutzungsartenkatalog (Stand 2015),
+  die blassen Flächenfarben und die Vegetationszeichen dem ALKIS-Signaturenkatalog der AdV (Version 6.0, CMYK in
+  RGB umgerechnet). Die Reihe „kräftig“ ist ein eigener Farbvorschlag für Übersichtskarten und nicht amtlich.
+  Regionale Kartierschlüssel (z. B. Berlin, Regionalverband Ruhr) weichen davon ab.
 - **Raumordnung:** Die Planzeichen für Regionalpläne unterscheiden sich je Land. Die Flächenfarben folgen
   überwiegend der niedersächsischen Arbeitshilfe, die Farbwerte sind aus deren Richtwerten abgeleitet.
 - **Boden:** Die Signaturen der Bodenarten folgen der gängigen Praxis nach DIN 4023, nicht dem Normtext.

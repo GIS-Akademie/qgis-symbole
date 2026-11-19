@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Laub- und Nadelholz</title>
+  <g transform="translate(30,58) scale(0.62) translate(-50,-50)"><path d="M26,72 L46,16 L60,72 Z" fill="none" stroke="param(outline) #00853C" stroke-opacity="param(outline-opacity) 1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><path d="M60,72 L82,72" fill="none" stroke="param(outline) #00853C" stroke-opacity="param(outline-opacity) 1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <g transform="translate(70,40) scale(0.62) translate(-50,-50)"><circle cx="44" cy="44" r="24" fill="none" stroke="param(outline) #00853C" stroke-opacity="param(outline-opacity) 1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><path d="M44,68 L80,68" fill="none" stroke="param(outline) #00853C" stroke-opacity="param(outline-opacity) 1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>

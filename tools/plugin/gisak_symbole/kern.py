@@ -153,6 +153,19 @@ def merken(st):
     e.setValue(EINSTELLUNG + "stand", json.dumps(st))
 
 
+def unbekannt(alle):
+    """Sammlungen, die seit dem letzten Start neu im Plugin sind und noch nicht eingetragen wurden."""
+    w = QgsSettings().value(EINSTELLUNG + "bekannt", None)
+    if isinstance(w, str):
+        w = [w] if w else []
+    keys = set(w or []) | set(installiert() or [])
+    return [s for s in alle if s["key"] not in keys]
+
+
+def bekannt_merken(alle):
+    QgsSettings().setValue(EINSTELLUNG + "bekannt", [s["key"] for s in alle])
+
+
 def veraltet(alle):
     """Eingetragene Sammlungen, deren Inhalt sich seit dem Eintragen geaendert hat (neue Plugin-Version)."""
     st = staende()

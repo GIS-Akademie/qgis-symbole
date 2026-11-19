@@ -257,6 +257,111 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | Raumordnung und Regionalplanung: Eignungsgebiet | Fläche |
 | Raumordnung und Regionalplanung: Ausschlussgebiet | Fläche |
 
+## Realnutzung (`gisak_realnutzung`, 15 Symbole)
+
+| Datei | Bedeutung |
+|---|---|
+| `gisak_realnutzung_veg_wald.svg` | Wald |
+| `gisak_realnutzung_veg_laubholz.svg` | Laubholz |
+| `gisak_realnutzung_veg_nadelholz.svg` | Nadelholz |
+| `gisak_realnutzung_veg_laub_nadelholz.svg` | Laub- und Nadelholz |
+| `gisak_realnutzung_veg_gehoelz.svg` | Gehölz |
+| `gisak_realnutzung_veg_gruenland.svg` | Grünland |
+| `gisak_realnutzung_veg_gartenland.svg` | Gartenland |
+| `gisak_realnutzung_veg_obst.svg` | Obstbaum, Streuobst |
+| `gisak_realnutzung_veg_obstplantage.svg` | Obstplantage |
+| `gisak_realnutzung_veg_baumschule.svg` | Baumschule |
+| `gisak_realnutzung_veg_weingarten.svg` | Weingarten |
+| `gisak_realnutzung_veg_hopfen.svg` | Hopfen |
+| `gisak_realnutzung_veg_heide.svg` | Heide |
+| `gisak_realnutzung_veg_moor.svg` | Moor |
+| `gisak_realnutzung_veg_sumpf.svg` | Sumpf |
+
+### Realnutzung: Linien und Flächen (80 Symbole)
+
+| Symbol in QGIS | Art |
+|---|---|
+| Realnutzung: Grenze der Nutzungsart | Linie |
+| Realnutzung: Grenze der Nutzungsartengruppe | Linie |
+| Realnutzung: Grenze des Nutzungsartenbereichs | Linie |
+| Realnutzung: Grenze der Kartiereinheit | Linie |
+| Realnutzung: Grenze, unsicher | Linie |
+| Realnutzung: Baumreihe, Laubholz | Linie |
+| Realnutzung: Baumreihe, Nadelholz | Linie |
+| Realnutzung: 11000 Wohnbaufläche | Fläche |
+| Realnutzung: 12000 Industrie- und Gewerbefläche | Fläche |
+| Realnutzung: 13000 Halde | Fläche |
+| Realnutzung: 14000 Bergbaubetrieb | Fläche |
+| Realnutzung: 15000 Tagebau, Grube, Steinbruch | Fläche |
+| Realnutzung: 16000 Fläche gemischter Nutzung | Fläche |
+| Realnutzung: 17000 Fläche besonderer funktionaler Prägung | Fläche |
+| Realnutzung: 18000 Sport-, Freizeit- und Erholungsfläche | Fläche |
+| Realnutzung: 18500 Grünanlage | Fläche |
+| Realnutzung: 19000 Friedhof | Fläche |
+| Realnutzung: 21000 Straßenverkehr | Fläche |
+| Realnutzung: 22000 Weg | Fläche |
+| Realnutzung: 23000 Platz | Fläche |
+| Realnutzung: 24000 Bahnverkehr | Fläche |
+| Realnutzung: 25000 Flugverkehr | Fläche |
+| Realnutzung: 26000 Schiffsverkehr | Fläche |
+| Realnutzung: 31000 Landwirtschaft | Fläche |
+| Realnutzung: 31100 Ackerland | Fläche |
+| Realnutzung: 31200 Grünland | Fläche |
+| Realnutzung: 31300 Gartenland | Fläche |
+| Realnutzung: 31400 Weingarten | Fläche |
+| Realnutzung: 31500 Obstplantage | Fläche |
+| Realnutzung: 31600 Kurzumtriebsplantage | Fläche |
+| Realnutzung: 31700 Brachland | Fläche |
+| Realnutzung: 32000 Wald | Fläche |
+| Realnutzung: 32100 Laubholz | Fläche |
+| Realnutzung: 32200 Nadelholz | Fläche |
+| Realnutzung: 32300 Laub- und Nadelholz | Fläche |
+| Realnutzung: 33000 Gehölz | Fläche |
+| Realnutzung: 34000 Heide | Fläche |
+| Realnutzung: 35000 Moor | Fläche |
+| Realnutzung: 36000 Sumpf | Fläche |
+| Realnutzung: 37000 Unland, Vegetationslose Fläche | Fläche |
+| Realnutzung: 41000 Fließgewässer | Fläche |
+| Realnutzung: 42000 Hafenbecken | Fläche |
+| Realnutzung: 43000 Stehendes Gewässer | Fläche |
+| Realnutzung: 44000 Meer | Fläche |
+| Realnutzung: 11000 Wohnbaufläche, kräftig | Fläche |
+| Realnutzung: 12000 Industrie- und Gewerbefläche, kräftig | Fläche |
+| Realnutzung: 13000 Halde, kräftig | Fläche |
+| Realnutzung: 14000 Bergbaubetrieb, kräftig | Fläche |
+| Realnutzung: 15000 Tagebau, Grube, Steinbruch, kräftig | Fläche |
+| Realnutzung: 16000 Fläche gemischter Nutzung, kräftig | Fläche |
+| Realnutzung: 17000 Fläche besonderer funktionaler Prägung, kräftig | Fläche |
+| Realnutzung: 18000 Sport-, Freizeit- und Erholungsfläche, kräftig | Fläche |
+| Realnutzung: 18500 Grünanlage, kräftig | Fläche |
+| Realnutzung: 19000 Friedhof, kräftig | Fläche |
+| Realnutzung: 21000 Straßenverkehr, kräftig | Fläche |
+| Realnutzung: 22000 Weg, kräftig | Fläche |
+| Realnutzung: 23000 Platz, kräftig | Fläche |
+| Realnutzung: 24000 Bahnverkehr, kräftig | Fläche |
+| Realnutzung: 25000 Flugverkehr, kräftig | Fläche |
+| Realnutzung: 26000 Schiffsverkehr, kräftig | Fläche |
+| Realnutzung: 31000 Landwirtschaft, kräftig | Fläche |
+| Realnutzung: 31100 Ackerland, kräftig | Fläche |
+| Realnutzung: 31200 Grünland, kräftig | Fläche |
+| Realnutzung: 31300 Gartenland, kräftig | Fläche |
+| Realnutzung: 31400 Weingarten, kräftig | Fläche |
+| Realnutzung: 31500 Obstplantage, kräftig | Fläche |
+| Realnutzung: 31700 Brachland, kräftig | Fläche |
+| Realnutzung: 32000 Wald, kräftig | Fläche |
+| Realnutzung: 32100 Laubholz, kräftig | Fläche |
+| Realnutzung: 32200 Nadelholz, kräftig | Fläche |
+| Realnutzung: 32300 Laub- und Nadelholz, kräftig | Fläche |
+| Realnutzung: 33000 Gehölz, kräftig | Fläche |
+| Realnutzung: 34000 Heide, kräftig | Fläche |
+| Realnutzung: 35000 Moor, kräftig | Fläche |
+| Realnutzung: 36000 Sumpf, kräftig | Fläche |
+| Realnutzung: 37000 Unland, Vegetationslose Fläche, kräftig | Fläche |
+| Realnutzung: 41000 Fließgewässer, kräftig | Fläche |
+| Realnutzung: 42000 Hafenbecken, kräftig | Fläche |
+| Realnutzung: 43000 Stehendes Gewässer, kräftig | Fläche |
+| Realnutzung: 44000 Meer, kräftig | Fläche |
+
 ## Strom (`gisak_strom`, 51 Symbole)
 
 | Datei | Bedeutung |

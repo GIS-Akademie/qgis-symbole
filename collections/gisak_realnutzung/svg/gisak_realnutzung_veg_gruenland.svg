@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Grünland</title>
+  <circle cx="30" cy="50" r="9" fill="param(outline) #00853C" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <circle cx="70" cy="50" r="9" fill="param(outline) #00853C" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

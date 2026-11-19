@@ -15,7 +15,7 @@ from PIL import Image
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-MODULES = ["sym_planzv", "sym_raumordnung", "sym_strom", "sym_leitungen", "sym_eeg", "sym_wasser", "sym_boden",
+MODULES = ["sym_planzv", "sym_raumordnung", "sym_realnutzung", "sym_strom", "sym_leitungen", "sym_eeg", "sym_wasser", "sym_boden",
            "sym_laerm", "sym_naturschutz", "sym_landschaftsplanung", "sym_forst", "sym_landwirtschaft",
            "sym_verkehr", "sym_tourismus", "sym_denkmal", "sym_brandschutz", "sym_vermessung", "sym_nordpfeile",
            "sym_layout", "sym_allgemein"]

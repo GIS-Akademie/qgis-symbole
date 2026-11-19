@@ -1,0 +1,2431 @@
+<!DOCTYPE qgis_style>
+<qgis_style version="2">
+  <symbols>
+    <symbol type="line" name="Realnutzung: Grenze der Nutzungsart" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Realnutzung: Grenze der Nutzungsartengruppe" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="77,77,77,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.5"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Realnutzung: Grenze des Nutzungsartenbereichs" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="77,77,77,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.9"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Realnutzung: Grenze der Kartiereinheit" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="77,77,77,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.4"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="customdash" v="4;1.5"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Realnutzung: Grenze, unsicher" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.3"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="customdash" v="1.5;1.5"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Realnutzung: Baumreihe, Laubholz" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <prop k="placement" v="interval"/>
+        <prop k="placements" v="Interval"/>
+        <prop k="interval" v="6"/>
+        <prop k="interval_unit" v="MM"/>
+        <prop k="offset_along_line" v="3"/>
+        <prop k="offset_along_line_unit" v="MM"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="rotate" v="1"/>
+        <prop k="average_angle_length" v="0"/>
+        <prop k="average_angle_unit" v="MM"/>
+        <prop k="ring_filter" v="0"/>
+        <symbol type="marker" name="@Realnutzung: Baumreihe, Laubholz@0" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+            <prop k="name" v="gisak_realnutzung_veg_laubholz.svg"/>
+            <prop k="size" v="3.2"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="fixedAspectRatio" v="0"/>
+            <prop k="color" v="255,255,255,255"/>
+            <prop k="outline_color" v="0,133,60,255"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="angle" v="0"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Realnutzung: Baumreihe, Nadelholz" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <prop k="placement" v="interval"/>
+        <prop k="placements" v="Interval"/>
+        <prop k="interval" v="6"/>
+        <prop k="interval_unit" v="MM"/>
+        <prop k="offset_along_line" v="3"/>
+        <prop k="offset_along_line_unit" v="MM"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="rotate" v="1"/>
+        <prop k="average_angle_length" v="0"/>
+        <prop k="average_angle_unit" v="MM"/>
+        <prop k="ring_filter" v="0"/>
+        <symbol type="marker" name="@Realnutzung: Baumreihe, Nadelholz@0" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+            <prop k="name" v="gisak_realnutzung_veg_nadelholz.svg"/>
+            <prop k="size" v="3.2"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="fixedAspectRatio" v="0"/>
+            <prop k="color" v="255,255,255,255"/>
+            <prop k="outline_color" v="0,133,60,255"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="angle" v="0"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 11000 Wohnbaufläche" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="255,235,245,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 12000 Industrie- und Gewerbefläche" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="237,237,237,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 13000 Halde" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="237,237,237,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 14000 Bergbaubetrieb" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="237,237,237,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 15000 Tagebau, Grube, Steinbruch" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="237,237,237,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 16000 Fläche gemischter Nutzung" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="255,235,245,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 17000 Fläche besonderer funktionaler Prägung" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="255,235,245,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 18000 Sport-, Freizeit- und Erholungsfläche" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="224,255,217,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 18500 Grünanlage" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="224,255,217,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="PointPatternFill" enabled="1" locked="0" pass="0">
+        <prop k="distance_x" v="8"/>
+        <prop k="distance_x_unit" v="MM"/>
+        <prop k="distance_y" v="6"/>
+        <prop k="distance_y_unit" v="MM"/>
+        <prop k="displacement_x" v="4"/>
+        <prop k="displacement_x_unit" v="MM"/>
+        <prop k="displacement_y" v="0"/>
+        <prop k="displacement_y_unit" v="MM"/>
+        <prop k="offset_x" v="0"/>
+        <prop k="offset_x_unit" v="MM"/>
+        <prop k="offset_y" v="0"/>
+        <prop k="offset_y_unit" v="MM"/>
+        <symbol type="marker" name="@Realnutzung: 18500 Grünanlage@1" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+            <prop k="name" v="gisak_realnutzung_veg_gruenland.svg"/>
+            <prop k="size" v="2.6"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="fixedAspectRatio" v="0"/>
+            <prop k="color" v="255,255,255,255"/>
+            <prop k="outline_color" v="0,133,60,255"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="angle" v="0"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 19000 Friedhof" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="224,255,217,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 21000 Straßenverkehr" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 22000 Weg" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 23000 Platz" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 24000 Bahnverkehr" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 25000 Flugverkehr" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="235,255,212,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 26000 Schiffsverkehr" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 31000 Landwirtschaft" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="255,247,191,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 31100 Ackerland" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="255,247,191,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 31200 Grünland" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="235,255,212,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="PointPatternFill" enabled="1" locked="0" pass="0">
+        <prop k="distance_x" v="8"/>
+        <prop k="distance_x_unit" v="MM"/>
+        <prop k="distance_y" v="6"/>
+        <prop k="distance_y_unit" v="MM"/>
+        <prop k="displacement_x" v="4"/>
+        <prop k="displacement_x_unit" v="MM"/>
+        <prop k="displacement_y" v="0"/>
+        <prop k="displacement_y_unit" v="MM"/>
+        <prop k="offset_x" v="0"/>
+        <prop k="offset_x_unit" v="MM"/>
+        <prop k="offset_y" v="0"/>
+        <prop k="offset_y_unit" v="MM"/>
+        <symbol type="marker" name="@Realnutzung: 31200 Grünland@1" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+            <prop k="name" v="gisak_realnutzung_veg_gruenland.svg"/>
+            <prop k="size" v="2.6"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="fixedAspectRatio" v="0"/>
+            <prop k="color" v="255,255,255,255"/>
+            <prop k="outline_color" v="0,133,60,255"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="angle" v="0"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 31300 Gartenland" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="235,255,212,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="PointPatternFill" enabled="1" locked="0" pass="0">
+        <prop k="distance_x" v="8"/>
+        <prop k="distance_x_unit" v="MM"/>
+        <prop k="distance_y" v="7"/>
+        <prop k="distance_y_unit" v="MM"/>
+        <prop k="displacement_x" v="4"/>
+        <prop k="displacement_x_unit" v="MM"/>
+        <prop k="displacement_y" v="0"/>
+        <prop k="displacement_y_unit" v="MM"/>
+        <prop k="offset_x" v="0"/>
+        <prop k="offset_x_unit" v="MM"/>
+        <prop k="offset_y" v="0"/>
+        <prop k="offset_y_unit" v="MM"/>
+        <symbol type="marker" name="@Realnutzung: 31300 Gartenland@1" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+            <prop k="name" v="gisak_realnutzung_veg_gartenland.svg"/>
+            <prop k="size" v="2.8"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="fixedAspectRatio" v="0"/>
+            <prop k="color" v="255,255,255,255"/>
+            <prop k="outline_color" v="0,133,60,255"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="angle" v="0"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 31400 Weingarten" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="235,255,212,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="PointPatternFill" enabled="1" locked="0" pass="0">
+        <prop k="distance_x" v="7"/>
+        <prop k="distance_x_unit" v="MM"/>
+        <prop k="distance_y" v="7"/>
+        <prop k="distance_y_unit" v="MM"/>
+        <prop k="displacement_x" v="3.5"/>
+        <prop k="displacement_x_unit" v="MM"/>
+        <prop k="displacement_y" v="0"/>
+        <prop k="displacement_y_unit" v="MM"/>
+        <prop k="offset_x" v="0"/>
+        <prop k="offset_x_unit" v="MM"/>
+        <prop k="offset_y" v="0"/>
+        <prop k="offset_y_unit" v="MM"/>
+        <symbol type="marker" name="@Realnutzung: 31400 Weingarten@1" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+            <prop k="name" v="gisak_realnutzung_veg_weingarten.svg"/>
+            <prop k="size" v="3"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="fixedAspectRatio" v="0"/>
+            <prop k="color" v="255,255,255,255"/>
+            <prop k="outline_color" v="0,133,60,255"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="angle" v="0"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 31500 Obstplantage" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="235,255,212,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="PointPatternFill" enabled="1" locked="0" pass="0">
+        <prop k="distance_x" v="9"/>
+        <prop k="distance_x_unit" v="MM"/>
+        <prop k="distance_y" v="8"/>
+        <prop k="distance_y_unit" v="MM"/>
+        <prop k="displacement_x" v="4.5"/>
+        <prop k="displacement_x_unit" v="MM"/>
+        <prop k="displacement_y" v="0"/>
+        <prop k="displacement_y_unit" v="MM"/>
+        <prop k="offset_x" v="0"/>
+        <prop k="offset_x_unit" v="MM"/>
+        <prop k="offset_y" v="0"/>
+        <prop k="offset_y_unit" v="MM"/>
+        <symbol type="marker" name="@Realnutzung: 31500 Obstplantage@1" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+            <prop k="name" v="gisak_realnutzung_veg_obstplantage.svg"/>
+            <prop k="size" v="3.6"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="fixedAspectRatio" v="0"/>
+            <prop k="color" v="255,255,255,255"/>
+            <prop k="outline_color" v="0,133,60,255"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="angle" v="0"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 31600 Kurzumtriebsplantage" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="235,255,212,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="PointPatternFill" enabled="1" locked="0" pass="0">
+        <prop k="distance_x" v="9"/>
+        <prop k="distance_x_unit" v="MM"/>
+        <prop k="distance_y" v="8"/>
+        <prop k="distance_y_unit" v="MM"/>
+        <prop k="displacement_x" v="4.5"/>
+        <prop k="displacement_x_unit" v="MM"/>
+        <prop k="displacement_y" v="0"/>
+        <prop k="displacement_y_unit" v="MM"/>
+        <prop k="offset_x" v="0"/>
+        <prop k="offset_x_unit" v="MM"/>
+        <prop k="offset_y" v="0"/>
+        <prop k="offset_y_unit" v="MM"/>
+        <symbol type="marker" name="@Realnutzung: 31600 Kurzumtriebsplantage@1" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+            <prop k="name" v="gisak_realnutzung_veg_baumschule.svg"/>
+            <prop k="size" v="3.6"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="fixedAspectRatio" v="0"/>
+            <prop k="color" v="255,255,255,255"/>
+            <prop k="outline_color" v="0,133,60,255"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="angle" v="0"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 31700 Brachland" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="242,235,232,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 32000 Wald" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="217,255,217,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="PointPatternFill" enabled="1" locked="0" pass="0">
+        <prop k="distance_x" v="10"/>
+        <prop k="distance_x_unit" v="MM"/>
+        <prop k="distance_y" v="8"/>
+        <prop k="distance_y_unit" v="MM"/>
+        <prop k="displacement_x" v="5"/>
+        <prop k="displacement_x_unit" v="MM"/>
+        <prop k="displacement_y" v="0"/>
+        <prop k="displacement_y_unit" v="MM"/>
+        <prop k="offset_x" v="0"/>
+        <prop k="offset_x_unit" v="MM"/>
+        <prop k="offset_y" v="0"/>
+        <prop k="offset_y_unit" v="MM"/>
+        <symbol type="marker" name="@Realnutzung: 32000 Wald@1" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+            <prop k="name" v="gisak_realnutzung_veg_wald.svg"/>
+            <prop k="size" v="3.8"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="fixedAspectRatio" v="0"/>
+            <prop k="color" v="255,255,255,255"/>
+            <prop k="outline_color" v="0,133,60,255"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="angle" v="0"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 32100 Laubholz" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="217,255,217,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="PointPatternFill" enabled="1" locked="0" pass="0">
+        <prop k="distance_x" v="9"/>
+        <prop k="distance_x_unit" v="MM"/>
+        <prop k="distance_y" v="7"/>
+        <prop k="distance_y_unit" v="MM"/>
+        <prop k="displacement_x" v="4.5"/>
+        <prop k="displacement_x_unit" v="MM"/>
+        <prop k="displacement_y" v="0"/>
+        <prop k="displacement_y_unit" v="MM"/>
+        <prop k="offset_x" v="0"/>
+        <prop k="offset_x_unit" v="MM"/>
+        <prop k="offset_y" v="0"/>
+        <prop k="offset_y_unit" v="MM"/>
+        <symbol type="marker" name="@Realnutzung: 32100 Laubholz@1" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+            <prop k="name" v="gisak_realnutzung_veg_laubholz.svg"/>
+            <prop k="size" v="3.2"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="fixedAspectRatio" v="0"/>
+            <prop k="color" v="255,255,255,255"/>
+            <prop k="outline_color" v="0,133,60,255"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="angle" v="0"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 32200 Nadelholz" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="217,255,217,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="PointPatternFill" enabled="1" locked="0" pass="0">
+        <prop k="distance_x" v="9"/>
+        <prop k="distance_x_unit" v="MM"/>
+        <prop k="distance_y" v="7"/>
+        <prop k="distance_y_unit" v="MM"/>
+        <prop k="displacement_x" v="4.5"/>
+        <prop k="displacement_x_unit" v="MM"/>
+        <prop k="displacement_y" v="0"/>
+        <prop k="displacement_y_unit" v="MM"/>
+        <prop k="offset_x" v="0"/>
+        <prop k="offset_x_unit" v="MM"/>
+        <prop k="offset_y" v="0"/>
+        <prop k="offset_y_unit" v="MM"/>
+        <symbol type="marker" name="@Realnutzung: 32200 Nadelholz@1" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+            <prop k="name" v="gisak_realnutzung_veg_nadelholz.svg"/>
+            <prop k="size" v="3.2"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="fixedAspectRatio" v="0"/>
+            <prop k="color" v="255,255,255,255"/>
+            <prop k="outline_color" v="0,133,60,255"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="angle" v="0"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 32300 Laub- und Nadelholz" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="217,255,217,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="PointPatternFill" enabled="1" locked="0" pass="0">
+        <prop k="distance_x" v="10"/>
+        <prop k="distance_x_unit" v="MM"/>
+        <prop k="distance_y" v="8"/>
+        <prop k="distance_y_unit" v="MM"/>
+        <prop k="displacement_x" v="5"/>
+        <prop k="displacement_x_unit" v="MM"/>
+        <prop k="displacement_y" v="0"/>
+        <prop k="displacement_y_unit" v="MM"/>
+        <prop k="offset_x" v="0"/>
+        <prop k="offset_x_unit" v="MM"/>
+        <prop k="offset_y" v="0"/>
+        <prop k="offset_y_unit" v="MM"/>
+        <symbol type="marker" name="@Realnutzung: 32300 Laub- und Nadelholz@1" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+            <prop k="name" v="gisak_realnutzung_veg_laub_nadelholz.svg"/>
+            <prop k="size" v="3.8"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="fixedAspectRatio" v="0"/>
+            <prop k="color" v="255,255,255,255"/>
+            <prop k="outline_color" v="0,133,60,255"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="angle" v="0"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 33000 Gehölz" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="217,255,217,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="PointPatternFill" enabled="1" locked="0" pass="0">
+        <prop k="distance_x" v="10"/>
+        <prop k="distance_x_unit" v="MM"/>
+        <prop k="distance_y" v="8"/>
+        <prop k="distance_y_unit" v="MM"/>
+        <prop k="displacement_x" v="5"/>
+        <prop k="displacement_x_unit" v="MM"/>
+        <prop k="displacement_y" v="0"/>
+        <prop k="displacement_y_unit" v="MM"/>
+        <prop k="offset_x" v="0"/>
+        <prop k="offset_x_unit" v="MM"/>
+        <prop k="offset_y" v="0"/>
+        <prop k="offset_y_unit" v="MM"/>
+        <symbol type="marker" name="@Realnutzung: 33000 Gehölz@1" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+            <prop k="name" v="gisak_realnutzung_veg_gehoelz.svg"/>
+            <prop k="size" v="3.6"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="fixedAspectRatio" v="0"/>
+            <prop k="color" v="255,255,255,255"/>
+            <prop k="outline_color" v="0,133,60,255"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="angle" v="0"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 34000 Heide" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="242,235,232,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="PointPatternFill" enabled="1" locked="0" pass="0">
+        <prop k="distance_x" v="8"/>
+        <prop k="distance_x_unit" v="MM"/>
+        <prop k="distance_y" v="7"/>
+        <prop k="distance_y_unit" v="MM"/>
+        <prop k="displacement_x" v="4"/>
+        <prop k="displacement_x_unit" v="MM"/>
+        <prop k="displacement_y" v="0"/>
+        <prop k="displacement_y_unit" v="MM"/>
+        <prop k="offset_x" v="0"/>
+        <prop k="offset_x_unit" v="MM"/>
+        <prop k="offset_y" v="0"/>
+        <prop k="offset_y_unit" v="MM"/>
+        <symbol type="marker" name="@Realnutzung: 34000 Heide@1" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+            <prop k="name" v="gisak_realnutzung_veg_heide.svg"/>
+            <prop k="size" v="3"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="fixedAspectRatio" v="0"/>
+            <prop k="color" v="255,255,255,255"/>
+            <prop k="outline_color" v="0,133,60,255"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="angle" v="0"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 35000 Moor" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="242,235,232,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="PointPatternFill" enabled="1" locked="0" pass="0">
+        <prop k="distance_x" v="9"/>
+        <prop k="distance_x_unit" v="MM"/>
+        <prop k="distance_y" v="7"/>
+        <prop k="distance_y_unit" v="MM"/>
+        <prop k="displacement_x" v="4.5"/>
+        <prop k="displacement_x_unit" v="MM"/>
+        <prop k="displacement_y" v="0"/>
+        <prop k="displacement_y_unit" v="MM"/>
+        <prop k="offset_x" v="0"/>
+        <prop k="offset_x_unit" v="MM"/>
+        <prop k="offset_y" v="0"/>
+        <prop k="offset_y_unit" v="MM"/>
+        <symbol type="marker" name="@Realnutzung: 35000 Moor@1" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+            <prop k="name" v="gisak_realnutzung_veg_moor.svg"/>
+            <prop k="size" v="3.2"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="fixedAspectRatio" v="0"/>
+            <prop k="color" v="255,255,255,255"/>
+            <prop k="outline_color" v="0,133,60,255"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="angle" v="0"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 36000 Sumpf" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="242,235,232,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="PointPatternFill" enabled="1" locked="0" pass="0">
+        <prop k="distance_x" v="9"/>
+        <prop k="distance_x_unit" v="MM"/>
+        <prop k="distance_y" v="7"/>
+        <prop k="distance_y_unit" v="MM"/>
+        <prop k="displacement_x" v="4.5"/>
+        <prop k="displacement_x_unit" v="MM"/>
+        <prop k="displacement_y" v="0"/>
+        <prop k="displacement_y_unit" v="MM"/>
+        <prop k="offset_x" v="0"/>
+        <prop k="offset_x_unit" v="MM"/>
+        <prop k="offset_y" v="0"/>
+        <prop k="offset_y_unit" v="MM"/>
+        <symbol type="marker" name="@Realnutzung: 36000 Sumpf@1" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+            <prop k="name" v="gisak_realnutzung_veg_sumpf.svg"/>
+            <prop k="size" v="3.2"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="fixedAspectRatio" v="0"/>
+            <prop k="color" v="255,255,255,255"/>
+            <prop k="outline_color" v="0,133,60,255"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="angle" v="0"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 37000 Unland, Vegetationslose Fläche" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 41000 Fließgewässer" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="227,255,255,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 42000 Hafenbecken" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="227,255,255,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 43000 Stehendes Gewässer" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="227,255,255,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 44000 Meer" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="227,255,255,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 11000 Wohnbaufläche, kräftig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="229,139,139,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 12000 Industrie- und Gewerbefläche, kräftig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="158,158,158,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 13000 Halde, kräftig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="184,166,143,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 14000 Bergbaubetrieb, kräftig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="140,123,107,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 15000 Tagebau, Grube, Steinbruch, kräftig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="201,178,143,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 16000 Fläche gemischter Nutzung, kräftig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="232,167,107,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 17000 Fläche besonderer funktionaler Prägung, kräftig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="197,139,197,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 18000 Sport-, Freizeit- und Erholungsfläche, kräftig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="143,209,138,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 18500 Grünanlage, kräftig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="169,219,143,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 19000 Friedhof, kräftig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="94,158,107,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 21000 Straßenverkehr, kräftig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="217,217,217,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 22000 Weg, kräftig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="230,220,200,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 23000 Platz, kräftig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="207,207,207,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 24000 Bahnverkehr, kräftig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="179,155,179,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 25000 Flugverkehr, kräftig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="200,200,220,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 26000 Schiffsverkehr, kräftig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="159,184,217,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 31000 Landwirtschaft, kräftig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="242,222,122,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 31100 Ackerland, kräftig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="242,222,122,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 31200 Grünland, kräftig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="181,222,122,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 31300 Gartenland, kräftig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="201,224,138,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 31400 Weingarten, kräftig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="199,212,106,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 31500 Obstplantage, kräftig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="168,212,106,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 31700 Brachland, kräftig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="216,201,168,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 32000 Wald, kräftig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="79,158,79,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 32100 Laubholz, kräftig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="99,179,90,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 32200 Nadelholz, kräftig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="47,127,74,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 32300 Laub- und Nadelholz, kräftig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="71,143,76,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 33000 Gehölz, kräftig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="134,191,115,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 34000 Heide, kräftig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="201,163,196,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 35000 Moor, kräftig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="176,143,110,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 36000 Sumpf, kräftig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="143,194,176,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 37000 Unland, Vegetationslose Fläche, kräftig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="217,210,195,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 41000 Fließgewässer, kräftig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="111,183,232,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 42000 Hafenbecken, kräftig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="92,159,209,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 43000 Stehendes Gewässer, kräftig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="140,203,240,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Realnutzung: 44000 Meer, kräftig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="79,147,201,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="122,122,122,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.25"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+  </symbols>
+</qgis_style>
