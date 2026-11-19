@@ -113,6 +113,8 @@ if not IN_PLACE:
     os.makedirs(os.path.join(ROOT, "tools"))
     for f in sorted(glob.glob(os.path.join(HERE, "*.py"))):
         shutil.copy(f, os.path.join(ROOT, "tools", os.path.basename(f)))
+    shutil.copytree(os.path.join(HERE, "plugin"), os.path.join(ROOT, "tools", "plugin"),
+                    ignore=shutil.ignore_patterns("__pycache__"))
 print("total", sum(counts.values()), counts)
 print("Linien und Flaechen", sum(stile.values()), stile)
 print("Modus:", "im Repository (tools/ unveraendert)" if IN_PLACE else "neues Repository inkl. tools/")

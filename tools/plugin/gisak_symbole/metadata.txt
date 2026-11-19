@@ -1,0 +1,19 @@
+[general]
+name=GIS-Akademie Symbole
+description=Symbolbibliothek der GIS-Akademie: @PUNKTE@ Punktsymbole (SVG) und @STILE@ Linien- und Flächensymbole in @SAMMLUNGEN@ Sammlungen
+about=Trägt die Symbolbibliothek der GIS-Akademie in die Symbolauswahl von QGIS ein: Planzeichen nach PlanZV, Raumordnung, Strom, Leitungen, erneuerbare Energien, Wasserwirtschaft, Boden, Lärm, Naturschutz, Landschaftsplanung, Forst, Landwirtschaft, Verkehr, Tourismus, Denkmalschutz, Brandschutz, Vermessung, Nordpfeile, Layout und allgemeine Zeichen. Die Sammlungen lassen sich einzeln an- und abwählen (Menü Erweiterungen, GIS-Akademie Symbole). Die Punktsymbole stehen zusätzlich als SVG-Dateien in der SVG-Auswahl bereit; Füll- und Strichfarbe sind in QGIS änderbar. Symbole: CC BY 4.0, GIS-Akademie.
+version=@VERSION@
+qgisMinimumVersion=3.34
+qgisMaximumVersion=4.99
+supportsQt6=True
+author=GIS-Akademie
+email=@EMAIL@
+homepage=https://github.com/GIS-Akademie/qgis-symbole
+repository=https://github.com/GIS-Akademie/qgis-symbole
+tracker=https://github.com/GIS-Akademie/qgis-symbole/issues
+category=Plugins
+icon=icon.svg
+tags=symbole, symbols, svg, planzv, bauleitplanung, naturschutz, nordpfeil, style
+experimental=False
+deprecated=False
+hasProcessingProvider=no

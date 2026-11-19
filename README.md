@@ -72,6 +72,27 @@ Stand bringen (es klont nur den letzten Stand und scheitert dann am Nachziehen).
 Ordner `resource_sharing/repositories/github.com/GIS-Akademie/qgis-symbole` im QGIS-Profilordner löschen
 (**Einstellungen › Benutzerprofile › Aktuellen Profilordner öffnen**) und die Sammlung erneut installieren.
 
+### Als eigenes Plugin (ohne Resource Sharing und ohne Git)
+
+Die Bibliothek gibt es auch als eigenes QGIS-Plugin **GIS-Akademie Symbole** (QGIS 3.34 bis 4.x). Es braucht
+keine Git-Verbindung zu GitHub und eignet sich deshalb für Netze mit Proxy oder Firewall, in denen Resource
+Sharing mit `Connection to github.com timed out` scheitert.
+
+1. Das ZIP mit `python tools\mkplugin.py` bauen (liegt danach unter `dist\gisak_symbole-<Version>.zip`).
+2. In QGIS **Erweiterungen › Erweiterungen verwalten und installieren › Aus ZIP installieren** wählen.
+3. Beim ersten Start erscheint die Liste der Sammlungen; angehakte werden in die Symbolauswahl eingetragen
+   (alle 20 Sammlungen: etwa eine Viertelminute). Später erreichbar über **Erweiterungen › GIS-Akademie Symbole ›
+   Sammlungen auswählen …**.
+
+Die Symbole heißen wie oben, nur ohne den Klammerzusatz von Resource Sharing. Jede Sammlung hat genau ein
+Schlagwort, ihren Namen (z. B. `Forst` oder `Erneuerbare Energien`); die Symbolauswahl zeigt darunter von selbst
+nur die Symbole der passenden Art (Punkt, Linie oder Fläche). Die SVG-Dateien stehen in der SVG-Auswahl in der
+Gruppe `symbole` nach Sammlung geordnet. Nach einem Update des Plugins werden
+nur die Sammlungen neu eingetragen, deren Symbole sich geändert haben. Abgewählte Sammlungen verschwinden aus der
+Symbolauswahl; vor dem Deinstallieren des Plugins am besten alle abwählen, sonst bleiben die Einträge ohne ihre
+SVG-Dateien zurück. Wer die Sammlungen schon über Resource Sharing installiert hat, deinstalliert sie dort
+zuerst, sonst stehen die Symbole doppelt in der Auswahl.
+
 ### Ohne das Plugin
 
 Die Stildateien `collections/<ID>/symbol/Punkte.xml` und `Linien_und_Flaechen.xml` lassen sich in der
@@ -177,6 +198,8 @@ collections/<ID>/preview/         Vorschaubilder für das Plugin
 collections/<ID>/LICENSE          Lizenz der Sammlung
 KATALOG.md                        Liste aller Symbole
 tools/                            Generator (Python), aus dem alle SVGs erzeugt werden
+tools/plugin/gisak_symbole/       Code des QGIS-Plugins „GIS-Akademie Symbole“
+tools/mkplugin.py                 baut aus collections/ und dem Plugin-Code das Plugin-ZIP (nach dist/)
 ```
 
 Alle Symbole nutzen ein Raster von 100 × 100 Einheiten. Beschriftungen sind in Pfade umgewandelt,

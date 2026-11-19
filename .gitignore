@@ -6,3 +6,6 @@ Thumbs.db
 
 # Arbeitsnotizen fuer Claude Code, nur lokal
 CLAUDE.md
+
+# Gebautes Plugin-ZIP (tools/mkplugin.py)
+dist/
