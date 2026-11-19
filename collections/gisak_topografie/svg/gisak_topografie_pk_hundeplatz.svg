@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Hundeplatz</title>
+  <circle cx="50" cy="50" r="45" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #000000" stroke-opacity="param(outline-opacity) 1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(50,50) scale(0.68) translate(-50,-50)"><rect x="26" y="46" width="42" height="17" rx="7" fill="param(outline) #000000" fill-opacity="param(outline-opacity) 1" stroke="none"/><rect x="28" y="56" width="8" height="26" rx="3" fill="param(outline) #000000" fill-opacity="param(outline-opacity) 1" stroke="none"/><rect x="58" y="56" width="8" height="26" rx="3" fill="param(outline) #000000" fill-opacity="param(outline-opacity) 1" stroke="none"/><polygon points="58,50 62,30 72,24 76,32 88,38 86,45 72,46 70,56" fill="param(outline) #000000" fill-opacity="param(outline-opacity) 1" stroke="none"/><path d="M28,50 L18,34" fill="none" stroke="param(outline) #000000" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>

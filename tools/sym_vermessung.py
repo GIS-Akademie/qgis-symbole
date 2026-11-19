@@ -1,6 +1,7 @@
-"""Sammlung Vermessung: Grenz- und Vermessungspunkte, Aufschluesse, Plan- und Topografiezeichen.
-Orientierung: Darstellung in Liegenschaftskarten (ALKIS) und Vermessungsrissen (DIN 18702), Aufschluesse
-nach DIN 4023. Eigene Nachkonstruktionen, keine amtlichen Vorlagen.
+"""Sammlung Vermessung: Grenz- und Vermessungspunkte, Plan- und Topografiezeichen.
+Orientierung: Darstellung in Liegenschaftskarten (ALKIS) und Vermessungsrissen (DIN 18702).
+Eigene Nachkonstruktionen, keine amtlichen Vorlagen. Nordpfeile stehen in der Sammlung Nordpfeile,
+Bohrungen, Sondierungen und Schuerfe in der Sammlung Boden.
 Stil: schwarz auf weiss, Strich 5 (Details 4), geometrische Grundformen ohne Rahmen.
 Praefix topo_ = Topografie im Lageplan.
 Linien und Flaechen: schwarz-weiss; Grenzen nach Rang breiter, Gebaeude schraffiert, Topografie mit Marken
@@ -12,7 +13,7 @@ from qstil import linie, band, marken, voll, schraffur, muster, mk, sv
 KEY = "vermessung"
 NAME = "Vermessung"
 DESC = ("Symbole für Vermessung, Kataster und Lagepläne: Grenzpunkte, Fest- und Aufnahmepunkte, Passpunkte, "
-        "Aufschlüsse, Nordpfeile sowie Topografiezeichen (Bäume, Masten, Schächte, Hydranten) in Anlehnung an "
+        "Planzeichen sowie Topografiezeichen (Bäume, Masten, Schächte, Hydranten) in Anlehnung an "
         "Liegenschaftskarte und DIN 18702")
 TAGS = "vermessung, kataster, lageplan, festpunkt, grenzpunkt, topografie, din 18702"
 
@@ -63,23 +64,7 @@ S = [
     ("drohnenstartpunkt", "Start- und Landepunkt Drohne (UAV)", *BK,
      [L(27, 27, 73, 73, 5), L(27, 73, 73, 27, 5)]
      + [C(x, y, 14, "F", "S", 4) for x in (27, 73) for y in (27, 73)] + [R(40, 40, 20, 20, "S", "N", 0, 5)]),
-    # ---- Aufschluesse ----
-    ("bohrpunkt", "Bohrung / Bohrpunkt", *BK,
-     [C(50, 50, 36, "F", "N", 0), chord(50, 50, 36, 180, 360), C(50, 50, 36, "N", "S", 5)]),
-    ("sondierung", "Sondierung (Ramm- oder Drucksondierung)", *BK,
-     [PG([(12, 18), (88, 18), (50, 88)], "F", "N", 0), PG([(12, 18), (50, 18), (50, 88)], "S"),
-      PG([(12, 18), (88, 18), (50, 88)], "N", "S", 5)]),
-    ("schurf", "Schurf", *BK,
-     [R(16, 16, 68, 68, "F", "N", 0), R(16, 16, 34, 68, "S", "N", 0), R(16, 16, 68, 68, "N", "S", 5)]),
     # ---- Planzeichen ----
-    ("nordpfeil", "Nordpfeil", *BK,
-     [PG([(50, 4), (72, 66), (50, 54)], "S", "S", 3), PG([(50, 4), (28, 66), (50, 54)], "F", "S", 3), T("N", 50, 84, 20)]),
-    ("nordpfeil_schlicht", "Nordpfeil, schlicht", *BK,
-     [T("N", 50, 13, 18), L(50, 94, 50, 52, 5, cap="butt"), PG([(50, 28), (66, 62), (50, 54), (34, 62)], "S")]),
-    ("nordstern", "Nordstern / Windrose", *BK,
-     [PG(star(50, 58, 38, 10, 4), "F", "S", 3.5), PG([(50, 20), (57, 51), (50, 58)], "S"),
-      PG([(88, 58), (57, 65), (50, 58)], "S"), PG([(50, 96), (43, 65), (50, 58)], "S"),
-      PG([(12, 58), (43, 51), (50, 58)], "S"), T("N", 50, 9, 14)]),
     ("gitterkreuz", "Gitterkreuz / Koordinatenkreuz", *BK,
      [L(18, 50, 82, 50, 3.5, cap="butt"), L(50, 18, 50, 82, 3.5, cap="butt")]),
     ("flurstueckshaken", "Zusammengehörigkeitshaken (Flurstückshaken)", *BK,

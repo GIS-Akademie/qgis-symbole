@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Toilette</title>
+  <circle cx="50" cy="50" r="45" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #000000" stroke-opacity="param(outline-opacity) 1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(50,50) scale(0.68) translate(-50,-50)"><path d="M47.86 63.45H41.18L37.54 47.9Q36.87 45.15 36.41 42.16Q35.96 44.66 35.67 45.96Q35.38 47.27 31.61 63.45H24.93L18 36.57H23.71L27.6 53.93L28.48 58.13Q29.01 55.48 29.52 53.06Q30.02 50.65 33.32 36.57H39.62L43.02 50.88Q43.42 52.48 44.37 58.13L44.85 55.92L45.86 51.53L49.1 36.57H54.81ZM70.02 59.41Q75.11 59.41 77.1 54.29L82 56.14Q80.42 60.04 77.35 61.94Q74.29 63.83 70.02 63.83Q63.53 63.83 59.99 60.16Q56.45 56.49 56.45 49.89Q56.45 43.26 59.87 39.71Q63.28 36.17 69.77 36.17Q74.5 36.17 77.48 38.06Q80.45 39.96 81.66 43.65L76.7 45Q76.07 42.98 74.22 41.79Q72.38 40.59 69.88 40.59Q66.07 40.59 64.09 42.96Q62.12 45.32 62.12 49.89Q62.12 54.52 64.15 56.96Q66.18 59.41 70.02 59.41Z" fill="param(outline) #000000" fill-opacity="param(outline-opacity) 1" stroke="none"/></g>
+</svg>

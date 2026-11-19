@@ -1,0 +1,2255 @@
+<!DOCTYPE qgis_style>
+<qgis_style version="2">
+  <symbols>
+    <symbol type="marker" name="Topografie: Hochschule" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_hochschule.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Schule" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_schule.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Kindergarten / Kita" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_kita.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Bibliothek" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_bibliothek.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Krankenhaus" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_krankenhaus.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="230,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Apotheke" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_apotheke.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="230,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Arzt" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_arzt.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="230,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Zahnarzt" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_zahnarzt.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="230,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Tierarzt" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_tierarzt.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="230,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Soziale Einrichtung / Pflegeheim" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_pflegeheim.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Rettungswache" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_rettungswache.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="230,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Kirche / Kapelle" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_kirche.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="238,137,142,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Moschee" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_moschee.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="238,137,142,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Synagoge" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_synagoge.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="238,137,142,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Tempel / sonstiges Gotteshaus" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_tempel.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="238,137,142,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Friedhof (Punkt)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_friedhof.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="225,225,225,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Museum" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_museum.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Theater / Oper" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_theater.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Kino" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_kino.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Veranstaltung / Gemeindezentrum" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_veranstaltung.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Denkmal / Gedenkstätte" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_denkmal.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Kunstwerk" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_kunstwerk.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Brunnen" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_brunnen.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Rathaus / Verwaltung" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_rathaus.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Botschaft / Konsulat" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_botschaft.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Gericht" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_gericht.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Polizei" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_polizei.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="0,77,168,255"/>
+        <prop k="outline_color" v="255,255,255,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Feuerwehr" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_feuerwehr.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="245,130,136,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Post" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_post.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Briefkasten" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_briefkasten.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Justizvollzugsanstalt" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_jva.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Militärische Anlage" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_militaer.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="128,119,82,255"/>
+        <prop k="outline_color" v="255,255,255,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Flughafen / Flugplatz (Punkt)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_flughafen.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="156,156,156,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Hubschrauberlandeplatz" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_hubschrauberlandeplatz.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="156,156,156,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Bahnhof / Haltepunkt" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_bahnhof.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="156,156,156,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Straßenbahnhaltestelle" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_strassenbahn.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="156,156,156,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: U-Bahn-Eingang" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_u_bahn.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="156,156,156,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Bushaltestelle" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_bushaltestelle.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="156,156,156,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Busbahnhof" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_busbahnhof.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="156,156,156,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Fähranleger" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_faehre.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="156,156,156,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Parkplatz" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_parkplatz.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="156,156,156,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Parkhaus / Tiefgarage" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_parkhaus.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="156,156,156,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Tankstelle" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_tankstelle.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="156,156,156,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Ladestation" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_ladestation.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Fahrradabstellanlage" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_fahrradabstellanlage.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Fahrradverleih" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_fahrradverleih.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Taxi" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_taxi.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Carsharing / Autovermietung" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_carsharing.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Yachthafen (Punkt)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_yachthafen.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Stadion" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_stadion.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="91,184,83,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Sportplatz" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_sportplatz.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Sporthalle / Sportzentrum" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_sporthalle.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Schwimmbad" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_schwimmbad.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="182,230,254,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Spielplatz" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_spielplatz.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Golfplatz" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_golfplatz.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="103,181,108,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Reitanlage (Punkt)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_reitanlage.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Hundeplatz (Punkt)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_hundeplatz.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Tennis" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_tennis.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Leichtathletik" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_leichtathletik.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Schießen" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_schiessen.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Klettern" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_klettern.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Ski" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_ski.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Eissport" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_eissport.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Wassersport" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_wassersport.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Motorsport" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_motorsport.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Zoo / Tierpark" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_zoo.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="103,181,108,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Campingplatz" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_campingplatz.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="103,181,108,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Picknickplatz / Rastplatz" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_picknickplatz.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Bootsanleger / Slipanlage" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_bootsanleger.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Hotel" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_hotel.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,235,190,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Pension / Ferienwohnung" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_ferienwohnung.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,235,190,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Jugendherberge" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_jugendherberge.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,235,190,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Berghütte" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_berghuette.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,235,190,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Schutzhütte / Unterstand" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_schutzhuette.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Sehenswürdigkeit" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_sehenswuerdigkeit.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Aussichtspunkt" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_aussichtspunkt.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Information" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_information.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Burg / Schloss" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_burg.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Ruine" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_ruine.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Archäologische Stätte" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_archaeologie.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Schlachtfeld" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_schlachtfeld.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Grabmal" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_grabmal.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Museumsbahn" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_museumsbahn.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Windmühle" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_windmuehle.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,235,190,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Wassermühle" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_wassermuehle.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,235,190,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Restaurant" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_restaurant.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,235,190,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Café" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_cafe.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,235,190,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Imbiss" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_imbiss.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,235,190,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Bar / Kneipe / Biergarten" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_bar.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,235,190,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Supermarkt" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_supermarkt.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,235,190,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Baumarkt" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_baumarkt.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,235,190,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Bäckerei" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_baeckerei.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,235,190,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Bekleidung" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_bekleidung.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,235,190,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Friseur" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_friseur.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,235,190,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Optiker" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_optiker.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,235,190,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Marktplatz" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_marktplatz.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,235,190,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Bank / Geldautomat" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_bank.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,235,190,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Toilette" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_toilette.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Trinkwasser" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_trinkwasser.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Telefon" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_telefon.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Packstation" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_packstation.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Sitzbank" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_sitzbank.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Recycling / Wertstoffcontainer" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_recycling.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Abfalleimer" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_abfalleimer.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Windenergieanlage" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_windenergieanlage.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Kraftwerk" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_kraftwerk.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="225,225,225,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Umspannwerk (Punkt)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_umspannwerk.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="225,225,225,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Funkmast / Fernmeldeturm" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_funkmast.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="225,225,225,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Wasserturm" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_wasserturm.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="225,225,225,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Leuchtturm" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_leuchtturm.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Schornstein" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_schornstein.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="225,225,225,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Bergwerk / Schacht / Stollen" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_bergwerk.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="225,225,225,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Steinbruch / Tagebau" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_steinbruch.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="225,225,225,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Halde (Punkt)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_halde.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="225,225,225,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Höhleneingang" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_hoehle.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Gipfel" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_gipfel.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Quelle" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_pk_quelle.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Hochspannungsmast (Gittermast)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_mast_hochspannung.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Mast" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_mast.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Bahnübergang" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_bahnuebergang.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Prellbock (Gleis waagerecht, drehbar)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_prellbock.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Seilbahnstütze (Seil waagerecht, drehbar)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_seilbahnstuetze.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Tor / Schranke (Weg waagerecht, drehbar)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_schranke.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Poller / Sperre" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_poller.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Topografie: Wasserbauwerk" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_topografie_wasserbauwerk.svg"/>
+        <prop k="size" v="5"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="0,0,0,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+  </symbols>
+</qgis_style>

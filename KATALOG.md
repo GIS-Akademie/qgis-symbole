@@ -362,6 +362,297 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | Realnutzung: 43000 Stehendes Gewässer, kräftig | Fläche |
 | Realnutzung: 44000 Meer, kräftig | Fläche |
 
+## Topografie (`gisak_topografie`, 125 Symbole)
+
+| Datei | Bedeutung |
+|---|---|
+| `gisak_topografie_pk_hochschule.svg` | Hochschule |
+| `gisak_topografie_pk_schule.svg` | Schule |
+| `gisak_topografie_pk_kita.svg` | Kindergarten / Kita |
+| `gisak_topografie_pk_bibliothek.svg` | Bibliothek |
+| `gisak_topografie_pk_krankenhaus.svg` | Krankenhaus |
+| `gisak_topografie_pk_apotheke.svg` | Apotheke |
+| `gisak_topografie_pk_arzt.svg` | Arzt |
+| `gisak_topografie_pk_zahnarzt.svg` | Zahnarzt |
+| `gisak_topografie_pk_tierarzt.svg` | Tierarzt |
+| `gisak_topografie_pk_pflegeheim.svg` | Soziale Einrichtung / Pflegeheim |
+| `gisak_topografie_pk_rettungswache.svg` | Rettungswache |
+| `gisak_topografie_pk_kirche.svg` | Kirche / Kapelle |
+| `gisak_topografie_pk_moschee.svg` | Moschee |
+| `gisak_topografie_pk_synagoge.svg` | Synagoge |
+| `gisak_topografie_pk_tempel.svg` | Tempel / sonstiges Gotteshaus |
+| `gisak_topografie_pk_friedhof.svg` | Friedhof |
+| `gisak_topografie_pk_museum.svg` | Museum |
+| `gisak_topografie_pk_theater.svg` | Theater / Oper |
+| `gisak_topografie_pk_kino.svg` | Kino |
+| `gisak_topografie_pk_veranstaltung.svg` | Veranstaltung / Gemeindezentrum |
+| `gisak_topografie_pk_denkmal.svg` | Denkmal / Gedenkstätte |
+| `gisak_topografie_pk_kunstwerk.svg` | Kunstwerk |
+| `gisak_topografie_pk_brunnen.svg` | Brunnen |
+| `gisak_topografie_pk_rathaus.svg` | Rathaus / Verwaltung |
+| `gisak_topografie_pk_botschaft.svg` | Botschaft / Konsulat |
+| `gisak_topografie_pk_gericht.svg` | Gericht |
+| `gisak_topografie_pk_polizei.svg` | Polizei |
+| `gisak_topografie_pk_feuerwehr.svg` | Feuerwehr |
+| `gisak_topografie_pk_post.svg` | Post |
+| `gisak_topografie_pk_briefkasten.svg` | Briefkasten |
+| `gisak_topografie_pk_jva.svg` | Justizvollzugsanstalt |
+| `gisak_topografie_pk_militaer.svg` | Militärische Anlage |
+| `gisak_topografie_pk_flughafen.svg` | Flughafen / Flugplatz |
+| `gisak_topografie_pk_hubschrauberlandeplatz.svg` | Hubschrauberlandeplatz |
+| `gisak_topografie_pk_bahnhof.svg` | Bahnhof / Haltepunkt |
+| `gisak_topografie_pk_strassenbahn.svg` | Straßenbahnhaltestelle |
+| `gisak_topografie_pk_u_bahn.svg` | U-Bahn-Eingang |
+| `gisak_topografie_pk_bushaltestelle.svg` | Bushaltestelle |
+| `gisak_topografie_pk_busbahnhof.svg` | Busbahnhof |
+| `gisak_topografie_pk_faehre.svg` | Fähranleger |
+| `gisak_topografie_pk_parkplatz.svg` | Parkplatz |
+| `gisak_topografie_pk_parkhaus.svg` | Parkhaus / Tiefgarage |
+| `gisak_topografie_pk_tankstelle.svg` | Tankstelle |
+| `gisak_topografie_pk_ladestation.svg` | Ladestation |
+| `gisak_topografie_pk_fahrradabstellanlage.svg` | Fahrradabstellanlage |
+| `gisak_topografie_pk_fahrradverleih.svg` | Fahrradverleih |
+| `gisak_topografie_pk_taxi.svg` | Taxi |
+| `gisak_topografie_pk_carsharing.svg` | Carsharing / Autovermietung |
+| `gisak_topografie_pk_yachthafen.svg` | Yachthafen |
+| `gisak_topografie_pk_stadion.svg` | Stadion |
+| `gisak_topografie_pk_sportplatz.svg` | Sportplatz |
+| `gisak_topografie_pk_sporthalle.svg` | Sporthalle / Sportzentrum |
+| `gisak_topografie_pk_schwimmbad.svg` | Schwimmbad |
+| `gisak_topografie_pk_spielplatz.svg` | Spielplatz |
+| `gisak_topografie_pk_golfplatz.svg` | Golfplatz |
+| `gisak_topografie_pk_reitanlage.svg` | Reitanlage |
+| `gisak_topografie_pk_hundeplatz.svg` | Hundeplatz |
+| `gisak_topografie_pk_tennis.svg` | Tennis |
+| `gisak_topografie_pk_leichtathletik.svg` | Leichtathletik |
+| `gisak_topografie_pk_schiessen.svg` | Schießen |
+| `gisak_topografie_pk_klettern.svg` | Klettern |
+| `gisak_topografie_pk_ski.svg` | Ski |
+| `gisak_topografie_pk_eissport.svg` | Eissport |
+| `gisak_topografie_pk_wassersport.svg` | Wassersport |
+| `gisak_topografie_pk_motorsport.svg` | Motorsport |
+| `gisak_topografie_pk_zoo.svg` | Zoo / Tierpark |
+| `gisak_topografie_pk_campingplatz.svg` | Campingplatz |
+| `gisak_topografie_pk_picknickplatz.svg` | Picknickplatz / Rastplatz |
+| `gisak_topografie_pk_bootsanleger.svg` | Bootsanleger / Slipanlage |
+| `gisak_topografie_pk_hotel.svg` | Hotel |
+| `gisak_topografie_pk_ferienwohnung.svg` | Pension / Ferienwohnung |
+| `gisak_topografie_pk_jugendherberge.svg` | Jugendherberge |
+| `gisak_topografie_pk_berghuette.svg` | Berghütte |
+| `gisak_topografie_pk_schutzhuette.svg` | Schutzhütte / Unterstand |
+| `gisak_topografie_pk_sehenswuerdigkeit.svg` | Sehenswürdigkeit |
+| `gisak_topografie_pk_aussichtspunkt.svg` | Aussichtspunkt |
+| `gisak_topografie_pk_information.svg` | Information |
+| `gisak_topografie_pk_burg.svg` | Burg / Schloss |
+| `gisak_topografie_pk_ruine.svg` | Ruine |
+| `gisak_topografie_pk_archaeologie.svg` | Archäologische Stätte |
+| `gisak_topografie_pk_schlachtfeld.svg` | Schlachtfeld |
+| `gisak_topografie_pk_grabmal.svg` | Grabmal |
+| `gisak_topografie_pk_museumsbahn.svg` | Museumsbahn |
+| `gisak_topografie_pk_windmuehle.svg` | Windmühle |
+| `gisak_topografie_pk_wassermuehle.svg` | Wassermühle |
+| `gisak_topografie_pk_restaurant.svg` | Restaurant |
+| `gisak_topografie_pk_cafe.svg` | Café |
+| `gisak_topografie_pk_imbiss.svg` | Imbiss |
+| `gisak_topografie_pk_bar.svg` | Bar / Kneipe / Biergarten |
+| `gisak_topografie_pk_supermarkt.svg` | Supermarkt |
+| `gisak_topografie_pk_baumarkt.svg` | Baumarkt |
+| `gisak_topografie_pk_baeckerei.svg` | Bäckerei |
+| `gisak_topografie_pk_bekleidung.svg` | Bekleidung |
+| `gisak_topografie_pk_friseur.svg` | Friseur |
+| `gisak_topografie_pk_optiker.svg` | Optiker |
+| `gisak_topografie_pk_marktplatz.svg` | Marktplatz |
+| `gisak_topografie_pk_bank.svg` | Bank / Geldautomat |
+| `gisak_topografie_pk_toilette.svg` | Toilette |
+| `gisak_topografie_pk_trinkwasser.svg` | Trinkwasser |
+| `gisak_topografie_pk_telefon.svg` | Telefon |
+| `gisak_topografie_pk_packstation.svg` | Packstation |
+| `gisak_topografie_pk_sitzbank.svg` | Sitzbank |
+| `gisak_topografie_pk_recycling.svg` | Recycling / Wertstoffcontainer |
+| `gisak_topografie_pk_abfalleimer.svg` | Abfalleimer |
+| `gisak_topografie_pk_windenergieanlage.svg` | Windenergieanlage |
+| `gisak_topografie_pk_kraftwerk.svg` | Kraftwerk |
+| `gisak_topografie_pk_umspannwerk.svg` | Umspannwerk |
+| `gisak_topografie_pk_funkmast.svg` | Funkmast / Fernmeldeturm |
+| `gisak_topografie_pk_wasserturm.svg` | Wasserturm |
+| `gisak_topografie_pk_leuchtturm.svg` | Leuchtturm |
+| `gisak_topografie_pk_schornstein.svg` | Schornstein |
+| `gisak_topografie_pk_bergwerk.svg` | Bergwerk / Schacht / Stollen |
+| `gisak_topografie_pk_steinbruch.svg` | Steinbruch / Tagebau |
+| `gisak_topografie_pk_halde.svg` | Halde |
+| `gisak_topografie_pk_hoehle.svg` | Höhleneingang |
+| `gisak_topografie_pk_gipfel.svg` | Gipfel |
+| `gisak_topografie_pk_quelle.svg` | Quelle |
+| `gisak_topografie_mast_hochspannung.svg` | Hochspannungsmast (Gittermast) |
+| `gisak_topografie_mast.svg` | Mast |
+| `gisak_topografie_bahnuebergang.svg` | Bahnübergang |
+| `gisak_topografie_prellbock.svg` | Prellbock (Gleis waagerecht, drehbar) |
+| `gisak_topografie_seilbahnstuetze.svg` | Seilbahnstütze (Seil waagerecht, drehbar) |
+| `gisak_topografie_schranke.svg` | Tor / Schranke (Weg waagerecht, drehbar) |
+| `gisak_topografie_poller.svg` | Poller / Sperre |
+| `gisak_topografie_wasserbauwerk.svg` | Wasserbauwerk |
+
+### Topografie: Linien und Flächen (156 Symbole)
+
+| Symbol in QGIS | Art |
+|---|---|
+| Topografie: Autobahn | Linie |
+| Topografie: Schnellstraße | Linie |
+| Topografie: Bundesstraße | Linie |
+| Topografie: Landesstraße | Linie |
+| Topografie: Kreisstraße | Linie |
+| Topografie: Gemeindestraße | Linie |
+| Topografie: Verkehrsberuhigte Straße / Fußgängerzone | Linie |
+| Topografie: Zufahrt / Erschließung | Linie |
+| Topografie: Fahrweg / Wirtschaftsweg | Linie |
+| Topografie: Autobahn, Übersicht | Linie |
+| Topografie: Schnellstraße, Übersicht | Linie |
+| Topografie: Bundesstraße, Übersicht | Linie |
+| Topografie: Landesstraße, Übersicht | Linie |
+| Topografie: Kreisstraße, Übersicht | Linie |
+| Topografie: Gemeindestraße, Übersicht | Linie |
+| Topografie: Straße im Bau | Linie |
+| Topografie: Straße geplant | Linie |
+| Topografie: Brücke | Linie |
+| Topografie: Fußweg / Pfad | Linie |
+| Topografie: Gehweg / Überweg | Linie |
+| Topografie: Treppe | Linie |
+| Topografie: Reitweg | Linie |
+| Topografie: Radweg | Linie |
+| Topografie: Gleis | Linie |
+| Topografie: Nebengleis | Linie |
+| Topografie: Bahnstrecke, Übersicht | Linie |
+| Topografie: Straßenbahn / Stadtbahn | Linie |
+| Topografie: U-Bahn | Linie |
+| Topografie: Standseilbahn / Sonderbahn | Linie |
+| Topografie: Bahnstrecke stillgelegt | Linie |
+| Topografie: Bahnstrecke im Bau / geplant | Linie |
+| Topografie: Bahnsteigkante | Linie |
+| Topografie: Start- und Landebahn | Linie |
+| Topografie: Rollweg | Linie |
+| Topografie: Fährlinie | Linie |
+| Topografie: Steg / Pier | Linie |
+| Topografie: Wellenbrecher / Buhne | Linie |
+| Topografie: Schleuse / Wehr / Damm | Linie |
+| Topografie: Seilbahn / Sessellift | Linie |
+| Topografie: Schlepplift | Linie |
+| Topografie: Materialseilbahn | Linie |
+| Topografie: Hochspannungsleitung | Linie |
+| Topografie: Hochspannungsleitung, Übersicht | Linie |
+| Topografie: Mittel- und Niederspannungsleitung | Linie |
+| Topografie: Erdkabel | Linie |
+| Topografie: Rohrleitung / Pipeline | Linie |
+| Topografie: Förderband | Linie |
+| Topografie: Fluss | Linie |
+| Topografie: Kanal | Linie |
+| Topografie: Bach | Linie |
+| Topografie: Graben | Linie |
+| Topografie: Küstenlinie | Linie |
+| Topografie: Deich | Linie |
+| Topografie: Böschung / Damm | Linie |
+| Topografie: Klippe / Steilkante | Linie |
+| Topografie: Grat / Tal | Linie |
+| Topografie: Hecke | Linie |
+| Topografie: Mauer | Linie |
+| Topografie: Zaun / Absperrung | Linie |
+| Topografie: Staatsgrenze | Linie |
+| Topografie: Landesgrenze | Linie |
+| Topografie: Grenze Regierungsbezirk | Linie |
+| Topografie: Kreisgrenze | Linie |
+| Topografie: Grenze Amt / Verbandsgemeinde | Linie |
+| Topografie: Gemeindegrenze | Linie |
+| Topografie: Grenze Ortsteil / Stadtteil | Linie |
+| Topografie: Grenze Postleitzahlgebiet | Linie |
+| Topografie: Schutzgebietsgrenze | Linie |
+| Topografie: Wanderroute | Linie |
+| Topografie: Radroute | Linie |
+| Topografie: Skiroute / Piste | Linie |
+| Topografie: Reit- und Kanuroute | Linie |
+| Topografie: ÖPNV-Linie | Linie |
+| Topografie: Hintergrund | Fläche |
+| Topografie: Gebäude | Fläche |
+| Topografie: Gebäude, Religion | Fläche |
+| Topografie: Gebäude, Bildung | Fläche |
+| Topografie: Gebäude, Gesundheit | Fläche |
+| Topografie: Gebäude, Sicherheit und Militär | Fläche |
+| Topografie: Gebäude, Verkehr | Fläche |
+| Topografie: Gebäude, Sport und Freizeit | Fläche |
+| Topografie: Gebäude, Kultur und Verwaltung | Fläche |
+| Topografie: Gewächshaus | Fläche |
+| Topografie: Überdachung | Fläche |
+| Topografie: Tank / Gasometer | Fläche |
+| Topografie: Silo | Fläche |
+| Topografie: Gebäude, Ruine | Fläche |
+| Topografie: Gebäude im Bau | Fläche |
+| Topografie: Turm | Fläche |
+| Topografie: Werk / Fabrik | Fläche |
+| Topografie: Brückenfläche | Fläche |
+| Topografie: Straßenfläche | Fläche |
+| Topografie: Fußgängerzone / Platz | Fläche |
+| Topografie: Wegefläche | Fläche |
+| Topografie: Parkplatz / Rastplatz | Fläche |
+| Topografie: Bahnsteig / Haltestellenbereich | Fläche |
+| Topografie: Bahnverkehrsfläche | Fläche |
+| Topografie: Bahnbetriebsanlage | Fläche |
+| Topografie: Flughafen / Flugplatz | Fläche |
+| Topografie: Militärflugplatz | Fläche |
+| Topografie: Start- und Landebahnfläche, Rollweg | Fläche |
+| Topografie: Vorfeld | Fläche |
+| Topografie: Baustelle | Fläche |
+| Topografie: Fließgewässer | Fläche |
+| Topografie: Stehendes Gewässer | Fläche |
+| Topografie: Becken / Klärteich | Fläche |
+| Topografie: Hafenbecken / Dock | Fläche |
+| Topografie: Yachthafen | Fläche |
+| Topografie: Watt / Schlamm | Fläche |
+| Topografie: Sumpf / Feuchtgebiet | Fläche |
+| Topografie: Moor | Fläche |
+| Topografie: Gletscher | Fläche |
+| Topografie: Deichfläche | Fläche |
+| Topografie: Dammfläche | Fläche |
+| Topografie: Klärwerk / Wasserwerk | Fläche |
+| Topografie: Wald | Fläche |
+| Topografie: Laubwald | Fläche |
+| Topografie: Nadelwald | Fläche |
+| Topografie: Gehölz / Gebüsch | Fläche |
+| Topografie: Heide | Fläche |
+| Topografie: Grasland | Fläche |
+| Topografie: Strand / Sandfläche | Fläche |
+| Topografie: Düne | Fläche |
+| Topografie: Fels | Fläche |
+| Topografie: Geröll | Fläche |
+| Topografie: Ackerland | Fläche |
+| Topografie: Grünland / Wiese | Fläche |
+| Topografie: Obstbau / Baumschule | Fläche |
+| Topografie: Weinbau | Fläche |
+| Topografie: Wohnbaufläche | Fläche |
+| Topografie: Industrie- und Gewerbefläche | Fläche |
+| Topografie: Fläche besonderer funktionaler Prägung | Fläche |
+| Topografie: Friedhof | Fläche |
+| Topografie: Park / Grünanlage | Fläche |
+| Topografie: Kleingarten | Fläche |
+| Topografie: Sport-, Freizeit- und Erholungsfläche | Fläche |
+| Topografie: Sport- und Spielanlage | Fläche |
+| Topografie: Spielfeld / Laufbahn | Fläche |
+| Topografie: Schwimmbecken | Fläche |
+| Topografie: Reitanlage | Fläche |
+| Topografie: Hundeplatz | Fläche |
+| Topografie: Bauerwartungsland / Brache | Fläche |
+| Topografie: Halde | Fläche |
+| Topografie: Tagebau / Steinbruch / Grube | Fläche |
+| Topografie: Umspannwerk | Fläche |
+| Topografie: Kraftwerk / Energieanlage | Fläche |
+| Topografie: Solarpark | Fläche |
+| Topografie: Militärgelände | Fläche |
+| Topografie: Militärische Gefahrenzone | Fläche |
+| Topografie: Schutzgebiet | Fläche |
+| Topografie: Nationalpark | Fläche |
+| Topografie: Wohnbaufläche, thematisch | Fläche |
+| Topografie: Industriefläche, thematisch | Fläche |
+| Topografie: Gewerbe und Einzelhandel, thematisch | Fläche |
+| Topografie: Fläche besonderer funktionaler Prägung, thematisch | Fläche |
+| Topografie: Gemischte Nutzung, thematisch | Fläche |
+
 ## Strom (`gisak_strom`, 51 Symbole)
 
 | Datei | Bedeutung |
@@ -836,7 +1127,7 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | Wasserwirtschaft: Starkregen, Geländesenke | Fläche |
 | Wasserwirtschaft: Starkregen, Risikobereich | Fläche |
 
-## Boden, Altlasten und Geologie (`gisak_boden`, 44 Symbole)
+## Boden, Altlasten und Geologie (`gisak_boden`, 65 Symbole)
 
 | Datei | Bedeutung |
 |---|---|
@@ -850,6 +1141,15 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | `gisak_boden_sickerwassermessstelle.svg` | Sickerwassermessstelle |
 | `gisak_boden_probenahmepunkt.svg` | Probenahmepunkt |
 | `gisak_boden_grundwasseraufschluss.svg` | Grundwasseraufschluss |
+| `gisak_boden_kleinbohrung.svg` | Kleinbohrung / Sondierbohrung (BS) |
+| `gisak_boden_rammsondierung.svg` | Rammsondierung (DPL, DPM, DPH) |
+| `gisak_boden_drucksondierung.svg` | Drucksondierung (CPT) |
+| `gisak_boden_bohrstock.svg` | Bohrstocksondierung / Handbohrung |
+| `gisak_boden_tiefbohrung.svg` | Tiefbohrung |
+| `gisak_boden_schraegbohrung.svg` | Schrägbohrung (Richtung nach rechts, drehbar) |
+| `gisak_boden_bohrung_gwm.svg` | Bohrung, zur Grundwassermessstelle ausgebaut |
+| `gisak_boden_bohrung_geplant.svg` | Bohrung, geplant |
+| `gisak_boden_bohrung_verfuellt.svg` | Bohrung, verfüllt / aufgegeben |
 | `gisak_boden_altablagerung.svg` | Altablagerung |
 | `gisak_boden_altstandort.svg` | Altstandort |
 | `gisak_boden_verdachtsflaeche.svg` | Altlastverdächtige Fläche / Verdachtsfläche |
@@ -884,8 +1184,20 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | `gisak_boden_stoerung.svg` | Geologische Störung |
 | `gisak_boden_erdbebenmessstation.svg` | Erdbebenmessstation / Seismometer |
 | `gisak_boden_erdwaermesonde.svg` | Erdwärmesonde |
+| `gisak_boden_gef_schichtung.svg` | Streichen und Fallen der Schichtung (Fallrichtung oben, drehbar) |
+| `gisak_boden_gef_schichtung_saiger.svg` | Schichtung saiger / senkrecht (drehbar) |
+| `gisak_boden_gef_schichtung_soehlig.svg` | Schichtung söhlig / horizontal |
+| `gisak_boden_gef_schichtung_ueberkippt.svg` | Schichtung überkippt (Fallrichtung oben, drehbar) |
+| `gisak_boden_gef_schieferung.svg` | Streichen und Fallen der Schieferung (Fallrichtung oben, drehbar) |
+| `gisak_boden_gef_schieferung_saiger.svg` | Schieferung saiger / senkrecht (drehbar) |
+| `gisak_boden_gef_kluft.svg` | Streichen und Fallen der Kluft (Fallrichtung oben, drehbar) |
+| `gisak_boden_gef_kluft_saiger.svg` | Kluft saiger / senkrecht (drehbar) |
+| `gisak_boden_gef_stoerung.svg` | Einfallen der Störungsfläche (Fallrichtung oben, drehbar) |
+| `gisak_boden_gef_lineation.svg` | Lineation / Abtauchen der Faltenachse (Richtung oben, drehbar) |
+| `gisak_boden_gef_sattelachse.svg` | Sattelachse / Antiklinale (drehbar) |
+| `gisak_boden_gef_muldenachse.svg` | Muldenachse / Synklinale (drehbar) |
 
-### Boden, Altlasten und Geologie: Linien und Flächen (25 Symbole)
+### Boden, Altlasten und Geologie: Linien und Flächen (44 Symbole)
 
 | Symbol in QGIS | Art |
 |---|---|
@@ -900,6 +1212,10 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | Boden, Altlasten und Geologie: Grenze Verdachtsfläche | Linie |
 | Boden, Altlasten und Geologie: Grenze Bodenschutzgebiet | Linie |
 | Boden, Altlasten und Geologie: Profilschnitt | Linie |
+| Boden, Altlasten und Geologie: Abschiebung (Zeichen zur abgesunkenen Scholle) | Linie |
+| Boden, Altlasten und Geologie: Überschiebung (Zeichen zur überschobenen Scholle) | Linie |
+| Boden, Altlasten und Geologie: Sattelachse | Linie |
+| Boden, Altlasten und Geologie: Muldenachse | Linie |
 | Boden, Altlasten und Geologie: Altablagerung | Fläche |
 | Boden, Altlasten und Geologie: Altstandort | Fläche |
 | Boden, Altlasten und Geologie: Altlastverdächtige Fläche | Fläche |
@@ -914,6 +1230,21 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | Boden, Altlasten und Geologie: Bodenart Kies | Fläche |
 | Boden, Altlasten und Geologie: Bodenart Ton | Fläche |
 | Boden, Altlasten und Geologie: Bodenart Schluff | Fläche |
+| Boden, Altlasten und Geologie: Bodenart Lehm | Fläche |
+| Boden, Altlasten und Geologie: Bodenart Löss | Fläche |
+| Boden, Altlasten und Geologie: Bodenart Steine und Blöcke | Fläche |
+| Boden, Altlasten und Geologie: Oberboden / Mutterboden | Fläche |
+| Boden, Altlasten und Geologie: Gestein Sandstein | Fläche |
+| Boden, Altlasten und Geologie: Gestein Konglomerat | Fläche |
+| Boden, Altlasten und Geologie: Gestein Tonstein | Fläche |
+| Boden, Altlasten und Geologie: Gestein Mergelstein | Fläche |
+| Boden, Altlasten und Geologie: Gestein Kalkstein | Fläche |
+| Boden, Altlasten und Geologie: Gestein Steinsalz / Evaporit | Fläche |
+| Boden, Altlasten und Geologie: Gestein Kohle | Fläche |
+| Boden, Altlasten und Geologie: Gestein Granit / Plutonit | Fläche |
+| Boden, Altlasten und Geologie: Gestein Basalt / Vulkanit | Fläche |
+| Boden, Altlasten und Geologie: Gestein Gneis / kristalliner Schiefer | Fläche |
+| Boden, Altlasten und Geologie: Gestein Tonschiefer | Fläche |
 
 ## Lärm und Immissionen (`gisak_laerm`, 38 Symbole)
 
@@ -1176,7 +1507,7 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | Naturschutz: Habitatfläche, Revier | Fläche |
 | Naturschutz: Untersuchungsgebiet | Fläche |
 
-## Landschaftsplanung (`gisak_landschaftsplanung`, 82 Symbole)
+## Landschaftsplanung (`gisak_landschaftsplanung`, 69 Symbole)
 
 | Datei | Bedeutung |
 |---|---|
@@ -1200,7 +1531,6 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | `gisak_landschaftsplanung_bk_vital_2.svg` | Baumkataster Vitalitätsstufe 2 (merklich geschädigt, Stagnationsphase) |
 | `gisak_landschaftsplanung_bk_vital_3.svg` | Baumkataster Vitalitätsstufe 3 (stark geschädigt, Resignationsphase) |
 | `gisak_landschaftsplanung_bk_jungbaum.svg` | Baumkataster Jungbaum (mit Dreibock) |
-| `gisak_landschaftsplanung_bk_habitatbaum.svg` | Baumkataster Habitatbaum / Höhlenbaum |
 | `gisak_landschaftsplanung_bk_totbaum.svg` | Baumkataster abgestorbener Baum |
 | `gisak_landschaftsplanung_bk_stubben.svg` | Baumkataster Stubben / Baumstumpf |
 | `gisak_landschaftsplanung_bk_leerstandort.svg` | Baumkataster freier Baumstandort / leere Baumscheibe |
@@ -1250,20 +1580,8 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | `gisak_landschaftsplanung_aussichtspunkt.svg` | Aussichtspunkt |
 | `gisak_landschaftsplanung_sichtachse.svg` | Sichtachse / Blickbeziehung (nach rechts, drehbar) |
 | `gisak_landschaftsplanung_landmarke.svg` | Landmarke / prägendes Landschaftselement |
-| `gisak_landschaftsplanung_rastplatz.svg` | Rastplatz |
-| `gisak_landschaftsplanung_bank.svg` | Bank |
-| `gisak_landschaftsplanung_schutzhuette.svg` | Schutzhütte |
-| `gisak_landschaftsplanung_grillplatz.svg` | Grillplatz / Feuerstelle |
-| `gisak_landschaftsplanung_spielplatz.svg` | Spielplatz |
-| `gisak_landschaftsplanung_badestelle.svg` | Badestelle |
-| `gisak_landschaftsplanung_infotafel.svg` | Infotafel / Lehrpfad |
-| `gisak_landschaftsplanung_wanderweg.svg` | Wanderweg |
-| `gisak_landschaftsplanung_radweg.svg` | Radweg |
-| `gisak_landschaftsplanung_reitweg.svg` | Reitweg |
-| `gisak_landschaftsplanung_wanderparkplatz.svg` | Wanderparkplatz |
-| `gisak_landschaftsplanung_kaltluftbahn.svg` | Kaltluftbahn / Frischluftschneise (nach rechts, drehbar) |
 
-### Landschaftsplanung: Linien und Flächen (35 Symbole)
+### Landschaftsplanung: Linien und Flächen (31 Symbole)
 
 | Symbol in QGIS | Art |
 |---|---|
@@ -1273,13 +1591,9 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | Landschaftsplanung: Ufergehölz | Linie |
 | Landschaftsplanung: Fließgewässer | Linie |
 | Landschaftsplanung: Graben | Linie |
-| Landschaftsplanung: Wanderweg | Linie |
-| Landschaftsplanung: Radweg | Linie |
-| Landschaftsplanung: Reitweg | Linie |
 | Landschaftsplanung: Trockenmauer | Linie |
 | Landschaftsplanung: Zaun | Linie |
 | Landschaftsplanung: Sichtachse | Linie |
-| Landschaftsplanung: Kaltluftbahn | Linie |
 | Landschaftsplanung: Baumschutzzaun | Linie |
 | Landschaftsplanung: Laubwald | Fläche |
 | Landschaftsplanung: Nadelwald | Fläche |
@@ -1463,7 +1777,7 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | Landwirtschaft: Dränfläche | Fläche |
 | Landwirtschaft: Beregnungsfläche | Fläche |
 
-## Verkehr (`gisak_verkehr`, 58 Symbole)
+## Verkehr (`gisak_verkehr`, 57 Symbole)
 
 | Datei | Bedeutung |
 |---|---|
@@ -1474,7 +1788,6 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | `gisak_verkehr_tiefgarage.svg` | Tiefgarage |
 | `gisak_verkehr_behindertenparkplatz.svg` | Behindertenparkplatz |
 | `gisak_verkehr_lkw_parkplatz.svg` | Lkw-Parkplatz |
-| `gisak_verkehr_wohnmobilstellplatz.svg` | Wohnmobilstellplatz |
 | `gisak_verkehr_haltestelle.svg` | Haltestelle allgemein |
 | `gisak_verkehr_bushaltestelle.svg` | Bushaltestelle |
 | `gisak_verkehr_busbahnhof.svg` | Busbahnhof / ZOB |
@@ -1827,7 +2140,7 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | Brand- und Katastrophenschutz: Überflutungsbereich | Fläche |
 | Brand- und Katastrophenschutz: Einsatzabschnitt | Fläche |
 
-## Vermessung (`gisak_vermessung`, 49 Symbole)
+## Vermessung (`gisak_vermessung`, 43 Symbole)
 
 | Datei | Bedeutung |
 |---|---|
@@ -1851,12 +2164,6 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | `gisak_vermessung_fotostandort.svg` | Fotostandort |
 | `gisak_vermessung_fotostandort_blickrichtung.svg` | Fotostandort mit Blickrichtung (nach rechts, drehbar) |
 | `gisak_vermessung_drohnenstartpunkt.svg` | Start- und Landepunkt Drohne (UAV) |
-| `gisak_vermessung_bohrpunkt.svg` | Bohrung / Bohrpunkt |
-| `gisak_vermessung_sondierung.svg` | Sondierung (Ramm- oder Drucksondierung) |
-| `gisak_vermessung_schurf.svg` | Schurf |
-| `gisak_vermessung_nordpfeil.svg` | Nordpfeil |
-| `gisak_vermessung_nordpfeil_schlicht.svg` | Nordpfeil, schlicht |
-| `gisak_vermessung_nordstern.svg` | Nordstern / Windrose |
 | `gisak_vermessung_gitterkreuz.svg` | Gitterkreuz / Koordinatenkreuz |
 | `gisak_vermessung_flurstueckshaken.svg` | Zusammengehörigkeitshaken (Flurstückshaken) |
 | `gisak_vermessung_zuordnungspfeil.svg` | Zuordnungspfeil (drehbar) |
@@ -2042,7 +2349,7 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | Kartengestaltung: Plangebiet | Fläche |
 | Kartengestaltung: Schraffur, neutral | Fläche |
 
-## Allgemein (`gisak_allgemein`, 137 Symbole)
+## Allgemein (`gisak_allgemein`, 150 Symbole)
 
 | Datei | Bedeutung |
 |---|---|
@@ -2123,6 +2430,19 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | `gisak_allgemein_sitzbank.svg` | Sitzbank / Rastplatz |
 | `gisak_allgemein_trinkbrunnen.svg` | Trinkbrunnen / Trinkwasser |
 | `gisak_allgemein_telefon.svg` | Öffentliches Telefon |
+| `gisak_allgemein_zahnarzt.svg` | Zahnarzt |
+| `gisak_allgemein_optiker.svg` | Optiker |
+| `gisak_allgemein_kunstwerk.svg` | Kunstwerk / Skulptur |
+| `gisak_allgemein_botschaft.svg` | Botschaft / Konsulat |
+| `gisak_allgemein_museumsbahn.svg` | Museumsbahn / historische Bahn |
+| `gisak_allgemein_imbiss.svg` | Imbiss / Schnellrestaurant |
+| `gisak_allgemein_bar.svg` | Bar / Kneipe |
+| `gisak_allgemein_baumarkt.svg` | Baumarkt / Werkzeug |
+| `gisak_allgemein_baeckerei.svg` | Bäckerei |
+| `gisak_allgemein_bekleidung.svg` | Bekleidung / Mode |
+| `gisak_allgemein_friseur.svg` | Friseur |
+| `gisak_allgemein_abfalleimer.svg` | Abfalleimer / Papierkorb |
+| `gisak_allgemein_tempel.svg` | Tempel / sonstiges Gotteshaus |
 | `gisak_allgemein_topo_kirche.svg` | Topografie: Kirche |
 | `gisak_allgemein_topo_kapelle.svg` | Topografie: Kapelle |
 | `gisak_allgemein_topo_wegkreuz.svg` | Topografie: Wegkreuz / Bildstock |
@@ -2184,22 +2504,16 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | `gisak_allgemein_nadel_achtung.svg` | Standortnadel mit Ausrufezeichen |
 | `gisak_allgemein_nadel_person.svg` | Standortnadel mit Person |
 
-### Allgemein: Linien und Flächen (19 Symbole)
+### Allgemein: Linien und Flächen (13 Symbole)
 
 | Symbol in QGIS | Art |
 |---|---|
-| Allgemein: Staatsgrenze | Linie |
-| Allgemein: Landesgrenze | Linie |
-| Allgemein: Kreisgrenze | Linie |
-| Allgemein: Gemeindegrenze | Linie |
 | Allgemein: Ortsteilgrenze | Linie |
 | Allgemein: Projektgrenze | Linie |
 | Allgemein: Rettungsweg | Linie |
 | Allgemein: Route | Linie |
 | Allgemein: Route, Variante | Linie |
 | Allgemein: Bezugslinie | Linie |
-| Allgemein: Gebäude | Fläche |
-| Allgemein: Öffentliches Gebäude | Fläche |
 | Allgemein: Verwaltungsgebiet | Fläche |
 | Allgemein: Untersuchungsgebiet | Fläche |
 | Allgemein: Projektgebiet | Fläche |

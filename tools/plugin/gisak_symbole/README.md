@@ -1,7 +1,7 @@
 # GIS-Akademie Symbole
 
 QGIS plugin that adds the GIS-Akademie symbol library to the symbol selector: SVG point symbols plus line and
-fill symbols for German planning and utility maps (zoning plan signs after PlanZV, regional planning, land use mapping,
+fill symbols for German planning and utility maps (zoning plan signs after PlanZV, regional planning, land use mapping, topographic base maps,
 electricity, pipelines, renewable energy, municipal heat planning, water and heavy rain, soil, noise, urban climate, nature conservation, landscape planning, forestry,
 agriculture, traffic, tourism and sports, heritage, fire and disaster control, surveying, north arrows, map
 layout, general signs). Symbol names and the dialog are in German.

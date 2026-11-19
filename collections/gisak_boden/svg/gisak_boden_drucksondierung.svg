@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Drucksondierung (CPT)</title>
+  <circle cx="50" cy="50" r="44" fill="param(fill) #EAD9C3" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #6B4423" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M30.05 57.66Q34.2 57.66 35.81 53.5L39.81 55Q38.52 58.17 36.02 59.72Q33.53 61.27 30.05 61.27Q24.76 61.27 21.88 58.27Q19 55.28 19 49.91Q19 44.51 21.78 41.62Q24.56 38.73 29.85 38.73Q33.7 38.73 36.12 40.28Q38.55 41.83 39.53 44.83L35.49 45.93Q34.97 44.28 33.47 43.31Q31.97 42.34 29.94 42.34Q26.83 42.34 25.22 44.27Q23.62 46.19 23.62 49.91Q23.62 53.68 25.27 55.67Q26.92 57.66 30.05 57.66ZM60.82 45.99Q60.82 48.1 59.85 49.77Q58.89 51.43 57.09 52.34Q55.3 53.25 52.83 53.25H47.39V60.95H42.81V39.06H52.64Q56.57 39.06 58.69 40.87Q60.82 42.68 60.82 45.99ZM56.2 46.07Q56.2 42.62 52.13 42.62H47.39V49.72H52.25Q54.15 49.72 55.17 48.78Q56.2 47.84 56.2 46.07ZM73.91 42.6V60.95H69.33V42.6H62.26V39.06H81V42.6Z" fill="param(outline) #6B4423" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

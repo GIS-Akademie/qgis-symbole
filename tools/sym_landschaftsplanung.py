@@ -1,10 +1,11 @@
-"""Sammlung Landschaftsplanung: Gehoelze, Biotop- und Nutzungstypen, Massnahmen, Erholung und Landschaftsbild.
+"""Sammlung Landschaftsplanung: Gehoelze, Baumkataster, Biotop- und Nutzungstypen, Massnahmen, Landschaftsbild.
 Orientierung: Bestands- und Massnahmenplaene der Landschaftsplanung und der landschaftspflegerischen
 Begleitplanung, Gehoelzdarstellung wie in Lageplaenen. Kein bundeseinheitliches Regelwerk; eigene Entwuerfe.
 Stil: hellgruene Fuellung, dunkelgruener Strich 5 (Wasser blau). Die Form zeigt die Gruppe:
   Draufsicht ohne Rahmen = Gehoelz, Quadrat = Biotop- oder Nutzungstyp, gestricheltes Quadrat = Massnahme,
-  Kreis = Erholung, Landschaftsbild, Klima.
-Linien und Flaechen: gruen (Wasser blau, Wege braun, Siedlung grau); Gehoelze als Kreisreihe,
+  Kreis = Landschaftsbild (Aussichtspunkt, Sichtachse, Landmarke). Erholungseinrichtungen stehen in der Sammlung
+  Tourismus, Kaltluft und Klima in der Sammlung Stadtklima.
+Linien und Flaechen: gruen (Wasser blau, Siedlung grau); Gehoelze als Kreisreihe,
 Bestand mit durchgezogenem, Massnahmen mit gestricheltem Umriss.
 Baumkataster (Praefix bk_, Titel "Baumkataster ..."): Baumkrone in Draufsicht mit Zeichen in der Mitte.
 Vitalitaetsstufen 0 bis 3 nach Roloff, Massnahmen in Anlehnung an die Leistungen der ZTV-Baumpflege (FLL),
@@ -17,8 +18,8 @@ KEY = "landschaftsplanung"
 NAME = "Landschaftsplanung"
 DESC = ("Symbole für Landschaftsplanung und landschaftspflegerische Begleitplanung: Bäume und Gehölze nach "
         "Maßnahme, Baumkataster (Vitalität, Zustand, Baumpflege), Biotop- und Nutzungstypen, Maßnahmenarten, "
-        "Erholung, Landschaftsbild und Klima")
-TAGS = "landschaftsplanung, lbp, gruenordnung, baum, baumkataster, gehoelz, biotoptyp, massnahme, erholung"
+        "Landschaftsbild")
+TAGS = "landschaftsplanung, lbp, gruenordnung, baum, baumkataster, gehoelz, biotoptyp, massnahme, landschaftsbild"
 
 LG = ("#CDE8B5", "#2E6B2E")
 BL = ("#D6ECFA", "#0B5CAD")
@@ -34,7 +35,7 @@ def mn(*sh):  # Massnahme
     return [R(7, 7, 86, 86, "F", "S", 5, 8, "12 8")] + list(sh)
 
 
-def kr(*sh):  # Erholung, Landschaftsbild
+def kr(*sh):  # Landschaftsbild
     return fr_circle() + list(sh)
 
 
@@ -64,7 +65,6 @@ TEICH = [P("M14,52 C10,30 34,18 54,22 C76,18 94,36 88,56 C86,76 62,84 42,80 C24,
 STEINE = [E(32, 68, 22, 15, "N", "S", 4.5), E(70, 70, 20, 14, "N", "S", 4.5), E(52, 44, 21, 15, "N", "S", 4.5)]
 STAMM = [R(8, 36, 76, 28, "N", "S", 5, 14), E(80, 50, 11, 14, "F", "S", 5), C(80, 50, 4.5, "N", "S", 3),
          L(22, 46, 50, 46, 3), L(30, 55, 62, 55, 3)]
-TISCH = [L(22, 36, 78, 36, 7), L(36, 38, 26, 82, 5), L(64, 38, 74, 82, 5), L(6, 60, 30, 60, 6), L(70, 60, 94, 60, 6)]
 MAEANDER = [P("M8,62 Q22,26 40,50 T68,50", "N", "S", 7)] + arrow(68, 50, 90, 34, 7, 16)
 # Baumkataster: Vitalitaetsstufen 0 bis 3 nach Roloff (Kronenstruktur), wie sie die Baumkontrolle nutzt.
 # Einzige Ausnahme vom Gruen der Sammlung: Kronenfarbe gruen, gelb, orange, rot (in QGIS aenderbar).
@@ -101,7 +101,6 @@ S = [
       for i, (t, c) in enumerate(VITAL)],
     ("bk_jungbaum", "Baumkataster Jungbaum (mit Dreibock)", *LG,
      treetop(50, 50, 21, k=6) + [dot(50, 50, 5)] + [C(x, y, 6, "N", "S", 4) for x, y in regpoly(50, 52, 38, 3)]),
-    ("bk_habitatbaum", "Baumkataster Habitatbaum / Höhlenbaum", *LG, treetop(50, 50, 41) + [E(50, 50, 10, 16, "S", "N", 0)]),
     ("bk_totbaum", "Baumkataster abgestorbener Baum", *LG,
      [C(50, 50, 43, "N", "S", 3.5, "8 7")] + [L(50, 50, *pt(50, 50, 32, a), 5) for a in range(0, 360, 60)]
      + [L(*pt(50, 50, 19, a), *pt(50, 50, 31, a + 28), 4) for a in range(0, 360, 60)]),
@@ -180,31 +179,12 @@ S = [
     ("waldumbau", "Waldumbau", *LG, mn(*nadel(26, 50, 0.44), *arrow(40, 52, 58, 52, 4.5, 10), *laub(74, 50, 0.44))),
     ("wiedervernaessung", "Wiedervernässung", *BL, mn(*fit(drop("N", "S", 6), 40, 52, 0.56), *arrow(70, 76, 70, 28, 5, 13))),
     ("gewaesserrenaturierung", "Gewässerrenaturierung", *BL, mn(*fit(MAEANDER, 50, 50, 0.76))),
-    # ---- Erholung, Landschaftsbild, Klima (Kreis) ----
+    # ---- Landschaftsbild (Kreis) ----
     ("aussichtspunkt", "Aussichtspunkt", *LG,
      kr(*[L(50, 70, *pt(50, 70, 44, a), 4.5) for a in (-66, -33, 0, 33, 66)], dot(50, 70, 8))),
     ("sichtachse", "Sichtachse / Blickbeziehung (nach rechts, drehbar)", *LG,
      kr(PL([(78, 28), (28, 50), (78, 72)], 4.5), dot(28, 50, 8), *arrow(40, 50, 76, 50, 4, 11))),
     ("landmarke", "Landmarke / prägendes Landschaftselement", *LG, kr(PG(star(50, 52, 32, 13, 5), "S"))),
-    ("rastplatz", "Rastplatz", *LG, kr(*fit(TISCH, 50, 50, 0.66))),
-    ("bank", "Bank", *LG,
-     kr(L(24, 54, 76, 54, 6), L(24, 38, 76, 38, 5), L(30, 54, 30, 72, 5), L(70, 54, 70, 72, 5), L(28, 38, 28, 54, 4),
-        L(72, 38, 72, 54, 4))),
-    ("schutzhuette", "Schutzhütte", *LG, kr(*fit(house(), 50, 50, 0.66), R(44, 52, 12, 19, "S", "N", 0))),
-    ("grillplatz", "Grillplatz / Feuerstelle", *LG,
-     kr(*fit(flame("S", "F"), 50, 42, 0.44), L(28, 80, 72, 68, 5.5), L(28, 68, 72, 80, 5.5))),
-    ("spielplatz", "Spielplatz", *LG, kr(*fit(bucket("S", 4), 50, 52, 1.25))),
-    ("badestelle", "Badestelle", *BL, kr(*fit(swimmer(), 50, 50, 0.66))),
-    ("infotafel", "Infotafel / Lehrpfad", *LG,
-     kr(L(34, 56, 34, 80, 5), L(66, 56, 66, 80, 5), R(24, 24, 52, 34, "N", "S", 4.5, 3), dot(50, 32, 3),
-        L(50, 39, 50, 50, 4.5))),
-    ("wanderweg", "Wanderweg", *LG, kr(*fit(person(), 50, 50, 0.66))),
-    ("radweg", "Radweg", *LG, kr(*fit(bike(), 50, 50, 0.68))),
-    ("reitweg", "Reitweg", *LG,
-     kr(P("M32,72 V48 A18,18 0 0 1 68,48 V72", "N", "S", 9, cap="butt"), dot(32, 60, 2.5), dot(68, 60, 2.5))),
-    ("wanderparkplatz", "Wanderparkplatz", *LG, kr(T("P", 50, 50, 40))),
-    ("kaltluftbahn", "Kaltluftbahn / Frischluftschneise (nach rechts, drehbar)", *BL,
-     kr(*arrow(22, 50, 78, 50, 5.5, 14), wave(24, 32, 44, 4, 2, 4), wave(24, 70, 44, 4, 2, 4))),
 ]
 
 SYMBOLS = S
@@ -220,13 +200,9 @@ LINIEN = [
     ("Ufergehölz", [linie(B0, 0.6), marken(mk("circle", 2.0, LG[0], G0, 0.25, dy=1.4), 2.6)]),
     ("Fließgewässer", [linie(B0, 0.9)]),
     ("Graben", [linie(B0, 0.4, [4, 1])]),
-    ("Wanderweg", [linie(W0, 0.5, [2, 1])]),
-    ("Radweg", [linie(W0, 0.5, [4, 1, 0.5, 1])]),
-    ("Reitweg", [linie(W0, 0.5, [0.5, 1])]),
     ("Trockenmauer", [linie(S0, 0.9), marken(mk("line", 0.9, "#FFFFFF", rw=0.25), 1.8)]),
     ("Zaun", [linie(S0, 0.3), marken(mk("cross2", 1.2, S0, rw=0.25), 4)]),
     ("Sichtachse", [linie(G0, 0.4, [6, 2]), marken(mk("arrowhead", 2.0, G0, rw=0.35), 16)]),
-    ("Kaltluftbahn", [linie(B0 + "59", 2.2), marken(mk("filled_arrowhead", 2.2, B0), 9)]),
     ("Baumschutzzaun", [linie(G0, 0.4), marken(mk("line", 1.6, G0, rw=0.3), 3)]),
 ]
 

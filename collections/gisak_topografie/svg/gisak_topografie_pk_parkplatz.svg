@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Parkplatz</title>
+  <circle cx="50" cy="50" r="45" fill="param(fill) #9C9C9C" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #000000" stroke-opacity="param(outline-opacity) 1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(50,50) scale(0.68) translate(-50,-50)"><path d="M70.56 40.83Q70.56 45.65 68.36 49.45Q66.16 53.25 62.07 55.32Q57.97 57.4 52.32 57.4H39.9V75H29.44V25H51.9Q60.88 25 65.72 29.13Q70.56 33.27 70.56 40.83ZM60.02 41Q60.02 33.13 50.73 33.13H39.9V49.34H51.01Q55.34 49.34 57.68 47.2Q60.02 45.05 60.02 41Z" fill="param(outline) #000000" fill-opacity="param(outline-opacity) 1" stroke="none"/></g>
+</svg>

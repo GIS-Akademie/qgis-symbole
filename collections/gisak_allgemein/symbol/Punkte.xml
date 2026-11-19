@@ -1387,6 +1387,240 @@
         <prop k="vertical_anchor_point" v="1"/>
       </layer>
     </symbol>
+    <symbol type="marker" name="Allgemein: Zahnarzt" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_allgemein_zahnarzt.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="200,16,46,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Allgemein: Optiker" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_allgemein_optiker.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="51,51,51,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Allgemein: Kunstwerk / Skulptur" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_allgemein_kunstwerk.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="51,51,51,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Allgemein: Botschaft / Konsulat" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_allgemein_botschaft.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="51,51,51,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Allgemein: Museumsbahn / historische Bahn" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_allgemein_museumsbahn.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="51,51,51,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Allgemein: Imbiss / Schnellrestaurant" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_allgemein_imbiss.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="51,51,51,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Allgemein: Bar / Kneipe" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_allgemein_bar.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="51,51,51,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Allgemein: Baumarkt / Werkzeug" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_allgemein_baumarkt.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="51,51,51,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Allgemein: Bäckerei" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_allgemein_baeckerei.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="51,51,51,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Allgemein: Bekleidung / Mode" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_allgemein_bekleidung.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="51,51,51,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Allgemein: Friseur" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_allgemein_friseur.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="51,51,51,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Allgemein: Abfalleimer / Papierkorb" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_allgemein_abfalleimer.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="51,51,51,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Allgemein: Tempel / sonstiges Gotteshaus" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_allgemein_tempel.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="255,255,255,255"/>
+        <prop k="outline_color" v="51,51,51,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
     <symbol type="marker" name="Allgemein: Topografie: Kirche" alpha="1" clip_to_extent="1" force_rhr="0">
       <layer class="SvgMarker" enabled="1" locked="0" pass="0">
         <prop k="name" v="gisak_allgemein_topo_kirche.svg"/>

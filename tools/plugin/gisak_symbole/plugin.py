@@ -16,6 +16,7 @@ from . import kern
 
 TITEL = "GIS-Akademie Symbole"
 AN, AUS = Qt.CheckState.Checked, Qt.CheckState.Unchecked
+HINWEIS_NACH_MS = 2500   # Wartezeit, bis nach dem Start der Hinweis auf neue Sammlungen erscheint
 
 
 def _zahlen(s):
@@ -30,7 +31,7 @@ def _zahlen(s):
 class Auswahl(QDialog):
     """Liste der Sammlungen zum An- und Abwaehlen."""
 
-    def __init__(self, sammlungen, gewaehlt, parent=None):
+    def __init__(self, sammlungen, gewaehlt, parent=None, neu=()):
         super().__init__(parent)
         self.setWindowTitle(TITEL)
         self.resize(560, 620)
@@ -43,7 +44,7 @@ class Auswahl(QDialog):
         lay.addWidget(text)
         self.liste = QListWidget()
         for s in sammlungen:
-            it = QListWidgetItem(f"{s['titel']}  –  {_zahlen(s)}")
+            it = QListWidgetItem(f"{s['titel']}  –  {_zahlen(s)}" + ("  (neu)" if s["key"] in neu else ""))
             it.setToolTip(s["beschreibung"])
             it.setData(Qt.ItemDataRole.UserRole, s["key"])
             it.setFlags(it.flags() | Qt.ItemFlag.ItemIsUserCheckable)
@@ -86,6 +87,7 @@ class GisakSymbole:
     def __init__(self, iface):
         self.iface = iface
         self.aktion = None
+        self.hinweis_zeile = None
 
     # ---- Plugin-Schnittstelle ----
 
@@ -106,6 +108,7 @@ class GisakSymbole:
             self.iface.initializationCompleted.disconnect(self.pruefen)
         except (TypeError, RuntimeError):
             pass
+        self._hinweis_weg()
         if self.aktion is not None:
             self.iface.removePluginMenu(TITEL, self.aktion)
             self.aktion = None
@@ -121,19 +124,43 @@ class GisakSymbole:
         else:
             if kern.veraltet(alle):
                 self.anwenden(keys)
-            neu = kern.unbekannt(alle)
-            if neu:
-                self.iface.messageBar().pushMessage(
-                    TITEL, "Neue Sammlungen verfügbar: " + ", ".join(s["titel"] for s in neu)
-                    + ". Eintragen über Erweiterungen › GIS-Akademie Symbole › Sammlungen auswählen …",
-                    Qgis.MessageLevel.Info, 30)
-        kern.bekannt_merken(alle)
+            if kern.unbekannt(alle):
+                # Etwas spaeter zeigen: Beim Start raeumt QGIS die Meldungsleiste noch einmal ab (Projekt laden),
+                # und die Meldung ueber das Auffrischen soll den Hinweis nicht verdecken.
+                QTimer.singleShot(HINWEIS_NACH_MS, self.hinweis)
+
+    def hinweis(self):
+        """Bleibender Hinweis auf neue Sammlungen mit Knopf zur Auswahl. Als bekannt gelten sie erst, wenn die
+        Auswahl geoeffnet wurde; bis dahin erscheint der Hinweis bei jedem Start wieder."""
+        neu = kern.unbekannt(kern.sammlungen())
+        if not neu or self.aktion is None:
+            return
+        self._hinweis_weg()
+        leiste = self.iface.messageBar()
+        zeile = leiste.createMessage(TITEL, "Neue Sammlungen verfügbar: " + ", ".join(s["titel"] for s in neu) + ".")
+        knopf = QPushButton("Sammlungen auswählen …")
+        knopf.clicked.connect(self.dialog)
+        zeile.layout().addWidget(knopf)
+        leiste.pushWidget(zeile, Qgis.MessageLevel.Info, 0)
+        self.hinweis_zeile = zeile
+
+    def _hinweis_weg(self):
+        if self.hinweis_zeile is not None:
+            try:
+                self.iface.messageBar().popWidget(self.hinweis_zeile)
+            except RuntimeError:  # schon geschlossen
+                pass
+            self.hinweis_zeile = None
 
     def dialog(self):
         alle = kern.sammlungen()
         keys = kern.installiert()
-        dlg = Auswahl(alle, [s["key"] for s in alle] if keys is None else keys, self.iface.mainWindow())
-        if dlg.exec():
+        neu = [] if keys is None else [s["key"] for s in kern.unbekannt(alle)]
+        self._hinweis_weg()
+        dlg = Auswahl(alle, [s["key"] for s in alle] if keys is None else keys, self.iface.mainWindow(), neu)
+        ok = dlg.exec()
+        kern.bekannt_merken(alle)
+        if ok:
             self.anwenden(dlg.gewaehlt(), neu=dlg.neu.isChecked())
 
     def anwenden(self, gewaehlt, neu=False):

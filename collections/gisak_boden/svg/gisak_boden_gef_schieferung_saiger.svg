@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Schieferung saiger / senkrecht (drehbar)</title>
+  <path d="M8,50 L92,50" fill="none" stroke="param(outline) #6B4423" stroke-opacity="param(outline-opacity) 1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="36,50 50,26 64,50 50,74" fill="param(outline) #6B4423" fill-opacity="param(outline-opacity) 1" stroke="param(outline) #6B4423" stroke-opacity="param(outline-opacity) 1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

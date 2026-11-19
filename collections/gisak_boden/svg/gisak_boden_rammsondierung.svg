@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Rammsondierung (DPL, DPM, DPH)</title>
+  <circle cx="50" cy="50" r="44" fill="param(fill) #EAD9C3" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #6B4423" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M48.81 49.8Q48.81 53.93 47.19 57.01Q45.56 60.09 42.6 61.72Q39.63 63.35 35.8 63.35H25V36.65H34.67Q41.41 36.65 45.11 40.05Q48.81 43.45 48.81 49.8ZM43.18 49.8Q43.18 45.5 40.94 43.23Q38.7 40.97 34.55 40.97H30.59V59.03H35.33Q38.93 59.03 41.05 56.55Q43.18 54.07 43.18 49.8ZM75 45.1Q75 47.68 73.82 49.71Q72.65 51.73 70.46 52.84Q68.27 53.95 65.26 53.95H58.62V63.35H53.03V36.65H65.03Q69.83 36.65 72.41 38.86Q75 41.06 75 45.1ZM69.37 45.2Q69.37 40.99 64.4 40.99H58.62V49.65H64.56Q66.87 49.65 68.12 48.5Q69.37 47.36 69.37 45.2Z" fill="param(outline) #6B4423" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

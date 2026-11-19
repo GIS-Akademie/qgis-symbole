@@ -181,6 +181,168 @@
         <prop k="vertical_anchor_point" v="1"/>
       </layer>
     </symbol>
+    <symbol type="marker" name="Boden, Altlasten und Geologie: Kleinbohrung / Sondierbohrung (BS)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_boden_kleinbohrung.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="234,217,195,255"/>
+        <prop k="outline_color" v="107,68,35,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Boden, Altlasten und Geologie: Rammsondierung (DPL, DPM, DPH)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_boden_rammsondierung.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="234,217,195,255"/>
+        <prop k="outline_color" v="107,68,35,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Boden, Altlasten und Geologie: Drucksondierung (CPT)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_boden_drucksondierung.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="234,217,195,255"/>
+        <prop k="outline_color" v="107,68,35,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Boden, Altlasten und Geologie: Bohrstocksondierung / Handbohrung" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_boden_bohrstock.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="234,217,195,255"/>
+        <prop k="outline_color" v="107,68,35,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Boden, Altlasten und Geologie: Tiefbohrung" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_boden_tiefbohrung.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="234,217,195,255"/>
+        <prop k="outline_color" v="107,68,35,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Boden, Altlasten und Geologie: Schrägbohrung (Richtung nach rechts, drehbar)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_boden_schraegbohrung.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="234,217,195,255"/>
+        <prop k="outline_color" v="107,68,35,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Boden, Altlasten und Geologie: Bohrung, zur Grundwassermessstelle ausgebaut" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_boden_bohrung_gwm.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="234,217,195,255"/>
+        <prop k="outline_color" v="107,68,35,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Boden, Altlasten und Geologie: Bohrung, geplant" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_boden_bohrung_geplant.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="234,217,195,255"/>
+        <prop k="outline_color" v="107,68,35,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Boden, Altlasten und Geologie: Bohrung, verfüllt / aufgegeben" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_boden_bohrung_verfuellt.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="234,217,195,255"/>
+        <prop k="outline_color" v="107,68,35,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
     <symbol type="marker" name="Boden, Altlasten und Geologie: Altablagerung (Punkt)" alpha="1" clip_to_extent="1" force_rhr="0">
       <layer class="SvgMarker" enabled="1" locked="0" pass="0">
         <prop k="name" v="gisak_boden_altablagerung.svg"/>
@@ -778,6 +940,222 @@
     <symbol type="marker" name="Boden, Altlasten und Geologie: Erdwärmesonde" alpha="1" clip_to_extent="1" force_rhr="0">
       <layer class="SvgMarker" enabled="1" locked="0" pass="0">
         <prop k="name" v="gisak_boden_erdwaermesonde.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="234,217,195,255"/>
+        <prop k="outline_color" v="107,68,35,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Boden, Altlasten und Geologie: Streichen und Fallen der Schichtung (Fallrichtung oben, drehbar)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_boden_gef_schichtung.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="234,217,195,255"/>
+        <prop k="outline_color" v="107,68,35,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Boden, Altlasten und Geologie: Schichtung saiger / senkrecht (drehbar)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_boden_gef_schichtung_saiger.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="234,217,195,255"/>
+        <prop k="outline_color" v="107,68,35,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Boden, Altlasten und Geologie: Schichtung söhlig / horizontal" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_boden_gef_schichtung_soehlig.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="234,217,195,255"/>
+        <prop k="outline_color" v="107,68,35,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Boden, Altlasten und Geologie: Schichtung überkippt (Fallrichtung oben, drehbar)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_boden_gef_schichtung_ueberkippt.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="234,217,195,255"/>
+        <prop k="outline_color" v="107,68,35,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Boden, Altlasten und Geologie: Streichen und Fallen der Schieferung (Fallrichtung oben, drehbar)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_boden_gef_schieferung.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="234,217,195,255"/>
+        <prop k="outline_color" v="107,68,35,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Boden, Altlasten und Geologie: Schieferung saiger / senkrecht (drehbar)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_boden_gef_schieferung_saiger.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="234,217,195,255"/>
+        <prop k="outline_color" v="107,68,35,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Boden, Altlasten und Geologie: Streichen und Fallen der Kluft (Fallrichtung oben, drehbar)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_boden_gef_kluft.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="234,217,195,255"/>
+        <prop k="outline_color" v="107,68,35,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Boden, Altlasten und Geologie: Kluft saiger / senkrecht (drehbar)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_boden_gef_kluft_saiger.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="234,217,195,255"/>
+        <prop k="outline_color" v="107,68,35,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Boden, Altlasten und Geologie: Einfallen der Störungsfläche (Fallrichtung oben, drehbar)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_boden_gef_stoerung.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="234,217,195,255"/>
+        <prop k="outline_color" v="107,68,35,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Boden, Altlasten und Geologie: Lineation / Abtauchen der Faltenachse (Richtung oben, drehbar)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_boden_gef_lineation.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="234,217,195,255"/>
+        <prop k="outline_color" v="107,68,35,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Boden, Altlasten und Geologie: Sattelachse / Antiklinale (drehbar)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_boden_gef_sattelachse.svg"/>
+        <prop k="size" v="6"/>
+        <prop k="size_unit" v="MM"/>
+        <prop k="scale_method" v="diameter"/>
+        <prop k="fixedAspectRatio" v="0"/>
+        <prop k="color" v="234,217,195,255"/>
+        <prop k="outline_color" v="107,68,35,255"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <prop k="angle" v="0"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="horizontal_anchor_point" v="1"/>
+        <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+    </symbol>
+    <symbol type="marker" name="Boden, Altlasten und Geologie: Muldenachse / Synklinale (drehbar)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SvgMarker" enabled="1" locked="0" pass="0">
+        <prop k="name" v="gisak_boden_gef_muldenachse.svg"/>
         <prop k="size" v="6"/>
         <prop k="size_unit" v="MM"/>
         <prop k="scale_method" v="diameter"/>

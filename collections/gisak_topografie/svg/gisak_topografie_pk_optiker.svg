@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Optiker</title>
+  <circle cx="50" cy="50" r="45" fill="param(fill) #FFEBBE" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #000000" stroke-opacity="param(outline-opacity) 1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(50,50) scale(0.68) translate(-50,-50)"><circle cx="31" cy="56" r="14" fill="none" stroke="param(outline) #000000" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="69" cy="56" r="14" fill="none" stroke="param(outline) #000000" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M45,54 Q50,47 55,54" fill="none" stroke="param(outline) #000000" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M18,52 L14,36" fill="none" stroke="param(outline) #000000" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M82,52 L86,36" fill="none" stroke="param(outline) #000000" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>

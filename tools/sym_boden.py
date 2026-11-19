@@ -5,11 +5,17 @@ Bergbauzeichen der topografischen Karten (gekreuzte Haemmer, bei Stilllegung auf
 Eigene, schlichte Entwuerfe in Anlehnung daran; keine Wiedergabe genormter Zeichen.
 Stil: hellbraune Fuellung, dunkelbrauner Strich 5. Die Rahmenform zeigt die Gruppe:
   Kreis = Aufschluss oder Messstelle (Flaechenteilung oder Kurzzeichen), Quadrat = Altlast oder Standort,
-  Raute = Bodenschutz/Gebiet, Sechseck = Geologie und Rohstoffe.
+  Raute = Bodenschutz/Gebiet, Sechseck = Geologie und Rohstoffe,
+  ohne Rahmen = Gefuegezeichen (Praefix gef_: Streichen und Fallen). Die Streichlinie liegt waagerecht, das
+  Fallzeichen zeigt nach oben; gedreht wird um die Fallrichtung (0 = Norden, im Uhrzeigersinn).
+  Formen wie in geologischen Karten ueblich: Strich = Schichtung, Dreieck = Schieferung, Rechteck = Kluft.
   Gefahrenhinweise stehen im Sinnbild, nicht in einer anderen Farbe.
 Linien und Flaechen: braun; nachgewiesen/Bestand durchgezogen, vermutet/Verdacht gestrichelt. Altlasten schraffiert,
 Kanten mit Zeichen zur tieferen Seite (rechts in Laufrichtung), Bodenarten als Signatur in Anlehnung an DIN 4023
-(Sand gepunktet, Kies Ringe, Ton waagerecht, Schluff schraeg schraffiert).
+(Sand gepunktet, Kies Ringe, Ton waagerecht, Schluff schraeg schraffiert). Festgesteine (Titel "Gestein ...")
+ebenfalls braun und nur ueber die Signatur unterschieden; die Signaturen sind eigene, an geologischen Karten
+orientierte Entwuerfe (Kristallin Kreuze, Vulkanit v-Zeichen, Sedimente waagerecht), keine Normsignaturen.
+Kurzzeichen der Aufschluesse: BS = Kleinbohrung, DP = Rammsondierung, CPT = Drucksondierung.
 """
 from lib import *
 from qstil import linie, band, marken, voll, schraffur, muster, mk, sv
@@ -17,8 +23,9 @@ from qstil import linie, band, marken, voll, schraffur, muster, mk, sv
 KEY = "boden"
 NAME = "Boden, Altlasten und Geologie"
 DESC = ("Symbole für Boden, Altlasten und Geologie: Bohrungen, Schürfe und Messstellen, Altablagerungen und "
-        "Altstandorte, Bodenschutz, Rohstoffabbau, Bergbau und Georisiken")
-TAGS = "boden, altlasten, geologie, bohrung, baugrund, bodenschutz, rohstoffe, bergbau, georisiken"
+        "Altstandorte, Bodenschutz, Rohstoffabbau, Bergbau und Georisiken, Streichen und Fallen, Signaturen für "
+        "Boden- und Gesteinsarten")
+TAGS = "boden, altlasten, geologie, bohrung, baugrund, bodenschutz, rohstoffe, bergbau, georisiken, gestein, streichen, fallen"
 
 BR = ("#EAD9C3", "#6B4423")
 
@@ -64,6 +71,7 @@ SCHLAEGEL = fit(HAMMER, 50, 52, 0.8, 40) + fit(HAMMER, 50, 52, 0.8, -40)
 SPATEN = [L(50, 20, 50, 56, 6), L(39, 20, 61, 20, 6), P("M36,54 H64 V70 Q64,82 50,86 Q36,82 36,70 Z", "S", "S", 3)]
 BOMBE = [C(45, 59, 21, "S", "N", 0), PG([(53, 38), (62, 31), (70, 40), (61, 47)], "S"),
          P("M65,34 Q70,22 80,26", "N", "S", 4), PG(star(82, 22, 8, 3.5, 6), "S")]
+STREICH = L(8, 50, 92, 50, 6)
 WIND = [P("M20,40 H58 a10,10 0 1 0 -10,-10", "N", "S", 6), P("M20,58 H70 a10,10 0 1 1 -10,10", "N", "S", 6)]
 
 S = [
@@ -81,6 +89,18 @@ S = [
     ("probenahmepunkt", "Probenahmepunkt", *BR, teil(chord(50, 50, 44, 180, 360))),
     ("grundwasseraufschluss", "Grundwasseraufschluss", *BR,
      ms(PG([(33, 24), (67, 24), (50, 48)], "S"), L(22, 55, 78, 55, 5), L(32, 67, 68, 67, 4.5), L(42, 78, 58, 78, 4))),
+    ("kleinbohrung", "Kleinbohrung / Sondierbohrung (BS)", *BR, mst("BS", 30, 50)),
+    ("rammsondierung", "Rammsondierung (DPL, DPM, DPH)", *BR, mst("DP", 30, 50)),
+    ("drucksondierung", "Drucksondierung (CPT)", *BR, mst("CPT", 22)),
+    ("bohrstock", "Bohrstocksondierung / Handbohrung", *BR,
+     ms(L(50, 24, 50, 70, 6), L(34, 24, 66, 24, 7), PG([(44, 68), (56, 68), (50, 86)], "S"))),
+    ("tiefbohrung", "Tiefbohrung", *BR, ms(C(50, 50, 29, "N", "S", 4.5), C(50, 50, 13, "S", "N", 0))),
+    ("schraegbohrung", "Schrägbohrung (Richtung nach rechts, drehbar)", *BR,
+     ms(C(32, 50, 11, "S", "N", 0), *arrow(44, 50, 84, 50, 5.5, 14))),
+    ("bohrung_gwm", "Bohrung, zur Grundwassermessstelle ausgebaut", *BR, mst("GWM", 20)),
+    ("bohrung_geplant", "Bohrung, geplant", *BR,
+     [C(50, 50, 44, "F", "S", 5, "12 8"), pie(50, 50, 28, 0, 90), pie(50, 50, 28, 180, 270)]),
+    ("bohrung_verfuellt", "Bohrung, verfüllt / aufgegeben", *BR, ms(*xcross(50, 50, 21, 7))),
     # ---- Altlasten und Standorte (Quadrat) ----
     ("altablagerung", "Altablagerung", *BR, alt("AA")),
     ("altstandort", "Altstandort", *BR, alt("AS")),
@@ -142,12 +162,38 @@ S = [
     ("erdwaermesonde", "Erdwärmesonde", *BR,
      geo(L(22, 32, 78, 32, 5), P("M41,32 V70 A9,9 0 0 0 59,70 V32", "N", "S", 5), PG([(34, 17), (48, 17), (41, 28)], "S"),
          PG([(52, 28), (66, 28), (59, 17)], "S"))),
+    # ---- Gefuegezeichen: Streichen und Fallen (ohne Rahmen; Fallrichtung oben, drehbar) ----
+    ("gef_schichtung", "Streichen und Fallen der Schichtung (Fallrichtung oben, drehbar)", *BR, [STREICH, L(50, 50, 50, 20, 6)]),
+    ("gef_schichtung_saiger", "Schichtung saiger / senkrecht (drehbar)", *BR, [STREICH, L(50, 28, 50, 72, 6)]),
+    ("gef_schichtung_soehlig", "Schichtung söhlig / horizontal", *BR, [C(50, 50, 27, "N", "S", 6)] + cross(50, 50, 40, 6)),
+    ("gef_schichtung_ueberkippt", "Schichtung überkippt (Fallrichtung oben, drehbar)", *BR,
+     [STREICH, P("M50,50 V28 A12,12 0 0 1 74,28 V38", "N", "S", 6)]),
+    ("gef_schieferung", "Streichen und Fallen der Schieferung (Fallrichtung oben, drehbar)", *BR,
+     [STREICH, PG([(36, 50), (64, 50), (50, 22)], "S", "S", 3)]),
+    ("gef_schieferung_saiger", "Schieferung saiger / senkrecht (drehbar)", *BR,
+     [STREICH, PG([(36, 50), (50, 26), (64, 50), (50, 74)], "S", "S", 3)]),
+    ("gef_kluft", "Streichen und Fallen der Kluft (Fallrichtung oben, drehbar)", *BR,
+     [STREICH, R(38, 27, 24, 23, "S", "S", 3)]),
+    ("gef_kluft_saiger", "Kluft saiger / senkrecht (drehbar)", *BR, [STREICH, R(38, 30, 24, 40, "S", "S", 3)]),
+    ("gef_stoerung", "Einfallen der Störungsfläche (Fallrichtung oben, drehbar)", *BR,
+     [L(8, 50, 92, 50, 10, cap="butt")] + arrow(50, 46, 50, 12, 6, 16)),
+    ("gef_lineation", "Lineation / Abtauchen der Faltenachse (Richtung oben, drehbar)", *BR, arrow(50, 88, 50, 12, 7, 22)),
+    ("gef_sattelachse", "Sattelachse / Antiklinale (drehbar)", *BR,
+     [STREICH] + arrow(50, 50, 50, 16, 5.5, 15) + arrow(50, 50, 50, 84, 5.5, 15)),
+    ("gef_muldenachse", "Muldenachse / Synklinale (drehbar)", *BR,
+     [STREICH] + arrow(50, 12, 50, 43, 5.5, 15) + arrow(50, 88, 50, 57, 5.5, 15)),
 ]
 
 SYMBOLS = S
 
 # ---- Linien und Flaechen (QGIS-Stildatei) ----
 B0, BL = BR[1], BR[0]
+
+
+
+def gestein(*ebenen):  # Festgestein: etwas kraeftigerer Grund als die Bodenarten, Signatur, Umriss
+    return [voll(BL + "CC"), *ebenen, linie(B0, 0.3)]
+
 
 LINIEN = [
     ("Geologische Störung, nachgewiesen", [linie(B0, 0.8)]),
@@ -161,6 +207,12 @@ LINIEN = [
     ("Grenze Verdachtsfläche", [linie(B0, 0.5, [3, 2]), marken(mk("cross2", 1.4, B0, rw=0.3), 5, start=4)]),
     ("Grenze Bodenschutzgebiet", [linie(B0 + "59", 1.8), linie(B0, 0.3)]),
     ("Profilschnitt", [linie(B0, 0.5, [6, 1.5, 1, 1.5])]),
+    ("Abschiebung (Zeichen zur abgesunkenen Scholle)", [linie(B0, 0.8), marken(mk("line", 1.5, B0, rw=0.35, dy=0.75), 5)]),
+    ("Überschiebung (Zeichen zur überschobenen Scholle)", [linie(B0, 0.8), marken(mk("triangle", 1.6, B0, winkel=180, dy=-0.8), 5)]),
+    ("Sattelachse", [linie(B0, 0.5), marken(mk("triangle", 1.4, B0, dy=-1.1), 14),
+                     marken(mk("triangle", 1.4, B0, winkel=180, dy=-1.1), 14)]),
+    ("Muldenachse", [linie(B0, 0.5), marken(mk("triangle", 1.4, B0, dy=1.1), 14),
+                     marken(mk("triangle", 1.4, B0, winkel=180, dy=1.1), 14)]),
 ]
 
 FLAECHEN = [
@@ -179,4 +231,19 @@ FLAECHEN = [
     ("Bodenart Kies", [voll(BL + "80"), muster(mk("circle", 1.3, BL, rand=B0, rw=0.25), 2.6, versatz=1.3), linie(B0, 0.3)]),
     ("Bodenart Ton", [voll(BL + "80"), schraffur(B0, 0.25, 0, 1.2), linie(B0, 0.3)]),
     ("Bodenart Schluff", [voll(BL + "80"), schraffur(B0, 0.25, 135, 1.6), linie(B0, 0.3)]),
+    ("Bodenart Lehm", [voll(BL + "80"), schraffur(B0, 0.25, 135, 3.2), muster(mk("circle", 0.45, B0), 1.6, versatz=0.8), linie(B0, 0.3)]),
+    ("Bodenart Löss", [voll(BL + "80"), schraffur(B0, 0.2, 90, 1.6), linie(B0, 0.3)]),
+    ("Bodenart Steine und Blöcke", [voll(BL + "80"), muster(mk("circle", 2.4, BL, rand=B0, rw=0.3), 3.8, versatz=1.9), linie(B0, 0.3)]),
+    ("Oberboden / Mutterboden", [voll(B0 + "59"), muster(mk("line", 1.0, B0, rw=0.25), 1.8, 2.2, versatz=0.9), linie(B0, 0.3)]),
+    ("Gestein Sandstein", gestein(schraffur(B0, 0.2, 0, 3.2), muster(mk("circle", 0.45, B0), 1.6, versatz=0.8))),
+    ("Gestein Konglomerat", gestein(schraffur(B0, 0.2, 0, 3.2), muster(mk("circle", 1.3, BL, rand=B0, rw=0.25), 3.2, versatz=1.6))),
+    ("Gestein Tonstein", gestein(muster(mk("line", 2.2, B0, rw=0.25, winkel=90), 3.2, 1.2, versatz=1.6))),
+    ("Gestein Mergelstein", gestein(schraffur(B0, 0.2, 0, 2.4), muster(mk("line", 1.0, B0, rw=0.25), 3.2, 2.4, versatz=1.6))),
+    ("Gestein Kalkstein", gestein(muster(mk("square", 1.7, None, rand=B0, rw=0.25), 2.8, versatz=1.4))),
+    ("Gestein Steinsalz / Evaporit", gestein(muster(mk("diamond", 1.5, None, rand=B0, rw=0.25), 2.8, versatz=1.4))),
+    ("Gestein Kohle", [voll("#3A2A1C"), schraffur(BL, 0.15, 0, 1.6), linie(B0, 0.3)]),
+    ("Gestein Granit / Plutonit", gestein(muster(mk("cross", 1.3, B0, rw=0.25), 2.8, versatz=1.4))),
+    ("Gestein Basalt / Vulkanit", gestein(muster(mk("arrowhead", 1.1, B0, rw=0.25, winkel=90), 2.8, versatz=1.4))),
+    ("Gestein Gneis / kristalliner Schiefer", gestein(muster(mk("line", 1.8, B0, rw=0.25, winkel=60), 2.2, 1.5, versatz=1.1))),
+    ("Gestein Tonschiefer", gestein(schraffur(B0, 0.2, 20, 1.1))),
 ]

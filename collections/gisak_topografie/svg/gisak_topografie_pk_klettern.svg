@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Klettern</title>
+  <circle cx="50" cy="50" r="45" fill="param(fill) #FFFFFF" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #000000" stroke-opacity="param(outline-opacity) 1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(50,50) scale(0.68) translate(-50,-50)"><path d="M42,18 H56 Q70,18 70,32 V68 Q70,82 56,82 H46 Q32,82 32,68 V34 Q32,18 42,18 Z" fill="none" stroke="param(outline) #000000" stroke-opacity="param(outline-opacity) 1" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" transform="rotate(20 50 50)"/><path d="M32,40 V62" fill="none" stroke="param(fill) #FFFFFF" stroke-opacity="param(fill-opacity) 1" stroke-width="3.5" stroke-linecap="butt" stroke-linejoin="round" transform="rotate(20 50 50)"/></g>
+</svg>

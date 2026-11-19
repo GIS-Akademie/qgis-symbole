@@ -72,7 +72,6 @@ S = [
     ("tiefgarage", "Tiefgarage", *VB, vq(T("P", 50, 38, 36, "W"), PL([(24, 68), (50, 86), (76, 68)], 6, "W"))),
     ("behindertenparkplatz", "Behindertenparkplatz", *VB, vq(T("P", 30, 34, 24, "W"), *fit(WHEELCHAIR, 60, 56, 0.66))),
     ("lkw_parkplatz", "Lkw-Parkplatz", *VB, vq(T("P", 28, 30, 22, "W"), *fit(TRUCK, 54, 64, 0.72))),
-    ("wohnmobilstellplatz", "Wohnmobilstellplatz", *VB, vq(T("P", 28, 30, 22, "W"), *fit(CAMPER, 54, 64, 0.72))),
     # ---- OEPNV und Bahn ----
     ("haltestelle", "Haltestelle allgemein", *VB, vq(C(50, 50, 32, "W", "N", 0), T("H", 50, 50, 34, "F"))),
     ("bushaltestelle", "Bushaltestelle", *VB, vq(*BUS)),

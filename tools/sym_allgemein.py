@@ -262,6 +262,40 @@ S = [
     ("telefon", "Öffentliches Telefon", *PB,
      aq(P("M22,46 Q50,14 78,46", "N", "S", 9), sf(11, 40, 22, 17, 5), sf(67, 40, 22, 17, 5),
         PG([(30, 84), (70, 84), (63, 60), (37, 60)], "S", "S", 4), C(50, 72, 5.5, "F", "N", 0))),
+    # ---- Ergaenzungen: Laeden, Gastronomie und einzelne Einrichtungen (Quadrat) ----
+    ("zahnarzt", "Zahnarzt", *RD,
+     aq(P("M30,26 Q40,18 50,26 Q60,18 70,26 Q78,40 68,56 L63,80 Q59,86 56,76 L53,62 Q50,56 47,62 L44,76 Q41,86 37,80 "
+          "L32,56 Q22,40 30,26 Z", "N", "S", 5))),
+    ("optiker", "Optiker", *AG,
+     aq(C(31, 56, 14, "N", "S", 5), C(69, 56, 14, "N", "S", 5), P("M45,54 Q50,47 55,54", "N", "S", 5),
+        sl(18, 52, 14, 36), sl(82, 52, 86, 36))),
+    ("kunstwerk", "Kunstwerk / Skulptur", *AG,
+     aq(sf(28, 74, 44, 10, 2), PG([(38, 72), (44, 30), (64, 18), (60, 72)], "S"), C(52, 46, 6, "F", "N", 0))),
+    ("botschaft", "Botschaft / Konsulat", *AG,
+     aq(sl(30, 86, 30, 16, 5.5), P("M30,18 H76 L66,33 L76,48 H30 Z", "S", "N", 0), sl(18, 86, 44, 86))),
+    ("museumsbahn", "Museumsbahn / historische Bahn", *AG,
+     aq(sf(20, 46, 40, 22, 3), sf(54, 30, 24, 38, 3), wf(60, 36, 12, 12, 1), sf(26, 32, 9, 16), C(32, 74, 8, "F", "S", 4.5),
+        C(52, 74, 8, "F", "S", 4.5), C(70, 74, 8, "F", "S", 4.5), C(34, 22, 5, "N", "S", 3.5), C(46, 15, 4, "N", "S", 3))),
+    ("imbiss", "Imbiss / Schnellrestaurant", *AG,
+     aq(P("M22,46 Q22,22 50,22 Q78,22 78,46 Z", "S", "N", 0), sf(18, 52, 64, 9, 4), sf(22, 67, 56, 13, 6))),
+    ("bar", "Bar / Kneipe", *AG,
+     aq(PG([(22, 22), (78, 22), (50, 54)], "N", "S", 5), sl(50, 54, 50, 82), sl(34, 84, 66, 84), sl(34, 34, 66, 34, 4))),
+    ("baumarkt", "Baumarkt / Werkzeug", *AG,
+     aq(*fit(HAMMER, 42, 50, 0.86, -35), sl(66, 30, 66, 84, 5.5), PG([(58, 16), (74, 16), (74, 32), (58, 32)], "N", "S", 5))),
+    ("baeckerei", "Bäckerei", *AG,
+     aq(P("M16,62 Q16,36 50,36 Q84,36 84,62 Q84,74 72,74 H28 Q16,74 16,62 Z", "N", "S", 5),
+        sl(35, 46, 40, 60, 4), sl(50, 44, 55, 60, 4), sl(65, 46, 70, 60, 4))),
+    ("bekleidung", "Bekleidung / Mode", *AG,
+     aq(PG([(36, 22), (44, 28), (56, 28), (64, 22), (86, 36), (76, 52), (67, 46), (67, 82), (33, 82), (33, 46), (24, 52),
+            (14, 36)], "N", "S", 5))),
+    ("friseur", "Friseur", *AG,
+     aq(sl(35, 18, 61, 60), sl(65, 18, 39, 60), C(66, 72, 10, "N", "S", 5), C(34, 72, 10, "N", "S", 5))),
+    ("abfalleimer", "Abfalleimer / Papierkorb", *AG,
+     aq(PG([(30, 36), (70, 36), (64, 84), (36, 84)], "N", "S", 5), sl(22, 32, 78, 32, 5.5), sl(42, 22, 58, 22, 5.5),
+        sl(44, 46, 45, 74, 3.5), sl(56, 46, 55, 74, 3.5))),
+    ("tempel", "Tempel / sonstiges Gotteshaus", *AG,
+     aq(sl(50, 12, 50, 24, 4.5), PG([(24, 42), (50, 22), (76, 42)], "S"), PG([(14, 64), (50, 46), (86, 64)], "S"),
+        sf(38, 64, 24, 22))),
     # ---- Topografische Einzelzeichen (ohne Rahmen) ----
     ("topo_kirche", "Topografie: Kirche", *AG,
      [L(50, 42, 50, 9, 6, cap="butt"), L(36, 22, 64, 22, 6, cap="butt"), C(50, 66, 24, "F", "S", 6)]),
@@ -371,10 +405,6 @@ SYMBOLS = S
 A0, R0, P0 = AG[1], RD[1], PB[1]
 
 LINIEN = [
-    ("Staatsgrenze", [linie(A0 + "40", 2.6), linie(A0, 0.8, [8, 2, 0.8, 2])]),
-    ("Landesgrenze", [linie(A0, 0.7, [8, 2, 0.7, 2, 0.7, 2])]),
-    ("Kreisgrenze", [linie(A0, 0.5, [6, 2, 0.5, 2])]),
-    ("Gemeindegrenze", [linie(A0, 0.35, [4, 1.5])]),
     ("Ortsteilgrenze", [linie(A0, 0.3, [0.5, 1])]),
     ("Projektgrenze", [linie(R0, 0.8, [6, 2])]),
     ("Rettungsweg", [linie(R0, 0.6), marken(mk("filled_arrowhead", 2.2, R0), 9)]),
@@ -384,8 +414,6 @@ LINIEN = [
 ]
 
 FLAECHEN = [
-    ("Gebäude", [voll("#BDBDBD"), linie(A0, 0.3)]),
-    ("Öffentliches Gebäude", [voll(P0 + "66"), linie(P0, 0.3)]),
     ("Verwaltungsgebiet", [band(A0 + "40", 2), linie(A0, 0.5, [6, 2, 0.5, 2])]),
     ("Untersuchungsgebiet", [band(R0 + "59", 1.5), linie(R0, 0.6)]),
     ("Projektgebiet", [voll(R0 + "1A"), linie(R0, 0.6, [6, 2])]),

@@ -1,6 +1,6 @@
 # GIS-Akademie Symbolbibliothek für QGIS
 
-1278 Punktsymbole (SVG) sowie 703 Linien- und Flächensymbole in 23 Sammlungen, aufgebaut als Repository
+1417 Punktsymbole (SVG) sowie 868 Linien- und Flächensymbole in 24 Sammlungen, aufgebaut als Repository
 für das QGIS-Plugin **Resource Sharing**. Alle Symbole sind Eigenentwicklungen der GIS-Akademie und stehen
 unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de).
 
@@ -10,15 +10,16 @@ unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de).
 | Strom | `gisak_strom` | 51 | 14 | 7 | Stationen, Masten, Kabelgarnituren, Schaltzeichen, Leitungen nach Spannungsebene |
 | Erneuerbare Energien | `gisak_eeg` | 43 | 10 | 14 | Wind- und Solarparkplanung, Bioenergie, Wasserkraft, Wärme, Netzanschluss |
 | Naturschutz | `gisak_naturschutz` | 58 | 9 | 19 | Schutzgebiete, Arten und Fundpunkte, Kompensation, Erfassung |
-| Landschaftsplanung | `gisak_landschaftsplanung` | 82 | 14 | 21 | Gehölze, Baumkataster (Vitalität, Zustand, Baumpflege), Biotop- und Nutzungstypen, Maßnahmen, Erholung |
-| Verkehr | `gisak_verkehr` | 58 | 16 | 10 | Parken, ÖPNV, Bahn, Rad- und Fußverkehr, Bauwerke, Störungen, Straßen nach Klasse |
+| Landschaftsplanung | `gisak_landschaftsplanung` | 69 | 10 | 21 | Gehölze, Baumkataster (Vitalität, Zustand, Baumpflege), Biotop- und Nutzungstypen, Maßnahmen, Landschaftsbild |
+| Verkehr | `gisak_verkehr` | 57 | 16 | 10 | Parken, ÖPNV, Bahn, Rad- und Fußverkehr, Bauwerke, Störungen, Straßen nach Klasse |
 | Wasserwirtschaft | `gisak_wasser` | 70 | 21 | 23 | Messstellen, Anlagen, Armaturen, Kanalnetz, Gewässerbauwerke, Gebiete, Starkregengefahren |
-| Vermessung | `gisak_vermessung` | 49 | 16 | 11 | Grenz- und Festpunkte, Aufschlüsse, Grenzen, Gebäude, Topografie im Lageplan |
+| Vermessung | `gisak_vermessung` | 43 | 16 | 11 | Grenz- und Festpunkte, Planzeichen, Grenzen, Gebäude, Topografie im Lageplan |
 | Raumordnung und Regionalplanung | `gisak_raumordnung` | 40 | 14 | 27 | Zentrale Orte, Standorte, Infrastruktur, Vorrang- und Vorbehaltsgebiete |
 | Realnutzung | `gisak_realnutzung` | 15 | 7 | 73 | Tatsächliche Nutzung nach AdV-Nutzungsartenkatalog: Siedlung, Verkehr, Vegetation, Gewässer; Vegetationszeichen |
+| Topografie | `gisak_topografie` | 125 | 73 | 83 | Standarddarstellung für ALKIS-, ATKIS- und OSM-Daten: Piktogramme im hellen Kreis, Straßen, Wege, Bahn, Gewässer, Grenzen, Gebäude nach Funktion, Vegetation, Siedlung, Bauwerke |
 | Gas, Fernwärme, Telekommunikation | `gisak_leitungen` | 43 | 14 | 11 | Stationen, Armaturen und Netzelemente der drei Sparten, Leitungen nach Druckstufe und Art |
 | Wärmeplanung | `gisak_waermeplanung` | 42 | 16 | 45 | Erzeugungsanlagen, Wärmequellen und Potenziale, Speicher, Großverbraucher, dezentrale Wärmeerzeuger, Netze, Wärmedichten, Wärmeversorgungsgebiete und Eignungsstufen nach Wärmeplanungsgesetz |
-| Boden, Altlasten und Geologie | `gisak_boden` | 44 | 11 | 14 | Aufschlüsse, Altlasten, Bodenschutz, Rohstoffe, Bodenarten als Signatur |
+| Boden, Altlasten und Geologie | `gisak_boden` | 65 | 15 | 29 | Aufschlüsse und Bohrungsarten, Altlasten, Bodenschutz, Rohstoffe, Streichen und Fallen, Boden- und Gesteinsarten als Signatur |
 | Lärm und Immissionen | `gisak_laerm` | 38 | 11 | 13 | Immissionsorte, Quellen, Schutzmaßnahmen, Pegelklassen der Lärmkartierung |
 | Stadtklima | `gisak_stadtklima` | 40 | 12 | 31 | Messstellen, Wärme- und Luftbelastung, Kaltluft- und Frischluftgebiete, Maßnahmen der Klimaanpassung, Strömungspfeile, Klimatope |
 | Forst | `gisak_forst` | 45 | 11 | 14 | Baumarten und Bestand, Betrieb, Jagd, Waldfunktionen, Altersklassen |
@@ -28,7 +29,7 @@ unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de).
 | Brand- und Katastrophenschutz | `gisak_brandschutz` | 42 | 10 | 10 | Feuerwehr und Löschwasser, Rettung, Katastrophenschutz, Gefahrenstellen |
 | Nordpfeile | `gisak_nordpfeile` | 34 | – | – | Schlichte Nordpfeile für Karten und Drucklayouts |
 | Kartengestaltung | `gisak_layout` | 61 | 9 | 10 | Nummern 1–20 und Buchstaben A–L als Marker, Hinweiszeichen, Pfeile, Rahmen und Ausschnitte |
-| Allgemein | `gisak_allgemein` | 137 | 10 | 9 | Öffentliche Einrichtungen, Rettung, Kultur, topografische Einzelzeichen, runde Punktmarker, freie Formen und Standortnadeln, Grenzen |
+| Allgemein | `gisak_allgemein` | 150 | 6 | 7 | Öffentliche Einrichtungen, Rettung, Kultur, topografische Einzelzeichen, runde Punktmarker, freie Formen und Standortnadeln, Projektgrenzen |
 
 Die vollständige Liste aller Symbole mit Bedeutung steht in [KATALOG.md](KATALOG.md).
 Jede Sammlung enthält unter `preview/` eine Übersicht der Punktsymbole (`preview.png`) und der Linien- und
@@ -86,7 +87,7 @@ Sharing mit `Connection to github.com timed out` scheitert.
    (Selbst bauen: `python tools\mkplugin.py`, das ZIP liegt danach unter `dist\`.)
 2. In QGIS **Erweiterungen › Erweiterungen verwalten und installieren › Aus ZIP installieren** wählen.
 3. Beim ersten Start erscheint die Liste der Sammlungen; angehakte werden in die Symbolauswahl eingetragen
-   (alle 23 Sammlungen: etwa eine Viertelminute). Später erreichbar über **Erweiterungen › GIS-Akademie Symbole ›
+   (alle 24 Sammlungen: etwa eine Viertelminute). Später erreichbar über **Erweiterungen › GIS-Akademie Symbole ›
    Sammlungen auswählen …**.
 
 Die Symbole heißen wie oben, nur ohne den Klammerzusatz von Resource Sharing. Jede Sammlung hat genau ein
@@ -128,15 +129,16 @@ angelegt, die Symbole sind also für den Druckmaßstab gedacht.
 | Strom | Freileitungen und Kabel nach Spannungsebene, Schutzrohr, geplant, außer Betrieb | Schutzstreifen, Trassenkorridor, Betriebsgelände, Netzgebiet |
 | Erneuerbare Energien | Kabeltrasse, Zuwegung, Zaun, Abstandslinie, Wärme- und Biogasleitung | Vorrang- und Potenzialflächen, Wind- und Solarpark, Modulfläche, Ausschluss- und Abstandsflächen |
 | Naturschutz | Schutzgebiets- und Zonengrenze, Biotopverbund, Wildtierkorridor, Schutzzaun, Transekt | Schutzgebietskategorien, Natura 2000, Zonen, Kompensations- und Ökokontoflächen |
-| Landschaftsplanung | Hecke, Baumreihe, Allee, Ufergehölz, Gewässer, Wege, Sichtachse, Kaltluftbahn, Baumschutzzaun | Wald, Grünland, Acker, Feuchtbiotope, Gewässer, Maßnahmenflächen, Kronentrauf- und Wurzelschutzbereich |
+| Landschaftsplanung | Hecke, Baumreihe, Allee, Ufergehölz, Gewässer, Trockenmauer, Zaun, Sichtachse, Baumschutzzaun | Wald, Grünland, Acker, Feuchtbiotope, Gewässer, Maßnahmenflächen, Kronentrauf- und Wurzelschutzbereich |
 | Verkehr | Straßen nach Klasse, Rad- und Fußweg, Bahn, Bus, Fähre, Baustelle, Umleitung, Sperrung | Park- und Verkehrsflächen, Zonen, Baustellen- und Sperrbereich |
 | Wasserwirtschaft | Trinkwasserleitungen, Schmutz-, Regen- und Mischwasserkanal mit Fließrichtung, Gewässer, Deich, Starkregen: Fließgeschwindigkeit in vier Klassen, Fließweg, Notwasserweg | Schutzgebietszonen, Überschwemmungs- und Risikogebiet, Einzugs- und Entwässerungsgebiete, Starkregen: Überflutungstiefe in vier Klassen, Überflutungsausdehnung für drei Szenarien |
 | Vermessung | Flurstücks-, Flur-, Gemarkungs- und Gemeindegrenze, Höhenlinien, Böschung, Zaun, Mauer, Hecke | Flurstück, Gebäude nach Art, geplant, abgebrochen, befestigte Fläche |
 | Raumordnung | Verwaltungs- und Regionsgrenzen, Entwicklungsachsen, Straße und Schiene (Bestand, Planung), Trassenkorridor, Grünzäsur | Vorrang- und Vorbehaltsgebiete je Thema, Grünzug, Verdichtungsraum, Eignungs- und Ausschlussgebiet |
 | Realnutzung | Grenzen von Nutzungsart, Gruppe, Bereich und Kartiereinheit, Baumreihen | 26 Nutzungsartengruppen und die Arten von Landwirtschaft und Wald mit Schlüssel, je in Katasterfarbe und kräftig |
+| Topografie | Straßen nach Klasse mit weißem Kern (groß und Übersicht), Wege, Gleise und Bahnstrecken, Seilbahnen, Leitungen, Gewässer, Deich und Böschung, Verwaltungsgrenzen nach Ebene, Routen | Gebäude nach Funktion, Verkehrs-, Bahn- und Flugplatzflächen, Gewässer, Wald und Vegetation, Landwirtschaft, Siedlung, Freizeit, Militär, Schutzgebiete, urbane Flächennutzung thematisch |
 | Gas, Fernwärme, Telekommunikation | Gas nach Druckstufe, Fernwärme Vor- und Rücklauf, Glasfaser, Kupfer, Leerrohr, Richtfunk | Schutzstreifen, Versorgungs- und Ausbaugebiete, Betriebsgelände |
 | Wärmeplanung | Wärmeliniendichte in vier Klassen, Wärme-, Gas- und Wasserstoffnetz (Bestand, genehmigt, geplant), Abwassersammler, Grenzen des beplanten Gebiets | Wärmenetz-, Wasserstoffnetz-, dezentrales und Prüfgebiet, Eignungsstufen je Versorgungsart, Wärmedichte in fünf Klassen, überwiegender Energieträger, Potenzialflächen, Ausschlussgebiet |
-| Boden | Störung, Schichtgrenze, Abbau- und Rutschungskante, Altlastengrenze | Altlasten nach Status, Abbau, Schutzflächen, Bodenarten |
+| Boden | Störung, Ab- und Überschiebung, Sattel- und Muldenachse, Schichtgrenze, Abbau- und Rutschungskante, Altlastengrenze | Altlasten nach Status, Abbau, Schutzflächen, Bodenarten, Festgesteine |
 | Lärm | Lärmschutzwand und -wall, Isophonen, Emissionsbänder | Pegelklassen in den Farben der DIN 45682, Schutzzonen, ruhiges Gebiet |
 | Stadtklima | Kaltluft- und Frischluftleitbahn, Kaltluftabfluss, Flurwind, Hauptwindrichtung, Strömungsbarriere, Isothermen | Klimatope, thermische Belastung in vier Stufen, Ausgleichsräume, Kaltluftentstehungs- und Sammelgebiete, Überwärmungsgebiet, Maßnahmenflächen |
 | Forst | Wege nach Ausbau, Abteilungs- und Reviergrenzen, Zaun, Waldrand | Baumartengruppen, Altersklassen, Waldfunktionen, Kalamität |
@@ -145,7 +147,7 @@ angelegt, die Symbole sind also für den Druckmaßstab gedacht.
 | Denkmalpflege | Grenzen von Denkmalbereich und Grabungsschutzgebiet, Wall- und Mauerverlauf, Altstraße | Baudenkmal, Ensemble, Bodendenkmal, Grabungs- und Verdachtsfläche, Pufferzone |
 | Brand- und Katastrophenschutz | Feuerwehrzufahrt, Rettungsweg, Evakuierungsroute, Löschwasser- und Schlauchleitung, Absperrung | Aufstell- und Bewegungsfläche, Brandabschnitt, Gefahren- und Absperrbereich, Evakuierungszone |
 | Kartengestaltung | Schnittlinie, Blattschnitt, Hinweis-, Pfeil- und Maßlinie, Hervorhebung | Kartenrahmen, Detail- und Übersichtsausschnitt, Legendenkasten, Abdeckung |
-| Allgemein | Verwaltungsgrenzen, Projektgrenze, Route, Rettungsweg | Gebäude, Untersuchungs- und Projektgebiet, Gefahren- und Hinweisfläche |
+| Allgemein | Ortsteilgrenze, Projektgrenze, Route, Rettungsweg | Verwaltungs-, Untersuchungs- und Projektgebiet, Gefahren- und Hinweisfläche |
 
 **Innen und außen:** Bei Flächen mit Randzeichen (z. B. Umgrenzungen der PlanZV) stehen die Zeichen immer auf
 der Innenseite, unabhängig von der Digitalisierrichtung. Bei Linien mit einseitigen Zeichen oder Farbbändern
@@ -170,16 +172,17 @@ zu welcher Gruppe ein Symbol gehört.
 | Strom | rot auf weiß | Quadrat = Station, Draufsicht = Mast, ohne Rahmen = Garnitur oder Schaltzeichen auf der Leitung | Legenden von Netzbetreibern, Schaltzeichen nach DIN EN 60617 |
 | Erneuerbare Energien | Kreis mit Piktogramm | Farbe = Energieträger, Rahmen = Status (durchgezogen Bestand, gestrichelt geplant, gepunktet beantragt, doppelt genehmigt) | Energieatlanten der Länder |
 | Naturschutz | grün | Quadrat = Schutzgebiet, Kreis = Art oder Lebensstätte, Raute = Maßnahme, Sechseck = Einrichtung oder Erfassung | Schutzkategorien des BNatSchG, Status der Brutvogelkartierung, Eingriffsregelung |
-| Landschaftsplanung | grün, Wasser blau; Vitalitätsstufen im Baumkataster grün, gelb, orange, rot | Draufsicht = Gehölz und Baumkataster (`bk_`), Quadrat = Biotop- oder Nutzungstyp, gestricheltes Quadrat = Maßnahme, Kreis = Erholung | Bestands- und Maßnahmenpläne der Landschaftsplanung; Baumkataster: Vitalitätsstufen nach Roloff, Leistungen der ZTV-Baumpflege |
+| Landschaftsplanung | grün, Wasser blau; Vitalitätsstufen im Baumkataster grün, gelb, orange, rot | Draufsicht = Gehölz und Baumkataster (`bk_`), Quadrat = Biotop- oder Nutzungstyp, gestricheltes Quadrat = Maßnahme, Kreis = Landschaftsbild | Bestands- und Maßnahmenpläne der Landschaftsplanung; Baumkataster: Vitalitätsstufen nach Roloff, Leistungen der ZTV-Baumpflege |
 | Verkehr | weißes Sinnbild auf farbigem Quadrat | blau = Anlage oder Angebot, orange = Baustelle und Störung, rot = Sperrung und Beschränkung | Hinweiszeichen der StVO, amtliche Stadt- und Verkehrskarten |
 | Wasserwirtschaft | blau | Kreis = Messstelle, Quadrat = Anlage oder Bauwerk, Raute = Gebiet, ohne Rahmen = Armatur auf der Leitung; Starkregen mit Präfix `sr_` | Leitungs- und Kanalnetzpläne (DIN 2425), übliche Kurzzeichen; Starkregen: Leitfaden Kommunales Starkregenrisikomanagement in Baden-Württemberg |
-| Vermessung | schwarz-weiß | geometrische Grundformen ohne Rahmen | Liegenschaftskarte, Vermessungsriss (DIN 18702), Aufschlüsse nach DIN 4023 |
+| Vermessung | schwarz-weiß | geometrische Grundformen ohne Rahmen | Liegenschaftskarte, Vermessungsriss (DIN 18702) |
 | Nordpfeile | schwarz-weiß, ohne Rahmen | Präfix = Bauart: `pfeil_` mit Schaft, `nadel_` ohne Schaft, `kreis_` im Kreis, `rose_` Windrose; das N steht über der Spitze, `_ohne_n` = ohne Buchstabe | Nordpfeile amtlicher Karten, Lagepläne und Bauleitpläne |
 | Raumordnung | schwarz-weiß, Flächen farbig | konzentrische Kreise = Zentraler Ort (Rang über Ringe und Füllung), Quadrat = Standort, Kreis = Infrastruktur, Raute = Freiraum, kleines Quadrat mit Buchstabe = Kategorie (Z, G, N, V); Vorranggebiet durchgezogen und dicht, Vorbehaltsgebiet gestrichelt und weit schraffiert | § 7 ROG, Zentrale-Orte-System, NLT-Arbeitshilfe Planzeichen in der Regionalplanung (Niedersachsen 2024), Anlage 3 LPlG-DVO NRW |
 | Realnutzung | grün `#00853C` (Zeichen), Flächen in Katasterfarben | Vegetationszeichen ohne Rahmen (`veg_`) wie in der Liegenschaftskarte; Flächen heißen `<Schlüssel> <Bezeichnung>` nach AdV-Nutzungsartenkatalog; ohne Zusatz = blasse Farbe des ALKIS-Signaturenkatalogs mit Vegetationszeichen, „kräftig“ = eigene Farben für Übersichtskarten | AdV-Nutzungsartenkatalog (GeoInfoDok 7.0.1), ALKIS-Signaturenkatalog der AdV (Version 6.0) |
+| Topografie | Farbe = Objektart; Straßen schwarz mit weißem Kern, Gewässer blau, Wege braun, Grenzen weinrot, Gebäude rosa | heller Kreis mit schwarzem Sinnbild (`pk_`) = Piktogramm, Hintergrund nach Kategorie (Verkehr grau, Religion rosa, Gastronomie und Handel gelblich, Technik hellgrau), ohne Rahmen = einfache Marke; ohne Zusatz = großer Maßstab, `, Übersicht` = mittlere Maßstäbe, `, thematisch` = kräftige Nutzungsfarben | Standarddarstellung der GIS-Akademie für ALKIS-, ATKIS- und OSM-Daten (NAS-Standardvisualisierung) |
 | Gas, Fernwärme, Telekommunikation | Farbe je Sparte | gelb = Gas, orangerot = Fernwärme, grün = Telekommunikation; Quadrat = Station, Kreis = Messstelle oder Einrichtung, ohne Rahmen = Armatur auf der Leitung | Rohrnetzpläne nach DIN 2425, übliche Spartenfarben der Leitungsauskunft |
 | Wärmeplanung | weinrot (Zeichen), Flächen je Versorgungsart | Quadrat = Erzeugungsanlage (`erz_`), Kreis = Wärmequelle oder Potenzial (`pot_`), Sechseck = Speicher und Infrastruktur (`inf_`), Raute = Verbraucher und Maßnahme (`vb_`), Hausumriss = dezentraler Wärmeerzeuger (`dez_`); Flächen und Linien: Wärmenetz grün, Wasserstoff violett, dezentral gelb, Prüfgebiet grau; Eignungsstufen als vier Töne derselben Farbe; Dichten von hellgelb bis dunkelrot | Wärmeplanungsgesetz (§§ 3, 18, 19, Anlage 2), Leitfaden Wärmeplanung des Bundes (2024) |
-| Boden | braun | Kreis = Aufschluss oder Messstelle, Quadrat = Altlast oder Standort, Raute = Bodenschutz, Sechseck = Geologie und Rohstoffe | DIN 4023, Bodenkundliche Kartieranleitung, Altlastenkataster der Länder |
+| Boden | braun | Kreis = Aufschluss oder Messstelle, Quadrat = Altlast oder Standort, Raute = Bodenschutz, Sechseck = Geologie und Rohstoffe, ohne Rahmen (`gef_`) = Streichen und Fallen | DIN 4023, Bodenkundliche Kartieranleitung, Altlastenkataster der Länder |
 | Lärm | violett | Kreis = Immissionsort oder Messung, Quadrat = Quelle, Raute = Schutzmaßnahme, Sechseck = schutzbedürftige Nutzung, ohne Rahmen = Hilfszeichen der Schallausbreitung | 34. BImSchV, DIN 45682, DIN 18005, TA Lärm |
 | Stadtklima | petrol (Zeichen), Linien und Flächen nach Bedeutung | Kreis = Messung (`mess_`), Quadrat = Belastung (`last_`), Sechseck = Ausgleichsraum (`ausgl_`), Raute = Maßnahme der Klimaanpassung (`anp_`), ohne Rahmen = Strömungspfeil (`pfeil_`); blau = Kaltluft, grün = Frischluft, orangerot = Wärme und Belastung, grau = Lufthygiene | VDI 3787 Blatt 1 (Klimaanalyse- und Planungshinweiskarten), Klimaanalyse Nordrhein-Westfalen |
 | Forst | dunkelgrün | Baumkrone ohne Rahmen = Baumart oder Bestand, Quadrat = betriebliche Einrichtung, Kreis = Jagd und Wild, Raute = Waldfunktion oder Schutz | Forstbetriebskarten der Länder, Waldfunktionenkartierung |
@@ -297,6 +300,17 @@ Für die Beschriftung der Vorschaubilder genügt notfalls Arial.
   Wärmeplanung des Bundes (Juni 2024). Zeichen und Farben sind dort nicht vorgeschrieben; die Flächenfarben
   lehnen sich an die Beispielkarten des Leitfadens an, die Punktsymbole sind eigene Entwürfe. Andere
   Klassengrenzen (z. B. der Länderleitfäden) lassen sich über die Farben der Symbole abbilden.
+- **Keine Dopplungen:** Jeder Gegenstand steht nur dort, wo Rahmen oder Farbe eine eigene Aussage tragen. Deshalb
+  gibt es Nordpfeile nur in der Sammlung Nordpfeile, Bohrungen und Schürfe nur in Boden, Erholungseinrichtungen
+  in Tourismus und Allgemein, Kaltluftbahnen in Stadtklima und Verwaltungsgrenzen in Topografie, Raumordnung und
+  Vermessung.
+- **Topografie:** Farben, Strichstärken und Strichmuster entsprechen der Standarddarstellung der GIS-Akademie für
+  ALKIS-, ATKIS- und OSM-Daten. Die Sammlung enthält nur die einzelnen Symbole zum Zuweisen von Hand; die
+  Maßstabsstufen, Beschriftungen und fertigen Layerdateien dieser Darstellung gehören nicht dazu. Die Piktogramme
+  im hellen Kreis haben dasselbe Aussehen wie dort, aber eigene Sinnbilder: Es sind die Zeichen der Sammlungen
+  Allgemein, Verkehr und Tourismus ohne deren Rahmen. Sie ist keine
+  Wiedergabe der amtlichen Signaturenkataloge. Für Flächen in den Farben des ALKIS-Signaturenkatalogs gibt es
+  die Sammlung Realnutzung.
 - **Realnutzung:** Gliederung, Schlüssel und Bezeichnungen folgen dem AdV-Nutzungsartenkatalog (Stand 2015),
   die blassen Flächenfarben und die Vegetationszeichen dem ALKIS-Signaturenkatalog der AdV (Version 6.0, CMYK in
   RGB umgerechnet). Die Reihe „kräftig“ ist ein eigener Farbvorschlag für Übersichtskarten und nicht amtlich.
@@ -304,6 +318,10 @@ Für die Beschriftung der Vorschaubilder genügt notfalls Arial.
 - **Raumordnung:** Die Planzeichen für Regionalpläne unterscheiden sich je Land. Die Flächenfarben folgen
   überwiegend der niedersächsischen Arbeitshilfe, die Farbwerte sind aus deren Richtwerten abgeleitet.
 - **Boden:** Die Signaturen der Bodenarten folgen der gängigen Praxis nach DIN 4023, nicht dem Normtext.
+  Die Signaturen der Festgesteine sind eigene Entwürfe in Anlehnung an geologische Karten und keine
+  Normsignaturen. Bei den Zeichen für Streichen und Fallen (`gef_`) liegt die Streichlinie waagerecht und das
+  Fallzeichen zeigt nach oben: Als Drehung die Fallrichtung angeben (0° = Norden, im Uhrzeigersinn). Den
+  Fallwinkel schreibt man als Beschriftung daneben.
 - **Linien- und Flächensymbole** sind in Millimetern bemessen und in QGIS 3.44 und 4.2 geprüft. Die Vorschaubilder
   zeigen eine Nachbildung; Punktmuster und Schraffuren können in QGIS leicht versetzt beginnen.
 - Marken- und Unternehmenslogos wurden bewusst nicht nachgebildet.
