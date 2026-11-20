@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Gewässerökologie, Grundwasserkörper</title>
+  <polygon points="50,5 95,50 50,95 5,50" fill="param(fill) #D6ECFA" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #0B5CAD" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M31.66 55.24Q32.88 55.24 34.02 54.88Q35.17 54.53 35.8 53.98V51.91H32.15V49.6H38.66V55.09Q37.47 56.31 35.57 57Q33.66 57.69 31.57 57.69Q27.92 57.69 25.96 55.67Q24 53.65 24 49.94Q24 46.24 25.97 44.28Q27.95 42.31 31.65 42.31Q36.91 42.31 38.34 46.2L35.46 47.07Q34.99 45.94 33.99 45.35Q33 44.77 31.65 44.77Q29.44 44.77 28.3 46.11Q27.15 47.44 27.15 49.94Q27.15 52.47 28.33 53.86Q29.52 55.24 31.66 55.24ZM56.63 57.48H52.92L50.89 48.83Q50.52 47.31 50.27 45.64Q50.01 47.03 49.85 47.76Q49.69 48.48 47.59 57.48H43.88L40.03 42.53H43.2L45.36 52.19L45.85 54.52Q46.15 53.04 46.43 51.7Q46.71 50.36 48.55 42.53H52.05L53.94 50.49Q54.16 51.38 54.69 54.52L54.95 53.29L55.52 50.85L57.32 42.53H60.49ZM72.31 57.48 66.94 50.62 65.1 52.03V57.48H61.97V42.53H65.1V49.31L71.83 42.53H75.48L69.09 48.85L76 57.48Z" fill="param(outline) #0B5CAD" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

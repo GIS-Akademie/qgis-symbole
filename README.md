@@ -1,6 +1,6 @@
 # GIS-Akademie Symbolbibliothek für QGIS
 
-1417 Punktsymbole (SVG) sowie 868 Linien- und Flächensymbole in 24 Sammlungen, aufgebaut als Repository
+1568 Punktsymbole (SVG) sowie 1010 Linien- und Flächensymbole in 26 Sammlungen, aufgebaut als Repository
 für das QGIS-Plugin **Resource Sharing**. Alle Symbole sind Eigenentwicklungen der GIS-Akademie und stehen
 unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de).
 
@@ -10,9 +10,11 @@ unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de).
 | Strom | `gisak_strom` | 51 | 14 | 7 | Stationen, Masten, Kabelgarnituren, Schaltzeichen, Leitungen nach Spannungsebene |
 | Erneuerbare Energien | `gisak_eeg` | 43 | 10 | 14 | Wind- und Solarparkplanung, Bioenergie, Wasserkraft, Wärme, Netzanschluss |
 | Naturschutz | `gisak_naturschutz` | 58 | 9 | 19 | Schutzgebiete, Arten und Fundpunkte, Kompensation, Erfassung |
-| Landschaftsplanung | `gisak_landschaftsplanung` | 69 | 10 | 21 | Gehölze, Baumkataster (Vitalität, Zustand, Baumpflege), Biotop- und Nutzungstypen, Maßnahmen, Landschaftsbild |
+| Landschaftsplanung | `gisak_landschaftsplanung` | 50 | 9 | 18 | Gehölze, Biotop- und Nutzungstypen, Maßnahmen, Landschaftsbild |
+| Grünflächen und Friedhof | `gisak_gruenflaechen` | 80 | 16 | 39 | Baumkataster (Vitalität, Zustand, Baumpflege), Ausstattung, Spiel- und Sportgeräte, Grabarten und Friedhofseinrichtungen, Pflege und Kontrolle, Flächeninhalte, Pflegeklassen, Grabfelder |
 | Verkehr | `gisak_verkehr` | 57 | 16 | 10 | Parken, ÖPNV, Bahn, Rad- und Fußverkehr, Bauwerke, Störungen, Straßen nach Klasse |
-| Wasserwirtschaft | `gisak_wasser` | 70 | 21 | 23 | Messstellen, Anlagen, Armaturen, Kanalnetz, Gewässerbauwerke, Gebiete, Starkregengefahren |
+| Radverkehr und Mobilität | `gisak_radverkehr` | 59 | 29 | 18 | Abstell- und Serviceanlagen, Sharing, Mobilstation, Zählung, Mängel, Knoten und Wegweisung, Maßnahmen, Führungsformen des Radverkehrs, Radnetz |
+| Wasserwirtschaft | `gisak_wasser` | 101 | 50 | 38 | Messstellen, Anlagen, Armaturen, Kanalnetz, Gewässerbauwerke, Gebiete, Starkregengefahren, Gewässerökologie (Zustand, Strukturgüte, Durchgängigkeit, Maßnahmen) |
 | Vermessung | `gisak_vermessung` | 43 | 16 | 11 | Grenz- und Festpunkte, Planzeichen, Grenzen, Gebäude, Topografie im Lageplan |
 | Raumordnung und Regionalplanung | `gisak_raumordnung` | 40 | 14 | 27 | Zentrale Orte, Standorte, Infrastruktur, Vorrang- und Vorbehaltsgebiete |
 | Realnutzung | `gisak_realnutzung` | 15 | 7 | 73 | Tatsächliche Nutzung nach AdV-Nutzungsartenkatalog: Siedlung, Verkehr, Vegetation, Gewässer; Vegetationszeichen |
@@ -87,7 +89,7 @@ Sharing mit `Connection to github.com timed out` scheitert.
    (Selbst bauen: `python tools\mkplugin.py`, das ZIP liegt danach unter `dist\`.)
 2. In QGIS **Erweiterungen › Erweiterungen verwalten und installieren › Aus ZIP installieren** wählen.
 3. Beim ersten Start erscheint die Liste der Sammlungen; angehakte werden in die Symbolauswahl eingetragen
-   (alle 24 Sammlungen: etwa eine Viertelminute). Später erreichbar über **Erweiterungen › GIS-Akademie Symbole ›
+   (alle 26 Sammlungen: etwa eine Viertelminute). Später erreichbar über **Erweiterungen › GIS-Akademie Symbole ›
    Sammlungen auswählen …**.
 
 Die Symbole heißen wie oben, nur ohne den Klammerzusatz von Resource Sharing. Jede Sammlung hat genau ein
@@ -129,9 +131,11 @@ angelegt, die Symbole sind also für den Druckmaßstab gedacht.
 | Strom | Freileitungen und Kabel nach Spannungsebene, Schutzrohr, geplant, außer Betrieb | Schutzstreifen, Trassenkorridor, Betriebsgelände, Netzgebiet |
 | Erneuerbare Energien | Kabeltrasse, Zuwegung, Zaun, Abstandslinie, Wärme- und Biogasleitung | Vorrang- und Potenzialflächen, Wind- und Solarpark, Modulfläche, Ausschluss- und Abstandsflächen |
 | Naturschutz | Schutzgebiets- und Zonengrenze, Biotopverbund, Wildtierkorridor, Schutzzaun, Transekt | Schutzgebietskategorien, Natura 2000, Zonen, Kompensations- und Ökokontoflächen |
-| Landschaftsplanung | Hecke, Baumreihe, Allee, Ufergehölz, Gewässer, Trockenmauer, Zaun, Sichtachse, Baumschutzzaun | Wald, Grünland, Acker, Feuchtbiotope, Gewässer, Maßnahmenflächen, Kronentrauf- und Wurzelschutzbereich |
+| Landschaftsplanung | Hecke, Baumreihe, Allee, Ufergehölz, Gewässer, Trockenmauer, Zaun, Sichtachse | Wald, Grünland, Acker, Feuchtbiotope, Gewässer, Maßnahmenflächen |
+| Grünflächen und Friedhof | Wege, Hecken, Zaun, Mauer, Einfassung, Bewässerungsleitung, Pflegegrenzen, Baumschutzzaun, Grabfeldgrenze, Grabreihe | Rasen, Wiese, Beete, Gehölzflächen, Beläge, Spielsand, Pflegeklassen 1 bis 4, Kronentrauf- und Wurzelschutzbereich, Grabfelder nach Art, Belegung der Gräber |
 | Verkehr | Straßen nach Klasse, Rad- und Fußweg, Bahn, Bus, Fähre, Baustelle, Umleitung, Sperrung | Park- und Verkehrsflächen, Zonen, Baustellen- und Sperrbereich |
-| Wasserwirtschaft | Trinkwasserleitungen, Schmutz-, Regen- und Mischwasserkanal mit Fließrichtung, Gewässer, Deich, Starkregen: Fließgeschwindigkeit in vier Klassen, Fließweg, Notwasserweg | Schutzgebietszonen, Überschwemmungs- und Risikogebiet, Einzugs- und Entwässerungsgebiete, Starkregen: Überflutungstiefe in vier Klassen, Überflutungsausdehnung für drei Szenarien |
+| Radverkehr und Mobilität | Führungsformen (Radschnellverbindung, Radweg, Radfahrstreifen, Schutzstreifen, Fahrradstraße, Mischverkehr), Radnetz, Netzlücke, Zustand der Oberfläche, Radverkehrsstärke | Fahrradzone, Abstell- und Sharingflächen, Erreichbarkeit in vier Stufen, Unfallhäufungs- und Maßnahmenbereich, Tempo-30-Zone |
+| Wasserwirtschaft | Trinkwasserleitungen, Schmutz-, Regen- und Mischwasserkanal mit Fließrichtung, Gewässer, Deich, Starkregen: Fließgeschwindigkeit in vier Klassen, Fließweg, Notwasserweg, Gewässerökologie: ökologischer Zustand und Potenzial, chemischer Zustand, Strukturklassen 1 bis 7, Strahlursprung, Randstreifen | Schutzgebietszonen, Überschwemmungs- und Risikogebiet, Einzugs- und Entwässerungsgebiete, Starkregen: Überflutungstiefe in vier Klassen, Überflutungsausdehnung für drei Szenarien, Gewässerökologie: Zustand der Seen und Grundwasserkörper, Aue, Entwicklungskorridor |
 | Vermessung | Flurstücks-, Flur-, Gemarkungs- und Gemeindegrenze, Höhenlinien, Böschung, Zaun, Mauer, Hecke | Flurstück, Gebäude nach Art, geplant, abgebrochen, befestigte Fläche |
 | Raumordnung | Verwaltungs- und Regionsgrenzen, Entwicklungsachsen, Straße und Schiene (Bestand, Planung), Trassenkorridor, Grünzäsur | Vorrang- und Vorbehaltsgebiete je Thema, Grünzug, Verdichtungsraum, Eignungs- und Ausschlussgebiet |
 | Realnutzung | Grenzen von Nutzungsart, Gruppe, Bereich und Kartiereinheit, Baumreihen | 26 Nutzungsartengruppen und die Arten von Landwirtschaft und Wald mit Schlüssel, je in Katasterfarbe und kräftig |
@@ -172,9 +176,11 @@ zu welcher Gruppe ein Symbol gehört.
 | Strom | rot auf weiß | Quadrat = Station, Draufsicht = Mast, ohne Rahmen = Garnitur oder Schaltzeichen auf der Leitung | Legenden von Netzbetreibern, Schaltzeichen nach DIN EN 60617 |
 | Erneuerbare Energien | Kreis mit Piktogramm | Farbe = Energieträger, Rahmen = Status (durchgezogen Bestand, gestrichelt geplant, gepunktet beantragt, doppelt genehmigt) | Energieatlanten der Länder |
 | Naturschutz | grün | Quadrat = Schutzgebiet, Kreis = Art oder Lebensstätte, Raute = Maßnahme, Sechseck = Einrichtung oder Erfassung | Schutzkategorien des BNatSchG, Status der Brutvogelkartierung, Eingriffsregelung |
-| Landschaftsplanung | grün, Wasser blau; Vitalitätsstufen im Baumkataster grün, gelb, orange, rot | Draufsicht = Gehölz und Baumkataster (`bk_`), Quadrat = Biotop- oder Nutzungstyp, gestricheltes Quadrat = Maßnahme, Kreis = Landschaftsbild | Bestands- und Maßnahmenpläne der Landschaftsplanung; Baumkataster: Vitalitätsstufen nach Roloff, Leistungen der ZTV-Baumpflege |
+| Landschaftsplanung | grün, Wasser blau | Draufsicht = Gehölz, Quadrat = Biotop- oder Nutzungstyp, gestricheltes Quadrat = Maßnahme, Kreis = Landschaftsbild | Bestands- und Maßnahmenpläne der Landschaftsplanung |
+| Grünflächen und Friedhof | maigrün; Vitalitätsstufen im Baumkataster grün, gelb, orange, rot | Baumkrone in Draufsicht = Baumkataster (`bk_`), Quadrat = Ausstattung (`aus_`), Kreis = Spiel- und Sportgerät (`spiel_`), Sechseck = Friedhof (`fh_`), Raute = Pflege und Kontrolle (`pfl_`) | kommunale Grünflächen-, Baum-, Spielplatz- und Friedhofskataster; Baumkataster: Vitalitätsstufen nach Roloff, Leistungen der ZTV-Baumpflege |
 | Verkehr | weißes Sinnbild auf farbigem Quadrat | blau = Anlage oder Angebot, orange = Baustelle und Störung, rot = Sperrung und Beschränkung | Hinweiszeichen der StVO, amtliche Stadt- und Verkehrskarten |
-| Wasserwirtschaft | blau | Kreis = Messstelle, Quadrat = Anlage oder Bauwerk, Raute = Gebiet, ohne Rahmen = Armatur auf der Leitung; Starkregen mit Präfix `sr_` | Leitungs- und Kanalnetzpläne (DIN 2425), übliche Kurzzeichen; Starkregen: Leitfaden Kommunales Starkregenrisikomanagement in Baden-Württemberg |
+| Radverkehr und Mobilität | magenta; Mischverkehr grau, Zustand grün, gelb, rot | Quadrat = Anlage oder Angebot (`anl_`), Kreis = Erhebung (`erh_`), Raute = Mangel (`mg_`), Sechseck = Knoten und Wegweisung (`kn_`), gestricheltes Quadrat = Maßnahme (`mas_`) | Führungsformen nach StVO und ERA, Bestands- und Mängelkarten kommunaler Radverkehrskonzepte |
+| Wasserwirtschaft | blau | Kreis = Messstelle, Quadrat = Anlage oder Bauwerk, Raute = Gebiet, ohne Rahmen = Armatur auf der Leitung; Starkregen mit Präfix `sr_`, Gewässerökologie mit Präfix `oek_` (Maßnahmen im gestrichelten Quadrat) | Leitungs- und Kanalnetzpläne (DIN 2425), übliche Kurzzeichen; Starkregen: Leitfaden Kommunales Starkregenrisikomanagement in Baden-Württemberg; Gewässerökologie: Zustandsklassen der Wasserrahmenrichtlinie, Strukturklassen der LAWA |
 | Vermessung | schwarz-weiß | geometrische Grundformen ohne Rahmen | Liegenschaftskarte, Vermessungsriss (DIN 18702) |
 | Nordpfeile | schwarz-weiß, ohne Rahmen | Präfix = Bauart: `pfeil_` mit Schaft, `nadel_` ohne Schaft, `kreis_` im Kreis, `rose_` Windrose; das N steht über der Spitze, `_ohne_n` = ohne Buchstabe | Nordpfeile amtlicher Karten, Lagepläne und Bauleitpläne |
 | Raumordnung | schwarz-weiß, Flächen farbig | konzentrische Kreise = Zentraler Ort (Rang über Ringe und Füllung), Quadrat = Standort, Kreis = Infrastruktur, Raute = Freiraum, kleines Quadrat mit Buchstabe = Kategorie (Z, G, N, V); Vorranggebiet durchgezogen und dicht, Vorbehaltsgebiet gestrichelt und weit schraffiert | § 7 ROG, Zentrale-Orte-System, NLT-Arbeitshilfe Planzeichen in der Regionalplanung (Niedersachsen 2024), Anlage 3 LPlG-DVO NRW |
@@ -288,11 +294,23 @@ Für die Beschriftung der Vorschaubilder genügt notfalls Arial.
   außergewöhnlich und extrem folgen den Starkregengefahrenkarten nach dem Leitfaden „Kommunales
   Starkregenrisikomanagement in Baden-Württemberg“. Andere Länder und die Hinweiskarte Starkregengefahren des
   Bundes nutzen teils andere Klassen und nur zwei Szenarien. Die Farben sind nicht vorgeschrieben.
+- **Gewässerökologie (Wasserwirtschaft):** Die fünf Klassen des ökologischen Zustands und ihre Farben (blau,
+  grün, gelb, orange, rot), die grauen Streifen für das ökologische Potenzial erheblich veränderter und
+  künstlicher Wasserkörper, der chemische Zustand (blau, rot) und der Zustand des Grundwassers (grün, rot) folgen
+  der Wasserrahmenrichtlinie, die sieben Strukturklassen der Gewässerstrukturkartierung der LAWA. Die Regelwerke
+  lagen beim Zeichnen nicht vor; vor einer amtlichen Verwendung die Farbwerte mit der Vorgabe des Landes
+  abgleichen. Die Punktzeichen sind eigene Entwürfe.
+- **Radverkehr und Mobilität:** Die Namen der Führungsformen folgen der StVO und den Empfehlungen für
+  Radverkehrsanlagen (ERA); die ERA lag nicht vor. Zeichen, Linienarten und Farben sind nirgends festgelegt und
+  eigene Entwürfe. Die Stufen der Radverkehrsstärke, des Zustands und der Erreichbarkeit sind nicht an Kennwerte
+  gebunden.
+- **Grünflächen und Friedhof:** Für Grünflächen-, Spielplatz- und Friedhofskataster gibt es keine einheitliche
+  Darstellung; Zeichen, Flächeninhalte und Pflegeklassen sind eigene Entwürfe.
 - **Stadtklima:** Die Gliederung in Klimatope, Kaltluft- und Luftaustauschprozesse und Planungshinweise lehnt
   sich an die VDI 3787 Blatt 1 an; die Richtlinie selbst lag nicht vor. Die Klimatope folgen der Klimaanalyse
   Nordrhein-Westfalen, ergänzt um Industrie und Gleisanlagen. Zeichen und Farben sind eigene Entwürfe in
   üblicher Farbgebung; die Stufen der thermischen Belastung sind nicht an Kennwerte gebunden.
-- **Baumkataster (Landschaftsplanung):** Die Vitalitätsstufen 0 bis 3 folgen dem Modell von Roloff, die
+- **Baumkataster (Grünflächen und Friedhof):** Die Vitalitätsstufen 0 bis 3 folgen dem Modell von Roloff, die
   Maßnahmen den üblichen Leistungen der Baumpflege, der Wurzelschutzbereich der DIN 18920. Die Zeichen sind
   eigene Entwürfe; die Regelwerke selbst lagen nicht vor.
 - **Wärmeplanung:** Begriffe, Gebietsarten und Eignungsstufen folgen dem Wärmeplanungsgesetz (§§ 3, 18, 19,

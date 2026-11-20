@@ -16,8 +16,8 @@ from PIL import Image
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 MODULES = ["sym_planzv", "sym_raumordnung", "sym_realnutzung", "sym_topografie", "sym_strom", "sym_leitungen", "sym_eeg", "sym_waermeplanung", "sym_wasser", "sym_boden",
-           "sym_laerm", "sym_stadtklima", "sym_naturschutz", "sym_landschaftsplanung", "sym_forst", "sym_landwirtschaft",
-           "sym_verkehr", "sym_tourismus", "sym_denkmal", "sym_brandschutz", "sym_vermessung", "sym_nordpfeile",
+           "sym_laerm", "sym_stadtklima", "sym_naturschutz", "sym_landschaftsplanung", "sym_gruenflaechen", "sym_forst", "sym_landwirtschaft",
+           "sym_verkehr", "sym_radverkehr", "sym_tourismus", "sym_denkmal", "sym_brandschutz", "sym_vermessung", "sym_nordpfeile",
            "sym_layout", "sym_allgemein"]
 PRE = "gisak"
 

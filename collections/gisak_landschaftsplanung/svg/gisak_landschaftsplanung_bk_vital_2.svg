@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
-  <title>Baumkataster Vitalitätsstufe 2 (merklich geschädigt, Stagnationsphase)</title>
-  <path d="M50,9 A18.04,18.04 0 0 1 78.99,21.01 A18.04,18.04 0 0 1 91,50 A18.04,18.04 0 0 1 78.99,78.99 A18.04,18.04 0 0 1 50,91 A18.04,18.04 0 0 1 21.01,78.99 A18.04,18.04 0 0 1 9,50 A18.04,18.04 0 0 1 21.01,21.01 A18.04,18.04 0 0 1 50,9 Z" fill="param(fill) #F4B052" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #2E6B2E" stroke-opacity="param(outline-opacity) 1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M38.1 67.25V62.55Q39.43 59.63 41.88 56.85Q44.33 54.08 48.05 51.06Q51.62 48.17 53.05 46.28Q54.49 44.4 54.49 42.59Q54.49 38.15 50.02 38.15Q47.85 38.15 46.71 39.32Q45.56 40.49 45.22 42.83L38.39 42.45Q38.97 37.72 41.93 35.23Q44.88 32.75 49.98 32.75Q55.48 32.75 58.42 35.26Q61.37 37.77 61.37 42.3Q61.37 44.69 60.42 46.62Q59.48 48.55 58.01 50.18Q56.54 51.81 54.74 53.23Q52.94 54.66 51.25 56.01Q49.57 57.36 48.18 58.74Q46.79 60.11 46.11 61.68H61.9V67.25Z" fill="param(outline) #2E6B2E" fill-opacity="param(outline-opacity) 1" stroke="none"/>
-</svg>

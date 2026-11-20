@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Unfallhäufungsstelle</title>
+  <polygon points="50,5 95,50 50,95 5,50" fill="param(fill) #FADCEB" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #B4136A" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="50,26 54.21,39.84 66.97,33.03 60.16,45.79 74,50 60.16,54.21 66.97,66.97 54.21,60.16 50,74 45.79,60.16 33.03,66.97 39.84,54.21 26,50 39.84,45.79 33.03,33.03 45.79,39.84" fill="param(outline) #B4136A" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

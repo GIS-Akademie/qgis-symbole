@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Befragung / Haushaltsbefragung</title>
+  <circle cx="50" cy="50" r="44" fill="param(fill) #FADCEB" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #B4136A" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(50,52) scale(0.8) translate(-50,-50)"><path d="M20,24 H80 V64 H52 L36,80 V64 H20 Z" fill="none" stroke="param(outline) #B4136A" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M59.59 38.26Q59.59 40.05 58.78 41.47Q57.98 42.89 55.78 44.46L54.38 45.48Q53.13 46.38 52.51 47.3Q51.89 48.23 51.84 49.33H46.91Q47.02 47.45 47.97 45.97Q48.92 44.5 50.77 43.21Q52.74 41.84 53.55 40.8Q54.36 39.76 54.36 38.48Q54.36 36.86 53.3 35.92Q52.24 34.98 50.29 34.98Q48.42 34.98 47.16 36.07Q45.89 37.15 45.67 38.94L40.41 38.72Q40.91 34.98 43.5 32.89Q46.08 30.81 50.21 30.81Q54.59 30.81 57.09 32.79Q59.59 34.77 59.59 38.26ZM46.76 57.19V52.21H52.09V57.19Z" fill="param(outline) #B4136A" fill-opacity="param(outline-opacity) 1" stroke="none"/></g>
+</svg>

@@ -781,6 +781,796 @@
         </symbol>
       </layer>
     </symbol>
+    <symbol type="line" name="Wasserwirtschaft: Gewässerökologie, ökologischer Zustand sehr gut" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="33,102,192,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="1.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wasserwirtschaft: Gewässerökologie, ökologischer Zustand gut" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="61,170,53,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="1.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wasserwirtschaft: Gewässerökologie, ökologischer Zustand mäßig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="247,224,0,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="1.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wasserwirtschaft: Gewässerökologie, ökologischer Zustand unbefriedigend" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="242,148,0,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="1.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wasserwirtschaft: Gewässerökologie, ökologischer Zustand schlecht" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="226,0,26,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="1.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wasserwirtschaft: Gewässerökologie, ökologisches Potenzial gut und besser, erheblich verändert" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="61,170,53,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="1.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="90,90,90,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="1.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="customdash" v="2;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wasserwirtschaft: Gewässerökologie, ökologisches Potenzial mäßig, erheblich verändert" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="247,224,0,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="1.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="90,90,90,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="1.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="customdash" v="2;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wasserwirtschaft: Gewässerökologie, ökologisches Potenzial unbefriedigend, erheblich verändert" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="242,148,0,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="1.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="90,90,90,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="1.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="customdash" v="2;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wasserwirtschaft: Gewässerökologie, ökologisches Potenzial schlecht, erheblich verändert" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="226,0,26,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="1.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="90,90,90,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="1.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="customdash" v="2;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wasserwirtschaft: Gewässerökologie, ökologisches Potenzial gut und besser, künstlich" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="61,170,53,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="1.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="200,200,200,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="1.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="customdash" v="2;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wasserwirtschaft: Gewässerökologie, ökologisches Potenzial mäßig, künstlich" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="247,224,0,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="1.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="200,200,200,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="1.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="customdash" v="2;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wasserwirtschaft: Gewässerökologie, ökologisches Potenzial unbefriedigend, künstlich" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="242,148,0,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="1.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="200,200,200,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="1.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="customdash" v="2;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wasserwirtschaft: Gewässerökologie, ökologisches Potenzial schlecht, künstlich" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="226,0,26,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="1.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="200,200,200,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="1.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="customdash" v="2;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wasserwirtschaft: Gewässerökologie, chemischer Zustand gut" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="33,102,192,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.7"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wasserwirtschaft: Gewässerökologie, chemischer Zustand nicht gut" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="226,0,26,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.7"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wasserwirtschaft: Gewässerökologie, Strukturklasse 1 (unverändert)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="10,58,154,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="1"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wasserwirtschaft: Gewässerökologie, Strukturklasse 2 (gering verändert)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="90,180,240,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="1"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wasserwirtschaft: Gewässerökologie, Strukturklasse 3 (mäßig verändert)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="30,140,58,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="1"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wasserwirtschaft: Gewässerökologie, Strukturklasse 4 (deutlich verändert)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="155,211,74,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="1"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wasserwirtschaft: Gewässerökologie, Strukturklasse 5 (stark verändert)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="247,224,0,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="1"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wasserwirtschaft: Gewässerökologie, Strukturklasse 6 (sehr stark verändert)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="242,148,0,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="1"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wasserwirtschaft: Gewässerökologie, Strukturklasse 7 (vollständig verändert)" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="226,0,26,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="1"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wasserwirtschaft: Gewässerökologie, Strahlursprung" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="61,170,53,128"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="2.6"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="11,92,173,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.5"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wasserwirtschaft: Gewässerökologie, Strahlweg" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="61,170,53,128"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="2.6"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="customdash" v="3;1.5"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="11,92,173,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.5"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wasserwirtschaft: Gewässerökologie, Degradationsstrecke" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="90,90,90,102"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="2.6"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="11,92,173,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.5"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wasserwirtschaft: Gewässerökologie, Gewässerrandstreifen" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="63,169,245,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.6"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="61,170,53,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.5"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="1"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="61,170,53,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.5"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="-1"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wasserwirtschaft: Gewässerökologie, Rückstaustrecke" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="63,169,245,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="1"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+      <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <prop k="placement" v="interval"/>
+        <prop k="placements" v="Interval"/>
+        <prop k="interval" v="2"/>
+        <prop k="interval_unit" v="MM"/>
+        <prop k="offset_along_line" v="1"/>
+        <prop k="offset_along_line_unit" v="MM"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="rotate" v="1"/>
+        <prop k="average_angle_length" v="0"/>
+        <prop k="average_angle_unit" v="MM"/>
+        <prop k="ring_filter" v="0"/>
+        <symbol type="marker" name="@Wasserwirtschaft: Gewässerökologie, Rückstaustrecke@1" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+            <prop k="name" v="line"/>
+            <prop k="size" v="1.8"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="color" v="0,0,0,0"/>
+            <prop k="outline_color" v="11,92,173,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0.3"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="joinstyle" v="miter"/>
+            <prop k="cap_style" v="flat"/>
+            <prop k="angle" v="0"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wasserwirtschaft: Gewässerökologie, Renaturierungsstrecke" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="63,169,245,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.8"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+      <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <prop k="placement" v="interval"/>
+        <prop k="placements" v="Interval"/>
+        <prop k="interval" v="4"/>
+        <prop k="interval_unit" v="MM"/>
+        <prop k="offset_along_line" v="2"/>
+        <prop k="offset_along_line_unit" v="MM"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="rotate" v="1"/>
+        <prop k="average_angle_length" v="0"/>
+        <prop k="average_angle_unit" v="MM"/>
+        <prop k="ring_filter" v="0"/>
+        <symbol type="marker" name="@Wasserwirtschaft: Gewässerökologie, Renaturierungsstrecke@1" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+            <prop k="name" v="circle"/>
+            <prop k="size" v="1.3"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="color" v="255,255,255,255"/>
+            <prop k="outline_color" v="11,92,173,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0.25"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="joinstyle" v="miter"/>
+            <prop k="cap_style" v="round"/>
+            <prop k="angle" v="0"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
+    <symbol type="line" name="Wasserwirtschaft: Gewässerökologie, nicht durchgängiger Abschnitt" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="226,0,26,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.8"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+      <layer class="MarkerLine" enabled="1" locked="0" pass="0">
+        <prop k="placement" v="interval"/>
+        <prop k="placements" v="Interval"/>
+        <prop k="interval" v="6"/>
+        <prop k="interval_unit" v="MM"/>
+        <prop k="offset_along_line" v="3"/>
+        <prop k="offset_along_line_unit" v="MM"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="rotate" v="1"/>
+        <prop k="average_angle_length" v="0"/>
+        <prop k="average_angle_unit" v="MM"/>
+        <prop k="ring_filter" v="0"/>
+        <symbol type="marker" name="@Wasserwirtschaft: Gewässerökologie, nicht durchgängiger Abschnitt@1" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+            <prop k="name" v="line"/>
+            <prop k="size" v="2.2"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="color" v="0,0,0,0"/>
+            <prop k="outline_color" v="226,0,26,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0.4"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="joinstyle" v="miter"/>
+            <prop k="cap_style" v="flat"/>
+            <prop k="angle" v="0"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
     <symbol type="fill" name="Wasserwirtschaft: Gewässerfläche" alpha="1" clip_to_extent="1" force_rhr="0">
       <layer class="SimpleFill" enabled="1" locked="0" pass="0">
         <prop k="color" v="169,212,245,255"/>
@@ -1453,6 +2243,497 @@
         <prop k="offset_unit" v="MM"/>
         <prop k="use_custom_dash" v="0"/>
         <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wasserwirtschaft: Gewässerökologie, See, ökologischer Zustand sehr gut" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="33,102,192,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="11,92,173,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.3"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wasserwirtschaft: Gewässerökologie, See, ökologischer Zustand gut" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="61,170,53,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="11,92,173,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.3"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wasserwirtschaft: Gewässerökologie, See, ökologischer Zustand mäßig" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="247,224,0,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="11,92,173,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.3"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wasserwirtschaft: Gewässerökologie, See, ökologischer Zustand unbefriedigend" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="242,148,0,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="11,92,173,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.3"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wasserwirtschaft: Gewässerökologie, See, ökologischer Zustand schlecht" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="226,0,26,255"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="11,92,173,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.3"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wasserwirtschaft: Gewässerökologie, Grundwasserkörper, mengenmäßiger Zustand gut" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="61,170,53,128"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="11,92,173,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.3"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wasserwirtschaft: Gewässerökologie, Grundwasserkörper, mengenmäßiger Zustand schlecht" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="226,0,26,128"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="11,92,173,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.3"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wasserwirtschaft: Gewässerökologie, Grundwasserkörper, chemischer Zustand gut" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="LinePatternFill" enabled="1" locked="0" pass="0">
+        <prop k="angle" v="45"/>
+        <prop k="distance" v="1.8"/>
+        <prop k="distance_unit" v="MM"/>
+        <prop k="line_width" v="0.3"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="color" v="61,170,53,255"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <symbol type="line" name="@Wasserwirtschaft: Gewässerökologie, Grundwasserkörper, chemischer Zustand gut@0" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+            <prop k="line_color" v="61,170,53,255"/>
+            <prop k="line_style" v="solid"/>
+            <prop k="line_width" v="0.3"/>
+            <prop k="line_width_unit" v="MM"/>
+            <prop k="capstyle" v="flat"/>
+            <prop k="joinstyle" v="round"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="use_custom_dash" v="0"/>
+            <prop k="customdash" v="5;2"/>
+            <prop k="customdash_unit" v="MM"/>
+            <prop k="draw_inside_polygon" v="0"/>
+            <prop k="ring_filter" v="0"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="11,92,173,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.3"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wasserwirtschaft: Gewässerökologie, Grundwasserkörper, chemischer Zustand schlecht" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="LinePatternFill" enabled="1" locked="0" pass="0">
+        <prop k="angle" v="45"/>
+        <prop k="distance" v="1.8"/>
+        <prop k="distance_unit" v="MM"/>
+        <prop k="line_width" v="0.3"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="color" v="226,0,26,255"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <symbol type="line" name="@Wasserwirtschaft: Gewässerökologie, Grundwasserkörper, chemischer Zustand schlecht@0" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+            <prop k="line_color" v="226,0,26,255"/>
+            <prop k="line_style" v="solid"/>
+            <prop k="line_width" v="0.3"/>
+            <prop k="line_width_unit" v="MM"/>
+            <prop k="capstyle" v="flat"/>
+            <prop k="joinstyle" v="round"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="use_custom_dash" v="0"/>
+            <prop k="customdash" v="5;2"/>
+            <prop k="customdash_unit" v="MM"/>
+            <prop k="draw_inside_polygon" v="0"/>
+            <prop k="ring_filter" v="0"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="11,92,173,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.3"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wasserwirtschaft: Gewässerökologie, Gewässerrandstreifen, Fläche" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="61,170,53,89"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="61,170,53,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.3"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wasserwirtschaft: Gewässerökologie, Aue, rezent" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+        <prop k="color" v="63,169,245,51"/>
+        <prop k="style" v="solid"/>
+        <prop k="outline_style" v="no"/>
+        <prop k="outline_color" v="0,0,0,0"/>
+        <prop k="outline_width" v="0"/>
+        <prop k="outline_width_unit" v="MM"/>
+      </layer>
+      <layer class="PointPatternFill" enabled="1" locked="0" pass="0">
+        <prop k="distance_x" v="3"/>
+        <prop k="distance_x_unit" v="MM"/>
+        <prop k="distance_y" v="3"/>
+        <prop k="distance_y_unit" v="MM"/>
+        <prop k="displacement_x" v="1.5"/>
+        <prop k="displacement_x_unit" v="MM"/>
+        <prop k="displacement_y" v="0"/>
+        <prop k="displacement_y_unit" v="MM"/>
+        <prop k="offset_x" v="0"/>
+        <prop k="offset_x_unit" v="MM"/>
+        <prop k="offset_y" v="0"/>
+        <prop k="offset_y_unit" v="MM"/>
+        <symbol type="marker" name="@Wasserwirtschaft: Gewässerökologie, Aue, rezent@1" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+            <prop k="name" v="line"/>
+            <prop k="size" v="1.2"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="color" v="0,0,0,0"/>
+            <prop k="outline_color" v="11,92,173,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0.25"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="joinstyle" v="miter"/>
+            <prop k="cap_style" v="flat"/>
+            <prop k="angle" v="0"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="11,92,173,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.3"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wasserwirtschaft: Gewässerökologie, Altaue" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="PointPatternFill" enabled="1" locked="0" pass="0">
+        <prop k="distance_x" v="3"/>
+        <prop k="distance_x_unit" v="MM"/>
+        <prop k="distance_y" v="3"/>
+        <prop k="distance_y_unit" v="MM"/>
+        <prop k="displacement_x" v="1.5"/>
+        <prop k="displacement_x_unit" v="MM"/>
+        <prop k="displacement_y" v="0"/>
+        <prop k="displacement_y_unit" v="MM"/>
+        <prop k="offset_x" v="0"/>
+        <prop k="offset_x_unit" v="MM"/>
+        <prop k="offset_y" v="0"/>
+        <prop k="offset_y_unit" v="MM"/>
+        <symbol type="marker" name="@Wasserwirtschaft: Gewässerökologie, Altaue@0" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+            <prop k="name" v="line"/>
+            <prop k="size" v="1.2"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="color" v="0,0,0,0"/>
+            <prop k="outline_color" v="11,92,173,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0.25"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="joinstyle" v="miter"/>
+            <prop k="cap_style" v="flat"/>
+            <prop k="angle" v="0"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="11,92,173,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.3"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="customdash" v="3;1.5"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wasserwirtschaft: Gewässerökologie, Entwicklungskorridor" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="61,170,53,89"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="3"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="0"/>
+        <prop k="customdash" v="5;2"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="1"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="61,170,53,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.5"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="customdash" v="4;1.5"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wasserwirtschaft: Gewässerökologie, Maßnahmenfläche Gewässerentwicklung" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="LinePatternFill" enabled="1" locked="0" pass="0">
+        <prop k="angle" v="45"/>
+        <prop k="distance" v="3"/>
+        <prop k="distance_unit" v="MM"/>
+        <prop k="line_width" v="0.2"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="color" v="11,92,173,255"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <symbol type="line" name="@Wasserwirtschaft: Gewässerökologie, Maßnahmenfläche Gewässerentwicklung@0" alpha="1" clip_to_extent="1" force_rhr="0">
+          <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+            <prop k="line_color" v="11,92,173,255"/>
+            <prop k="line_style" v="solid"/>
+            <prop k="line_width" v="0.2"/>
+            <prop k="line_width_unit" v="MM"/>
+            <prop k="capstyle" v="flat"/>
+            <prop k="joinstyle" v="round"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="use_custom_dash" v="0"/>
+            <prop k="customdash" v="5;2"/>
+            <prop k="customdash_unit" v="MM"/>
+            <prop k="draw_inside_polygon" v="0"/>
+            <prop k="ring_filter" v="0"/>
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="11,92,173,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.5"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="customdash" v="3;1.5"/>
+        <prop k="customdash_unit" v="MM"/>
+        <prop k="draw_inside_polygon" v="0"/>
+        <prop k="ring_filter" v="0"/>
+      </layer>
+    </symbol>
+    <symbol type="fill" name="Wasserwirtschaft: Gewässerökologie, Einzugsgebiet Wasserkörper" alpha="1" clip_to_extent="1" force_rhr="0">
+      <layer class="SimpleLine" enabled="1" locked="0" pass="0">
+        <prop k="line_color" v="11,92,173,255"/>
+        <prop k="line_style" v="solid"/>
+        <prop k="line_width" v="0.5"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="capstyle" v="flat"/>
+        <prop k="joinstyle" v="round"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="use_custom_dash" v="1"/>
+        <prop k="customdash" v="4;1;1;1"/>
         <prop k="customdash_unit" v="MM"/>
         <prop k="draw_inside_polygon" v="0"/>
         <prop k="ring_filter" v="0"/>

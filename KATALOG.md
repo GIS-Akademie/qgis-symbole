@@ -1003,7 +1003,7 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | Wärmeplanung: Potenzialfläche Großwärmespeicher | Fläche |
 | Wärmeplanung: Ausschlussgebiet (Potenzialanalyse) | Fläche |
 
-## Wasserwirtschaft (`gisak_wasser`, 70 Symbole)
+## Wasserwirtschaft (`gisak_wasser`, 101 Symbole)
 
 | Datei | Bedeutung |
 |---|---|
@@ -1077,8 +1077,39 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | `gisak_wasser_sr_objektschutz.svg` | Starkregen, Objektschutz / Schutzeinrichtung |
 | `gisak_wasser_sr_gefahrenbereich.svg` | Starkregengefahrenbereich |
 | `gisak_wasser_sr_fliessrichtung.svg` | Starkregen, Fließrichtung (nach rechts, drehbar) |
+| `gisak_wasser_oek_ueberblick.svg` | Gewässerökologie, Überblicksmessstelle |
+| `gisak_wasser_oek_operativ.svg` | Gewässerökologie, operative Messstelle |
+| `gisak_wasser_oek_makrozoobenthos.svg` | Gewässerökologie, Probestelle Makrozoobenthos |
+| `gisak_wasser_oek_fische.svg` | Gewässerökologie, Probestelle Fische / Befischungsstrecke |
+| `gisak_wasser_oek_wasserpflanzen.svg` | Gewässerökologie, Probestelle Wasserpflanzen und Algen |
+| `gisak_wasser_oek_strukturkartierung.svg` | Gewässerökologie, Aufnahmepunkt Strukturkartierung |
+| `gisak_wasser_oek_durchgaengig.svg` | Gewässerökologie, Querbauwerk durchgängig |
+| `gisak_wasser_oek_eingeschraenkt_durchgaengig.svg` | Gewässerökologie, Querbauwerk eingeschränkt durchgängig |
+| `gisak_wasser_oek_nicht_durchgaengig.svg` | Gewässerökologie, Querbauwerk nicht durchgängig |
+| `gisak_wasser_oek_absturz.svg` | Gewässerökologie, Absturz / Sohlschwelle |
+| `gisak_wasser_oek_verrohrung.svg` | Gewässerökologie, Verrohrung |
+| `gisak_wasser_oek_wasserkraft.svg` | Gewässerökologie, Wasserkraftanlage |
+| `gisak_wasser_oek_fischschutz.svg` | Gewässerökologie, Fischschutz und Fischabstieg |
+| `gisak_wasser_oek_einleitung.svg` | Gewässerökologie, Einleitung (Kläranlage, Regenwasser, Industrie) |
+| `gisak_wasser_oek_entnahme.svg` | Gewässerökologie, Wasserentnahme / Ausleitung |
+| `gisak_wasser_oek_rueckstau.svg` | Gewässerökologie, Rückstaubereich |
+| `gisak_wasser_oek_uferverbau.svg` | Gewässerökologie, Ufer- oder Sohlverbau |
+| `gisak_wasser_oek_totholz.svg` | Gewässerökologie, Totholz / Strukturelement |
+| `gisak_wasser_oek_laichplatz.svg` | Gewässerökologie, Kieslaichplatz |
+| `gisak_wasser_oek_strahlursprung.svg` | Gewässerökologie, Strahlursprung |
+| `gisak_wasser_oek_trittstein.svg` | Gewässerökologie, Trittstein |
+| `gisak_wasser_oek_m_durchgaengigkeit.svg` | Gewässerökologie, Maßnahme Durchgängigkeit herstellen |
+| `gisak_wasser_oek_m_randstreifen.svg` | Gewässerökologie, Maßnahme Gewässerrandstreifen anlegen |
+| `gisak_wasser_oek_m_ufer.svg` | Gewässerökologie, Maßnahme Ufer- oder Sohlverbau entfernen |
+| `gisak_wasser_oek_m_aue.svg` | Gewässerökologie, Maßnahme Auenanbindung / Altarm anschließen |
+| `gisak_wasser_oek_m_struktur.svg` | Gewässerökologie, Maßnahme Strukturelemente einbringen (Totholz, Kies) |
+| `gisak_wasser_oek_m_unterhaltung.svg` | Gewässerökologie, Maßnahme angepasste Gewässerunterhaltung |
+| `gisak_wasser_oek_owk.svg` | Gewässerökologie, Oberflächenwasserkörper |
+| `gisak_wasser_oek_gwk.svg` | Gewässerökologie, Grundwasserkörper |
+| `gisak_wasser_oek_hmwb.svg` | Gewässerökologie, erheblich veränderter Wasserkörper (HMWB) |
+| `gisak_wasser_oek_awb.svg` | Gewässerökologie, künstlicher Wasserkörper (AWB) |
 
-### Wasserwirtschaft: Linien und Flächen (44 Symbole)
+### Wasserwirtschaft: Linien und Flächen (88 Symbole)
 
 | Symbol in QGIS | Art |
 |---|---|
@@ -1103,6 +1134,35 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | Wasserwirtschaft: Starkregen, Fließweg / Abflussbahn | Linie |
 | Wasserwirtschaft: Starkregen, Notwasserweg | Linie |
 | Wasserwirtschaft: Starkregen, Schutzlinie / Objektschutz | Linie |
+| Wasserwirtschaft: Gewässerökologie, ökologischer Zustand sehr gut | Linie |
+| Wasserwirtschaft: Gewässerökologie, ökologischer Zustand gut | Linie |
+| Wasserwirtschaft: Gewässerökologie, ökologischer Zustand mäßig | Linie |
+| Wasserwirtschaft: Gewässerökologie, ökologischer Zustand unbefriedigend | Linie |
+| Wasserwirtschaft: Gewässerökologie, ökologischer Zustand schlecht | Linie |
+| Wasserwirtschaft: Gewässerökologie, ökologisches Potenzial gut und besser, erheblich verändert | Linie |
+| Wasserwirtschaft: Gewässerökologie, ökologisches Potenzial mäßig, erheblich verändert | Linie |
+| Wasserwirtschaft: Gewässerökologie, ökologisches Potenzial unbefriedigend, erheblich verändert | Linie |
+| Wasserwirtschaft: Gewässerökologie, ökologisches Potenzial schlecht, erheblich verändert | Linie |
+| Wasserwirtschaft: Gewässerökologie, ökologisches Potenzial gut und besser, künstlich | Linie |
+| Wasserwirtschaft: Gewässerökologie, ökologisches Potenzial mäßig, künstlich | Linie |
+| Wasserwirtschaft: Gewässerökologie, ökologisches Potenzial unbefriedigend, künstlich | Linie |
+| Wasserwirtschaft: Gewässerökologie, ökologisches Potenzial schlecht, künstlich | Linie |
+| Wasserwirtschaft: Gewässerökologie, chemischer Zustand gut | Linie |
+| Wasserwirtschaft: Gewässerökologie, chemischer Zustand nicht gut | Linie |
+| Wasserwirtschaft: Gewässerökologie, Strukturklasse 1 (unverändert) | Linie |
+| Wasserwirtschaft: Gewässerökologie, Strukturklasse 2 (gering verändert) | Linie |
+| Wasserwirtschaft: Gewässerökologie, Strukturklasse 3 (mäßig verändert) | Linie |
+| Wasserwirtschaft: Gewässerökologie, Strukturklasse 4 (deutlich verändert) | Linie |
+| Wasserwirtschaft: Gewässerökologie, Strukturklasse 5 (stark verändert) | Linie |
+| Wasserwirtschaft: Gewässerökologie, Strukturklasse 6 (sehr stark verändert) | Linie |
+| Wasserwirtschaft: Gewässerökologie, Strukturklasse 7 (vollständig verändert) | Linie |
+| Wasserwirtschaft: Gewässerökologie, Strahlursprung | Linie |
+| Wasserwirtschaft: Gewässerökologie, Strahlweg | Linie |
+| Wasserwirtschaft: Gewässerökologie, Degradationsstrecke | Linie |
+| Wasserwirtschaft: Gewässerökologie, Gewässerrandstreifen | Linie |
+| Wasserwirtschaft: Gewässerökologie, Rückstaustrecke | Linie |
+| Wasserwirtschaft: Gewässerökologie, Renaturierungsstrecke | Linie |
+| Wasserwirtschaft: Gewässerökologie, nicht durchgängiger Abschnitt | Linie |
 | Wasserwirtschaft: Gewässerfläche | Fläche |
 | Wasserwirtschaft: Wasserschutzgebiet Zone I | Fläche |
 | Wasserwirtschaft: Wasserschutzgebiet Zone II | Fläche |
@@ -1126,6 +1186,21 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | Wasserwirtschaft: Starkregen, Retentionsfläche / Notüberflutungsfläche | Fläche |
 | Wasserwirtschaft: Starkregen, Geländesenke | Fläche |
 | Wasserwirtschaft: Starkregen, Risikobereich | Fläche |
+| Wasserwirtschaft: Gewässerökologie, See, ökologischer Zustand sehr gut | Fläche |
+| Wasserwirtschaft: Gewässerökologie, See, ökologischer Zustand gut | Fläche |
+| Wasserwirtschaft: Gewässerökologie, See, ökologischer Zustand mäßig | Fläche |
+| Wasserwirtschaft: Gewässerökologie, See, ökologischer Zustand unbefriedigend | Fläche |
+| Wasserwirtschaft: Gewässerökologie, See, ökologischer Zustand schlecht | Fläche |
+| Wasserwirtschaft: Gewässerökologie, Grundwasserkörper, mengenmäßiger Zustand gut | Fläche |
+| Wasserwirtschaft: Gewässerökologie, Grundwasserkörper, mengenmäßiger Zustand schlecht | Fläche |
+| Wasserwirtschaft: Gewässerökologie, Grundwasserkörper, chemischer Zustand gut | Fläche |
+| Wasserwirtschaft: Gewässerökologie, Grundwasserkörper, chemischer Zustand schlecht | Fläche |
+| Wasserwirtschaft: Gewässerökologie, Gewässerrandstreifen, Fläche | Fläche |
+| Wasserwirtschaft: Gewässerökologie, Aue, rezent | Fläche |
+| Wasserwirtschaft: Gewässerökologie, Altaue | Fläche |
+| Wasserwirtschaft: Gewässerökologie, Entwicklungskorridor | Fläche |
+| Wasserwirtschaft: Gewässerökologie, Maßnahmenfläche Gewässerentwicklung | Fläche |
+| Wasserwirtschaft: Gewässerökologie, Einzugsgebiet Wasserkörper | Fläche |
 
 ## Boden, Altlasten und Geologie (`gisak_boden`, 65 Symbole)
 
@@ -1507,7 +1582,7 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | Naturschutz: Habitatfläche, Revier | Fläche |
 | Naturschutz: Untersuchungsgebiet | Fläche |
 
-## Landschaftsplanung (`gisak_landschaftsplanung`, 69 Symbole)
+## Landschaftsplanung (`gisak_landschaftsplanung`, 50 Symbole)
 
 | Datei | Bedeutung |
 |---|---|
@@ -1526,25 +1601,6 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | `gisak_landschaftsplanung_strauch.svg` | Strauch / Gebüsch |
 | `gisak_landschaftsplanung_hecke.svg` | Hecke |
 | `gisak_landschaftsplanung_feldgehoelz.svg` | Feldgehölz |
-| `gisak_landschaftsplanung_bk_vital_0.svg` | Baumkataster Vitalitätsstufe 0 (vital, Explorationsphase) |
-| `gisak_landschaftsplanung_bk_vital_1.svg` | Baumkataster Vitalitätsstufe 1 (geschwächt, Degenerationsphase) |
-| `gisak_landschaftsplanung_bk_vital_2.svg` | Baumkataster Vitalitätsstufe 2 (merklich geschädigt, Stagnationsphase) |
-| `gisak_landschaftsplanung_bk_vital_3.svg` | Baumkataster Vitalitätsstufe 3 (stark geschädigt, Resignationsphase) |
-| `gisak_landschaftsplanung_bk_jungbaum.svg` | Baumkataster Jungbaum (mit Dreibock) |
-| `gisak_landschaftsplanung_bk_totbaum.svg` | Baumkataster abgestorbener Baum |
-| `gisak_landschaftsplanung_bk_stubben.svg` | Baumkataster Stubben / Baumstumpf |
-| `gisak_landschaftsplanung_bk_leerstandort.svg` | Baumkataster freier Baumstandort / leere Baumscheibe |
-| `gisak_landschaftsplanung_bk_kontrolle.svg` | Baumkataster Regelkontrolle fällig |
-| `gisak_landschaftsplanung_bk_untersuchung.svg` | Baumkataster eingehende Untersuchung erforderlich |
-| `gisak_landschaftsplanung_bk_gefahr.svg` | Baumkataster Verkehrssicherheit gefährdet / Sofortmaßnahme |
-| `gisak_landschaftsplanung_bk_schaden.svg` | Baumkataster Schaden (Höhlung, Riss, Faulstelle) |
-| `gisak_landschaftsplanung_bk_schaedling.svg` | Baumkataster Schädlings- oder Pilzbefall |
-| `gisak_landschaftsplanung_bk_kronenpflege.svg` | Baumkataster Maßnahme Kronenpflege / Kronenschnitt |
-| `gisak_landschaftsplanung_bk_kroneneinkuerzung.svg` | Baumkataster Maßnahme Kroneneinkürzung |
-| `gisak_landschaftsplanung_bk_totholz.svg` | Baumkataster Maßnahme Totholzbeseitigung |
-| `gisak_landschaftsplanung_bk_kronensicherung.svg` | Baumkataster Maßnahme Kronensicherung |
-| `gisak_landschaftsplanung_bk_lichtraum.svg` | Baumkataster Maßnahme Lichtraumprofil herstellen |
-| `gisak_landschaftsplanung_bk_bewaesserung.svg` | Baumkataster Maßnahme Bewässerung |
 | `gisak_landschaftsplanung_wald_laub.svg` | Laubwald |
 | `gisak_landschaftsplanung_wald_nadel.svg` | Nadelwald |
 | `gisak_landschaftsplanung_wald_misch.svg` | Mischwald |
@@ -1581,7 +1637,7 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | `gisak_landschaftsplanung_sichtachse.svg` | Sichtachse / Blickbeziehung (nach rechts, drehbar) |
 | `gisak_landschaftsplanung_landmarke.svg` | Landmarke / prägendes Landschaftselement |
 
-### Landschaftsplanung: Linien und Flächen (31 Symbole)
+### Landschaftsplanung: Linien und Flächen (27 Symbole)
 
 | Symbol in QGIS | Art |
 |---|---|
@@ -1594,7 +1650,6 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | Landschaftsplanung: Trockenmauer | Linie |
 | Landschaftsplanung: Zaun | Linie |
 | Landschaftsplanung: Sichtachse | Linie |
-| Landschaftsplanung: Baumschutzzaun | Linie |
 | Landschaftsplanung: Laubwald | Fläche |
 | Landschaftsplanung: Nadelwald | Fläche |
 | Landschaftsplanung: Mischwald | Fläche |
@@ -1613,9 +1668,151 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | Landschaftsplanung: Pflanzfläche | Fläche |
 | Landschaftsplanung: Sukzessionsfläche | Fläche |
 | Landschaftsplanung: Entsiegelungsfläche | Fläche |
-| Landschaftsplanung: Kronentraufbereich | Fläche |
-| Landschaftsplanung: Wurzelschutzbereich (Kronentraufe zuzüglich 1,5 m) | Fläche |
-| Landschaftsplanung: Baumscheibe | Fläche |
+
+## Grünflächen und Friedhof (`gisak_gruenflaechen`, 80 Symbole)
+
+| Datei | Bedeutung |
+|---|---|
+| `gisak_gruenflaechen_bk_baum.svg` | Baumkataster Baum |
+| `gisak_gruenflaechen_bk_vital_0.svg` | Baumkataster Vitalitätsstufe 0 (vital, Explorationsphase) |
+| `gisak_gruenflaechen_bk_vital_1.svg` | Baumkataster Vitalitätsstufe 1 (geschwächt, Degenerationsphase) |
+| `gisak_gruenflaechen_bk_vital_2.svg` | Baumkataster Vitalitätsstufe 2 (merklich geschädigt, Stagnationsphase) |
+| `gisak_gruenflaechen_bk_vital_3.svg` | Baumkataster Vitalitätsstufe 3 (stark geschädigt, Resignationsphase) |
+| `gisak_gruenflaechen_bk_jungbaum.svg` | Baumkataster Jungbaum (mit Dreibock) |
+| `gisak_gruenflaechen_bk_totbaum.svg` | Baumkataster abgestorbener Baum |
+| `gisak_gruenflaechen_bk_stubben.svg` | Baumkataster Stubben / Baumstumpf |
+| `gisak_gruenflaechen_bk_leerstandort.svg` | Baumkataster freier Baumstandort / leere Baumscheibe |
+| `gisak_gruenflaechen_bk_kontrolle.svg` | Baumkataster Regelkontrolle fällig |
+| `gisak_gruenflaechen_bk_untersuchung.svg` | Baumkataster eingehende Untersuchung erforderlich |
+| `gisak_gruenflaechen_bk_gefahr.svg` | Baumkataster Verkehrssicherheit gefährdet / Sofortmaßnahme |
+| `gisak_gruenflaechen_bk_schaden.svg` | Baumkataster Schaden (Höhlung, Riss, Faulstelle) |
+| `gisak_gruenflaechen_bk_schaedling.svg` | Baumkataster Schädlings- oder Pilzbefall |
+| `gisak_gruenflaechen_bk_naturdenkmal.svg` | Baumkataster Naturdenkmal / geschützter Baum |
+| `gisak_gruenflaechen_bk_kronenpflege.svg` | Baumkataster Maßnahme Kronenpflege / Kronenschnitt |
+| `gisak_gruenflaechen_bk_kroneneinkuerzung.svg` | Baumkataster Maßnahme Kroneneinkürzung |
+| `gisak_gruenflaechen_bk_totholz.svg` | Baumkataster Maßnahme Totholzbeseitigung |
+| `gisak_gruenflaechen_bk_kronensicherung.svg` | Baumkataster Maßnahme Kronensicherung |
+| `gisak_gruenflaechen_bk_lichtraum.svg` | Baumkataster Maßnahme Lichtraumprofil herstellen |
+| `gisak_gruenflaechen_bk_bewaesserung.svg` | Baumkataster Maßnahme Bewässerung |
+| `gisak_gruenflaechen_bk_faellung.svg` | Baumkataster Maßnahme Fällung |
+| `gisak_gruenflaechen_bk_nachpflanzung.svg` | Baumkataster Maßnahme Nachpflanzung |
+| `gisak_gruenflaechen_aus_bank.svg` | Sitzbank |
+| `gisak_gruenflaechen_aus_tisch.svg` | Picknicktisch / Bank-Tisch-Kombination |
+| `gisak_gruenflaechen_aus_abfall.svg` | Abfallbehälter |
+| `gisak_gruenflaechen_aus_hundekot.svg` | Hundekotbeutelspender |
+| `gisak_gruenflaechen_aus_leuchte.svg` | Leuchte |
+| `gisak_gruenflaechen_aus_tor.svg` | Tor / Zugang |
+| `gisak_gruenflaechen_aus_schild.svg` | Hinweisschild / Parkordnung |
+| `gisak_gruenflaechen_aus_wasser.svg` | Wasserentnahmestelle / Zapfstelle |
+| `gisak_gruenflaechen_aus_pflanzkuebel.svg` | Pflanzkübel / Hochbeet |
+| `gisak_gruenflaechen_aus_poller.svg` | Poller / Absperrpfosten |
+| `gisak_gruenflaechen_aus_brunnen.svg` | Zierbrunnen / Wasserbecken |
+| `gisak_gruenflaechen_aus_treppe.svg` | Treppe / Rampe |
+| `gisak_gruenflaechen_aus_steg.svg` | Steg / Brücke |
+| `gisak_gruenflaechen_aus_pavillon.svg` | Pavillon / Unterstand |
+| `gisak_gruenflaechen_aus_hundewiese.svg` | Hundewiese / Hundeauslauf |
+| `gisak_gruenflaechen_spiel_schaukel.svg` | Schaukel |
+| `gisak_gruenflaechen_spiel_rutsche.svg` | Rutsche |
+| `gisak_gruenflaechen_spiel_klettergeruest.svg` | Klettergerüst |
+| `gisak_gruenflaechen_spiel_kletternetz.svg` | Kletternetz / Seilpyramide |
+| `gisak_gruenflaechen_spiel_sandkasten.svg` | Sandkasten / Sandspielfläche |
+| `gisak_gruenflaechen_spiel_wippe.svg` | Wippe |
+| `gisak_gruenflaechen_spiel_karussell.svg` | Karussell / Drehgerät |
+| `gisak_gruenflaechen_spiel_seilbahn.svg` | Seilbahn |
+| `gisak_gruenflaechen_spiel_federtier.svg` | Federwipper / Wipptier |
+| `gisak_gruenflaechen_spiel_wasser.svg` | Wasserspiel / Matschanlage |
+| `gisak_gruenflaechen_spiel_balancieren.svg` | Balancierstrecke |
+| `gisak_gruenflaechen_spiel_haus.svg` | Spielhaus / Spielturm |
+| `gisak_gruenflaechen_spiel_tor.svg` | Bolzplatztor |
+| `gisak_gruenflaechen_spiel_basketball.svg` | Basketballkorb / Streetball |
+| `gisak_gruenflaechen_spiel_tischtennis.svg` | Tischtennisplatte |
+| `gisak_gruenflaechen_spiel_fitness.svg` | Fitnessgerät / Calisthenics |
+| `gisak_gruenflaechen_fh_wahlgrab.svg` | Wahlgrab |
+| `gisak_gruenflaechen_fh_reihengrab.svg` | Reihengrab |
+| `gisak_gruenflaechen_fh_anonym.svg` | Anonymes Grab / anonymes Grabfeld |
+| `gisak_gruenflaechen_fh_urnengrab.svg` | Urnengrab |
+| `gisak_gruenflaechen_fh_urnengemeinschaft.svg` | Urnengemeinschaftsanlage |
+| `gisak_gruenflaechen_fh_kolumbarium.svg` | Kolumbarium / Urnenwand |
+| `gisak_gruenflaechen_fh_baumgrab.svg` | Baumbestattung / Baumgrab |
+| `gisak_gruenflaechen_fh_rasengrab.svg` | Rasengrab |
+| `gisak_gruenflaechen_fh_kindergrab.svg` | Kindergrab |
+| `gisak_gruenflaechen_fh_ehrengrab.svg` | Ehrengrab |
+| `gisak_gruenflaechen_fh_kriegsgrab.svg` | Kriegsgräberstätte |
+| `gisak_gruenflaechen_fh_gruft.svg` | Gruft / Mausoleum |
+| `gisak_gruenflaechen_fh_standsicherheit.svg` | Grabmal nicht standsicher |
+| `gisak_gruenflaechen_fh_trauerhalle.svg` | Trauerhalle / Feierhalle |
+| `gisak_gruenflaechen_fh_wasserstelle.svg` | Wasserstelle / Gießkannenständer |
+| `gisak_gruenflaechen_fh_abfall.svg` | Abfallsammelstelle / Kompost |
+| `gisak_gruenflaechen_pfl_mahd.svg` | Mahd |
+| `gisak_gruenflaechen_pfl_schnitt.svg` | Gehölzschnitt / Heckenschnitt |
+| `gisak_gruenflaechen_pfl_pflanzung.svg` | Pflanzung / Nachpflanzung |
+| `gisak_gruenflaechen_pfl_bewaesserung.svg` | Bewässerung |
+| `gisak_gruenflaechen_pfl_reinigung.svg` | Reinigung / Laubbeseitigung |
+| `gisak_gruenflaechen_pfl_wildkraut.svg` | Wildkrautbeseitigung |
+| `gisak_gruenflaechen_pfl_winterdienst.svg` | Winterdienst |
+| `gisak_gruenflaechen_pfl_kontrolle.svg` | Kontrolle fällig (Spielgerät, Ausstattung, Grabmal) |
+| `gisak_gruenflaechen_pfl_schaden.svg` | Schaden / Mangel |
+| `gisak_gruenflaechen_pfl_gesperrt.svg` | Gesperrt / außer Betrieb |
+
+### Grünflächen und Friedhof: Linien und Flächen (55 Symbole)
+
+| Symbol in QGIS | Art |
+|---|---|
+| Grünflächen und Friedhof: Weg, wassergebundene Decke | Linie |
+| Grünflächen und Friedhof: Weg, befestigt | Linie |
+| Grünflächen und Friedhof: Trampelpfad | Linie |
+| Grünflächen und Friedhof: Hecke, geschnitten | Linie |
+| Grünflächen und Friedhof: Hecke, frei wachsend | Linie |
+| Grünflächen und Friedhof: Zaun | Linie |
+| Grünflächen und Friedhof: Mauer | Linie |
+| Grünflächen und Friedhof: Einfassung / Bordkante | Linie |
+| Grünflächen und Friedhof: Rasenkante / Mähkante | Linie |
+| Grünflächen und Friedhof: Bewässerungsleitung | Linie |
+| Grünflächen und Friedhof: Grenze Pflegebezirk | Linie |
+| Grünflächen und Friedhof: Grenze Pflegeeinheit | Linie |
+| Grünflächen und Friedhof: Baumschutzzaun | Linie |
+| Grünflächen und Friedhof: Friedhofsmauer / Einfriedung | Linie |
+| Grünflächen und Friedhof: Grenze Grabfeld | Linie |
+| Grünflächen und Friedhof: Grabreihe | Linie |
+| Grünflächen und Friedhof: Gebrauchsrasen | Fläche |
+| Grünflächen und Friedhof: Landschaftsrasen / Wiese | Fläche |
+| Grünflächen und Friedhof: Blumenwiese | Fläche |
+| Grünflächen und Friedhof: Wechselflor / Schmuckbeet | Fläche |
+| Grünflächen und Friedhof: Staudenfläche | Fläche |
+| Grünflächen und Friedhof: Bodendecker | Fläche |
+| Grünflächen und Friedhof: Strauchfläche | Fläche |
+| Grünflächen und Friedhof: Hecke | Fläche |
+| Grünflächen und Friedhof: Baumbestand, waldartig | Fläche |
+| Grünflächen und Friedhof: Wasserfläche | Fläche |
+| Grünflächen und Friedhof: Wegefläche, wassergebunden | Fläche |
+| Grünflächen und Friedhof: Wegefläche, befestigt | Fläche |
+| Grünflächen und Friedhof: Spielsand / Fallschutz | Fläche |
+| Grünflächen und Friedhof: Sportrasen | Fläche |
+| Grünflächen und Friedhof: Tennenfläche | Fläche |
+| Grünflächen und Friedhof: Kunststoffbelag | Fläche |
+| Grünflächen und Friedhof: Hundewiese | Fläche |
+| Grünflächen und Friedhof: Spielplatzfläche | Fläche |
+| Grünflächen und Friedhof: Pflegeklasse 1 (intensiv) | Fläche |
+| Grünflächen und Friedhof: Pflegeklasse 2 | Fläche |
+| Grünflächen und Friedhof: Pflegeklasse 3 | Fläche |
+| Grünflächen und Friedhof: Pflegeklasse 4 (extensiv) | Fläche |
+| Grünflächen und Friedhof: Kronentraufbereich | Fläche |
+| Grünflächen und Friedhof: Wurzelschutzbereich (Kronentraufe zuzüglich 1,5 m) | Fläche |
+| Grünflächen und Friedhof: Baumscheibe | Fläche |
+| Grünflächen und Friedhof: Grabfeld Wahlgräber | Fläche |
+| Grünflächen und Friedhof: Grabfeld Reihengräber | Fläche |
+| Grünflächen und Friedhof: Grabfeld Urnengräber | Fläche |
+| Grünflächen und Friedhof: Grabfeld Rasengräber | Fläche |
+| Grünflächen und Friedhof: Grabfeld Baumbestattung | Fläche |
+| Grünflächen und Friedhof: Grabfeld anonym | Fläche |
+| Grünflächen und Friedhof: Kriegsgräberfeld | Fläche |
+| Grünflächen und Friedhof: Grabfeld, abgeräumt | Fläche |
+| Grünflächen und Friedhof: Erweiterungsfläche Friedhof | Fläche |
+| Grünflächen und Friedhof: Grab, belegt | Fläche |
+| Grünflächen und Friedhof: Grab, frei | Fläche |
+| Grünflächen und Friedhof: Grab, reserviert | Fläche |
+| Grünflächen und Friedhof: Grab, Nutzungsrecht läuft ab | Fläche |
+| Grünflächen und Friedhof: Grab, Ruhefrist läuft (gesperrt) | Fläche |
 
 ## Forst (`gisak_forst`, 45 Symbole)
 
@@ -1869,6 +2066,122 @@ Punktsymbole liegen als SVG unter `collections/<Sammlung>/svg/`, Linien- und Fl�
 | Verkehr: Baustellenbereich | Fläche |
 | Verkehr: Sperrbereich | Fläche |
 | Verkehr: Halteverbotszone | Fläche |
+
+## Radverkehr und Mobilität (`gisak_radverkehr`, 59 Symbole)
+
+| Datei | Bedeutung |
+|---|---|
+| `gisak_radverkehr_anl_buegel.svg` | Fahrradbügel / Anlehnbügel |
+| `gisak_radverkehr_anl_ueberdacht.svg` | Fahrradabstellanlage, überdacht |
+| `gisak_radverkehr_anl_box.svg` | Fahrradbox / Fahrradgarage |
+| `gisak_radverkehr_anl_parkhaus.svg` | Fahrradparkhaus / Radstation |
+| `gisak_radverkehr_anl_doppelstock.svg` | Doppelstockparker |
+| `gisak_radverkehr_anl_lastenrad.svg` | Abstellplatz für Lastenräder |
+| `gisak_radverkehr_anl_bike_ride.svg` | Bike and Ride |
+| `gisak_radverkehr_anl_schliessfach.svg` | Schließfach / Gepäckfach |
+| `gisak_radverkehr_anl_service.svg` | Radservicestation (Luftpumpe, Werkzeug) |
+| `gisak_radverkehr_anl_schlauchautomat.svg` | Schlauchautomat |
+| `gisak_radverkehr_anl_bikesharing.svg` | Bikesharing-Station |
+| `gisak_radverkehr_anl_lastenradverleih.svg` | Lastenrad-Verleih |
+| `gisak_radverkehr_anl_escooter.svg` | E-Scooter-Abstellfläche |
+| `gisak_radverkehr_anl_mobilstation.svg` | Mobilstation |
+| `gisak_radverkehr_anl_rufbus.svg` | Haltepunkt Rufbus / On-Demand-Verkehr |
+| `gisak_radverkehr_anl_mitfahrbank.svg` | Mitfahrbank |
+| `gisak_radverkehr_erh_dauerzaehlstelle.svg` | Dauerzählstelle Radverkehr |
+| `gisak_radverkehr_erh_kurzzeitzaehlung.svg` | Kurzzeitzählung / Knotenstromzählung |
+| `gisak_radverkehr_erh_unfall.svg` | Unfall mit Radverkehrsbeteiligung |
+| `gisak_radverkehr_erh_meldung.svg` | Bürgermeldung / Mängelmelder |
+| `gisak_radverkehr_erh_befahrung.svg` | Befahrung / Fotostandort |
+| `gisak_radverkehr_erh_geschwindigkeit.svg` | Geschwindigkeitsmessung |
+| `gisak_radverkehr_erh_befragung.svg` | Befragung / Haushaltsbefragung |
+| `gisak_radverkehr_mg_gefahrenstelle.svg` | Gefahrenstelle |
+| `gisak_radverkehr_mg_unfallhaeufung.svg` | Unfallhäufungsstelle |
+| `gisak_radverkehr_mg_oberflaeche.svg` | Oberflächenschaden / Schlagloch |
+| `gisak_radverkehr_mg_engstelle.svg` | Engstelle / zu geringe Breite |
+| `gisak_radverkehr_mg_netzluecke.svg` | Netzlücke |
+| `gisak_radverkehr_mg_querung.svg` | Fehlende oder unsichere Querung |
+| `gisak_radverkehr_mg_hindernis.svg` | Hindernis (Poller, Umlaufsperre) |
+| `gisak_radverkehr_mg_bordstein.svg` | Bordstein nicht abgesenkt / Kante |
+| `gisak_radverkehr_mg_sicht.svg` | Eingeschränkte Sicht |
+| `gisak_radverkehr_mg_beleuchtung.svg` | Fehlende Beleuchtung |
+| `gisak_radverkehr_mg_konflikt_fuss.svg` | Konflikt mit Fußverkehr |
+| `gisak_radverkehr_mg_parken.svg` | Konflikt mit ruhendem Verkehr (Falschparker, Dooring) |
+| `gisak_radverkehr_mg_wegweisung.svg` | Fehlende oder falsche Wegweisung |
+| `gisak_radverkehr_mg_signal.svg` | Lange Wartezeit / fehlende Radsignalisierung |
+| `gisak_radverkehr_mg_bewuchs.svg` | Bewuchs / Verschmutzung |
+| `gisak_radverkehr_kn_knotenpunkt.svg` | Knotenpunkt im Knotenpunktnetz |
+| `gisak_radverkehr_kn_wegweiser.svg` | Pfeilwegweiser / Wegweiserstandort |
+| `gisak_radverkehr_kn_zwischenwegweiser.svg` | Zwischenwegweiser |
+| `gisak_radverkehr_kn_infotafel.svg` | Infotafel / Knotenpunkttafel |
+| `gisak_radverkehr_kn_querungshilfe.svg` | Querungshilfe / Mittelinsel |
+| `gisak_radverkehr_kn_radampel.svg` | Lichtsignalanlage mit Radsignal |
+| `gisak_radverkehr_kn_aras.svg` | Aufgeweiteter Radaufstellstreifen (ARAS) |
+| `gisak_radverkehr_kn_kreisverkehr.svg` | Kreisverkehr mit Radführung |
+| `gisak_radverkehr_kn_unterfuehrung.svg` | Unterführung / Tunnel |
+| `gisak_radverkehr_kn_bruecke.svg` | Rad- und Fußgängerbrücke |
+| `gisak_radverkehr_kn_treppe.svg` | Treppe mit Schieberinne / Schiebestrecke |
+| `gisak_radverkehr_mas_neubau.svg` | Maßnahme Neubau Radverkehrsanlage |
+| `gisak_radverkehr_mas_ausbau.svg` | Maßnahme Ausbau / Verbreiterung |
+| `gisak_radverkehr_mas_decke.svg` | Maßnahme Deckenerneuerung |
+| `gisak_radverkehr_mas_markierung.svg` | Maßnahme Markierung / Roteinfärbung |
+| `gisak_radverkehr_mas_beschilderung.svg` | Maßnahme Beschilderung / Wegweisung |
+| `gisak_radverkehr_mas_knoten.svg` | Maßnahme Knotenpunktumbau |
+| `gisak_radverkehr_mas_abstellanlage.svg` | Maßnahme Abstellanlage errichten |
+| `gisak_radverkehr_mas_beleuchtung.svg` | Maßnahme Beleuchtung |
+| `gisak_radverkehr_mas_sofort.svg` | Sofortmaßnahme |
+| `gisak_radverkehr_mas_pruefauftrag.svg` | Prüfauftrag / Planung erforderlich |
+
+### Radverkehr und Mobilität: Linien und Flächen (47 Symbole)
+
+| Symbol in QGIS | Art |
+|---|---|
+| Radverkehr und Mobilität: Radschnellverbindung | Linie |
+| Radverkehr und Mobilität: Radvorrangroute | Linie |
+| Radverkehr und Mobilität: Radweg, baulich getrennt | Linie |
+| Radverkehr und Mobilität: Zweirichtungsradweg | Linie |
+| Radverkehr und Mobilität: Gemeinsamer Geh- und Radweg | Linie |
+| Radverkehr und Mobilität: Getrennter Geh- und Radweg | Linie |
+| Radverkehr und Mobilität: Radfahrstreifen | Linie |
+| Radverkehr und Mobilität: Geschützter Radfahrstreifen | Linie |
+| Radverkehr und Mobilität: Schutzstreifen | Linie |
+| Radverkehr und Mobilität: Fahrradstraße | Linie |
+| Radverkehr und Mobilität: Gehweg, Radverkehr frei | Linie |
+| Radverkehr und Mobilität: Bussonderfahrstreifen, Radverkehr frei | Linie |
+| Radverkehr und Mobilität: Einbahnstraße, für Radverkehr geöffnet | Linie |
+| Radverkehr und Mobilität: Mischverkehr bis 30 km/h | Linie |
+| Radverkehr und Mobilität: Mischverkehr über 30 km/h ohne Radverkehrsanlage | Linie |
+| Radverkehr und Mobilität: Selbständiger Weg / Wirtschaftsweg | Linie |
+| Radverkehr und Mobilität: Schiebestrecke | Linie |
+| Radverkehr und Mobilität: Radnetz, Hauptroute | Linie |
+| Radverkehr und Mobilität: Radnetz, Nebenroute | Linie |
+| Radverkehr und Mobilität: Netzlücke | Linie |
+| Radverkehr und Mobilität: Geplante Radverkehrsverbindung | Linie |
+| Radverkehr und Mobilität: Wunschlinie / Luftlinienverbindung | Linie |
+| Radverkehr und Mobilität: Zustand der Oberfläche gut | Linie |
+| Radverkehr und Mobilität: Zustand der Oberfläche mittel | Linie |
+| Radverkehr und Mobilität: Zustand der Oberfläche schlecht | Linie |
+| Radverkehr und Mobilität: Radverkehrsstärke gering | Linie |
+| Radverkehr und Mobilität: Radverkehrsstärke mittel | Linie |
+| Radverkehr und Mobilität: Radverkehrsstärke hoch | Linie |
+| Radverkehr und Mobilität: Radverkehrsstärke sehr hoch | Linie |
+| Radverkehr und Mobilität: Fahrradzone | Fläche |
+| Radverkehr und Mobilität: Radverkehrsfurt / Roteinfärbung | Fläche |
+| Radverkehr und Mobilität: Aufstellfläche Radverkehr | Fläche |
+| Radverkehr und Mobilität: Fahrradabstellfläche | Fläche |
+| Radverkehr und Mobilität: Sharing-Abstellfläche | Fläche |
+| Radverkehr und Mobilität: Sharing-Geschäftsgebiet | Fläche |
+| Radverkehr und Mobilität: Abstellverbotszone | Fläche |
+| Radverkehr und Mobilität: Einzugsbereich Mobilstation | Fläche |
+| Radverkehr und Mobilität: Erreichbarkeit mit dem Rad bis 5 Minuten | Fläche |
+| Radverkehr und Mobilität: Erreichbarkeit mit dem Rad 5 bis 10 Minuten | Fläche |
+| Radverkehr und Mobilität: Erreichbarkeit mit dem Rad 10 bis 15 Minuten | Fläche |
+| Radverkehr und Mobilität: Erreichbarkeit mit dem Rad 15 bis 20 Minuten | Fläche |
+| Radverkehr und Mobilität: Unfallhäufungsbereich | Fläche |
+| Radverkehr und Mobilität: Maßnahmenbereich Radverkehr | Fläche |
+| Radverkehr und Mobilität: Tempo-30-Zone | Fläche |
+| Radverkehr und Mobilität: Verkehrsberuhigter Bereich | Fläche |
+| Radverkehr und Mobilität: Fußgängerzone, Radverkehr frei | Fläche |
+| Radverkehr und Mobilität: Untersuchungsraum Radverkehrskonzept | Fläche |
 
 ## Tourismus und Freizeit (`gisak_tourismus`, 90 Symbole)
 

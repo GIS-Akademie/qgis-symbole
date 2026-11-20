@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Engstelle / zu geringe Breite</title>
+  <polygon points="50,5 95,50 50,95 5,50" fill="param(fill) #FADCEB" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #B4136A" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M26,37 L40,50 L26,63" fill="none" stroke="param(outline) #B4136A" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M74,37 L60,50 L74,63" fill="none" stroke="param(outline) #B4136A" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M50,30 L50,70" fill="none" stroke="param(outline) #B4136A" stroke-opacity="param(outline-opacity) 1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Gewässerökologie, Überblicksmessstelle</title>
+  <circle cx="50" cy="50" r="44" fill="param(fill) #D6ECFA" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #0B5CAD" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M49.6 72.6Q42.17 72.6 38.22 68.97Q34.27 65.34 34.27 58.6V36.09H41.81V58.01Q41.81 62.28 43.84 64.49Q45.87 66.7 49.81 66.7Q53.85 66.7 56.02 64.38Q58.19 62.07 58.19 57.75V36.09H65.73V58.21Q65.73 65.06 61.5 68.83Q57.27 72.6 49.6 72.6ZM53.28 33V27.4H58.32V33ZM41.68 33V27.4H46.64V33Z" fill="param(outline) #0B5CAD" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

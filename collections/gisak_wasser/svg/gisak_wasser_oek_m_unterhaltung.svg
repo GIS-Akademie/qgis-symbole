@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Gewässerökologie, Maßnahme angepasste Gewässerunterhaltung</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #D6ECFA" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #0B5CAD" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="12 8"/>
+  <path d="M35.13 60.35Q37.54 60.35 39.8 59.65Q42.07 58.95 43.3 57.86V53.77H36.1V49.2H48.96V60.06Q46.62 62.47 42.85 63.83Q39.09 65.19 34.96 65.19Q27.75 65.19 23.88 61.2Q20 57.21 20 49.87Q20 42.58 23.9 38.69Q27.8 34.81 35.11 34.81Q45.5 34.81 48.33 42.5L42.63 44.22Q41.71 41.97 39.74 40.82Q37.77 39.67 35.11 39.67Q30.75 39.67 28.49 42.31Q26.22 44.95 26.22 49.87Q26.22 54.88 28.56 57.62Q30.9 60.35 35.13 60.35ZM66.78 65.19Q60.68 65.19 57.44 62.22Q54.2 59.24 54.2 53.71V35.25H60.38V53.23Q60.38 56.73 62.05 58.54Q63.72 60.35 66.94 60.35Q70.25 60.35 72.04 58.46Q73.82 56.56 73.82 53.02V35.25H80V53.4Q80 59.01 76.53 62.1Q73.06 65.19 66.78 65.19Z" fill="param(outline) #0B5CAD" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

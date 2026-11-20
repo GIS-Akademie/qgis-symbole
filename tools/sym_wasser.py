@@ -9,6 +9,12 @@ braun, Mischwasser violett (uebliche Kanalnetzfarben); Kanaele mit Fliessrichtun
 Starkregen (Praefix sr_, Titel "Starkregen ..."): Klassen der Ueberflutungstiefe und der Fliessgeschwindigkeit
 nach dem Leitfaden "Kommunales Starkregenrisikomanagement in Baden-Wuerttemberg" (LUBW 2016), Szenarien
 selten, aussergewoehnlich, extrem; die Hinweiskarte Starkregengefahren des BKG kennt nur die beiden letzten.
+Gewaesseroekologie (Praefix oek_, Titel "Gewaesseroekologie, ..."): Zustandsklassen und Farben nach der
+Wasserrahmenrichtlinie (Anhang V Nr. 1.4.2 und 2.5, uebernommen in die OGewV): oekologischer Zustand blau, gruen,
+gelb, orange, rot; oekologisches Potenzial in denselben Farben mit grauen Streifen (dunkelgrau = erheblich
+veraendert, hellgrau = kuenstlich); chemischer Zustand blau oder rot; Grundwasser gruen oder rot. Strukturklassen
+1 bis 7 in den Farben der LAWA-Gewaesserstrukturkartierung. Begriffe Strahlursprung und Trittstein aus dem
+Strahlwirkungskonzept. Die Regelwerke lagen nicht vor (Angaben aus Vorwissen). Massnahmen im gestrichelten Quadrat.
 """
 from lib import *
 from qstil import linie, band, marken, voll, schraffur, muster, mk, sv
@@ -16,8 +22,9 @@ from qstil import linie, band, marken, voll, schraffur, muster, mk, sv
 KEY = "wasser"
 NAME = "Wasserwirtschaft"
 DESC = ("Symbole für Wasserwirtschaft: Messstellen, Wasserversorgung und Abwasser (Anlagen, Armaturen, "
-        "Kanalnetz), Bauwerke am Gewässer, Wasserschutz- und Überschwemmungsgebiete, Starkregengefahren")
-TAGS = "wasser, wasserwirtschaft, abwasser, kanal, pegel, hydrant, trinkwasser, hochwasser, starkregen"
+        "Kanalnetz), Bauwerke am Gewässer, Wasserschutz- und Überschwemmungsgebiete, Starkregengefahren, "
+        "Gewässerökologie nach Wasserrahmenrichtlinie (Zustand, Strukturgüte, Durchgängigkeit, Maßnahmen)")
+TAGS = "wasser, wasserwirtschaft, abwasser, kanal, pegel, hydrant, trinkwasser, hochwasser, starkregen, wrrl, gewaesseroekologie, strukturguete"
 
 WB = ("#D6ECFA", "#0B5CAD")
 
@@ -47,6 +54,17 @@ def ufer(*sh):  # Bauwerk am Gewaesser: zwei Uferlinien
 
 
 BOWTIE = [PG([(24, 30), (50, 50), (24, 70)], "F", "S", 5), PG([(76, 30), (50, 50), (76, 70)], "F", "S", 5)]
+def mn(*sh):  # Massnahme der Gewaesserentwicklung
+    return [R(7, 7, 86, 86, "F", "S", 5, 8, "12 8")] + list(sh)
+
+
+def tuft(x, y, k=1.0, sw=4):
+    return [L(x, y, x, y - 18 * k, sw), L(x, y, x - 10 * k, y - 13 * k, sw), L(x, y, x + 10 * k, y - 13 * k, sw)]
+
+
+OEK = "Gewässerökologie, "
+QUER = L(56, 28, 56, 72, 8, cap="butt")
+STAMM = [L(30, 66, 70, 34, 9), L(46, 53, 40, 36, 4.5), L(58, 44, 72, 50, 4.5)]
 FISH = [P("M18,50 Q40,28 64,50 Q40,72 18,50 Z", "S", "N", 0), PG([(60, 50), (82, 36), (82, 64)], "S"),
         C(32, 46, 3, "F", "N", 0)]
 
@@ -172,6 +190,59 @@ S = [
     ("sr_gefahrenbereich", "Starkregengefahrenbereich", *WB, geb("SR", 26)),
     ("sr_fliessrichtung", "Starkregen, Fließrichtung (nach rechts, drehbar)", *WB,
      [wave(6, 50, 40, 8, 2, 7)] + arrow(46, 50, 95, 50, 7, 22)),
+    # ---- Gewaesseroekologie (Kreis = Messstelle, Quadrat = Bauwerk oder Struktur, gestricheltes Quadrat =
+    #      Massnahme, Raute = Wasserkoerper) ----
+    ("oek_ueberblick", OEK + "Überblicksmessstelle", *WB, ms(T("Ü", 50, 50, 36))),
+    ("oek_operativ", OEK + "operative Messstelle", *WB, ms(T("O", 50, 50, 36))),
+    ("oek_makrozoobenthos", OEK + "Probestelle Makrozoobenthos", *WB,
+     ms(E(50, 56, 11, 16, "S", "N", 0), C(50, 33, 7, "S", "N", 0),
+        *[L(50, y, 50 + d, y - 7, 4) for y in (48, 57, 66) for d in (-24, 24)])),
+    ("oek_fische", OEK + "Probestelle Fische / Befischungsstrecke", *WB, ms(*fit(FISH, 50, 50, 0.86))),
+    ("oek_wasserpflanzen", OEK + "Probestelle Wasserpflanzen und Algen", *WB,
+     ms(P("M36,78 Q26,58 38,44 Q46,34 38,22", "N", "S", 5), P("M52,78 Q62,60 52,46 Q46,36 54,26", "N", "S", 5),
+        P("M66,78 Q74,66 66,54", "N", "S", 5))),
+    ("oek_strukturkartierung", OEK + "Aufnahmepunkt Strukturkartierung", *WB,
+     ms(P("M20,58 Q34,26 50,50 T80,42", "N", "S", 6), L(50, 32, 50, 68, 4, cap="butt"))),
+    ("oek_durchgaengig", OEK + "Querbauwerk durchgängig", *WB, ufer(QUER, *arrow(20, 50, 84, 50, 5.5, 14))),
+    ("oek_eingeschraenkt_durchgaengig", OEK + "Querbauwerk eingeschränkt durchgängig", *WB,
+     ufer(QUER, *arrow(18, 50, 46, 50, 5.5, 13), L(66, 50, 82, 50, 5, dash="2 8"))),
+    ("oek_nicht_durchgaengig", OEK + "Querbauwerk nicht durchgängig", *WB,
+     ufer(QUER, *arrow(18, 50, 46, 50, 5.5, 13), *xcross(74, 50, 7, 5))),
+    ("oek_absturz", OEK + "Absturz / Sohlschwelle", *WB,
+     an(PL([(18, 44), (50, 44), (50, 70), (82, 70)], 6), wave(18, 30, 30, 4, 2, 4.5), P("M50,36 Q62,38 62,58", "N", "S", 4.5))),
+    ("oek_verrohrung", OEK + "Verrohrung", *WB,
+     ufer(L(32, 40, 68, 40, 4.5), L(32, 60, 68, 60, 4.5), E(32, 50, 5, 10, "F", "S", 4.5), E(68, 50, 5, 10, "F", "S", 4.5))),
+    ("oek_wasserkraft", OEK + "Wasserkraftanlage", *WB, an(C(50, 50, 30, "N", "S", 5), *rotor(50, 50, 26))),
+    ("oek_fischschutz", OEK + "Fischschutz und Fischabstieg", *WB,
+     an(*fit(FISH, 36, 50, 0.5), *[L(x, 24, x, 76, 4.5, cap="butt") for x in (62, 72, 82)])),
+    ("oek_einleitung", OEK + "Einleitung (Kläranlage, Regenwasser, Industrie)", *WB,
+     an(*arrow(50, 16, 50, 58, 7, 17), wave(18, 74, 64, 5, 3, 5))),
+    ("oek_entnahme", OEK + "Wasserentnahme / Ausleitung", *WB, an(*arrow(50, 60, 50, 16, 7, 17), wave(18, 74, 64, 5, 3, 5))),
+    ("oek_rueckstau", OEK + "Rückstaubereich", *WB,
+     an(L(72, 22, 72, 78, 8, cap="butt"), *[L(20, y, 58, y, 4.5) for y in (36, 50, 64)])),
+    ("oek_uferverbau", OEK + "Ufer- oder Sohlverbau", *WB,
+     an(wave(18, 28, 64, 5, 3, 5), R(20, 44, 60, 30, "N", "S", 4.5), L(20, 59, 80, 59, 4), L(40, 44, 40, 59, 4),
+        L(62, 44, 62, 59, 4), L(30, 59, 30, 74, 4), L(52, 59, 52, 74, 4), L(70, 59, 70, 74, 4))),
+    ("oek_totholz", OEK + "Totholz / Strukturelement", *WB, ufer(*STAMM)),
+    ("oek_laichplatz", OEK + "Kieslaichplatz", *WB,
+     an(*fit(FISH, 50, 36, 0.6), *[C(x, y, 4.5, "S", "N", 0) for x, y in ((26, 64), (40, 70), (54, 64), (68, 70), (33, 80), (61, 80), (76, 80))])),
+    ("oek_strahlursprung", OEK + "Strahlursprung", *WB, an(*sun(50, 50, 13, "S", "S", 5, 8, 7, 12))),
+    ("oek_trittstein", OEK + "Trittstein", *WB, ufer(E(30, 50, 9, 6, "S", "N", 0), E(50, 50, 9, 6, "S", "N", 0), E(70, 50, 9, 6, "S", "N", 0))),
+    ("oek_m_durchgaengigkeit", OEK + "Maßnahme Durchgängigkeit herstellen", *WB,
+     mn(L(50, 18, 50, 38, 8, cap="butt"), L(50, 62, 50, 82, 8, cap="butt"), *arrow(20, 50, 82, 50, 6, 16))),
+    ("oek_m_randstreifen", OEK + "Maßnahme Gewässerrandstreifen anlegen", *WB,
+     mn(wave(18, 30, 64, 5, 3, 5.5), L(18, 46, 82, 46, 4, dash="8 7"), *tuft(30, 80, 0.9), *tuft(50, 80, 0.9), *tuft(70, 80, 0.9))),
+    ("oek_m_ufer", OEK + "Maßnahme Ufer- oder Sohlverbau entfernen", *WB,
+     mn(R(20, 34, 60, 32, "N", "S", 4.5), L(20, 50, 80, 50, 4), L(40, 34, 40, 50, 4), L(60, 50, 60, 66, 4), L(22, 78, 78, 22, 6))),
+    ("oek_m_aue", OEK + "Maßnahme Auenanbindung / Altarm anschließen", *WB,
+     mn(L(18, 68, 82, 68, 7), P("M30,68 Q50,10 70,68", "N", "S", 5, dash="9 7"))),
+    ("oek_m_struktur", OEK + "Maßnahme Strukturelemente einbringen (Totholz, Kies)", *WB,
+     mn(*fit(STAMM, 44, 56, 0.9), *cross(74, 26, 9, 5))),
+    ("oek_m_unterhaltung", OEK + "Maßnahme angepasste Gewässerunterhaltung", *WB, mn(T("GU", 50, 50, 30, maxw=60))),
+    ("oek_owk", OEK + "Oberflächenwasserkörper", *WB, geb("OWK", 17, 52)),
+    ("oek_gwk", OEK + "Grundwasserkörper", *WB, geb("GWK", 17, 52)),
+    ("oek_hmwb", OEK + "erheblich veränderter Wasserkörper (HMWB)", *WB, geb("HMWB", 13, 56)),
+    ("oek_awb", OEK + "künstlicher Wasserkörper (AWB)", *WB, geb("AWB", 17, 52)),
 ]
 
 SYMBOLS = S
@@ -191,6 +262,17 @@ def kanal(farbe):  # Kanal mit Fliessrichtungspfeilen
 SRT = [("5 bis 10 cm", "#C6E2F7"), ("10 bis 50 cm", "#7DB9EC"), ("50 bis 100 cm", "#2F80D0"), ("über 100 cm", "#0A3A82")]
 SRV = [("unter 0,2 m/s", "#4CAF50"), ("0,2 bis 0,5 m/s", "#F2C200"), ("0,5 bis 2 m/s", "#F07D00"),
        ("über 2 m/s", "#D0021B")]
+
+
+# Gewaesseroekologie: Farben der Zustandsklassen nach Wasserrahmenrichtlinie Anhang V, Strukturklassen nach LAWA.
+ZUST = [("sehr gut", "#2166C0"), ("gut", "#3DAA35"), ("mäßig", "#F7E000"), ("unbefriedigend", "#F29400"),
+        ("schlecht", "#E2001A")]
+POT = [("gut und besser", ZUST[1][1])] + ZUST[2:]
+STRUKTUR = [("1 (unverändert)", "#0A3A9A"), ("2 (gering verändert)", "#5AB4F0"), ("3 (mäßig verändert)", "#1E8C3A"),
+            ("4 (deutlich verändert)", "#9BD34A"), ("5 (stark verändert)", "#F7E000"),
+            ("6 (sehr stark verändert)", "#F29400"), ("7 (vollständig verändert)", "#E2001A")]
+GUT, SCHLECHT, DGRAU, HGRAU = ZUST[1][1], ZUST[4][1], "#5A5A5A", "#C8C8C8"
+OEKL = "Gewässerökologie, "
 
 
 def fliess(farbe, breite):  # Fliessweg mit Richtungspfeilen, Staerke nach Klasse
@@ -216,6 +298,19 @@ LINIEN = [
     ("Starkregen, Fließweg / Abflussbahn", [linie(RW, 0.6, [4, 1]), marken(mk("filled_arrowhead", 1.8, RW), 10)]),
     ("Starkregen, Notwasserweg", [linie(B0 + "59", 2.2), linie(B0, 0.4, [3, 1.5]), marken(mk("filled_arrowhead", 2.0, B0), 12)]),
     ("Starkregen, Schutzlinie / Objektschutz", [linie(B0, 0.8), marken(mk("triangle", 1.4, B0, dy=0.9), 3)]),
+] + [(OEKL + f"ökologischer Zustand {t}", [linie(c, 1.2)]) for t, c in ZUST] + [
+    (OEKL + f"ökologisches Potenzial {t}, erheblich verändert", [linie(c, 1.2), linie(DGRAU, 1.2, [2, 2])]) for t, c in POT] + [
+    (OEKL + f"ökologisches Potenzial {t}, künstlich", [linie(c, 1.2), linie(HGRAU, 1.2, [2, 2])]) for t, c in POT] + [
+    (OEKL + "chemischer Zustand gut", [linie(ZUST[0][1], 0.7)]),
+    (OEKL + "chemischer Zustand nicht gut", [linie(SCHLECHT, 0.7)]),
+] + [(OEKL + f"Strukturklasse {t}", [linie(c, 1.0)]) for t, c in STRUKTUR] + [
+    (OEKL + "Strahlursprung", [linie(GUT + "80", 2.6), linie(B0, 0.5)]),
+    (OEKL + "Strahlweg", [linie(GUT + "80", 2.6, [3, 1.5]), linie(B0, 0.5)]),
+    (OEKL + "Degradationsstrecke", [linie(DGRAU + "66", 2.6), linie(B0, 0.5)]),
+    (OEKL + "Gewässerrandstreifen", [linie(RW, 0.6), linie(GUT, 0.5, versatz=1.0), linie(GUT, 0.5, versatz=-1.0)]),
+    (OEKL + "Rückstaustrecke", [linie(RW, 1.0), marken(mk("line", 1.8, B0, rw=0.3), 2)]),
+    (OEKL + "Renaturierungsstrecke", [linie(RW, 0.8), marken(mk("circle", 1.3, "#FFFFFF", B0, 0.25), 4)]),
+    (OEKL + "nicht durchgängiger Abschnitt", [linie(SCHLECHT, 0.8), marken(mk("line", 2.2, SCHLECHT, rw=0.4), 6)]),
 ]
 
 FLAECHEN = [
@@ -239,4 +334,15 @@ FLAECHEN = [
     ("Starkregen, Retentionsfläche / Notüberflutungsfläche", [schraffur(RW, 0.25, 0, 1.6), linie(B0, 0.5, [3, 1.5])]),
     ("Starkregen, Geländesenke", [schraffur(B0, 0.2, 45, 2.2), schraffur(B0, 0.2, 135, 2.2), linie(B0, 0.3)]),
     ("Starkregen, Risikobereich", [band(SRV[3][1] + "59", 1.5), linie(SRV[3][1], 0.4)]),
+] + [(OEKL + f"See, ökologischer Zustand {t}", [voll(c), linie(B0, 0.3)]) for t, c in ZUST] + [
+    (OEKL + "Grundwasserkörper, mengenmäßiger Zustand gut", [voll(GUT + "80"), linie(B0, 0.3)]),
+    (OEKL + "Grundwasserkörper, mengenmäßiger Zustand schlecht", [voll(SCHLECHT + "80"), linie(B0, 0.3)]),
+    (OEKL + "Grundwasserkörper, chemischer Zustand gut", [schraffur(GUT, 0.3, 45, 1.8), linie(B0, 0.3)]),
+    (OEKL + "Grundwasserkörper, chemischer Zustand schlecht", [schraffur(SCHLECHT, 0.3, 45, 1.8), linie(B0, 0.3)]),
+    (OEKL + "Gewässerrandstreifen, Fläche", [voll(GUT + "59"), linie(GUT, 0.3)]),
+    (OEKL + "Aue, rezent", [voll(RW + "33"), muster(mk("line", 1.2, B0, rw=0.25), 3, versatz=1.5), linie(B0, 0.3)]),
+    (OEKL + "Altaue", [muster(mk("line", 1.2, B0, rw=0.25), 3, versatz=1.5), linie(B0, 0.3, [3, 1.5])]),
+    (OEKL + "Entwicklungskorridor", [band(GUT + "59", 1.5), linie(GUT, 0.5, [4, 1.5])]),
+    (OEKL + "Maßnahmenfläche Gewässerentwicklung", [schraffur(B0, 0.2, 45, 3), linie(B0, 0.5, [3, 1.5])]),
+    (OEKL + "Einzugsgebiet Wasserkörper", [linie(B0, 0.5, [4, 1, 1, 1])]),
 ]

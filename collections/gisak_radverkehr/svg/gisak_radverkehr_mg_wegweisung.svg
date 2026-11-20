@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Fehlende oder falsche Wegweisung</title>
+  <polygon points="50,5 95,50 50,95 5,50" fill="param(fill) #FADCEB" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #B4136A" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(50,50) scale(0.6) translate(-50,-50)"><path d="M40,22 L40,82" fill="none" stroke="param(outline) #B4136A" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><polygon points="40,26 68,26 80,37 68,48 40,48" fill="param(fill) #FADCEB" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #B4136A" stroke-opacity="param(outline-opacity) 1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <path d="M32,68 L68,32" fill="none" stroke="param(outline) #B4136A" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

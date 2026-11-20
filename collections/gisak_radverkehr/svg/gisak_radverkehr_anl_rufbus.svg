@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Haltepunkt Rufbus / On-Demand-Verkehr</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #FADCEB" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #B4136A" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M48.72 70V52.85H31.28V70H22.91V30H31.28V45.93H48.72V30H57.09V70Z" fill="param(outline) #B4136A" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <path d="M68.28,37.74 A16,16 0 0 1 68.28,62.26" fill="none" stroke="param(outline) #B4136A" stroke-opacity="param(outline-opacity) 1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M75.36,29.32 A27,27 0 0 1 75.36,70.68" fill="none" stroke="param(outline) #B4136A" stroke-opacity="param(outline-opacity) 1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

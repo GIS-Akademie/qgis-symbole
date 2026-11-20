@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Prüfauftrag / Planung erforderlich</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #FADCEB" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #B4136A" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="12 8"/>
+  <path d="M65.49 40.73Q65.49 43.62 64.19 45.92Q62.89 48.21 59.34 50.75L57.08 52.38Q55.05 53.85 54.05 55.34Q53.06 56.83 52.97 58.61H45.01Q45.19 55.57 46.72 53.19Q48.26 50.8 51.24 48.72Q54.43 46.51 55.74 44.83Q57.05 43.14 57.05 41.09Q57.05 38.46 55.34 36.94Q53.62 35.42 50.46 35.42Q47.45 35.42 45.41 37.18Q43.37 38.94 43.01 41.83L34.51 41.47Q35.32 35.42 39.49 32.06Q43.67 28.69 50.34 28.69Q57.41 28.69 61.45 31.89Q65.49 35.1 65.49 40.73ZM44.77 71.31V63.26H53.38V71.31Z" fill="param(outline) #B4136A" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

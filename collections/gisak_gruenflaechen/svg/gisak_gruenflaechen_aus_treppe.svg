@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Treppe / Rampe</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #E4F2B4" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #557A0A" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(50,50) scale(0.9) translate(-50,-50)"><path d="M22,76 L22,62 L36,62 L36,50 L50,50 L50,38 L64,38 L64,26 L78,26" fill="none" stroke="param(outline) #557A0A" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>

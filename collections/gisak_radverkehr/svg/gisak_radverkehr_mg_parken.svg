@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Konflikt mit ruhendem Verkehr (Falschparker, Dooring)</title>
+  <polygon points="50,5 95,50 50,95 5,50" fill="param(fill) #FADCEB" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #B4136A" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M63.98 43.76Q63.98 47.04 62.49 49.63Q60.99 52.21 58.2 53.62Q55.42 55.03 51.58 55.03H43.13V67H36.02V33H51.29Q57.4 33 60.69 35.81Q63.98 38.62 63.98 43.76ZM56.82 43.88Q56.82 38.53 50.49 38.53H43.13V49.55H50.69Q53.63 49.55 55.22 48.09Q56.82 46.63 56.82 43.88Z" fill="param(outline) #B4136A" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+  <path d="M30,70 L70,30" fill="none" stroke="param(outline) #B4136A" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

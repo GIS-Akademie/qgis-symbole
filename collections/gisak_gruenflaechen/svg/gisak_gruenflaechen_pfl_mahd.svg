@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Mahd</title>
+  <polygon points="50,5 95,50 50,95 5,50" fill="param(fill) #E4F2B4" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #557A0A" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M38,56 L38,39.8" fill="none" stroke="param(outline) #557A0A" stroke-opacity="param(outline-opacity) 1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M38,56 L29,44.3" fill="none" stroke="param(outline) #557A0A" stroke-opacity="param(outline-opacity) 1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M38,56 L47,44.3" fill="none" stroke="param(outline) #557A0A" stroke-opacity="param(outline-opacity) 1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M62,56 L62,39.8" fill="none" stroke="param(outline) #557A0A" stroke-opacity="param(outline-opacity) 1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M62,56 L53,44.3" fill="none" stroke="param(outline) #557A0A" stroke-opacity="param(outline-opacity) 1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M62,56 L71,44.3" fill="none" stroke="param(outline) #557A0A" stroke-opacity="param(outline-opacity) 1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M28,66 L72,66" fill="none" stroke="param(outline) #557A0A" stroke-opacity="param(outline-opacity) 1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Mitfahrbank</title>
+  <rect x="7" y="7" width="86" height="86" rx="8" fill="param(fill) #FADCEB" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #B4136A" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(50,58) scale(0.8) translate(-50,-50)"><path d="M22,42 L78,42" fill="none" stroke="param(outline) #B4136A" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M22,56 L78,56" fill="none" stroke="param(outline) #B4136A" stroke-opacity="param(outline-opacity) 1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><path d="M30,56 L30,74" fill="none" stroke="param(outline) #B4136A" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M70,56 L70,74" fill="none" stroke="param(outline) #B4136A" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <path d="M34,34 L57.94,23.53" fill="none" stroke="param(outline) #B4136A" stroke-opacity="param(outline-opacity) 1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="66,20 59.27,28.7 55.04,19.04" fill="param(outline) #B4136A" fill-opacity="param(outline-opacity) 1" stroke="none"/>
+</svg>

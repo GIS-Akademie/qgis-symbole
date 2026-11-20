@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 100 100">
+  <title>Bürgermeldung / Mängelmelder</title>
+  <circle cx="50" cy="50" r="44" fill="param(fill) #FADCEB" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #B4136A" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(50,52) scale(0.8) translate(-50,-50)"><path d="M20,24 H80 V64 H52 L36,80 V64 H20 Z" fill="none" stroke="param(outline) #B4136A" stroke-opacity="param(outline-opacity) 1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M52.12 49.14H47.88L47.29 31H52.71ZM47.29 57V52.02H52.6V57Z" fill="param(outline) #B4136A" fill-opacity="param(outline-opacity) 1" stroke="none"/></g>
+</svg>
