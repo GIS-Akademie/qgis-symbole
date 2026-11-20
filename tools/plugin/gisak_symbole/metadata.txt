@@ -4,7 +4,7 @@ description=Symbol library for German planning and utility maps: @PUNKTE@ SVG po
 about=Adds the GIS-Akademie symbol library to the QGIS symbol selector. Collections can be switched on and off individually (Plugins menu, GIS-Akademie Symbole): German zoning plan signs (PlanZV), regional planning, land use mapping (AdV catalogue), topographic base map styles (roads, railways, water, buildings), electricity, gas / district heating / telecom, renewable energy, municipal heat planning (Wärmeplanung), water management, heavy rain hazards and water ecology (WFD status classes), soil, noise, urban climate, nature conservation, landscape planning, green space and cemetery cadastre with tree cadastre, forestry, agriculture, traffic, cycling and mobility, tourism and sports, heritage, fire and disaster control, surveying, north arrows, map layout and general signs. Point symbols are also available as SVG files in the SVG selector; fill and stroke colour can be changed in QGIS. Symbol names and the dialog are in German. No external dependencies.
     Deutsch: Trägt die Symbolbibliothek der GIS-Akademie in die Symbolauswahl von QGIS ein. Die Sammlungen lassen sich einzeln an- und abwählen (Menü Erweiterungen, GIS-Akademie Symbole). Die Punktsymbole stehen zusätzlich als SVG-Dateien in der SVG-Auswahl bereit; Füll- und Strichfarbe sind in QGIS änderbar.
     Licence: code GPL-2.0-or-later; symbols GPL-2.0-or-later or CC BY 4.0 (GIS-Akademie), at your option.
-version=1.5
+version=1.6
 qgisMinimumVersion=3.34
 qgisMaximumVersion=4.99
 supportsQt6=True

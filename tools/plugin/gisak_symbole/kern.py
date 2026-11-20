@@ -134,7 +134,7 @@ def installiert():
 
 def stand(s):
     """Kennung des Inhalts einer Sammlung samt Ort der SVGs: aendert sie sich, muss neu eingetragen werden."""
-    return SCHEMA + "|" + s["stand"] + "|" + SYMBOLE.replace("\\", "/")
+    return SCHEMA + "|" + str(s["stand"]) + "|" + SYMBOLE.replace("\\", "/")
 
 
 def staende():

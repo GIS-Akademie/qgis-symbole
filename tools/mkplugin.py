@@ -59,7 +59,7 @@ def main():
         name = ini.get(cid, "name")
         liste.append(dict(key=key, name=name, titel=name.split(": ", 1)[1], beschreibung=ini.get(cid, "description"),
                           punkte=zahl["marker"], linien=zahl["line"], flaechen=zahl["fill"],
-                          stand=stand.hexdigest()[:16]))
+                          stand=int(stand.hexdigest()[:12], 16)))
     dateien["sammlungen.json"] = (json.dumps(liste, ensure_ascii=False, indent=1) + "\n").encode("utf-8")
     dateien["LICENSE_SYMBOLE"] = _lesen(os.path.join(REPO, "LICENSE"))
     for f in sorted(os.listdir(QUELLE)):
